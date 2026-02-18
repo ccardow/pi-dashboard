@@ -1,0 +1,92 @@
+{
+  "last_updated": "Wednesday, February 18th, 2026 — 12:00 PM (America/Winnipeg)",
+  "openclaw_updates": [
+    {
+      "source": "GitHub Releases",
+      "summary": "Agent management RPC methods for web UI, web UI compaction divider, runtime shell in agent envelopes, and OPENCLAW_HOME override. (2 days ago)",
+      "url": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "source": "The Register",
+      "summary": "OpenClaw ecosystem suffered severe security issues but the team patched the bug quickly. (2 weeks ago)",
+      "url": "https://www.theregister.com/2026/02/02/openclaw_security_issues/"
+    },
+    {
+      "source": "docs.openclaw.ai",
+      "summary": "CLI update command handles git pull, dependency install, build, doctor, and restart. (1 week ago)",
+      "url": "https://docs.openclaw.ai/cli/update"
+    },
+    {
+      "source": "gaiinsights.substack.com",
+      "summary": "An update on an OpenClaw project from Gaiinsights. (4 days ago)",
+      "url": "https://gaiinsights.substack.com/p/update-1-on-my-openclaw-project"
+    }
+  ],
+  "moltbot_info": {
+    "summary": "MoltBot is a personal AI assistant, rebranded from Clawdbot due to Anthropic's request. It's described as a wrapper over LLMs, providing more capabilities. It's closely associated with OpenClaw.",
+    "links": [
+      {"source": "molt.bot", "url": "https://molt.bot/"},
+      {"source": "platformer.news", "url": "https://www.platformer.news/moltbot-clawdbot-review-ai-agent/"},
+      {"source": "1password.com", "url": "https://1password.com/blog/its-moltbot"}
+    ]
+  },
+  "brian_castle_info": {
+    "summary": "The search for 'Brian Castle' yielded varied results, primarily referencing 'Castle Brian' from BattleTech lore (fortified bases), a character named Brian from the TV show 'Castle', and 'Brian Reilly' (an enforcer). There are also YouTube videos for various individuals named Brian Castle, including a 'Shipyard Brew Haus' event and a Bishop. It's unclear which specific 'Brian Castle' is relevant.",
+    "links": [
+      {"source": "sarna.net", "url": "https://www.sarna.net/wiki/Castle_Brian"},
+      {"source": "castle.fandom.com", "url": "https://castle.fandom.com/wiki/Brian"}
+    ]
+  },
+  "alex_finn_info": {
+    "summary": "Alex Finn is a YouTuber and AI entrepreneur known for 'vibe coding' content, focusing on Claude Code, Codex, and AI. He is the Founder/CEO of Creator Buddy and discusses OpenClaw use cases and building AI apps without writing code. He gained attention for a viral story about his Clawdbot (Henry) making phone calls.",
+    "links": [
+      {"source": "YouTube", "url": "https://www.youtube.com/@AlexFinnOfficial"},
+      {"source": "X", "url": "https://x.com/AlexFinn"},
+      {"source": "ucstrategies.com", "url": "https://ucstrategies.com/news/6-openclaw-use-cases-that-actually-make-your-life-better-according-to-youtuber-alex-finn/"}
+    ]
+  },
+  "youtube_trending": [
+    {
+      "topic": "OpenClaw",
+      "videos": [
+        {"title": "The wild rise of OpenClaw...", "url": "https://www.youtube.com/watch?v=ssYt09bCgUY"},
+        {"title": "21 INSANE Use Cases For OpenClaw...", "url": "https://www.youtube.com/watch?v=8kNv3rjQaVA"},
+        {"title": "OpenClaw Full Course: Setup, Skills, Voice, Memory & More", "url": "https://www.youtube.com/watch?v=vte-fDoZczE"},
+        {"title": "OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger | Lex Fridman Podcast #491", "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o"}
+      ]
+    },
+    {
+      "topic": "MoltBot",
+      "videos": [
+        {"title": "Moltbot: The Safe & Easy Way (Beginner Tutorial)", "url": "https://www.youtube.com/watch?v=mDsyFrQPPfg"},
+        {"title": "Actually USING Moltbot / Clawdbot To Do Stuff....", "url": "https://www.youtube.com/watch?v=dKS0G4uLFvE"},
+        {"title": "Moltbot : AI Personal Assistant OpenClaw", "url": "https://www.youtube.com/watch?v=eJXTXCqlVss"}
+      ]
+    },
+    {
+      "topic": "Alex Finn",
+      "videos": [
+        {"title": "Alex Finn - YouTube Channel", "url": "https://www.youtube.com/@AlexFinnOfficial/videos"},
+        {"title": "\"Won't Stop Calling\": AI Goes Rogue, CEO Says It Now \"Controls His Computer\"", "url": "https://www.ndtv.com/world-news/wont-stop-calling-ai-goes-rogue-ceo-says-it-now-controls-his-computer-10922895"},
+        {"title": "Full Tutorial: Build an AI Life Co-Pilot with Claude Code in 25 Minutes | Alex Finn", "url": "https://www.youtube.com/watch?v=D0nDWQdN3F4"}
+      ]
+    }
+  ],
+  "x_trending_topics": [
+    "Happy Lunar New Year",
+    "Jesse Jackson",
+    "Colbert",
+    "Ash Wednesday",
+    "Lent"
+  ],
+  "weather_steinbach_mb": {
+    "observed_at": "Kleefeld, 11:00 AM CST Wednesday 18 February 2026",
+    "temperature": "-2.8°C",
+    "wind": "ENE 29 gusts 44 km/h",
+    "pressure": "99.9 kPa",
+    "humidity": "74%",
+    "dew_point": "-6.9°C",
+    "forecast_today": "Snow at times heavy. Local blowing snow near noon. Amount 5 to 10 cm. Wind east 30 km/h gusting to 50. Temperature falling to minus 4 this afternoon. Wind chill near minus 11.",
+    "forecast_tonight": "Periods of snow. Amount 2 to 4 cm. Wind north 20 km/h. Low minus 8. Wind chill minus 10 this evening and minus 16 overnight."
+  }
+}

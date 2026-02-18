@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE.OS — Cyber-Zen Terminal</title>
+    <meta name="description" content="Life OS personal intelligence dashboard — weather, feeds, activity, and systems monitoring.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Ambient glow element -->
+    <div class="ambient-glow"></div>
+
+    <!-- ═══ Top Navigation Bar ═══ -->
+    <nav class="top-bar">
+        <div class="top-bar-left">
+            <div class="logo">LIFE<span class="logo-dot">.</span>OS</div>
+            <div class="system-clock" id="system-clock">
+                --:--:-- CST
+                <span class="clock-label">UTC --:--</span>
+            </div>
+        </div>
+        <div class="top-bar-right">
+            <div class="status-pill" id="status-pill">ONLINE</div>
+            <button class="icon-btn" id="theme-toggle" title="Toggle theme (T)">🌓</button>
+        </div>
+    </nav>
+
+    <!-- ═══ Main Dashboard Grid ═══ -->
+    <main class="dashboard-grid">
+
+        <!-- Hero Greeting -->
+        <header class="hero">
+            <h1 id="greeting">Good afternoon, Cam.</h1>
+            <div class="hero-meta">
+                <span id="date-display">Loading...</span>
+                <span class="day-counter" id="day-counter">Day --- of 365</span>
+                <span id="uptime-display">Session 00:00</span>
+            </div>
+        </header>
+
+        <!-- ═══ COLUMN 1 ═══ -->
+
+        <!-- Weather -->
+        <section class="card card--teal" style="animation-delay: 0.1s">
+            <div class="card-header">
+                <h3>Steinbach Weather</h3>
+                <span class="card-icon">◈</span>
+            </div>
+            <div class="weather-display" id="weather-display">
+                <div class="weather-temp" id="weather-temp">--°C</div>
+                <div class="weather-hilo" id="weather-hilo">
+                    <span>↑ --°C</span>
+                    <span>↓ --°C</span>
+                </div>
+            </div>
+            <div class="weather-condition" id="weather-condition">Loading current conditions...</div>
+        </section>
+
+        <!-- Bible Verse -->
+        <section class="card card--amber" style="animation-delay: 0.2s">
+            <div class="card-header">
+                <h3>Daily Verse</h3>
+                <span class="card-icon">✦</span>
+            </div>
+            <p class="verse-text">"I love the LORD, for he heard my voice; he heard my cry for mercy. Because he turned his ear to me, I will call on him as long as I live."</p>
+            <p class="verse-ref">Psalm 116:1-2</p>
+        </section>
+
+        <!-- ═══ COLUMN 2 ═══ -->
+
+        <!-- X Intelligence Feed -->
+        <section class="card" style="animation-delay: 0.15s" id="x-section">
+            <div class="card-header">
+                <h3>𝕏 Intelligence</h3>
+                <span class="card-icon">⊡</span>
+            </div>
+            <div class="feed-scroll" id="x-list">
+                <!-- X posts injected by main.js -->
+            </div>
+        </section>
+
+        <!-- Peter Steinberger -->
+        <section class="card card--rose" style="animation-delay: 0.25s" id="peter-section">
+            <div class="card-header">
+                <h3>Peter Steinberger</h3>
+                <span class="card-icon">◉</span>
+            </div>
+            <div class="feed-scroll" id="peter-list">
+                <!-- Peter posts injected by main.js -->
+            </div>
+        </section>
+
+        <!-- ═══ COLUMN 3 ═══ -->
+
+        <!-- YouTube / Research -->
+        <section class="card card--rose" style="animation-delay: 0.2s" id="youtube-section">
+            <div class="card-header">
+                <h3>YouTube / Research</h3>
+                <span class="card-icon">▶</span>
+            </div>
+            <div class="feed-scroll" id="youtube-list">
+                <!-- Videos injected by main.js -->
+            </div>
+        </section>
+
+        <!-- US/Canada Relations -->
+        <section class="card" style="animation-delay: 0.3s" id="news-section">
+            <div class="card-header">
+                <h3>US / Canada Relations</h3>
+                <span class="card-icon">◆</span>
+            </div>
+            <div class="vibes-quote" id="vibes-box">Loading vibes...</div>
+            <div class="feed-scroll" id="news-list">
+                <!-- News injected by main.js -->
+            </div>
+        </section>
+
+        <!-- ═══ COLUMN 4 ═══ -->
+
+        <!-- Pi 🥧 Status Card -->
+        <section class="card card--amber" style="animation-delay: 0.1s" id="pi-section">
+            <div class="card-header">
+                <h3>Pi 🥧 Intelligence</h3>
+                <span class="card-icon">🥧</span>
+            </div>
+            <div class="system-status">
+                <span class="pulse-dot pulse-dot--active"></span>
+                <span id="pi-status-display">ONLINE</span>
+            </div>
+            <div class="pi-activity" id="pi-activity">
+                Loading intelligence state...
+            </div>
+            <div class="model-meta" id="model-meta">
+                <div class="log-item">
+                    <span class="log-time">Model</span>
+                    <span class="log-msg">> <span id="model-name">--</span></span>
+                </div>
+                <div class="log-item">
+                    <span class="log-time">Context</span>
+                    <span class="log-msg">> <span id="model-tokens">0k / 256k</span></span>
+                </div>
+                <div class="log-item">
+                    <span class="log-time">Left</span>
+                    <span class="log-msg">> <span id="model-remaining">--k</span></span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="model-progress" style="width: 0%"></div>
+                </div>
+            </div>
+            <div class="activity-log" id="pi-log">
+                <!-- Log items injected by main.js -->
+            </div>
+        </section>
+
+        <!-- System Activity Terminal -->
+        <section class="card card--green activity-card" style="animation-delay: 0.12s">
+            <div class="card-header">
+                <h3>System Activity</h3>
+                <span class="card-icon">▣</span>
+            </div>
+            <div class="system-status">
+                <span class="pulse-dot"></span>
+                <span id="status-display">All Systems Nominal</span>
+            </div>
+            <div class="activity-log" id="activity-log">
+                <!-- Log items injected by main.js -->
+            </div>
+        </section>
+
+        <!-- Quick Links -->
+        <section class="card" style="animation-delay: 0.35s">
+            <div class="card-header">
+                <h3>Quick Links</h3>
+                <span class="card-icon">⊞</span>
+            </div>
+            <ul class="link-list">
+                <li><a href="https://crocuscounselling.com" target="_blank">Crocus Counselling</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub Projects</a></li>
+                <li><a href="https://x.com" target="_blank">X (Twitter)</a></li>
+                <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+            </ul>
+        </section>
+
+        <!-- Keyboard Shortcuts -->
+        <section class="card" style="animation-delay: 0.4s">
+            <div class="card-header">
+                <h3>Shortcuts</h3>
+                <span class="card-icon">⌘</span>
+            </div>
+            <div class="shortcuts-grid">
+                <kbd>T</kbd> <span class="shortcut-desc">Toggle theme</span>
+                <kbd>R</kbd> <span class="shortcut-desc">Refresh feeds</span>
+                <kbd>↑</kbd> <span class="shortcut-desc">Scroll to top</span>
+                <kbd>?</kbd> <span class="shortcut-desc">Show help</span>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ═══ Footer ═══ -->
+    <footer class="footer">
+        LIFE.OS v2.0 · Cyber-Zen Manitoba · <span id="footer-year">2026</span>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

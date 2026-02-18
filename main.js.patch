@@ -1,0 +1,42 @@
+@@ -188,14 +188,40 @@
+-  // Pi Status
++  // Pi Status with System Metrics
+   if (data.pi_status) {
+     if (piStatus) piStatus.textContent = data.pi_status.status || 'ONLINE';
+     if (piActivity) piActivity.innerHTML = `<div class="pi-msg">> ${data.pi_status.activity}</div>`;
+     if (piLog && data.pi_status.logs) {
+       piLog.innerHTML = data.pi_status.logs.map(l => `
+         <div class="log-item">
+           <span class="log-time">${l.time}</span> <span class="log-msg">> ${l.msg}</span>
+         </div>
+       `).join('');
+     }
++    
++    // System Metrics
++    if (data.system_metrics) {
++      const metricsDiv = document.getElementById('pi-metrics');
++      if (metricsDiv) {
++        const healthColor = data.system_metrics.tokens_percent > 90 ? 'var(--accent-rose)' : 
++                           data.system_metrics.tokens_percent > 70 ? 'var(--accent-amber)' : 
++                           'var(--accent-green)';
++        metricsDiv.innerHTML = `
++          <div class="metric-row">
++            <span class="metric-label">Engine:</span>
++            <span class="metric-value">${data.system_metrics.provider} / ${data.system_metrics.model}</span>
++          </div>
++          <div class="metric-row">
++            <span class="metric-label">Context:</span>
++            <div class="token-bar">
++              <div class="token-fill" style="width: ${data.system_metrics.tokens_percent}%; background: ${healthColor};"></div>
++              <span class="token-text">${data.system_metrics.tokens_used}k / ${data.system_metrics.tokens_total}k (${data.system_metrics.tokens_percent}%)</span>
++            </div>
++          </div>
++          <div class="metric-row">
++            <span class="metric-label">Status:</span>
++            <span class="metric-value" style="color: ${healthColor};">${data.system_metrics.context_health}</span>
++          </div>
++        `;
++      }
++    }
+   }
+   // Vibes

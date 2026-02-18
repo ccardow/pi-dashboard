@@ -1,0 +1,11 @@
+{
+  "name": "vibe-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fetch": "node fetch-feeds.js",
+    "sync": "node fetch-feeds.js",
+    "dry-run": "node fetch-feeds.js --dry-run",
+    "push": "node push-to-gist.js"
+  }
+}
