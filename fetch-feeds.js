@@ -344,12 +344,23 @@ async function main() {
     console.log('  Config: ' + X_HANDLES.length + ' X handles, ' + YOUTUBE_CHANNELS.length + ' YT channels');
     console.log('═══════════════════════════════════════');
 
+    // Seed from the live Gist so we preserve fields we don't own (weather, pi_status, etc.)
+    // Falls back to local vibes.json, then to {} if both fail.
+    var GIST_RAW = 'https://gist.githubusercontent.com/ccardow/e65c6cfabb1fbc98983381da98801408/raw/vibes.json';
     var vibes = {};
     try {
-        var raw = fs.readFileSync(VIBES_PATH, 'utf8').trim();
-        if (raw) vibes = JSON.parse(raw);
+        console.log('  Seeding from live Gist...');
+        var gistRaw = await httpsGet(GIST_RAW);
+        if (gistRaw && gistRaw.trim()) vibes = JSON.parse(gistRaw);
+        console.log('  ✓ Gist seed OK (weather/pi_status preserved)');
     } catch (e) {
-        console.warn('⚠ vibes.json not parseable, starting fresh.');
+        console.warn('  ⚠ Gist seed failed (' + e.message + '), trying local vibes.json...');
+        try {
+            var localRaw = fs.readFileSync(VIBES_PATH, 'utf8').trim();
+            if (localRaw) vibes = JSON.parse(localRaw);
+        } catch (e2) {
+            console.warn('  ⚠ Local vibes.json unreadable, starting fresh.');
+        }
     }
 
     var results = await Promise.all([
