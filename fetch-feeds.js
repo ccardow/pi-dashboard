@@ -379,6 +379,90 @@ async function fetchWeather() {
     return weather;
 }
 
+// ─── Fetch OpenClaw Pi Status (local filesystem) ───
+function fetchPiStatus() {
+    console.log('\n🥧 Reading OpenClaw gateway status...');
+    var SESSIONS_PATH = '/home/cam/.openclaw/agents/main/sessions/sessions.json';
+    var CONFIG_PATH_OC = '/home/cam/.openclaw/openclaw.json';
+
+    var sessions, ocConfig;
+    try { sessions = JSON.parse(fs.readFileSync(SESSIONS_PATH, 'utf8')); }
+    catch (e) { console.warn('  ✗ sessions.json: ' + e.message); return null; }
+    try { ocConfig = JSON.parse(fs.readFileSync(CONFIG_PATH_OC, 'utf8')); }
+    catch (e) { ocConfig = {}; }
+
+    // Find the main interactive session (most recently updated)
+    var entries = [];
+    for (var key in sessions) {
+        if (sessions[key] && sessions[key].updatedAt) {
+            entries.push({ key: key, data: sessions[key] });
+        }
+    }
+    entries.sort(function (a, b) { return (b.data.updatedAt || 0) - (a.data.updatedAt || 0); });
+
+    var mainSession = entries[0] ? entries[0].data : null;
+    if (!mainSession) { console.warn('  ✗ No sessions found'); return null; }
+
+    var provider = mainSession.modelProvider || mainSession.provider || 'unknown';
+    var model = mainSession.model || 'unknown';
+
+    // Look up context window from config
+    var contextWindow = 256; // default 256k
+    var providers = (ocConfig.models && ocConfig.models.providers) || {};
+    for (var prov in providers) {
+        var models = providers[prov].models || [];
+        for (var m = 0; m < models.length; m++) {
+            if (models[m].id === model || models[m].name === model) {
+                contextWindow = Math.round((models[m].contextWindow || 256000) / 1000);
+                break;
+            }
+        }
+    }
+
+    // Build recent activity logs from the most recent sessions
+    var logs = [];
+    var now = Date.now();
+    for (var i = 0; i < Math.min(entries.length, 5); i++) {
+        var e = entries[i];
+        var ts = new Date(e.data.updatedAt);
+        var timeStr = ts.toLocaleTimeString('en-US', {
+            timeZone: 'America/Winnipeg', hour: '2-digit', minute: '2-digit', hour12: false,
+        });
+        var sessionModel = e.data.model || '?';
+        var sessionType = e.key.indexOf('cron') !== -1 ? 'CRON' : 'Interactive';
+        logs.push({
+            time: timeStr,
+            msg: sessionType + ': ' + sessionModel + ' via ' + (e.data.modelProvider || '?'),
+        });
+    }
+
+    // Estimate token usage from session usage data (if available)
+    var tokensUsed = 0;
+    for (var j = 0; j < entries.length; j++) {
+        var usage = entries[j].data.usage || {};
+        tokensUsed += (usage.totalTokens || 0);
+    }
+    var tokensUsedK = Math.round(tokensUsed / 1000);
+
+    var status = {
+        status: 'ONLINE',
+        activity: 'OpenClaw Gateway · ' + model + ' via ' + provider,
+        model: {
+            name: provider + '/' + model,
+            tokens_used: tokensUsedK,
+            tokens_total: contextWindow,
+        },
+        logs: logs,
+        lastUpdate: new Date().toLocaleString('en-US', {
+            timeZone: 'America/Winnipeg',
+            month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
+        }) + ' CST',
+    };
+    console.log('  ✓ Model: ' + status.model.name);
+    console.log('  ✓ Sessions: ' + entries.length + ' total, tokens: ' + tokensUsedK + 'k / ' + contextWindow + 'k');
+    return status;
+}
+
 // ─── Main ───
 async function main() {
     console.log('═══════════════════════════════════════');
@@ -415,6 +499,11 @@ async function main() {
         fetchWeather().catch(function (err) { console.error('Weather fatal:', err.message); return null; }),
     ]);
 
+    // Pi status is sync (local filesystem), run separately
+    var piStatus = null;
+    try { piStatus = fetchPiStatus(); }
+    catch (err) { console.error('Pi status fatal:', err.message); }
+
     var youtube = results[0];
     var xPosts = results[1];
     var peterX = results[2];
@@ -447,6 +536,11 @@ async function main() {
         vibes.weather = weather;
         updated = true;
         console.log('✅ Weather: ' + weather.temp + '°C ' + weather.condition);
+    }
+    if (piStatus) {
+        vibes.pi_status = piStatus;
+        updated = true;
+        console.log('✅ Pi Intelligence: ' + piStatus.model.name);
     }
 
     vibes.lastUpdate = new Date().toLocaleString('en-US', {
