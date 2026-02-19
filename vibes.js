@@ -1,0 +1,145 @@
+window.__DASHBOARD_DATA_CALLBACK__({
+  "youtube": [
+    {
+      "title": "Andrej Karpathy on DeepSeek: The magic of AI",
+      "url": "https://www.youtube.com/watch?v=ojepHUd1xhI",
+      "published": "Feb 8, 2025"
+    },
+    {
+      "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI | Lex Fridman Podcast #333",
+      "url": "https://www.youtube.com/watch?v=cdiD-9MMpb0",
+      "published": "Oct 29, 2022"
+    }
+  ],
+  "x_posts": [
+    {
+      "title": "The OpenClaw trap nobody warned you about",
+      "url": "https://x.com/IntuitMachine/status/2019716435916767321",
+      "description": "Carlos E. Perez on OpenClaw, Gemini 1.5/3 Pro, and Claude Sonnet 4.5 config."
+    },
+    {
+      "title": "Developers want to test AI coding agents like Claude Code and OpenClaw",
+      "url": "https://x.com/limacharlieio/status/2019136097192640629",
+      "description": "LimaCharlie discusses Viberails for visibility and control over agentic systems."
+    },
+    {
+      "title": "An honest OpenClaw for a developer feedback",
+      "url": "https://x.com/MosheMalawach/status/2019353502837825911",
+      "description": "Moshe Malawach compares OpenClaw with Claude Code."
+    }
+  ],
+  "peter_x": [
+    {
+      "topic": "Apple / iOS",
+      "content": "Lufthansa Systems uses Nutrient to deliver reliable, scalable PDF rendering for pilots worldwide",
+      "url": "https://www.nutrient.io/blog/lufthansa-nutrient-pdf-rendering/",
+      "published": "Thu, 12 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Apple / iOS",
+      "content": "Nutrient vs. Syncfusion: Complete comparison for .NET developers",
+      "url": "https://www.nutrient.io/blog/nutrient-vs-syncfusion-comparison/",
+      "published": "Wed, 11 Feb 2026 14:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "React’s useTransition: The hook you’re probably using wrong",
+      "url": "https://www.nutrient.io/blog/react-usetransition-guide/",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Apple / iOS",
+      "content": "First City Monument Bank streamlines banking processes with Nutrient Workflow",
+      "url": "https://www.nutrient.io/blog/nutrient-workflow-banking-success-fcmb/",
+      "published": "Wed, 04 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "AI / ML",
+      "content": "The complete guide to digital signatures: PAdES, CAdES, and XAdES explained",
+      "url": "https://www.nutrient.io/blog/complete-guide-digital-signatures/",
+      "published": "Tue, 03 Feb 2026 10:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "2025: Year in review",
+      "url": "https://www.nutrient.io/blog/2025-in-review/",
+      "published": "Mon, 02 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Apple / iOS",
+      "content": "Nutrient Python SDK: Production-grade document processing for Python",
+      "url": "https://www.nutrient.io/blog/introducing-nutrient-python-sdk/",
+      "published": "Fri, 30 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "AI / ML",
+      "content": "Introducing agentic document editing for web applications with AI Assistant",
+      "url": "https://www.nutrient.io/blog/introducing-agentic-document-editing-for-web-applications-with-ai-assistant/",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Apple / iOS",
+      "content": "Nutrient vs. QuestPDF: Complete comparison for .NET developers",
+      "url": "https://www.nutrient.io/blog/nutrient-vs-questpdf-comparison/",
+      "published": "Mon, 26 Jan 2026 14:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "How we fixed the GdPicture license expiration (and what to do if you’re affected)",
+      "url": "https://www.nutrient.io/blog/gdpicture-license-issue-in-das-and-dcs/",
+      "published": "Fri, 23 Jan 2026 18:00:00 GMT"
+    }
+  ],
+  "lastUpdate": "02/19/2026, 05:58 PM CST",
+  "news": [
+    {
+      "title": "Masked protesters arrested outside Trump’s Board of Peace meeting",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/19/masked-protesters-arrested-outside-trumps-board-of-peace-meeting?traffic_source=rss",
+      "summary": "Masked protesters arrested outside Trump’s Board of Peace meeting",
+      "source": "Al Jazeera",
+      "published": "Thu, 19 Feb 2026 19:38:36 +0000"
+    },
+    {
+      "title": "Trump's Board of Peace members pledge $7bn in Gaza relief",
+      "url": "https://www.bbc.com/news/articles/cp8rke05kv4o?at_medium=RSS&amp;at_campaign=rss",
+      "summary": "Trump's Board of Peace members pledge $7bn in Gaza relief",
+      "source": "BBC World",
+      "published": "Thu, 19 Feb 2026 19:33:36 GMT"
+    },
+    {
+      "title": "Trump says world has 10 days to see if Iran deal reached",
+      "url": "https://www.bbc.com/news/articles/c86yjnw4x49o?at_medium=RSS&amp;at_campaign=rss",
+      "summary": "Trump says world has 10 days to see if Iran deal reached",
+      "source": "BBC World",
+      "published": "Thu, 19 Feb 2026 19:23:55 GMT"
+    },
+    {
+      "title": "Trump announces billions of dollars in Gaza aid at Board of Peace meeting",
+      "url": "https://www.aljazeera.com/news/2026/2/19/trump-announces-billions-of-dollars-in-gaza-aid-at-board-of-peace-meeting?traffic_source=rss",
+      "summary": "Trump announces billions of dollars in Gaza aid at Board of Peace meeting",
+      "source": "Al Jazeera",
+      "published": "Thu, 19 Feb 2026 18:47:48 +0000"
+    },
+    {
+      "title": "American Jordan Stolz speedskates to a third Olympic medal -- silver this time",
+      "url": "https://www.npr.org/2026/02/19/nx-s1-5718087/winter-olympics-jordan-stolz-speedskating-medal",
+      "summary": "American Jordan Stolz speedskates to a third Olympic medal -- silver this time",
+      "source": "NPR News",
+      "published": "Thu, 19 Feb 2026 13:09:22 -0500"
+    }
+  ],
+  "vibes": "⚠ Masked protesters arrested outside Trump’s Board of Peace meeting",
+  "weather": {
+    "location": "Steinbach, MB",
+    "temperature": "-25°C",
+    "feels_like": "-34°C",
+    "conditions": "Cloudy/Foggy",
+    "humidity": "70%",
+    "wind": "N at 11 km/h"
+  },
+  "pi_status": {
+    "model": "google-gemini-cli/gemini-3-flash-preview",
+    "context_usage": "0/272k (0%)",
+    "time": "Thursday, Feb 19, 2026, 5:58 PM"
+  }
+});
