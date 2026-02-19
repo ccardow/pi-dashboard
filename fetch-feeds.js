@@ -335,6 +335,50 @@ function inferTopic(text) {
     return 'Tech Intel';
 }
 
+// ─── Fetch Steinbach Weather (Open-Meteo, free, no API key) ───
+async function fetchWeather() {
+    console.log('\n🌤 Fetching Steinbach, MB weather...');
+    // Steinbach, MB coordinates: 49.5258°N, 96.6839°W
+    var url = 'https://api.open-meteo.com/v1/forecast'
+        + '?latitude=49.5258&longitude=-96.6839'
+        + '&current=temperature_2m,apparent_temperature,weather_code'
+        + '&daily=temperature_2m_max,temperature_2m_min'
+        + '&timezone=America/Winnipeg'
+        + '&forecast_days=1';
+    var raw = await httpsGet(url);
+    var data = JSON.parse(raw);
+    var cur = data.current || {};
+    var daily = data.daily || {};
+
+    // Map WMO weather codes to readable conditions
+    var code = cur.weather_code || 0;
+    var condition = 'Clear';
+    if (code <= 0) condition = 'Clear';
+    else if (code <= 3) condition = ['Clear', 'Mostly Clear', 'Partly Cloudy', 'Overcast'][code];
+    else if (code <= 49) condition = 'Fog';
+    else if (code <= 59) condition = 'Drizzle';
+    else if (code <= 69) condition = 'Rain';
+    else if (code <= 79) condition = 'Snow';
+    else if (code <= 82) condition = 'Rain Showers';
+    else if (code <= 86) condition = 'Snow Showers';
+    else if (code === 95) condition = 'Thunderstorm';
+    else if (code >= 96) condition = 'Thunderstorm + Hail';
+
+    var weather = {
+        temp: String(Math.round(cur.temperature_2m || 0)),
+        condition: condition,
+        feels_like: String(Math.round(cur.apparent_temperature || 0)),
+        hi: String(Math.round((daily.temperature_2m_max || [0])[0])),
+        lo: String(Math.round((daily.temperature_2m_min || [0])[0])),
+        updated: new Date().toLocaleString('en-US', {
+            timeZone: 'America/Winnipeg',
+            month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
+        }) + ' CST',
+    };
+    console.log('  ✓ ' + weather.temp + '°C, ' + weather.condition + ' (feels ' + weather.feels_like + '°C)');
+    return weather;
+}
+
 // ─── Main ───
 async function main() {
     console.log('═══════════════════════════════════════');
@@ -368,12 +412,14 @@ async function main() {
         fetchXPersonalities().catch(function (err) { console.error('X fatal:', err.message); return null; }),
         fetchSteipete().catch(function (err) { console.error('steipete fatal:', err.message); return null; }),
         fetchGeopolitics().catch(function (err) { console.error('Geo fatal:', err.message); return null; }),
+        fetchWeather().catch(function (err) { console.error('Weather fatal:', err.message); return null; }),
     ]);
 
     var youtube = results[0];
     var xPosts = results[1];
     var peterX = results[2];
     var geoData = results[3];
+    var weather = results[4];
     var updated = false;
 
     if (youtube && youtube.length > 0) {
@@ -396,6 +442,11 @@ async function main() {
         vibes.vibes = geoData.vibes;
         updated = true;
         console.log('✅ US/Canada Geo: ' + geoData.news.length + ' articles');
+    }
+    if (weather) {
+        vibes.weather = weather;
+        updated = true;
+        console.log('✅ Weather: ' + weather.temp + '°C ' + weather.condition);
     }
 
     vibes.lastUpdate = new Date().toLocaleString('en-US', {
