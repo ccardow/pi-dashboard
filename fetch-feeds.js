@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 // ═══════════════════════════════════════════════
-//  LIFE.OS — Dynamic Feed Fetcher v3
-//  Zero API keys required. Pure RSS/Atom.
+//  LIFE.OS — Dynamic Feed Fetcher v4
+//  Zero API keys required. Pure RSS/Atom + Nitter.
 //
-//  YouTube:          Public Atom feeds (youtube.com/feeds)
-//  X Intelligence:   Tech news RSS (Verge, HN, TechCrunch, Wired)
-//  Peter Steinberger: Nutrient/PSPDFKit blog RSS + GitHub releases
+//  Config:  feeds-config.json  ← edit THIS to manage follows
+//
+//  YouTube:   Public Atom feeds (youtube.com/feeds)
+//  X / Twitter: Nitter RSS (nitter.poast.org, multi-instance fallback)
+//  steipete:  steipete.me + steipete.com blog RSS
 //
 //  Usage:
 //    node fetch-feeds.js           # fetch + push to Gist
@@ -20,49 +22,58 @@ const { execSync } = require('child_process');
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const VIBES_PATH = path.join(__dirname, 'vibes.json');
+const CONFIG_PATH = path.join(__dirname, 'feeds-config.json');
 
-// ─── YouTube Channels (public Atom RSS, no API key) ───
-const YOUTUBE_CHANNELS = [
-    { name: 'Lex Fridman', id: 'UCSHZKyawb77ixDdsGog4iWA' },
-    { name: 'Two Minute Papers', id: 'UCbfYPyITQ-7l4upoX8nvctg' },
-    { name: 'Fireship', id: 'UCsBjURrPoezykLs9EqgamOA' },
-    { name: 'Andrej Karpathy', id: 'UCMLwFP3jHzJL7jdIbe0bXgg' },
-    { name: 'Y Combinator', id: 'UCcefcZRL2oaA_uBNeo5UNqg' },
-    { name: 'Matt Wolfe', id: 'UCXv0mKKjM_f-68B8C4KCXHQ' },
+// ─── Load user config ───
+var config;
+try {
+    config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
+} catch (err) {
+    console.error('❌ Could not read feeds-config.json:', err.message);
+    process.exit(1);
+}
+
+const YOUTUBE_CHANNELS = config.youtube || [];
+const YOUTUBE_MAX = config.youtube_max || 6;
+const X_HANDLES = config.x_handles || [];
+const X_MAX = config.x_max || 10;
+const STEIPETE_MAX = config.steipete_max || 10;
+
+// ─── Nitter instances — all tried in parallel per handle, first success wins ───
+const NITTER_INSTANCES = [
+    'nitter.poast.org',
+    'nitter.privacydev.net',
+    'nitter.tiekoetter.com',
+    'nitter.net',
+    'n.opnxng.com',
 ];
-const YOUTUBE_MAX = 6;
 
-// ─── X Intelligence: Tech News RSS feeds ───
-// Real sources from the same outlets @theverge, @karpathy etc. share
-const X_INTEL_FEEDS = [
-    { source: '@theverge', url: 'https://www.theverge.com/rss/index.xml', tag: 'entry' },
-    { source: '@hackernews', url: 'https://news.ycombinator.com/rss', tag: 'item' },
-    { source: '@techcrunch', url: 'https://techcrunch.com/feed/', tag: 'item' },
-    { source: '@wired', url: 'https://www.wired.com/feed/rss', tag: 'entry' },
-    { source: '@arstechnica', url: 'https://feeds.arstechnica.com/arstechnica/index', tag: 'item' },
-];
-const X_INTEL_MAX = 5;
-
-// ─── Peter Steinberger: Nutrient (PSPDFKit) blog + GitHub ───
-// Peter Steinberger is founder/CEO of Nutrient (formerly PSPDFKit)
-// Nutrient blog uses RSS <item> tags (confirmed 200 OK, 1.7MB feed)
-const PETER_FEEDS = [
-    { name: 'Nutrient Blog', url: 'https://www.nutrient.io/blog/feed.xml', tag: 'item' },
-    { name: 'PSPDFKit iOS', url: 'https://github.com/PSPDFKit/PSPDFKit-Demo/releases.atom', tag: 'entry' },
-    { name: 'steipete.com', url: 'https://steipete.com/posts/feed.xml', tag: 'entry' },
+// ─── steipete blog feeds ───
+const STEIPETE_FEEDS = [
     { name: 'steipete.me', url: 'https://steipete.me/feed.xml', tag: 'entry' },
+    { name: 'steipete.com', url: 'https://steipete.com/posts/feed.xml', tag: 'entry' },
+    { name: 'Nutrient Blog', url: 'https://www.nutrient.io/blog/feed.xml', tag: 'item' },
 ];
-const PETER_MAX = 3;
 
-// ─── HTTP GET with redirect following ───
+// ─── HTTP GET with hard wall-clock timeout ───
+// Key: req.destroy() is called on timeout so the socket is killed immediately.
+// Without this, Node.js keeps the process alive waiting for the orphaned socket.
+const TIMEOUT_MS = 8000;
 function httpsGet(url, depth) {
     depth = depth || 0;
     return new Promise(function (resolve, reject) {
         if (depth > 6) return reject(new Error('Too many redirects'));
+        var settled = false;
+        function finish(fn, val) {
+            if (settled) return;
+            settled = true;
+            clearTimeout(timer);
+            fn(val);
+        }
         var lib = url.startsWith('https') ? https : http;
         var req = lib.get(url, {
             headers: {
-                'User-Agent': 'Mozilla/5.0 (compatible; LIFE.OS/2.0 FeedBot)',
+                'User-Agent': 'Mozilla/5.0 (compatible; LIFE.OS/4.0 FeedBot)',
                 'Accept': 'application/atom+xml, application/rss+xml, application/xml, text/xml, */*',
             }
         }, function (res) {
@@ -70,18 +81,24 @@ function httpsGet(url, depth) {
                 var loc = res.headers.location;
                 var next = loc.startsWith('http') ? loc : new URL(loc, url).href;
                 res.resume();
-                return httpsGet(next, depth + 1).then(resolve).catch(reject);
+                return httpsGet(next, depth + 1)
+                    .then(function (v) { finish(resolve, v); })
+                    .catch(function (e) { finish(reject, e); });
             }
             if (res.statusCode !== 200) {
                 res.resume();
-                return reject(new Error('HTTP ' + res.statusCode));
+                return finish(reject, new Error('HTTP ' + res.statusCode));
             }
             var data = '';
             res.on('data', function (chunk) { data += chunk; });
-            res.on('end', function () { resolve(data); });
+            res.on('end', function () { finish(resolve, data); });
         });
-        req.on('error', reject);
-        req.setTimeout(12000, function () { req.destroy(); reject(new Error('Timeout')); });
+        req.on('error', function (e) { finish(reject, e); });
+        // Hard deadline: destroy the socket so it releases the active handle
+        var timer = setTimeout(function () {
+            req.destroy();  // triggers 'error' → finish(reject, …) above
+            finish(reject, new Error('Timeout after ' + TIMEOUT_MS + 'ms'));
+        }, TIMEOUT_MS);
     });
 }
 
@@ -120,9 +137,9 @@ function parseItems(xml, itemTag, maxItems) {
     return items;
 }
 
-// ─── Fetch YouTube ───
+// ─── Fetch YouTube channels ───
 async function fetchYouTube() {
-    console.log('\n📺 Fetching YouTube channels...');
+    console.log('\n📺 Fetching YouTube channels... (' + YOUTUBE_CHANNELS.length + ' channels)');
     var allVideos = [];
 
     for (var i = 0; i < YOUTUBE_CHANNELS.length; i++) {
@@ -131,10 +148,15 @@ async function fetchYouTube() {
         try {
             var xml = await httpsGet(url);
             var items = parseItems(xml, 'entry', 3);
-            for (var j = 0; j < items.length; j++) {
-                var item = items[j];
-                // YouTube Atom: extract video ID from <yt:videoId> or link
-                var ytIdMatch = xml.match(/<yt:videoId>([^<]+)<\/yt:videoId>/);
+
+            // Extract all videoIds per entry (fix: was reading from whole XML, not per entry)
+            var entryRe = /<entry[\s>]([\s\S]*?)<\/entry>/gi;
+            var entryMatch;
+            var entryIdx = 0;
+            while ((entryMatch = entryRe.exec(xml)) !== null && entryIdx < items.length) {
+                var entryChunk = entryMatch[0];
+                var ytIdMatch = entryChunk.match(/<yt:videoId>([^<]+)<\/yt:videoId>/);
+                var item = items[entryIdx];
                 var vidMatch = item.link.match(/v=([a-zA-Z0-9_-]{11})/);
                 var videoId = vidMatch ? vidMatch[1] : (ytIdMatch ? ytIdMatch[1] : null);
                 allVideos.push({
@@ -143,6 +165,7 @@ async function fetchYouTube() {
                     url: videoId ? 'https://www.youtube.com/watch?v=' + videoId : item.link,
                     published: item.pubDate,
                 });
+                entryIdx++;
             }
             console.log('  ✓ ' + ch.name + ': ' + items.length + ' videos');
         } catch (err) {
@@ -156,48 +179,75 @@ async function fetchYouTube() {
     return top.length > 0 ? top : null;
 }
 
-// ─── Fetch X Intelligence (tech news RSS) ───
-async function fetchXIntelligence() {
-    console.log('\n⊡ Fetching X Intelligence (tech news RSS)...');
+// ─── Fetch a single X handle via Nitter RSS ───
+// Races ALL instances concurrently — first valid response wins, rest are ignored.
+async function fetchNitterHandle(handle) {
+    var slug = handle.replace('@', '');
+    var attempts = NITTER_INSTANCES.map(function (instance) {
+        var url = 'https://' + instance + '/' + slug + '/rss';
+        return httpsGet(url).then(function (xml) {
+            var items = parseItems(xml, 'item', 2);
+            if (items.length === 0) throw new Error('empty');
+            return { instance: instance, items: items };
+        });
+    });
+    // Promise.any: resolves with the first success, rejects only if ALL fail
+    if (typeof Promise.any === 'function') {
+        return Promise.any(attempts).catch(function () { return null; });
+    }
+    // Node 14 fallback: try sequentially
+    for (var n = 0; n < attempts.length; n++) {
+        try { return await attempts[n]; } catch (e) { }
+    }
+    return null;
+}
+
+// ─── Fetch X personalities (all handles in parallel) ───
+async function fetchXPersonalities() {
+    console.log('\n𝕏 Fetching X personalities... (' + X_HANDLES.length + ' handles, parallel)');
     var allPosts = [];
 
-    for (var i = 0; i < X_INTEL_FEEDS.length; i++) {
-        var feed = X_INTEL_FEEDS[i];
-        try {
-            var xml = await httpsGet(feed.url);
-            var items = parseItems(xml, feed.tag, 2);
-            for (var j = 0; j < items.length; j++) {
-                var item = items[j];
-                allPosts.push({
-                    user: feed.source,
-                    topic: inferTopic(item.title),
-                    content: item.title.substring(0, 280),
-                    url: item.link,
-                    published: item.pubDate,
-                });
-            }
-            console.log('  ✓ ' + feed.source + ': ' + items.length + ' posts');
-        } catch (err) {
-            console.warn('  ✗ ' + feed.source + ': ' + err.message);
+    // Run all handles concurrently — cuts runtime from O(N×instances×timeout) to O(instances×timeout)
+    var settled = await Promise.all(X_HANDLES.map(function (handle) {
+        return fetchNitterHandle(handle)
+            .then(function (result) { return { handle: handle, result: result }; })
+            .catch(function () { return { handle: handle, result: null }; });
+    }));
+
+    for (var i = 0; i < settled.length; i++) {
+        var handle = settled[i].handle;
+        var result = settled[i].result;
+        if (result && result.items && result.items.length > 0) {
+            var item = result.items[0];
+            allPosts.push({
+                user: handle,
+                topic: inferTopic(item.title),
+                content: item.title.substring(0, 280),
+                url: item.link,
+                published: item.pubDate,
+            });
+            console.log('  ✓ ' + handle + ' (via ' + result.instance + ')');
+        } else {
+            console.warn('  ✗ ' + handle + ': all Nitter instances failed or no posts');
         }
     }
 
     allPosts.sort(function (a, b) { return new Date(b.published) - new Date(a.published); });
-    var top = allPosts.slice(0, X_INTEL_MAX);
+    var top = allPosts.slice(0, X_MAX);
     console.log('  → ' + top.length + ' posts selected');
     return top.length > 0 ? top : null;
 }
 
-// ─── Fetch Peter Steinberger ───
-async function fetchPeterX() {
-    console.log('\n◉ Fetching Peter Steinberger (Nutrient/PSPDFKit)...');
+// ─── Fetch steipete blog posts ───
+async function fetchSteipete() {
+    console.log('\n◉ Fetching @steipete blog posts... (max ' + STEIPETE_MAX + ')');
     var allPosts = [];
 
-    for (var i = 0; i < PETER_FEEDS.length; i++) {
-        var feed = PETER_FEEDS[i];
+    for (var i = 0; i < STEIPETE_FEEDS.length; i++) {
+        var feed = STEIPETE_FEEDS[i];
         try {
             var xml = await httpsGet(feed.url);
-            var items = parseItems(xml, feed.tag, 3);
+            var items = parseItems(xml, feed.tag, STEIPETE_MAX);
             for (var j = 0; j < items.length; j++) {
                 var item = items[j];
                 allPosts.push({
@@ -208,27 +258,79 @@ async function fetchPeterX() {
                 });
             }
             console.log('  ✓ ' + feed.name + ': ' + items.length + ' posts');
-            if (allPosts.length >= PETER_MAX) break;
+            if (allPosts.length >= STEIPETE_MAX) break;
         } catch (err) {
             console.warn('  ✗ ' + feed.name + ': ' + err.message);
         }
     }
 
     allPosts.sort(function (a, b) { return new Date(b.published) - new Date(a.published); });
-    var top = allPosts.slice(0, PETER_MAX);
+    var top = allPosts.slice(0, STEIPETE_MAX);
     console.log('  → ' + top.length + ' posts selected');
     return top.length > 0 ? top : null;
+}
+
+// ─── Fetch US/Canada geopolitics news ───
+async function fetchGeopolitics() {
+    console.log('\n◆ Fetching US/Canada geopolitics...');
+    var feeds = [
+        { name: 'Globe Politics', url: 'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/', tag: 'item' },
+        { name: 'CBC World', url: 'https://www.cbc.ca/cmlink/rss-world', tag: 'item' },
+        { name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml', tag: 'item' },
+        { name: 'NPR News', url: 'https://feeds.npr.org/1001/rss.xml', tag: 'item' },
+        { name: 'BBC World', url: 'https://feeds.bbci.co.uk/news/world/rss.xml', tag: 'item' },
+    ];
+    var GEO_KEYWORDS = ['canada', 'tariff', 'trump', 'trudeau', 'carney', 'mark', 'us-canada',
+        '51st state', 'annexation', 'trade war', 'nafta', 'usmca', 'ottawa',
+        'american', 'biden', 'border', 'customs'];
+    var GEO_MAX = 5;
+    var allItems = [];
+
+    for (var i = 0; i < feeds.length; i++) {
+        var feed = feeds[i];
+        try {
+            var xml = await httpsGet(feed.url);
+            var items = parseItems(xml, feed.tag, 20);
+            for (var j = 0; j < items.length; j++) {
+                var item = items[j];
+                var tl = item.title.toLowerCase();
+                var relevant = GEO_KEYWORDS.some(function (kw) { return tl.indexOf(kw) !== -1; });
+                if (relevant) {
+                    allItems.push({
+                        title: item.title,
+                        url: item.link,
+                        summary: item.title,          // dashboard uses summary field
+                        source: feed.name,
+                        published: item.pubDate,
+                    });
+                }
+            }
+            console.log('  ✓ ' + feed.name + ': ' + items.length + ' scanned');
+        } catch (err) {
+            console.warn('  ✗ ' + feed.name + ': ' + err.message);
+        }
+    }
+
+    allItems.sort(function (a, b) { return new Date(b.published) - new Date(a.published); });
+    var top = allItems.slice(0, GEO_MAX);
+    console.log('  → ' + top.length + ' geopolitics articles');
+    if (top.length === 0) return null;
+
+    // Build a one-liner vibe string from the top headline
+    var vibeStr = '⚠ ' + top[0].title.replace(/["]/g, '\'');
+    return { news: top, vibes: vibeStr };
 }
 
 // ─── Infer topic from text ───
 function inferTopic(text) {
     var t = (text || '').toLowerCase();
-    if (t.indexOf('ai') !== -1 || t.indexOf('llm') !== -1 || t.indexOf('openai') !== -1 || t.indexOf('gemini') !== -1 || t.indexOf('claude') !== -1 || t.indexOf('gpt') !== -1 || t.indexOf('model') !== -1) return 'AI / ML';
+    if (t.indexOf('ai') !== -1 || t.indexOf('llm') !== -1 || t.indexOf('openai') !== -1 || t.indexOf('gemini') !== -1 || t.indexOf('claude') !== -1 || t.indexOf('gpt') !== -1 || t.indexOf('model') !== -1 || t.indexOf('deepseek') !== -1 || t.indexOf('anthropic') !== -1) return 'AI / ML';
     if (t.indexOf('security') !== -1 || t.indexOf('hack') !== -1 || t.indexOf('breach') !== -1 || t.indexOf('vuln') !== -1 || t.indexOf('malware') !== -1) return 'Security';
     if (t.indexOf('apple') !== -1 || t.indexOf('ios') !== -1 || t.indexOf('iphone') !== -1 || t.indexOf('swift') !== -1 || t.indexOf('xcode') !== -1 || t.indexOf('pspdf') !== -1 || t.indexOf('nutrient') !== -1) return 'Apple / iOS';
-    if (t.indexOf('canada') !== -1 || t.indexOf('trump') !== -1 || t.indexOf('tariff') !== -1 || t.indexOf('politic') !== -1 || t.indexOf('election') !== -1) return 'Geopolitics';
-    if (t.indexOf('startup') !== -1 || t.indexOf('fund') !== -1 || t.indexOf('vc') !== -1 || t.indexOf('invest') !== -1 || t.indexOf('raise') !== -1) return 'Venture';
+    if (t.indexOf('canada') !== -1 || t.indexOf('trump') !== -1 || t.indexOf('tariff') !== -1 || t.indexOf('politic') !== -1 || t.indexOf('election') !== -1 || t.indexOf('maga') !== -1) return 'Geopolitics';
+    if (t.indexOf('startup') !== -1 || t.indexOf('fund') !== -1 || t.indexOf('vc') !== -1 || t.indexOf('invest') !== -1 || t.indexOf('raise') !== -1 || t.indexOf('saas') !== -1) return 'Venture';
     if (t.indexOf('agent') !== -1 || t.indexOf('automation') !== -1 || t.indexOf('workflow') !== -1) return 'Agents';
+    if (t.indexOf('seo') !== -1 || t.indexOf('search') !== -1 || t.indexOf('content') !== -1 || t.indexOf('marketing') !== -1) return 'Marketing';
     if (t.indexOf('open source') !== -1 || t.indexOf('github') !== -1 || t.indexOf('release') !== -1) return 'Open Source';
     return 'Tech Intel';
 }
@@ -236,22 +338,31 @@ function inferTopic(text) {
 // ─── Main ───
 async function main() {
     console.log('═══════════════════════════════════════');
-    console.log(' LIFE.OS Feed Fetcher v3');
+    console.log(' LIFE.OS Feed Fetcher v4');
     console.log('  ' + new Date().toLocaleString('en-US', { timeZone: 'America/Winnipeg' }) + ' CST');
     console.log('  Mode: ' + (DRY_RUN ? 'DRY RUN' : 'LIVE (push to Gist)'));
+    console.log('  Config: ' + X_HANDLES.length + ' X handles, ' + YOUTUBE_CHANNELS.length + ' YT channels');
     console.log('═══════════════════════════════════════');
 
-    var vibes = JSON.parse(fs.readFileSync(VIBES_PATH, 'utf8'));
+    var vibes = {};
+    try {
+        var raw = fs.readFileSync(VIBES_PATH, 'utf8').trim();
+        if (raw) vibes = JSON.parse(raw);
+    } catch (e) {
+        console.warn('⚠ vibes.json not parseable, starting fresh.');
+    }
 
     var results = await Promise.all([
         fetchYouTube().catch(function (err) { console.error('YouTube fatal:', err.message); return null; }),
-        fetchXIntelligence().catch(function (err) { console.error('X Intel fatal:', err.message); return null; }),
-        fetchPeterX().catch(function (err) { console.error('Peter fatal:', err.message); return null; }),
+        fetchXPersonalities().catch(function (err) { console.error('X fatal:', err.message); return null; }),
+        fetchSteipete().catch(function (err) { console.error('steipete fatal:', err.message); return null; }),
+        fetchGeopolitics().catch(function (err) { console.error('Geo fatal:', err.message); return null; }),
     ]);
 
     var youtube = results[0];
     var xPosts = results[1];
     var peterX = results[2];
+    var geoData = results[3];
     var updated = false;
 
     if (youtube && youtube.length > 0) {
@@ -262,12 +373,18 @@ async function main() {
     if (xPosts && xPosts.length > 0) {
         vibes.x_posts = xPosts;
         updated = true;
-        console.log('✅ X Intelligence: ' + xPosts.length + ' posts');
+        console.log('✅ X Personalities: ' + xPosts.length + ' posts');
     }
     if (peterX && peterX.length > 0) {
         vibes.peter_x = peterX;
         updated = true;
-        console.log('✅ Peter Steinberger: ' + peterX.length + ' posts');
+        console.log('✅ steipete: ' + peterX.length + ' posts');
+    }
+    if (geoData && geoData.news && geoData.news.length > 0) {
+        vibes.news = geoData.news;
+        vibes.vibes = geoData.vibes;
+        updated = true;
+        console.log('✅ US/Canada Geo: ' + geoData.news.length + ' articles');
     }
 
     vibes.lastUpdate = new Date().toLocaleString('en-US', {
@@ -293,7 +410,10 @@ async function main() {
         console.log('\n🔍 DRY RUN — Gist push skipped. Sample:');
         if (vibes.youtube && vibes.youtube[0]) console.log('  YouTube[0]:', JSON.stringify(vibes.youtube[0]));
         if (vibes.x_posts && vibes.x_posts[0]) console.log('  X[0]:', JSON.stringify(vibes.x_posts[0]));
-        if (vibes.peter_x && vibes.peter_x[0]) console.log('  Peter[0]:', JSON.stringify(vibes.peter_x[0]));
+        if (vibes.peter_x && vibes.peter_x[0]) console.log('  steipete[0]:', JSON.stringify(vibes.peter_x[0]));
+        if (vibes.news && vibes.news[0]) console.log('  News[0]:', JSON.stringify(vibes.news[0]));
+        console.log('  vibes:', vibes.vibes || '(none)');
+        console.log('  steipete total posts:', (vibes.peter_x || []).length);
         return;
     }
 

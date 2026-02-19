@@ -1,0 +1,49 @@
+{
+    "_readme": {
+        "youtube": "Add/remove channels here. 'id' = the channel ID from youtube.com/channel/<id>",
+        "x_handles": "Add/remove X/Twitter handles (with @). One post per handle is fetched.",
+        "x_max": "Total X posts shown on the dashboard",
+        "steipete_max": "How many steipete blog posts to show"
+    },
+    "youtube": [
+        {
+            "name": "Lex Fridman",
+            "id": "UCSHZKyawb77ixDdsGog4iWA"
+        },
+        {
+            "name": "Two Minute Papers",
+            "id": "UCbfYPyITQ-7l4upoX8nvctg"
+        },
+        {
+            "name": "Fireship",
+            "id": "UCsBjURrPoezykLs9EqgamOA"
+        },
+        {
+            "name": "Andrej Karpathy",
+            "id": "UCMLwFP3jHzJL7jdIbe0bXgg"
+        },
+        {
+            "name": "Y Combinator",
+            "id": "UCcefcZRL2oaA_uBNeo5UNqg"
+        },
+        {
+            "name": "Matt Wolfe",
+            "id": "UCXv0mKKjM_f-68B8C4KCXHQ"
+        }
+    ],
+    "youtube_max": 6,
+    "x_handles": [
+        "@elonmusk",
+        "@sama",
+        "@openclaw",
+        "@MatthewBerman",
+        "@AlexFinn",
+        "@danmartell",
+        "@JuliaEMcCoy",
+        "@JulianGoldieSEO",
+        "@DuncanRogoff",
+        "@realDonaldTrump"
+    ],
+    "x_max": 10,
+    "steipete_max": 10
+}
