@@ -431,7 +431,9 @@ async function main() {
     console.log('═══════════════════════════════════════');
 }
 
-main().catch(function (err) {
+main().then(function () {
+    process.exit(0);  // Force exit — Promise.any leaves orphaned timers from losing Nitter races
+}).catch(function (err) {
     console.error('Fatal:', err);
     process.exit(1);
 });
