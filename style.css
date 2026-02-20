@@ -30,7 +30,8 @@
 
     --radius:        6px;
     --radius-lg:     8px;
-    --transition:    0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition:    0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    --card-shadow:   0 10px 30px -10px rgba(0, 0, 0, 0.5);
 }
 
 body.light-theme {
@@ -287,15 +288,17 @@ body::before {
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 1.25rem;
-    transition: border-color var(--transition), box-shadow var(--transition);
+    transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
     display: flex;
     flex-direction: column;
     animation: cardIn 0.6s ease-out both;
+    box-shadow: var(--card-shadow);
 }
 
 .card:hover {
     border-color: var(--border-hover);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 45px -12px rgba(0, 0, 0, 0.6);
 }
 
 /* Staggered animation delays set via inline style in HTML */
@@ -487,37 +490,48 @@ body::before {
 /* ═══ Pi Roadmap Styles ═══ */
 .roadmap-box {
     margin: 15px 0;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    border-left: 2px solid var(--amber);
+    padding: 12px;
+    background: rgba(251, 191, 36, 0.03);
+    border-radius: 6px;
+    border: 1px solid rgba(251, 191, 36, 0.08);
+    border-left: 3px solid var(--accent-amber);
 }
 
 .roadmap-header {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     font-weight: 700;
-    color: var(--amber);
-    margin-bottom: 8px;
-    letter-spacing: 0.05em;
+    color: var(--accent-amber);
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
+    opacity: 0.9;
 }
 
 .roadmap-item {
     font-size: 0.75rem;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(251, 191, 36, 0.05);
+}
+
+.roadmap-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
 .roadmap-item-name {
     font-weight: 600;
-    color: var(--fg);
+    color: var(--text);
+    margin-bottom: 2px;
 }
 
 .roadmap-item-status {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.65rem;
-    color: var(--amber);
-    opacity: 0.8;
+    color: var(--accent-amber);
+    opacity: 0.7;
 }
 
 .activity-log {
