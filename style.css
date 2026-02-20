@@ -68,6 +68,8 @@ html {
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -760,12 +762,32 @@ kbd {
         grid-template-columns: repeat(2, 1fr);
     }
     .activity-card {
-        grid-row: span 1;
+        grid-row: auto;
     }
 }
 
-    .activity-card {
-        grid-row: span 1;
+@media (max-width: 768px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .top-bar {
+        padding: 0.75rem 1rem;
+    }
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .hero .hero-meta {
+        gap: 0.75rem;
+    }
+    .card {
+        max-width: 100%;
+        overflow: hidden; /* Prevent child content from breaking card bounds */
+        word-break: break-word; /* Handle long URLs or text */
+    }
+    .system-clock .clock-label {
+        display: none; /* Simplify on narrow screens */
     }
 }
 
