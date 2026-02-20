@@ -6,26 +6,26 @@
       "published": "Feb 8, 2025"
     },
     {
-      "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI | Lex Fridman Podcast #333",
+      "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI",
       "url": "https://www.youtube.com/watch?v=cdiD-9MMpb0",
       "published": "Oct 29, 2022"
     }
   ],
   "x_posts": [
     {
-      "title": "The OpenClaw trap nobody warned you about",
+      "title": "OpenClaw trap nobody warned you about",
       "url": "https://x.com/IntuitMachine/status/2019716435916767321",
-      "description": "Carlos E. Perez on OpenClaw, Gemini 1.5/3 Pro, and Claude Sonnet 4.5 config."
+      "author": "Carlos E. Perez"
     },
     {
-      "title": "Developers want to test AI coding agents like Claude Code and OpenClaw",
+      "title": "AI coding agents visibility and control",
       "url": "https://x.com/limacharlieio/status/2019136097192640629",
-      "description": "LimaCharlie discusses Viberails for visibility and control over agentic systems."
+      "author": "LimaCharlie"
     },
     {
-      "title": "An honest OpenClaw for a developer feedback",
+      "title": "OpenClaw for developer feedback",
       "url": "https://x.com/MosheMalawach/status/2019353502837825911",
-      "description": "Moshe Malawach compares OpenClaw with Claude Code."
+      "author": "Moshe Malawach"
     }
   ],
   "peter_x": [
@@ -90,7 +90,7 @@
       "published": "Fri, 23 Jan 2026 18:00:00 GMT"
     }
   ],
-  "lastUpdate": "02/19/2026, 05:58 PM CST",
+  "lastUpdate": "02/19/2026, 06:00 PM CST",
   "news": [
     {
       "title": "Masked protesters arrested outside Trump’s Board of Peace meeting",
@@ -131,15 +131,13 @@
   "vibes": "⚠ Masked protesters arrested outside Trump’s Board of Peace meeting",
   "weather": {
     "location": "Steinbach, MB",
-    "temperature": "-25°C",
-    "feels_like": "-34°C",
-    "conditions": "Cloudy/Foggy",
-    "humidity": "70%",
-    "wind": "N at 11 km/h"
+    "condition": "Foggy and damp",
+    "temp": "-2C",
+    "wind": "SE 10-15 km/h"
   },
   "pi_status": {
     "model": "google-gemini-cli/gemini-3-flash-preview",
-    "context_usage": "0/272k (0%)",
-    "time": "Thursday, Feb 19, 2026, 5:58 PM"
+    "context": "0/200k",
+    "time": "Thursday, Feb 19, 2026, 6:00 PM"
   }
 }
