@@ -293,23 +293,41 @@ body::before {
     .dashboard-grid {
         grid-template-columns: 1fr;
         padding: 1rem;
-        gap: 1rem;
+        gap: 1.5rem; /* Increased gap for better touch separation */
     }
     
+    /* Ensure cards take full width on mobile */
+    .card {
+        grid-column: span 1 !important;
+        width: 100%;
+        min-width: 0; /* Prevent overflow */
+    }
+
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+
+    .hero .hero-meta {
+        gap: 0.75rem;
+        font-size: 0.75rem;
     }
     
     .top-bar {
         padding: 1rem;
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.75rem;
+        gap: 1rem;
     }
     
     .top-bar-right {
         width: 100%;
         justify-content: space-between;
+    }
+
+    /* Weather refinement for small screens */
+    .weather-temp {
+        font-size: 3.5rem;
     }
 }
 
