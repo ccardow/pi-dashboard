@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-const vibes = fs.readFileSync('/home/cam/clawd/vibe-dashboard-prod/vibes.json', 'utf8');
+const vibes = fs.readFileSync(__dirname + '/vibes.json', 'utf8');
 const payload = JSON.stringify({
   files: {
     'vibes.json': {

@@ -484,6 +484,42 @@ body::before {
     box-shadow: 0 0 6px var(--accent-green);
 }
 
+/* ═══ Pi Roadmap Styles ═══ */
+.roadmap-box {
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border-left: 2px solid var(--amber);
+}
+
+.roadmap-header {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--amber);
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+}
+
+.roadmap-item {
+    font-size: 0.75rem;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.roadmap-item-name {
+    font-weight: 600;
+    color: var(--fg);
+}
+
+.roadmap-item-status {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--amber);
+    opacity: 0.8;
+}
+
 .activity-log {
     font-size: 0.75rem;
     color: var(--text-dim);

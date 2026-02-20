@@ -198,6 +198,7 @@ const renderData = (data) => {
     const piActivity = document.getElementById('pi-activity');
     const piStatus = document.getElementById('pi-status-display');
     const piLog = document.getElementById('pi-log');
+    const piRoadmapList = document.getElementById('roadmap-list');
     const modelName = document.getElementById('model-name');
     const modelTokens = document.getElementById('model-tokens');
     const modelRemaining = document.getElementById('model-remaining');
@@ -225,6 +226,16 @@ const renderData = (data) => {
             piLog.innerHTML = data.pi_status.logs.map(l => `
                 <div class="log-item">
                     <span class="log-time">${l.time}</span> <span class="log-msg">> ${l.msg}</span>
+                </div>
+            `).join('');
+        }
+
+        // Roadmap
+        if (piRoadmapList && data.pi_status.roadmap) {
+            piRoadmapList.innerHTML = data.pi_status.roadmap.map(item => `
+                <div class="roadmap-item">
+                    <span class="roadmap-item-name">${item.name}</span>
+                    <span class="roadmap-item-status">> ${item.status}</span>
                 </div>
             `).join('');
         }
