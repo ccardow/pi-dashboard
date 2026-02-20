@@ -1,4 +1,22 @@
-.env
+# Dependency folders
 node_modules/
-vibes.js
+
+# Local data / Generated files
 vibes.json
+vibes.js
+
+# Skill/Role folders (Legacy or Metadata)
+backend-developer/
+frontend-design/
+fullstack-developer/
+ui-designer/
+
+# Vercel and Build folders
+.vercel/
+.next/
+dist/
+out/
+
+# OS and Log files
+.DS_Store
+*.log
