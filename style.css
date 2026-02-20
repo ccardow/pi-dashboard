@@ -298,25 +298,39 @@ body::before {
     }
 
     .dashboard-grid {
-        display: block; /* Switch from grid to block for maximum mobile stability */
-        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the column of cards */
+        padding: 1.5rem 1rem;
         width: 100%;
         max-width: 100vw;
-        overflow: hidden;
+        box-sizing: border-box;
     }
     
     .card {
         width: 100% !important;
-        margin-bottom: 1.5rem; /* Manual spacing since gap doesn't work on block */
+        max-width: 500px; /* Optional: cap width so they don't get too wide on large phones */
+        margin: 0 auto 1.5rem auto; /* Equal side margins */
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
+    }
+
+    .hero {
+        text-align: center; /* Center the greeting text */
+        width: 100%;
+        margin-bottom: 2rem;
     }
 
     .hero h1 {
         font-size: 2.2rem;
         line-height: 1.1;
         word-wrap: break-word;
+    }
+
+    .hero .hero-meta {
+        justify-content: center; /* Center the date/session meta */
+        gap: 0.75rem;
     }
 
     .top-bar {
