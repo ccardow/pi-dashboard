@@ -50,6 +50,25 @@ const updateClock = () => {
 updateClock();
 setInterval(updateClock, 1000);
 
+// ─── Scripture Engine (Dynamic) ───
+const updateVerse = async () => {
+    const verseText = document.getElementById('verse-text');
+    const verseRef = document.getElementById('verse-ref');
+    if (!verseText || !verseRef) return;
+
+    try {
+        const response = await fetch('https://bible-api.com/random');
+        const data = await response.json();
+        verseText.textContent = `"${data.text.trim()}"`;
+        verseRef.textContent = data.reference;
+        logActivity('Scripture engine: fresh verse loaded');
+    } catch (err) {
+        console.error('Bible API failed:', err);
+    }
+};
+
+updateVerse();
+
 // ─── Time-Aware Greeting ───
 const greetingEl = document.getElementById('greeting');
 const hour = new Date().getHours();

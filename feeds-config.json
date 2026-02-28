@@ -7,6 +7,10 @@
     },
     "youtube": [
         {
+            "name": "Alex Finn",
+            "id": "UCU4X-iHj_3vKqjF-Nid9I8Q"
+        },
+        {
             "name": "Lex Fridman",
             "id": "UCSHZKyawb77ixDdsGog4iWA"
         },
@@ -31,7 +35,7 @@
             "id": "UCXv0mKKjM_f-68B8C4KCXHQ"
         }
     ],
-    "youtube_max": 6,
+    "youtube_max": 10,
     "x_handles": [
         "@elonmusk",
         "@sama",
