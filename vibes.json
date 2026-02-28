@@ -1,6 +1,18 @@
 {
   "youtube": [
     {
+      "title": "LIVE: I built an army of OpenClaw agents. I have lost control.",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=5zbsR03aGAE",
+      "published": "2026-02-27T21:07:43+00:00"
+    },
+    {
+      "title": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=L36aPV6g2II",
+      "published": "2026-02-27T01:37:42+00:00"
+    },
+    {
       "title": "When open-sourcing your code goes wrong...",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=wzzh7Not8XE",
@@ -11,6 +23,12 @@
       "channel": "Lex Fridman",
       "url": "https://www.youtube.com/watch?v=KGVpKPNUdzA",
       "published": "2026-02-25T22:36:32+00:00"
+    },
+    {
+      "title": "LIVE: My OpenClaw just built Cursor. Software is dead.",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=bi4aavMOoGM",
+      "published": "2026-02-25T21:11:52+00:00"
     },
     {
       "title": "Adobe & NVIDIA’s New Tech Shouldn’t Be Real Time. But It Is.",
@@ -35,78 +53,84 @@
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=cxcb55zr2Q8",
       "published": "2026-02-17T18:17:11+00:00"
+    },
+    {
+      "title": "NVIDIA’s Insane AI Found The Math Of Reality",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=WNsSzX0L4Es",
+      "published": "2026-02-15T14:41:41+00:00"
     }
   ],
   "x_posts": [
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "I am directing the Department of War to designate Anthropic a supply-chain risk",
-      "url": "https://twitter.com/secwar/status/2027507717469049070",
-      "published": "Fri, 27 Feb 2026 22:31:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "OpenAI raises $110B on $730B pre-money valuation",
-      "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
-      "published": "Fri, 27 Feb 2026 14:56:05 +0000"
+      "topic": "Tech Intel",
+      "content": "MinIO Is Dead, Long Live MinIO",
+      "url": "https://blog.vonng.com/en/db/minio-resurrect/",
+      "published": "Sat, 28 Feb 2026 21:16:53 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Qt45: A small polymerase ribozyme that can synthesize itself",
-      "url": "https://www.science.org/doi/10.1126/science.adt2760",
-      "published": "Fri, 27 Feb 2026 23:42:14 +0000"
+      "content": "Obsidian Sync now has a headless client",
+      "url": "https://help.obsidian.md/sync/headless",
+      "published": "Sat, 28 Feb 2026 16:31:53 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "A new California law says all operating systems need to have age verification",
-      "url": "https://www.pcgamer.com/software/operating-systems/a-new-california-law-says-all-operating-systems-including-linux-need-to-have-some-form-of-age-verification-at-account-setup/",
-      "published": "Fri, 27 Feb 2026 14:55:49 +0000"
+      "content": "The happiest I&#x27;ve ever been",
+      "url": "https://ben-mini.com/2026/the-happiest-ive-ever-been",
+      "published": "Thu, 26 Feb 2026 04:13:47 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "NASA announces overhaul of Artemis program amid safety concerns, delays",
-      "url": "https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/",
-      "published": "Fri, 27 Feb 2026 16:33:39 +0000"
+      "content": "Building a Minimal Transformer for 10-digit Addition",
+      "url": "https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition",
+      "published": "Sat, 28 Feb 2026 22:10:21 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Emuko: Fast RISC-V emulator written in Rust, boots Linux",
-      "url": "https://github.com/wkoszek/emuko",
-      "published": "Fri, 27 Feb 2026 23:01:49 +0000"
+      "content": "Iran&#x27;s Ayatollah Ali Khamenei is killed in Israeli strike, ending 36-year rule",
+      "url": "https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed",
+      "published": "Sat, 28 Feb 2026 22:16:08 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "A better streams API is possible for JavaScript",
-      "url": "https://blog.cloudflare.com/a-better-web-streams-api/",
-      "published": "Fri, 27 Feb 2026 14:02:53 +0000"
+      "content": "Verified Spec-Driven Development (VSDD)",
+      "url": "https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00",
+      "published": "Sat, 28 Feb 2026 16:58:54 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Show HN: I built a site where you hire yourself instead of applying for jobs",
-      "url": "https://hired.wtf",
-      "published": "Fri, 27 Feb 2026 23:25:59 +0000"
+      "content": "Addressing Antigravity Bans and Reinstating Access",
+      "url": "https://github.com/google-gemini/gemini-cli/discussions/20632",
+      "published": "Sat, 28 Feb 2026 13:50:13 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Otters as Bioindicators of Estuarine Health",
-      "url": "https://emt.pensoft.net/article/185117/",
-      "published": "Fri, 27 Feb 2026 22:13:54 +0000"
+      "content": "Werner Herzog Between Fact and Fiction",
+      "url": "https://www.thenation.com/article/culture/werner-herzog-future-truth/",
+      "published": "Fri, 27 Feb 2026 08:27:45 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Let&#x27;s discuss sandbox isolation",
-      "url": "https://www.shayon.dev/post/2026/52/lets-discuss-sandbox-isolation/",
-      "published": "Fri, 27 Feb 2026 18:49:50 +0000"
+      "content": "Block the &quot;Upgrade to Tahoe&quot; Alerts",
+      "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
+      "published": "Sat, 28 Feb 2026 19:04:01 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Woxi: Wolfram Mathematica Reimplementation in Rust",
+      "url": "https://github.com/ad-si/Woxi",
+      "published": "Wed, 25 Feb 2026 18:24:46 +0000"
     }
   ],
   "peter_x": [
@@ -171,67 +195,67 @@
       "published": "Fri, 30 Jan 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "02/27/2026, 06:04 PM CST",
+  "lastUpdate": "02/28/2026, 04:48 PM CST",
   "news": [
     {
-      "title": "Who runs Venezuela now? Trump, oil and the fight for power",
-      "url": "https://www.aljazeera.com/video/head-to-head/2026/2/27/who-runs-venezuela-now-trump-oil-and-the-fight-for-power?traffic_source=rss",
-      "summary": "Who runs Venezuela now? Trump, oil and the fight for power",
+      "title": "What countries has Trump attacked since returning to office?",
+      "url": "https://www.aljazeera.com/news/2026/2/28/what-countries-has-trump-attacked-since-returning-to-office?traffic_source=rss",
+      "summary": "What countries has Trump attacked since returning to office?",
       "source": "Al Jazeera",
-      "published": "Fri, 27 Feb 2026 22:51:33 +0000"
+      "published": "Sat, 28 Feb 2026 22:20:01 +0000"
     },
     {
-      "title": "Why is Trump objecting to al-Maliki’s comeback?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/2/27/why-is-trump-objecting-to-al-malikis-comeback?traffic_source=rss",
-      "summary": "Why is Trump objecting to al-Maliki’s comeback?",
-      "source": "Al Jazeera",
-      "published": "Fri, 27 Feb 2026 22:35:45 +0000"
-    },
-    {
-      "title": "Trump 'not thrilled' with Iran after latest talks on nuclear programme",
-      "url": "https://www.bbc.com/news/articles/c309vz0z893o?at_medium=RSS&amp;at_campaign=rss",
-      "summary": "Trump 'not thrilled' with Iran after latest talks on nuclear programme",
+      "title": "What we know so far: Supreme Leader Khamenei killed, Trump says, as Iran launches retaliatory strikes",
+      "url": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&amp;at_campaign=rss",
+      "summary": "What we know so far: Supreme Leader Khamenei killed, Trump says, as Iran launches retaliatory strikes",
       "source": "BBC World",
-      "published": "Fri, 27 Feb 2026 22:21:35 GMT"
+      "published": "Sat, 28 Feb 2026 22:12:38 GMT"
     },
     {
-      "title": "Trump suggests a ‘friendly takeover’ of Cuba amid US fuel blockade",
-      "url": "https://www.aljazeera.com/news/2026/2/27/trump-suggests-a-friendly-takeover-of-cuba-amid-us-fuel-blockade?traffic_source=rss",
-      "summary": "Trump suggests a ‘friendly takeover’ of Cuba amid US fuel blockade",
+      "title": "Trump says Iran’s Supreme Leader Ali Khamenei dead after US-Israeli attacks",
+      "url": "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports?traffic_source=rss",
+      "summary": "Trump says Iran’s Supreme Leader Ali Khamenei dead after US-Israeli attacks",
       "source": "Al Jazeera",
-      "published": "Fri, 27 Feb 2026 21:24:01 +0000"
+      "published": "Sat, 28 Feb 2026 20:29:04 +0000"
     },
     {
-      "title": "Near-blind Rohingya refugee found dead after border patrol release",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/27/near-blind-rohingya-refugee-found-dead-after-border-patrol-release?traffic_source=rss",
-      "summary": "Near-blind Rohingya refugee found dead after border patrol release",
+      "title": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/28/diplomacy-was-betrayed-by-the-americans-iranian-fm-spokesman?traffic_source=rss",
+      "summary": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman",
       "source": "Al Jazeera",
-      "published": "Fri, 27 Feb 2026 20:27:17 +0000"
+      "published": "Sat, 28 Feb 2026 19:13:34 +0000"
+    },
+    {
+      "title": "Canadian universities ink partnerships with Indian counterparts during Carney’s visit",
+      "url": "https://www.theglobeandmail.com/politics/article-universities-partnerships-india/",
+      "summary": "Canadian universities ink partnerships with Indian counterparts during Carney’s visit",
+      "source": "Globe Politics",
+      "published": "Sat, 28 Feb 2026 13:04:30 +0000"
     }
   ],
-  "vibes": "⚠ Who runs Venezuela now? Trump, oil and the fight for power",
+  "vibes": "⚠ What countries has Trump attacked since returning to office?",
   "weather": {
-    "temp": "-17",
-    "condition": "Overcast",
-    "feels_like": "-25",
-    "hi": "0",
-    "lo": "-23",
-    "updated": "Feb 27, 06:04 PM CST"
+    "temp": "-21",
+    "condition": "Mostly Clear",
+    "feels_like": "-26",
+    "hi": "-21",
+    "lo": "-30",
+    "updated": "Feb 28, 04:47 PM CST"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "OpenClaw Gateway · gemini-3.1-pro-preview via google-gemini-cli",
+    "activity": "OpenClaw Gateway · openrouter/auto via openrouter",
     "model": {
-      "name": "google-gemini-cli/gemini-3.1-pro-preview",
+      "name": "openrouter/openrouter/auto",
       "tokens_used": 0,
       "tokens_total": 256
     },
     "logs": [
       {
-        "time": "18:04",
-        "msg": "Interactive: gemini-3.1-pro-preview via google-gemini-cli"
+        "time": "16:47",
+        "msg": "Interactive: openrouter/auto via openrouter"
       }
     ],
-    "lastUpdate": "Feb 27, 06:04 PM CST"
+    "lastUpdate": "Feb 28, 04:48 PM CST"
   }
 }
