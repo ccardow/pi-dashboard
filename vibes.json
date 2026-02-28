@@ -1,34 +1,127 @@
 {
   "youtube": [
     {
-      "title": "Andrej Karpathy on DeepSeek: The magic of AI",
-      "url": "https://www.youtube.com/watch?v=ojepHUd1xhI",
-      "published": "Feb 8, 2025"
+      "title": "When open-sourcing your code goes wrong...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=wzzh7Not8XE",
+      "published": "2026-02-26T18:26:18+00:00"
     },
     {
-      "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI",
-      "url": "https://www.youtube.com/watch?v=cdiD-9MMpb0",
-      "published": "Oct 29, 2022"
+      "title": "Khabib vs Lex: Training with Khabib | FULL EXCLUSIVE FOOTAGE",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=KGVpKPNUdzA",
+      "published": "2026-02-25T22:36:32+00:00"
+    },
+    {
+      "title": "Adobe & NVIDIA’s New Tech Shouldn’t Be Real Time. But It Is.",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=j-B8ymGWlIE",
+      "published": "2026-02-22T09:50:35+00:00"
+    },
+    {
+      "title": "TanStack Start in 100 Seconds",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=1fUBWAETmkk",
+      "published": "2026-02-20T18:20:25+00:00"
+    },
+    {
+      "title": "The Most Realistic Fire Simulation Ever",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=B6GJjvR6txg",
+      "published": "2026-02-19T09:55:15+00:00"
+    },
+    {
+      "title": "How AI is breaking the SaaS business model...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=cxcb55zr2Q8",
+      "published": "2026-02-17T18:17:11+00:00"
     }
   ],
   "x_posts": [
     {
-      "title": "OpenClaw trap nobody warned you about",
-      "url": "https://x.com/IntuitMachine/status/2019716435916767321",
-      "author": "Carlos E. Perez"
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "I am directing the Department of War to designate Anthropic a supply-chain risk",
+      "url": "https://twitter.com/secwar/status/2027507717469049070",
+      "published": "Fri, 27 Feb 2026 22:31:18 +0000"
     },
     {
-      "title": "AI coding agents visibility and control",
-      "url": "https://x.com/limacharlieio/status/2019136097192640629",
-      "author": "LimaCharlie"
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "OpenAI raises $110B on $730B pre-money valuation",
+      "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+      "published": "Fri, 27 Feb 2026 14:56:05 +0000"
     },
     {
-      "title": "OpenClaw for developer feedback",
-      "url": "https://x.com/MosheMalawach/status/2019353502837825911",
-      "author": "Moshe Malawach"
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Qt45: A small polymerase ribozyme that can synthesize itself",
+      "url": "https://www.science.org/doi/10.1126/science.adt2760",
+      "published": "Fri, 27 Feb 2026 23:42:14 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "A new California law says all operating systems need to have age verification",
+      "url": "https://www.pcgamer.com/software/operating-systems/a-new-california-law-says-all-operating-systems-including-linux-need-to-have-some-form-of-age-verification-at-account-setup/",
+      "published": "Fri, 27 Feb 2026 14:55:49 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "NASA announces overhaul of Artemis program amid safety concerns, delays",
+      "url": "https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/",
+      "published": "Fri, 27 Feb 2026 16:33:39 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Emuko: Fast RISC-V emulator written in Rust, boots Linux",
+      "url": "https://github.com/wkoszek/emuko",
+      "published": "Fri, 27 Feb 2026 23:01:49 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "A better streams API is possible for JavaScript",
+      "url": "https://blog.cloudflare.com/a-better-web-streams-api/",
+      "published": "Fri, 27 Feb 2026 14:02:53 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Show HN: I built a site where you hire yourself instead of applying for jobs",
+      "url": "https://hired.wtf",
+      "published": "Fri, 27 Feb 2026 23:25:59 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Otters as Bioindicators of Estuarine Health",
+      "url": "https://emt.pensoft.net/article/185117/",
+      "published": "Fri, 27 Feb 2026 22:13:54 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Let&#x27;s discuss sandbox isolation",
+      "url": "https://www.shayon.dev/post/2026/52/lets-discuss-sandbox-isolation/",
+      "published": "Fri, 27 Feb 2026 18:49:50 +0000"
     }
   ],
   "peter_x": [
+    {
+      "topic": "Apple / iOS",
+      "content": "Nutrient vs. IronPDF: Complete comparison for .NET developers",
+      "url": "https://www.nutrient.io/blog/nutrient-vs-ironpdf-comparison/",
+      "published": "Thu, 26 Feb 2026 10:00:00 GMT"
+    },
+    {
+      "topic": "Apple / iOS",
+      "content": "Nutrient vs. Aspose.PDF: Complete comparison for .NET developers",
+      "url": "https://www.nutrient.io/blog/nutrient-vs-aspose-comparison/",
+      "published": "Tue, 24 Feb 2026 10:00:00 GMT"
+    },
     {
       "topic": "Apple / iOS",
       "content": "Lufthansa Systems uses Nutrient to deliver reliable, scalable PDF rendering for pilots worldwide",
@@ -55,6 +148,12 @@
     },
     {
       "topic": "AI / ML",
+      "content": "Workflow Automation: The missing link in supply chain efficiency",
+      "url": "https://www.nutrient.io/blog/supply-demand-chain-workflow-missing-link/",
+      "published": "Wed, 04 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "AI / ML",
       "content": "The complete guide to digital signatures: PAdES, CAdES, and XAdES explained",
       "url": "https://www.nutrient.io/blog/complete-guide-digital-signatures/",
       "published": "Tue, 03 Feb 2026 10:00:00 GMT"
@@ -70,74 +169,69 @@
       "content": "Nutrient Python SDK: Production-grade document processing for Python",
       "url": "https://www.nutrient.io/blog/introducing-nutrient-python-sdk/",
       "published": "Fri, 30 Jan 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "AI / ML",
-      "content": "Introducing agentic document editing for web applications with AI Assistant",
-      "url": "https://www.nutrient.io/blog/introducing-agentic-document-editing-for-web-applications-with-ai-assistant/",
-      "published": "Thu, 29 Jan 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Apple / iOS",
-      "content": "Nutrient vs. QuestPDF: Complete comparison for .NET developers",
-      "url": "https://www.nutrient.io/blog/nutrient-vs-questpdf-comparison/",
-      "published": "Mon, 26 Jan 2026 14:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "How we fixed the GdPicture license expiration (and what to do if you’re affected)",
-      "url": "https://www.nutrient.io/blog/gdpicture-license-issue-in-das-and-dcs/",
-      "published": "Fri, 23 Jan 2026 18:00:00 GMT"
     }
   ],
-  "lastUpdate": "02/19/2026, 06:00 PM CST",
+  "lastUpdate": "02/27/2026, 06:04 PM CST",
   "news": [
     {
-      "title": "Masked protesters arrested outside Trump’s Board of Peace meeting",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/19/masked-protesters-arrested-outside-trumps-board-of-peace-meeting?traffic_source=rss",
-      "summary": "Masked protesters arrested outside Trump’s Board of Peace meeting",
+      "title": "Who runs Venezuela now? Trump, oil and the fight for power",
+      "url": "https://www.aljazeera.com/video/head-to-head/2026/2/27/who-runs-venezuela-now-trump-oil-and-the-fight-for-power?traffic_source=rss",
+      "summary": "Who runs Venezuela now? Trump, oil and the fight for power",
       "source": "Al Jazeera",
-      "published": "Thu, 19 Feb 2026 19:38:36 +0000"
+      "published": "Fri, 27 Feb 2026 22:51:33 +0000"
     },
     {
-      "title": "Trump's Board of Peace members pledge $7bn in Gaza relief",
-      "url": "https://www.bbc.com/news/articles/cp8rke05kv4o?at_medium=RSS&amp;at_campaign=rss",
-      "summary": "Trump's Board of Peace members pledge $7bn in Gaza relief",
-      "source": "BBC World",
-      "published": "Thu, 19 Feb 2026 19:33:36 GMT"
-    },
-    {
-      "title": "Trump says world has 10 days to see if Iran deal reached",
-      "url": "https://www.bbc.com/news/articles/c86yjnw4x49o?at_medium=RSS&amp;at_campaign=rss",
-      "summary": "Trump says world has 10 days to see if Iran deal reached",
-      "source": "BBC World",
-      "published": "Thu, 19 Feb 2026 19:23:55 GMT"
-    },
-    {
-      "title": "Trump announces billions of dollars in Gaza aid at Board of Peace meeting",
-      "url": "https://www.aljazeera.com/news/2026/2/19/trump-announces-billions-of-dollars-in-gaza-aid-at-board-of-peace-meeting?traffic_source=rss",
-      "summary": "Trump announces billions of dollars in Gaza aid at Board of Peace meeting",
+      "title": "Why is Trump objecting to al-Maliki’s comeback?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/2/27/why-is-trump-objecting-to-al-malikis-comeback?traffic_source=rss",
+      "summary": "Why is Trump objecting to al-Maliki’s comeback?",
       "source": "Al Jazeera",
-      "published": "Thu, 19 Feb 2026 18:47:48 +0000"
+      "published": "Fri, 27 Feb 2026 22:35:45 +0000"
     },
     {
-      "title": "American Jordan Stolz speedskates to a third Olympic medal -- silver this time",
-      "url": "https://www.npr.org/2026/02/19/nx-s1-5718087/winter-olympics-jordan-stolz-speedskating-medal",
-      "summary": "American Jordan Stolz speedskates to a third Olympic medal -- silver this time",
-      "source": "NPR News",
-      "published": "Thu, 19 Feb 2026 13:09:22 -0500"
+      "title": "Trump 'not thrilled' with Iran after latest talks on nuclear programme",
+      "url": "https://www.bbc.com/news/articles/c309vz0z893o?at_medium=RSS&amp;at_campaign=rss",
+      "summary": "Trump 'not thrilled' with Iran after latest talks on nuclear programme",
+      "source": "BBC World",
+      "published": "Fri, 27 Feb 2026 22:21:35 GMT"
+    },
+    {
+      "title": "Trump suggests a ‘friendly takeover’ of Cuba amid US fuel blockade",
+      "url": "https://www.aljazeera.com/news/2026/2/27/trump-suggests-a-friendly-takeover-of-cuba-amid-us-fuel-blockade?traffic_source=rss",
+      "summary": "Trump suggests a ‘friendly takeover’ of Cuba amid US fuel blockade",
+      "source": "Al Jazeera",
+      "published": "Fri, 27 Feb 2026 21:24:01 +0000"
+    },
+    {
+      "title": "Near-blind Rohingya refugee found dead after border patrol release",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/2/27/near-blind-rohingya-refugee-found-dead-after-border-patrol-release?traffic_source=rss",
+      "summary": "Near-blind Rohingya refugee found dead after border patrol release",
+      "source": "Al Jazeera",
+      "published": "Fri, 27 Feb 2026 20:27:17 +0000"
     }
   ],
-  "vibes": "⚠ Masked protesters arrested outside Trump’s Board of Peace meeting",
+  "vibes": "⚠ Who runs Venezuela now? Trump, oil and the fight for power",
   "weather": {
-    "location": "Steinbach, MB",
-    "condition": "Foggy and damp",
-    "temp": "-2C",
-    "wind": "SE 10-15 km/h"
+    "temp": "-17",
+    "condition": "Overcast",
+    "feels_like": "-25",
+    "hi": "0",
+    "lo": "-23",
+    "updated": "Feb 27, 06:04 PM CST"
   },
   "pi_status": {
-    "model": "google-gemini-cli/gemini-3-flash-preview",
-    "context": "0/200k",
-    "time": "Thursday, Feb 19, 2026, 6:00 PM"
+    "status": "ONLINE",
+    "activity": "OpenClaw Gateway · gemini-3.1-pro-preview via google-gemini-cli",
+    "model": {
+      "name": "google-gemini-cli/gemini-3.1-pro-preview",
+      "tokens_used": 0,
+      "tokens_total": 256
+    },
+    "logs": [
+      {
+        "time": "18:04",
+        "msg": "Interactive: gemini-3.1-pro-preview via google-gemini-cli"
+      }
+    ],
+    "lastUpdate": "Feb 27, 06:04 PM CST"
   }
 }

@@ -179,63 +179,28 @@ async function fetchYouTube() {
     return top.length > 0 ? top : null;
 }
 
-// ─── Fetch a single X handle via Nitter RSS ───
-// Races ALL instances concurrently — first valid response wins, rest are ignored.
-async function fetchNitterHandle(handle) {
-    var slug = handle.replace('@', '');
-    var attempts = NITTER_INSTANCES.map(function (instance) {
-        var url = 'https://' + instance + '/' + slug + '/rss';
-        return httpsGet(url).then(function (xml) {
-            var items = parseItems(xml, 'item', 2);
-            if (items.length === 0) throw new Error('empty');
-            return { instance: instance, items: items };
-        });
-    });
-    // Promise.any: resolves with the first success, rejects only if ALL fail
-    if (typeof Promise.any === 'function') {
-        return Promise.any(attempts).catch(function () { return null; });
-    }
-    // Node 14 fallback: try sequentially
-    for (var n = 0; n < attempts.length; n++) {
-        try { return await attempts[n]; } catch (e) { }
-    }
-    return null;
-}
-
-// ─── Fetch X personalities (all handles in parallel) ───
-async function fetchXPersonalities() {
-    console.log('\n𝕏 Fetching X personalities... (' + X_HANDLES.length + ' handles, parallel)');
+// ─── Fetch Hacker News (Replacing dead Nitter/X) ───
+async function fetchTechIntel() {
+    console.log('\n𝕏 Fetching Tech Intel (Hacker News)...');
     var allPosts = [];
-
-    // Run all handles concurrently — cuts runtime from O(N×instances×timeout) to O(instances×timeout)
-    var settled = await Promise.all(X_HANDLES.map(function (handle) {
-        return fetchNitterHandle(handle)
-            .then(function (result) { return { handle: handle, result: result }; })
-            .catch(function () { return { handle: handle, result: null }; });
-    }));
-
-    for (var i = 0; i < settled.length; i++) {
-        var handle = settled[i].handle;
-        var result = settled[i].result;
-        if (result && result.items && result.items.length > 0) {
-            var item = result.items[0];
+    try {
+        var xml = await httpsGet('https://news.ycombinator.com/rss');
+        var items = parseItems(xml, 'item', X_MAX);
+        for (var i = 0; i < items.length; i++) {
+            var item = items[i];
             allPosts.push({
-                user: handle,
+                user: 'Hacker News',
                 topic: inferTopic(item.title),
-                content: item.title.substring(0, 280),
+                content: item.title,
                 url: item.link,
-                published: item.pubDate,
+                published: item.pubDate || new Date().toISOString(),
             });
-            console.log('  ✓ ' + handle + ' (via ' + result.instance + ')');
-        } else {
-            console.warn('  ✗ ' + handle + ': all Nitter instances failed or no posts');
         }
+        console.log('  ✓ Fetched ' + allPosts.length + ' stories from HN');
+    } catch (err) {
+        console.warn('  ✗ HN fetch failed: ' + err.message);
     }
-
-    allPosts.sort(function (a, b) { return new Date(b.published) - new Date(a.published); });
-    var top = allPosts.slice(0, X_MAX);
-    console.log('  → ' + top.length + ' posts selected');
-    return top.length > 0 ? top : null;
+    return allPosts.length > 0 ? allPosts : null;
 }
 
 // ─── Fetch steipete blog posts ───
@@ -493,7 +458,7 @@ async function main() {
 
     var results = await Promise.all([
         fetchYouTube().catch(function (err) { console.error('YouTube fatal:', err.message); return null; }),
-        fetchXPersonalities().catch(function (err) { console.error('X fatal:', err.message); return null; }),
+        fetchTechIntel().catch(function (err) { console.error('TechIntel fatal:', err.message); return null; }),
         fetchSteipete().catch(function (err) { console.error('steipete fatal:', err.message); return null; }),
         fetchGeopolitics().catch(function (err) { console.error('Geo fatal:', err.message); return null; }),
         fetchWeather().catch(function (err) { console.error('Weather fatal:', err.message); return null; }),

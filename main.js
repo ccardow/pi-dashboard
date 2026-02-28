@@ -208,16 +208,48 @@ const renderData = (data) => {
     const weatherCondition = document.getElementById('weather-condition');
 
     // Weather
-    if (data.weather) {
-        if (weatherTemp) weatherTemp.textContent = `${data.weather.temp}°C`;
-        if (weatherCondition) weatherCondition.textContent = `${data.weather.condition} · Feels like ${data.weather.feels_like}°C`;
-        if (weatherHilo) {
-            weatherHilo.innerHTML = `
-                <span>↑ ${data.weather.hi}°C</span>
-                <span>↓ ${data.weather.lo}°C</span>
-            `;
+    const fetchLiveWeather = async () => {
+        try {
+            const url = 'https://api.open-meteo.com/v1/forecast'
+                + '?latitude=49.5258&longitude=-96.6839'
+                + '&current=temperature_2m,apparent_temperature,weather_code'
+                + '&daily=temperature_2m_max,temperature_2m_min'
+                + '&timezone=America/Winnipeg'
+                + '&forecast_days=1';
+            const response = await fetch(url);
+            const data = await response.json();
+            const cur = data.current || {};
+            const daily = data.daily || {};
+
+            const code = cur.weather_code || 0;
+            let condition = 'Clear';
+            if (code <= 0) condition = 'Clear';
+            else if (code <= 3) condition = ['Clear', 'Mostly Clear', 'Partly Cloudy', 'Overcast'][code];
+            else if (code <= 49) condition = 'Fog';
+            else if (code <= 59) condition = 'Drizzle';
+            else if (code <= 69) condition = 'Rain';
+            else if (code <= 79) condition = 'Snow';
+            else if (code <= 82) condition = 'Rain Showers';
+            else if (code <= 86) condition = 'Snow Showers';
+            else if (code === 95) condition = 'Thunderstorm';
+            else if (code >= 96) condition = 'Thunderstorm + Hail';
+
+            if (weatherTemp) weatherTemp.textContent = `${Math.round(cur.temperature_2m || 0)}°C`;
+            if (weatherCondition) weatherCondition.textContent = `${condition} · Feels like ${Math.round(cur.apparent_temperature || 0)}°C`;
+            if (weatherHilo) {
+                weatherHilo.innerHTML = `
+                    <span>↑ ${Math.round((daily.temperature_2m_max || [0])[0])}°C</span>
+                    <span>↓ ${Math.round((daily.temperature_2m_min || [0])[0])}°C</span>
+                `;
+            }
+            logActivity('Weather updated: Steinbach, MB');
+        } catch (err) {
+            console.error('Weather fetch failed:', err);
         }
-    }
+    };
+
+    fetchLiveWeather();
+
     // Pi Status
     if (data.pi_status) {
         if (piStatus) piStatus.textContent = data.pi_status.status || 'ONLINE';
