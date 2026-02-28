@@ -1,10 +1,28 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
+      "title": "How to install Claude Code in 15 seconds",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=PFbKHobS548",
+      "published": "2026-02-28T04:39:07+00:00"
+    },
+    {
+      "title": "Day 10 of building a $1M personal brand with AI | The God Prompt",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=YGV46XYg6L4",
+      "published": "2026-02-28T02:03:18+00:00"
+    },
+    {
       "title": "LIVE: I built an army of OpenClaw agents. I have lost control.",
       "channel": "Alex Finn",
       "url": "https://www.youtube.com/watch?v=5zbsR03aGAE",
       "published": "2026-02-27T21:07:43+00:00"
+    },
+    {
+      "title": "Antigravity + Claude Code Posts to 9 Different Socials INSTANTLY! (Blotato MCP)",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=PbVy_Rsqnzs",
+      "published": "2026-02-27T18:19:59+00:00"
     },
     {
       "title": "Claude Code for Mobile is the BEST way to build apps with AI (Remote Control)",
@@ -41,24 +59,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=1fUBWAETmkk",
       "published": "2026-02-20T18:20:25+00:00"
-    },
-    {
-      "title": "The Most Realistic Fire Simulation Ever",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=B6GJjvR6txg",
-      "published": "2026-02-19T09:55:15+00:00"
-    },
-    {
-      "title": "How AI is breaking the SaaS business model...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=cxcb55zr2Q8",
-      "published": "2026-02-17T18:17:11+00:00"
-    },
-    {
-      "title": "NVIDIA’s Insane AI Found The Math Of Reality",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=WNsSzX0L4Es",
-      "published": "2026-02-15T14:41:41+00:00"
     }
   ],
   "x_posts": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 30 Jan 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "02/28/2026, 04:53 PM CST",
+  "lastUpdate": "02/28/2026, 04:54 PM CST",
   "news": [
     {
       "title": "What countries has Trump attacked since returning to office?",
@@ -240,7 +240,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "-26",
     "hi": "-21",
     "lo": "-30",
-    "updated": "Feb 28, 04:53 PM CST"
+    "updated": "Feb 28, 04:54 PM CST"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -252,10 +252,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "logs": [
       {
-        "time": "16:53",
+        "time": "16:54",
         "msg": "Interactive: openrouter/auto via openrouter"
       }
     ],
-    "lastUpdate": "Feb 28, 04:53 PM CST"
+    "lastUpdate": "Feb 28, 04:54 PM CST"
   }
 });
