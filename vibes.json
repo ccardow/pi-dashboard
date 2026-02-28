@@ -114,13 +114,6 @@
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Werner Herzog Between Fact and Fiction",
-      "url": "https://www.thenation.com/article/culture/werner-herzog-future-truth/",
-      "published": "Fri, 27 Feb 2026 08:27:45 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
       "content": "Block the &quot;Upgrade to Tahoe&quot; Alerts",
       "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
       "published": "Sat, 28 Feb 2026 19:04:01 +0000"
@@ -128,9 +121,16 @@
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Woxi: Wolfram Mathematica Reimplementation in Rust",
-      "url": "https://github.com/ad-si/Woxi",
-      "published": "Wed, 25 Feb 2026 18:24:46 +0000"
+      "content": "Werner Herzog Between Fact and Fiction",
+      "url": "https://www.thenation.com/article/culture/werner-herzog-future-truth/",
+      "published": "Fri, 27 Feb 2026 08:27:45 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "New evidence that Cantor plagiarized Dedekind?",
+      "url": "https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/",
+      "published": "Wed, 25 Feb 2026 17:28:33 +0000"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@
       "published": "Fri, 30 Jan 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "02/28/2026, 04:48 PM CST",
+  "lastUpdate": "02/28/2026, 04:53 PM CST",
   "news": [
     {
       "title": "What countries has Trump attacked since returning to office?",
@@ -240,7 +240,7 @@
     "feels_like": "-26",
     "hi": "-21",
     "lo": "-30",
-    "updated": "Feb 28, 04:47 PM CST"
+    "updated": "Feb 28, 04:53 PM CST"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -252,10 +252,10 @@
     },
     "logs": [
       {
-        "time": "16:47",
+        "time": "16:53",
         "msg": "Interactive: openrouter/auto via openrouter"
       }
     ],
-    "lastUpdate": "Feb 28, 04:48 PM CST"
+    "lastUpdate": "Feb 28, 04:53 PM CST"
   }
 }
