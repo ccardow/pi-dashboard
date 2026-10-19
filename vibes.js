@@ -94,14 +94,14 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294730247627212#m",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     },
     {
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 TEXAS! Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Texas, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/texas/",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294609980198977#m",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294609980198977#m",
       "published": "Mon, 19 Oct 2026 21:27:34 GMT"
     },
     {
@@ -115,7 +115,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "Geopolitics",
       "content": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112293785472225568#m",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112293785472225568#m",
       "published": "Mon, 19 Oct 2026 21:24:17 GMT"
     },
     {
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 04:14 PM",
+  "lastUpdate": "10/19/2026, 04:15 PM",
   "news": [
     {
       "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -256,7 +256,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "logs": [
       {
-        "time": "16:13",
+        "time": "16:14",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 436 msgs · 211 tools"
       },
       {
@@ -321,7 +321,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "60 sessions · 38663k tokens · 1211 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 04:14 PM"
+    "lastUpdate": "Oct 19, 04:15 PM"
   },
   "hn_posts": [
     {
