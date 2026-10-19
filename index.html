@@ -49,12 +49,23 @@
             </div>
         </header>
 
+        <!-- Feed Health — shows whether each source was actually reached
+             and how old the served data is. -->
+        <div class="health-strip" id="health-strip">
+            <span class="health-strip__label">Sources</span>
+            <span class="health-pill health-pill--unknown">
+                <span class="health-pill__dot"></span>
+                <span class="health-pill__name">loading</span>
+            </span>
+            <span class="health-verdict" id="health-verdict">CHECKING</span>
+        </div>
+
         <!-- ═══ COLUMN 1 ═══ -->
 
         <!-- Weather -->
         <section class="card card--teal" style="animation-delay: 0.1s">
             <div class="card-header">
-                <h3 id="weather-label">Weather</h3>
+                <span class="card__title-wrap"><h3 id="weather-label">Weather</h3><span class="card__health" data-health-feed="weather"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">◈</span>
             </div>
             <div class="weather-display" id="weather-display">
@@ -70,7 +81,7 @@
         <!-- Bible Verse -->
         <section class="card card--amber" style="animation-delay: 0.2s">
             <div class="card-header">
-                <h3>Daily Verse</h3>
+                <span class="card__title-wrap"><h3>Daily Verse</h3><span class="card__health" data-health-feed="verse"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">✦</span>
             </div>
             <p class="verse-text" id="verse-text">"Loading the daily verse..."</p>
@@ -82,7 +93,7 @@
         <!-- X Intelligence Feed -->
         <section class="card" style="animation-delay: 0.15s" id="x-section">
             <div class="card-header">
-                <h3>𝕏 Intelligence</h3>
+                <span class="card__title-wrap"><h3>𝕏 Intelligence</h3><span class="card__health" data-health-feed="x"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">⊡</span>
             </div>
             <div class="feed-scroll" id="x-list">
@@ -93,7 +104,7 @@
         <!-- Hacker News -->
         <section class="card" style="animation-delay: 0.2s" id="hn-section">
             <div class="card-header">
-                <h3>Hacker News</h3>
+                <span class="card__title-wrap"><h3>Hacker News</h3><span class="card__health" data-health-feed="hackernews"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">◐</span>
             </div>
             <div class="feed-scroll" id="hn-list">
@@ -101,24 +112,17 @@
             </div>
         </section>
 
-        <!-- FireBuilt Card -->
+        <!-- FireBuilt — live agent roster, rendered from the Hermes profile
+             directories by fetch-feeds.js. No hardcoded copy. -->
         <section class="card card--rose" style="animation-delay: 0.25s" id="firebuilt-section">
             <div class="card-header">
-                <h3>FireBuilt</h3>
+                <span class="card__title-wrap"><h3>FireBuilt</h3><span class="card__health" data-health-feed="firebuilt"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">🔥</span>
             </div>
-            <div class="feed-scroll" id="firebuilt-list">
+            <div class="roster" id="firebuilt-roster">
                 <div class="feed-item">
-                    <div class="feed-user">FireBuilt Media</div>
-                    <div class="feed-content">Helping churches use AI and digital presence well — Calvary Church, Steinbach MB is the first.</div>
-                </div>
-                <div class="feed-item">
-                    <div class="feed-user">Status</div>
-                    <div class="feed-content">On hold while Cam settles in Abbotsford. The team — Marcus, Sienna, Maya, Atlas, Harper, Montage, Grace — is intact.</div>
-                </div>
-                <div class="feed-item">
-                    <div class="feed-user">Method</div>
-                    <div class="feed-content">Approval-gated actions with a full audit trail. The agent builds its own tools.</div>
+                    <div class="feed-user">Loading roster</div>
+                    <div class="feed-content">Reading Hermes profiles…</div>
                 </div>
             </div>
         </section>
@@ -128,7 +132,7 @@
         <!-- YouTube / Research -->
         <section class="card card--rose" style="animation-delay: 0.2s" id="youtube-section">
             <div class="card-header">
-                <h3>YouTube / Research</h3>
+                <span class="card__title-wrap"><h3>YouTube / Research</h3><span class="card__health" data-health-feed="youtube"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">▶</span>
             </div>
             <div class="feed-scroll" id="youtube-list">
@@ -139,7 +143,7 @@
         <!-- US/Canada Relations -->
         <section class="card" style="animation-delay: 0.3s" id="news-section">
             <div class="card-header">
-                <h3>US / Canada Relations</h3>
+                <span class="card__title-wrap"><h3>US / Canada Relations</h3><span class="card__health" data-health-feed="news"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">◆</span>
             </div>
             <div class="vibes-quote" id="vibes-box">Loading vibes...</div>
@@ -153,7 +157,7 @@
         <!-- Pi 🥧 Status Card -->
         <section class="card card--amber" style="animation-delay: 0.1s" id="pi-section">
             <div class="card-header">
-                <h3>Pi 🥧 Intelligence</h3>
+                <span class="card__title-wrap"><h3>Pi 🥧 Intelligence</h3><span class="card__health" data-health-feed="pi"><span class="card__health__dot"></span></span></span>
                 <span class="card-icon">🥧</span>
             </div>
             <div class="system-status">

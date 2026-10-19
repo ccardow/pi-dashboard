@@ -40,12 +40,47 @@ so ordering cannot affect the hash. The Gist is still updated every run —
 only the *commit* is skipped, so the live data stays fresh while a quiet
 cycle costs nothing.
 
+### Feed health
+
+`vibes.json` carries a `feed_health` block, one entry per source:
+
+```json
+"x": { "status": "live", "fetched_at": "...", "age_min": 13,
+       "count": 10, "error": null, "source": "nitter mirrors" }
+```
+
+`status` is `live` (fetched successfully), `stale` (this run failed; the
+previous good value is being served) or `unknown`. The dashboard renders
+this as a strip across the top — one pill per source, colour-coded, with
+the age — plus a marker beside any card title whose feed is not live.
+
+This exists because a card rendering *something* is indistinguishable from
+a card that works. The dashboard served eight-month-old data for months
+without looking wrong.
+
+`fetched_at` and `age_min` are excluded from the content fingerprint
+(they move every run), but `status`, `count` and `error` are included — a
+feed going stale IS a real change worth committing.
+
+### The FireBuilt roster
+
+`vibes.json` also carries `firebuilt`, read live from the Hermes profile
+directories: each agent's role from its own `SOUL.md`, its model from its
+`config.yaml`, and its session/message counts from its own `state.db`. The
+card has no hardcoded copy, so it cannot quietly become untrue.
+
 ### Tests
 
 ```bash
-node scripts/test-fingerprint.js   # 17 checks: noise vs real changes
-bash scripts/test-skip-noop.sh     # a noise-only refresh -> no commit, no push
+node scripts/test-fingerprint.js            # 25 checks: noise vs real changes
+node scripts/test-health-render-logic.js    # 39 checks: renders real main.js functions
+bash scripts/test-skip-noop.sh              # a noise-only refresh -> no commit, no push
+node scripts/probe-agent-roles.js           # shows the role parsed from each SOUL.md
 ```
+
+`test-health-render-logic.js` extracts the real functions from `main.js`
+with a brace matcher and runs them against a fake DOM, so it cannot drift
+away from the code it tests.
 
 ## Monitoring
 

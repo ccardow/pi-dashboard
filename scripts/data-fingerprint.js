@@ -39,6 +39,11 @@ const VOLATILE_ARRAY_ITEM_KEYS = [
     { path: ['pi_status', 'logs'], key: 'time' },
 ];
 
+// Volatile keys inside each feed_health entry. The health SNAPSHOT matters —
+// a feed flipping from 'live' to 'stale' is a real change worth committing —
+// but the timestamps inside it move on every single run and must not.
+const VOLATILE_HEALTH_KEYS = ['fetched_at', 'age_min'];
+
 // Numeric patterns inside human-readable status strings. These counters
 // tick constantly (session counts, tool counts, token totals) while the
 // surrounding text stays the same. Mask just the number so the sentence
@@ -104,6 +109,20 @@ function normalize(data) {
     const copy = JSON.parse(JSON.stringify(data));
     for (const path of VOLATILE_PATHS) deletePath(copy, path);
     for (const { path, key } of VOLATILE_ARRAY_ITEM_KEYS) deleteArrayItemKey(copy, path, key);
+
+    // feed_health keeps its status/count/error (a feed going stale IS a real
+    // change) but drops the per-run timestamps.
+    if (copy.feed_health && typeof copy.feed_health === 'object') {
+        for (const feed of Object.keys(copy.feed_health)) {
+            const entry = copy.feed_health[feed];
+            if (entry && typeof entry === 'object') {
+                for (const key of VOLATILE_HEALTH_KEYS) delete entry[key];
+            }
+        }
+    }
+
+    // The FireBuilt roster's last-activity timestamps move only when an
+    // agent actually works, so they are meaningful and stay in the hash.
     maskStrings(copy);
     return copy;
 }

@@ -270,6 +270,184 @@ const fetchLocalData = () => {
 };
 
 // ─── Render All Feed Data ───
+// ─── Feed Health ───
+//
+// Renders the per-source health strip and the marker beside each card
+// title. The point is to make a silently-stale card LOOK stale: a card
+// that renders *something* is otherwise indistinguishable from a card
+// that is actually working.
+//
+// The ages shown are measured at publish time on the machine that ran
+// the fetch, so the strip is accurate as of the last successful refresh
+// rather than drifting while the page sits open.
+
+const HEALTH_LABELS = {
+    weather: 'Weather',
+    verse: 'Verse',
+    x: 'X',
+    hackernews: 'HN',
+    firebuilt: 'FireBuilt',
+    youtube: 'YouTube',
+    news: 'News',
+    pi: 'Pi',
+};
+
+const healthState = { data: null };
+
+const formatAge = (minutes) => {
+    if (minutes === null || minutes === undefined) return '—';
+    if (minutes < 1) return 'now';
+    if (minutes < 60) return minutes + 'm';
+    if (minutes < 1440) return Math.round(minutes / 60) + 'h';
+    return Math.round(minutes / 1440) + 'd';
+};
+
+// Age in minutes for a health entry. Prefer the absolute timestamp so the
+// age keeps ticking while the page sits open — a stalled pipeline becomes
+// visible without needing a reload. The published age_min is the fallback
+// for entries that never had a timestamp.
+const ageMinutes = (entry) => {
+    if (!entry) return null;
+    if (entry.fetched_at) {
+        const ms = Date.now() - new Date(entry.fetched_at).getTime();
+        if (!isNaN(ms)) return Math.max(0, Math.round(ms / 60000));
+    }
+    return entry.age_min !== undefined ? entry.age_min : null;
+};
+
+// A source counts as failed only when we have no value for it at all.
+// 'stale' means we are serving a previous good value.
+const healthClass = (entry) => {
+    if (!entry) return 'unknown';
+    if (entry.status === 'live') return 'live';
+    if (entry.status === 'stale' && entry.count > 0) return 'stale';
+    return 'failed';
+};
+
+const renderHealthStrip = (health) => {
+    const strip = document.getElementById('health-strip');
+    if (!strip) return;
+
+    if (!health || !Object.keys(health).length) {
+        strip.innerHTML = `
+            <span class="health-strip__label">Sources</span>
+            <span class="health-pill health-pill--unknown">
+                <span class="health-pill__dot"></span>
+                <span class="health-pill__name">no health data</span>
+            </span>
+            <span class="health-verdict">UNKNOWN</span>`;
+        return;
+    }
+
+    const order = ['weather', 'verse', 'x', 'hackernews', 'news', 'youtube', 'firebuilt', 'pi'];
+    const keys = order.filter(k => health[k]);
+    const extra = Object.keys(health).filter(k => !order.includes(k));
+
+    let live = 0, stale = 0, failed = 0;
+    const pills = keys.concat(extra).map(key => {
+        const entry = health[key];
+        const cls = healthClass(entry);
+        if (cls === 'live') live++;
+        else if (cls === 'stale') stale++;
+        else failed++;
+
+        const label = HEALTH_LABELS[key] || key;
+        const age = formatAge(ageMinutes(entry));
+        const title = entry.error
+            ? `${label}: ${entry.error}`
+            : `${label}: ${entry.status} · ${entry.count} item(s) · source ${entry.source || 'unknown'}`;
+
+        return `<span class="health-pill health-pill--${cls}" title="${title}">
+                    <span class="health-pill__dot"></span>
+                    <span class="health-pill__name">${label}</span>
+                    <span class="health-pill__age">${age}</span>
+                </span>`;
+    }).join('');
+
+    let verdict, verdictClass;
+    if (failed > 0) {
+        verdict = `${failed} FAILED`;
+        verdictClass = 'bad';
+    } else if (stale > 0) {
+        verdict = `${stale} STALE`;
+        verdictClass = 'warn';
+    } else {
+        verdict = 'ALL LIVE';
+        verdictClass = 'ok';
+    }
+
+    strip.innerHTML = `
+        <span class="health-strip__label">Sources</span>
+        ${pills}
+        <span class="health-verdict health-verdict--${verdictClass}" id="health-verdict">${verdict}</span>`;
+};
+
+const renderCardHealth = (health) => {
+    document.querySelectorAll('[data-health-feed]').forEach(marker => {
+        const key = marker.getAttribute('data-health-feed');
+        const entry = health && health[key];
+        const cls = healthClass(entry);
+
+        marker.className = 'card__health card__health--' + cls;
+        marker.style.display = cls === 'live' ? 'none' : 'inline-flex';
+
+        if (entry && cls !== 'live') {
+            const age = formatAge(ageMinutes(entry));
+            marker.title = entry.error
+                ? `${HEALTH_LABELS[key] || key}: ${entry.error}`
+                : `${HEALTH_LABELS[key] || key}: serving data from ${age} ago`;
+        }
+    });
+};
+
+// ─── FireBuilt roster ───
+//
+// Rendered from the live Hermes profile directories. Each agent's name,
+// role, model and session count come from its own files, so the card
+// cannot quietly become untrue.
+
+const relativeAge = (epochSeconds) => {
+    if (!epochSeconds) return 'no sessions';
+    const days = (Date.now() / 1000 - epochSeconds) / 86400;
+    if (days < 1) return 'today';
+    if (days < 2) return 'yesterday';
+    if (days < 30) return Math.round(days) + 'd ago';
+    if (days < 365) return Math.round(days / 30) + 'mo ago';
+    return Math.round(days / 365) + 'y ago';
+};
+
+const renderFireBuilt = (fb) => {
+    const roster = document.getElementById('firebuilt-roster');
+    if (!roster) return;
+
+    if (!fb || !fb.agents || !fb.agents.length) {
+        roster.innerHTML = `
+            <div class="feed-item">
+                <div class="feed-user">Roster unavailable</div>
+                <div class="feed-content">No Hermes profiles found on this machine.</div>
+            </div>`;
+        return;
+    }
+
+    const agents = fb.agents.map(a => {
+        const active = a.last_activity && (Date.now() / 1000 - a.last_activity) < 86400;
+        const when = relativeAge(a.last_activity);
+        return `
+            <div class="roster__agent">
+                <span class="roster__name">${a.name}</span>
+                <span class="roster__role">${a.role}</span>
+                <span class="roster__meta">
+                    <span class="roster__model">${a.model || 'model n/a'}</span>
+                    <span class="${active ? 'roster__active' : 'roster__idle'}">${a.sessions} sess · ${when}</span>
+                </span>
+            </div>`;
+    }).join('');
+
+    const summary = `${fb.agent_count} agents · ${fb.total_sessions} sessions · ${fb.total_messages} messages · last activity ${relativeAge(fb.last_activity)}`;
+
+    roster.innerHTML = agents + `<div class="roster__summary">${summary}</div>`;
+};
+
 const renderData = (data) => {
     const vibesBox = document.getElementById('vibes-box');
     const newsList = document.getElementById('news-list');
@@ -290,6 +468,16 @@ const renderData = (data) => {
     const weatherHilo = document.getElementById('weather-hilo');
     const weatherCondition = document.getElementById('weather-condition');
     const weatherLabel = document.getElementById('weather-label');
+
+    // Feed health: the strip across the top and the marker beside each
+    // card title. Rendered first so a stale card is obvious even if the
+    // rest of the render throws.
+    healthState.data = data.feed_health || null;
+    renderHealthStrip(healthState.data);
+    renderCardHealth(healthState.data);
+
+    // FireBuilt roster — live agent state from the Hermes profiles.
+    renderFireBuilt(data.firebuilt);
 
     // Weather
     const fetchLiveWeather = async () => {

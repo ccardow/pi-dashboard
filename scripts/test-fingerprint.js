@@ -35,6 +35,20 @@ const base = {
     verse: { text: 'In those days...', reference: 'Daniel 10:2', translation: 'kjv', date: '2026-10-19' },
     lastUpdate: '10/19/2026, 03:00 PM',
     weather: { label: 'Abbotsford Weather', temp: '15', condition: 'Clear', updated: 'Oct 19, 03:00 PM' },
+    feed_health: {
+        x: { status: 'live', fetched_at: '2026-10-19T22:00:00.000Z', age_min: 0, count: 10, error: null, source: 'nitter mirrors' },
+        hn: { status: 'live', fetched_at: '2026-10-19T22:00:00.000Z', age_min: 0, count: 10, error: null, source: 'hnrss.org' },
+    },
+    firebuilt: {
+        agent_count: 7,
+        total_sessions: 2,
+        total_messages: 8,
+        last_activity: 1780000000,
+        agents: [
+            { name: 'Marcus', id: 'marcus', role: 'Lead strategist and orchestrator', model: 'deepseek-v4-flash', provider: 'ollama-cloud', sessions: 0, messages: 0, last_activity: null, skills: 27, cron: 4 },
+            { name: 'Grace', id: 'grace', role: 'Help churches use technology faithfully', model: 'nemotron-3-ultra-free', provider: 'opencode-free', sessions: 1, messages: 4, last_activity: 1780000000, skills: 27, cron: 4 },
+        ],
+    },
     pi_status: {
         status: 'ONLINE',
         activity: 'Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter',
@@ -73,6 +87,10 @@ noise.pi_status.logs[0].time = '16:33';
 noise.pi_status.logs[0].msg = 'default/LOCAL: minimax/minimax-m3.1-flash:free · 401 msgs · 183 tools';
 noise.pi_status.roadmap[0].status = 'running · v0.22.2 · pid 15999';
 noise.pi_status.roadmap[1].status = '61 sessions · 39100k tokens · 1205 tool calls';
+noise.feed_health.x.fetched_at = '2026-10-19T23:59:00.000Z';
+noise.feed_health.x.age_min = 119;
+noise.feed_health.hn.fetched_at = '2026-10-19T23:59:00.000Z';
+noise.feed_health.hn.age_min = 119;
 check('timestamps / counters / log suffixes -> same hash', fingerprint(noise) === h0);
 
 console.log('\nreal content changes MUST change the fingerprint:');
@@ -91,6 +109,14 @@ const cases = [
     ['session count changes', d => { d.pi_status.totals.sessions = 61; }],
     ['new x post added', d => { d.x_posts.push({ user: 'sama', content: 'new' }); }],
     ['post order changes', d => { d.youtube.reverse(); }],
+    ['a feed goes stale', d => { d.feed_health.x.status = 'stale'; }],
+    ['a feed fails outright', d => { d.feed_health.x.status = 'stale'; d.feed_health.x.error = 'all mirrors failed'; d.feed_health.x.count = 0; }],
+    ['feed health count changes', d => { d.feed_health.hn.count = 9; }],
+    ['an agent role changes', d => { d.firebuilt.agents[0].role = 'Something else entirely'; }],
+    ['an agent model changes', d => { d.firebuilt.agents[0].model = 'some-new-model'; }],
+    ['an agent gains a session', d => { d.firebuilt.agents[0].sessions = 1; d.firebuilt.total_sessions = 3; }],
+    ['an agent works', d => { d.firebuilt.agents[0].last_activity = 1780000500; d.firebuilt.last_activity = 1780000500; }],
+    ['the roster shrinks', d => { d.firebuilt.agents.pop(); d.firebuilt.agent_count = 6; }],
 ];
 for (const [name, mutate] of cases) {
     const d = JSON.parse(JSON.stringify(base));
