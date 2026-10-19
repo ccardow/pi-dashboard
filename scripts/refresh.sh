@@ -84,10 +84,13 @@ if [ -z "$(git status --porcelain)" ]; then
 fi
 
 log "committing refreshed data..."
-git config user.name  "lifeos-bot" 2>/dev/null || true
-git config user.email "lifeos-bot@localhost" 2>/dev/null || true
+# Stage explicitly: vibes.json/vibes.js are gitignored, so a plain
+# `git commit -a` would miss them entirely.
 git add -f vibes.json vibes.js
-git commit -q -m "chore: refresh feeds $(date -u +%Y-%m-%dT%H:%MZ)" || fail "git commit failed"
+# Use -c flags for this commit ONLY. Setting the repo's user.name/user.email
+# would rewrite the identity for every future commit too, including yours.
+git -c user.name="lifeos-bot" -c user.email="lifeos-bot@localhost" \
+    commit -q -m "chore: refresh feeds $(date -u +%Y-%m-%dT%H:%MZ)" || fail "git commit failed"
 
 # Push over SSH. The gh OAuth token lacks the `workflow` scope,
 # so HTTPS pushes of .github/workflows/* are refused — SSH works.
