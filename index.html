@@ -54,7 +54,7 @@
         <!-- Weather -->
         <section class="card card--teal" style="animation-delay: 0.1s">
             <div class="card-header">
-                <h3>Steinbach Weather</h3>
+                <h3 id="weather-label">Weather</h3>
                 <span class="card-icon">◈</span>
             </div>
             <div class="weather-display" id="weather-display">
@@ -73,9 +73,8 @@
                 <h3>Daily Verse</h3>
                 <span class="card-icon">✦</span>
             </div>
-            <p class="verse-text" id="verse-text">"I love the LORD, for he heard my voice; he heard my cry for mercy. Because he turned
-                his ear to me, I will call on him as long as I live."</p>
-            <p class="verse-ref" id="verse-ref">Psalm 116:1-2</p>
+            <p class="verse-text" id="verse-text">"Loading the daily verse..."</p>
+            <p class="verse-ref" id="verse-ref">—</p>
         </section>
 
         <!-- ═══ COLUMN 2 ═══ -->
@@ -91,24 +90,35 @@
             </div>
         </section>
 
-        <!-- OpenClaw Card -->
-        <section class="card card--rose" style="animation-delay: 0.25s" id="openclaw-section">
+        <!-- Hacker News -->
+        <section class="card" style="animation-delay: 0.2s" id="hn-section">
             <div class="card-header">
-                <h3>OpenClaw Intelligence</h3>
-                <span class="card-icon">⚙️</span>
+                <h3>Hacker News</h3>
+                <span class="card-icon">◐</span>
             </div>
-            <div class="feed-scroll" id="openclaw-list">
+            <div class="feed-scroll" id="hn-list">
+                <!-- HN stories injected by main.js -->
+            </div>
+        </section>
+
+        <!-- FireBuilt Card -->
+        <section class="card card--rose" style="animation-delay: 0.25s" id="firebuilt-section">
+            <div class="card-header">
+                <h3>FireBuilt</h3>
+                <span class="card-icon">🔥</span>
+            </div>
+            <div class="feed-scroll" id="firebuilt-list">
                 <div class="feed-item">
-                    <div class="feed-user">System: Core</div>
-                    <div class="feed-content">OpenClaw is your agentic bridge to the future—autonomous, local-first, and highly extensible.</div>
+                    <div class="feed-user">FireBuilt Media</div>
+                    <div class="feed-content">Helping churches use AI and digital presence well — Calvary Church, Steinbach MB is the first.</div>
                 </div>
                 <div class="feed-item">
-                    <div class="feed-user">Feature: Persistent Memory</div>
-                    <div class="feed-content">Cross-session continuity via MEMORY.md and daily logs ensures context is never lost.</div>
+                    <div class="feed-user">Status</div>
+                    <div class="feed-content">On hold while Cam settles in Abbotsford. The team — Marcus, Sienna, Maya, Atlas, Harper, Montage, Grace — is intact.</div>
                 </div>
                 <div class="feed-item">
-                    <div class="feed-user">Vibe: Cyber-Zen</div>
-                    <div class="feed-content">Building a calm, high-leverage Life OS for the Agentic Age.</div>
+                    <div class="feed-user">Method</div>
+                    <div class="feed-content">Approval-gated actions with a full audit trail. The agent builds its own tools.</div>
                 </div>
             </div>
         </section>
@@ -171,6 +181,11 @@
                 </div>
             </div>
 
+            <!-- Gateway Metrics (live from Hermes) -->
+            <div class="model-meta" id="pi-metrics">
+                <!-- Injected by main.js -->
+            </div>
+
             <!-- Production Roadmap -->
             <div class="roadmap-box" id="pi-roadmap">
                 <div class="roadmap-header">PRODUCTION ROADMAP</div>
@@ -231,7 +246,7 @@
 
     <!-- ═══ Footer ═══ -->
     <footer class="footer">
-        LIFE.OS v2.0 · Cyber-Zen Manitoba · <span id="footer-year">2026</span>
+        LIFE.OS v2.0 · Cyber-Zen BC · <span id="footer-year">2026</span>
     </footer>
 
     <script src="main.js"></script>

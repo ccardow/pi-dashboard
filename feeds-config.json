@@ -3,7 +3,9 @@
         "youtube": "Add/remove channels here. 'id' = the channel ID from youtube.com/channel/<id>",
         "x_handles": "Add/remove X/Twitter handles (with @). One post per handle is fetched.",
         "x_max": "Total X posts shown on the dashboard",
-        "steipete_max": "How many steipete blog posts to show"
+        "steipete_max": "How many steipete blog posts to show",
+        "location": "Home location for the weather card. Change 'label' to rename the card.",
+        "hn_max": "How many Hacker News stories to show"
     },
     "youtube": [
         {
@@ -24,15 +26,15 @@
         },
         {
             "name": "Andrej Karpathy",
-            "id": "UCMLwFP3jHzJL7jdIbe0bXgg"
+            "id": "UCe4jUOmQPKMDvOkzJpDfMRQ"
         },
         {
             "name": "Y Combinator",
-            "id": "UCcefcZRL2oaA_uBNeo5UNqg"
+            "id": "UCcefcZRL2oaA_uBNeo5UOWg"
         },
         {
             "name": "Matt Wolfe",
-            "id": "UCXv0mKKjM_f-68B8C4KCXHQ"
+            "id": "UChpleBmo18P08aKCIgti38g"
         },
         {
             "name": "Duncan Rogoff",
@@ -53,5 +55,12 @@
         "@realDonaldTrump"
     ],
     "x_max": 10,
-    "steipete_max": 10
+    "hn_max": 10,
+    "steipete_max": 10,
+    "location": {
+        "label": "Abbotsford Weather",
+        "latitude": 49.0503,
+        "longitude": -122.3476,
+        "timezone": "America/Vancouver"
+    }
 }

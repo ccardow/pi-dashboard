@@ -1,0 +1,45 @@
+name: Refresh LIFE.OS Feeds
+
+# The dashboard reads from a GitHub Gist. This workflow refreshes the data
+# every 2 hours and commits it to the repo, which Vercel redeploys — so the
+# live site stays current even when the Gist is unreachable.
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Fetch only, do not commit or push'
+        type: boolean
+        default: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # node:sqlite (used to read Hermes' state.db) needs Node 22+.
+          node-version: '22'
+
+      - name: Fetch feeds
+        run: node fetch-feeds.js --no-push
+
+      - name: Commit refreshed data
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -f vibes.json vibes.js
+          if git diff --staged --quiet; then
+            echo 'No data changes.'
+          else
+            git commit -m "chore: refresh feeds $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+            echo '::notice::Vercel will redeploy with the refreshed data.'
+          fi

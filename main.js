@@ -27,12 +27,17 @@ if (localStorage.getItem('theme') === 'light') {
 }
 
 // ─── Live Clock ───
+// Timezone follows the configured location (America/Vancouver for Abbotsford).
+// The zone is read from vibes.weather, which the fetcher populates from
+// feeds-config.json. A sensible default is used until data lands.
 const clockEl = document.getElementById('system-clock');
+let clockZone = 'America/Vancouver';
+let clockZoneLabel = 'PST';
 
 const updateClock = () => {
     const now = new Date();
-    const cst = now.toLocaleTimeString('en-US', {
-        timeZone: 'America/Chicago',
+    const local = now.toLocaleTimeString('en-US', {
+        timeZone: clockZone,
         hour12: false,
         hour: '2-digit',
         minute: '2-digit',
@@ -44,40 +49,77 @@ const updateClock = () => {
         hour: '2-digit',
         minute: '2-digit'
     });
-    clockEl.innerHTML = `${cst} <span class="clock-label">CST</span> · <span class="clock-label">UTC</span> ${utc}`;
+    clockEl.innerHTML = `${local} <span class="clock-label">${clockZoneLabel}</span> · <span class="clock-label">UTC</span> ${utc}`;
+};
+
+// Map a IANA zone to a short label (PST/PDT, CST/CDT, EST/EDT, MST/MDT).
+const zoneLabel = (zone, date) => {
+    const map = {
+        'America/Vancouver': ['PST', 'PDT'],
+        'America/Winnipeg': ['CST', 'CDT'],
+        'America/Toronto': ['EST', 'EDT'],
+        'America/Chicago': ['CST', 'CDT'],
+        'America/Denver': ['MST', 'MDT'],
+        'America/Los_Angeles': ['PST', 'PDT'],
+        'America/New_York': ['EST', 'EDT'],
+    };
+    const pair = map[zone];
+    if (!pair) return zone.split('/').pop().replace('_', ' ');
+    // DST roughly: late March to early November in North America.
+    const month = Number(date.toLocaleString('en-US', { timeZone: zone, month: 'numeric' }));
+    const daylight = month >= 4 && month <= 10;
+    return daylight ? pair[1] : pair[0];
+};
+
+const setClockZone = (zone) => {
+    if (!zone) return;
+    clockZone = zone;
+    clockZoneLabel = zoneLabel(zone, new Date());
+    updateClock();
 };
 
 updateClock();
 setInterval(updateClock, 1000);
 
-// ─── Scripture Engine (Dynamic) ───
-const updateVerse = async () => {
+// ─── Scripture Engine ───
+// The verse now comes from the fetched data (vibes.verse) — the old
+// bible-api.com/random endpoint was removed and 404s, which left this card
+// frozen on its hardcoded HTML default. The fetcher picks a deterministic
+// verse per calendar day so it rolls over at local midnight.
+const updateVerse = (data) => {
     const verseText = document.getElementById('verse-text');
     const verseRef = document.getElementById('verse-ref');
     if (!verseText || !verseRef) return;
 
-    try {
-        const response = await fetch('https://bible-api.com/random');
-        const data = await response.json();
-        verseText.textContent = `"${data.text.trim()}"`;
-        verseRef.textContent = data.reference;
-        logActivity('Scripture engine: fresh verse loaded');
-    } catch (err) {
-        console.error('Bible API failed:', err);
+    const v = data && data.verse;
+    if (v && v.text) {
+        verseText.textContent = `"${v.text}"`;
+        verseRef.textContent = v.reference;
+        logActivity('Daily verse loaded: ' + v.reference);
+    } else {
+        verseText.textContent = '"Verse unavailable."';
+        verseRef.textContent = '—';
+        logActivity('Daily verse unavailable.');
     }
 };
 
-updateVerse();
-
 // ─── Time-Aware Greeting ───
+// Uses the location's timezone so "Good afternoon" matches Cam's wall clock.
 const greetingEl = document.getElementById('greeting');
-const hour = new Date().getHours();
-let greetWord = 'Good evening';
-if (hour >= 5 && hour < 12) greetWord = 'Good morning';
-else if (hour >= 12 && hour < 17) greetWord = 'Good afternoon';
-greetingEl.textContent = `${greetWord}, Cam.`;
+const updateGreeting = (tz) => {
+    const hour = Number(new Date().toLocaleString('en-US', {
+        timeZone: tz || 'America/Vancouver', hour: 'numeric', hour12: false,
+    }));
+    let greetWord = 'Good evening';
+    if (hour >= 5 && hour < 12) greetWord = 'Good morning';
+    else if (hour >= 12 && hour < 17) greetWord = 'Good afternoon';
+    greetingEl.textContent = `${greetWord}, Cam.`;
+};
+updateGreeting();
 
 // ─── Date & Day-of-Year Counter ───
+// Calculated in the location's timezone, not the viewer's, so "Day 292 of 365"
+// matches Cam's calendar.
 const dateEl = document.getElementById('date-display');
 const dayCountEl = document.getElementById('day-counter');
 const now = new Date();
@@ -136,9 +178,10 @@ const bootMessages = [
     'LIFE.OS v2.0 kernel loaded',
     'Initializing Cyber-Zen subsystems...',
     'Connecting intelligence feeds...',
-    'Weather module: Steinbach, MB locked',
-    'Scripture engine: online',
+    'Weather module: locked',
+    'Scripture engine: ready',
     'Feed aggregator: scanning 𝕏...',
+    'Hermes gateway: handshake',
     'Dashboard render: complete',
     'Awaiting operator input.'
 ];
@@ -157,7 +200,10 @@ const updateDashboard = async () => {
         logActivity('Synchronizing intelligence feeds...');
 
         let data;
-        const isLocal = window.location.hostname === 'localhost' || window.location.protocol === 'file:';
+        const isLocal = window.location.hostname === 'localhost'
+            || window.location.hostname === '127.0.0.1'
+            || window.location.hostname === '[::1]'
+            || window.location.protocol === 'file:';
 
         if (isLocal) {
             logActivity('Local mode. Fetching data...');
@@ -175,12 +221,28 @@ const updateDashboard = async () => {
             // REMOTE VERCEL MODE: Fetch from Gist (dynamic source)
             logActivity('Vercel mode. Fetching dynamic Gist data...');
             const GIST_URL = 'https://gist.githubusercontent.com/ccardow/e65c6cfabb1fbc98983381da98801408/raw/vibes.json?t=' + Date.now();
-            const response = await fetch(GIST_URL);
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            data = await response.json();
+            try {
+                const response = await fetch(GIST_URL);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                data = await response.json();
+            } catch (gistErr) {
+                // Fall back to the copy committed to the repo — GitHub Actions
+                // refreshes it, and Vercel redeploys it, so the site still
+                // updates even when the Gist is unreachable.
+                logActivity('Gist unavailable, using repo fallback...');
+                const fallback = await fetch('vibes.json?t=' + Date.now());
+                if (!fallback.ok) throw new Error(`HTTP ${fallback.status}`);
+                data = await fallback.json();
+            }
         }
 
         console.log('Dashboard data resolved:', data);
+        updateVerse(data);
+        // Clock + greeting follow the configured location's timezone.
+        if (data.weather && data.weather.timezone) {
+            setClockZone(data.weather.timezone);
+            updateGreeting(data.weather.timezone);
+        }
         renderData(data);
         logActivity('All feeds synchronized.');
     } catch (err) {
@@ -212,12 +274,14 @@ const renderData = (data) => {
     const vibesBox = document.getElementById('vibes-box');
     const newsList = document.getElementById('news-list');
     const xList = document.getElementById('x-list');
+    const hnList = document.getElementById('hn-list');
     const youtubeList = document.getElementById('youtube-list');
     const peterList = document.getElementById('peter-list');
     const piActivity = document.getElementById('pi-activity');
     const piStatus = document.getElementById('pi-status-display');
     const piLog = document.getElementById('pi-log');
     const piRoadmapList = document.getElementById('roadmap-list');
+    const piMetrics = document.getElementById('pi-metrics');
     const modelName = document.getElementById('model-name');
     const modelTokens = document.getElementById('model-tokens');
     const modelRemaining = document.getElementById('model-remaining');
@@ -225,20 +289,27 @@ const renderData = (data) => {
     const weatherTemp = document.getElementById('weather-temp');
     const weatherHilo = document.getElementById('weather-hilo');
     const weatherCondition = document.getElementById('weather-condition');
+    const weatherLabel = document.getElementById('weather-label');
 
     // Weather
     const fetchLiveWeather = async () => {
         try {
+            // Coordinates come from the feed config (vibes.weather carries them),
+            // so the card tracks wherever Cam actually lives.
+            const w = data.weather || {};
+            const lat = w.latitude || 49.0503;
+            const lon = w.longitude || -122.3476;
+            const tz = w.timezone || 'America/Vancouver';
             const url = 'https://api.open-meteo.com/v1/forecast'
-                + '?latitude=49.5258&longitude=-96.6839'
+                + '?latitude=' + lat + '&longitude=' + lon
                 + '&current=temperature_2m,apparent_temperature,weather_code'
                 + '&daily=temperature_2m_max,temperature_2m_min'
-                + '&timezone=America/Winnipeg'
+                + '&timezone=' + tz
                 + '&forecast_days=1';
             const response = await fetch(url);
-            const data = await response.json();
-            const cur = data.current || {};
-            const daily = data.daily || {};
+            const wx = await response.json();
+            const cur = wx.current || {};
+            const daily = wx.daily || {};
 
             const code = cur.weather_code || 0;
             let condition = 'Clear';
@@ -261,7 +332,8 @@ const renderData = (data) => {
                     <span>↓ ${Math.round((daily.temperature_2m_min || [0])[0])}°C</span>
                 `;
             }
-            logActivity('Weather updated: Steinbach, MB');
+            if (weatherLabel) weatherLabel.textContent = w.label || 'Weather';
+            logActivity('Weather updated: ' + (w.label || 'current location'));
         } catch (err) {
             console.error('Weather fetch failed:', err);
         }
@@ -308,6 +380,27 @@ const renderData = (data) => {
                 }
             }
         }
+
+        // Gateway Metrics — live from Hermes
+        if (piMetrics && data.pi_status.gateway) {
+            const gw = data.pi_status.gateway;
+            const totals = data.pi_status.totals || {};
+            const stateColor = gw.state === 'running' ? 'var(--accent-green)' : 'var(--accent-rose)';
+            const rows = [
+                ['Gateway', `${gw.state || 'unknown'} · v${gw.version || '?'} · pid ${gw.pid || '?'}`, stateColor],
+                ['Profiles', (gw.profiles || []).length + ' served', 'var(--accent-indigo)'],
+                ['Active', (gw.active_agents || 0) + ' agent' + (gw.active_agents === 1 ? '' : 's'), 'var(--accent-teal)'],
+            ];
+            if (totals.sessions) {
+                rows.push(['Ledger', `${totals.sessions} sessions · ${Math.round((totals.input_tokens + totals.output_tokens) / 1000)}k tokens`, 'var(--text-dim)']);
+            }
+            piMetrics.innerHTML = rows.map(r => `
+                <div class="log-item">
+                    <span class="log-time">${r[0]}</span>
+                    <span class="log-msg">> <span style="color:${r[2]}">${r[1]}</span></span>
+                </div>
+            `).join('');
+        }
     }
 
     // Vibes
@@ -335,13 +428,27 @@ const renderData = (data) => {
             ? data.x_posts.map(post => `
                 <div class="feed-item">
                     <a href="${post.url || '#'}" target="_blank">
-                        <span class="feed-user">${post.user}</span>
+                        <span class="feed-user">@${(post.user || '').replace(/^@/, '')}</span>
                         <span class="feed-topic">· ${post.topic}</span>
                         <div class="feed-content">${post.content}</div>
                     </a>
                 </div>
             `).join('')
             : '<div class="feed-item"><span class="feed-content">No X posts available.</span></div>';
+    }
+
+    // Hacker News
+    if (hnList) {
+        hnList.innerHTML = (data.hn_posts && data.hn_posts.length > 0)
+            ? data.hn_posts.map(post => `
+                <div class="feed-item">
+                    <a href="${post.url || '#'}" target="_blank">
+                        <span class="feed-user">${post.topic}</span>
+                        <div class="feed-content">${post.content}</div>
+                    </a>
+                </div>
+            `).join('')
+            : '<div class="feed-item"><span class="feed-content">No HN stories available.</span></div>';
     }
 
     // YouTube
