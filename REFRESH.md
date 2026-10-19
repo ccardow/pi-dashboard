@@ -12,6 +12,7 @@ via a systemd user timer.
 | Timer | `~/.config/systemd/user/lifeos-refresh.timer` |
 | Service | `~/.config/systemd/user/lifeos-refresh.service` |
 | Runner | `scripts/refresh.sh` |
+| Change detection | `scripts/data-fingerprint.js` |
 | Credentials | `~/.config/lifeos/lifeos.env` (0600, in a 0700 dir) |
 | Token setup | `scripts/setup-refresh-token.sh` |
 
@@ -20,8 +21,31 @@ Every 30 minutes (at :07 and :37) the service:
 1. `node fetch-feeds.js --no-push` — fetches all feeds and reads live
    Hermes state from `~/.hermes/state.db` + `gateway_state.json`.
 2. `node push-to-gist.js` — publishes to the Gist (the site's live source).
-3. Commits `vibes.json` to the repo over SSH — keeps the client's fallback
-   copy fresh and triggers the static-host redeploy.
+3. Compares a **content fingerprint** against HEAD. If the content is
+   unchanged, it stops here — no commit, no push, no rebuild.
+4. Otherwise commits `vibes.json` to the repo over SSH, which keeps the
+   client's fallback copy fresh and triggers the static-host redeploy.
+
+### Why the fingerprint
+
+The data always carries a fresh timestamp, token counters, uptime and
+per-log times. A plain `git status` sees a change every run, so every
+30-minute cycle produced a commit and redeployed the site to ship data
+that had not moved.
+
+`scripts/data-fingerprint.js` hashes only the meaningful content:
+volatile fields are deleted, counters embedded in status strings
+("374 msgs · 180 tools") are masked to placeholders, and keys are sorted
+so ordering cannot affect the hash. The Gist is still updated every run —
+only the *commit* is skipped, so the live data stays fresh while a quiet
+cycle costs nothing.
+
+### Tests
+
+```bash
+node scripts/test-fingerprint.js   # 17 checks: noise vs real changes
+bash scripts/test-skip-noop.sh     # a noise-only refresh -> no commit, no push
+```
 
 ## Monitoring
 
@@ -70,13 +94,14 @@ pushes that add or modify `.github/workflows/*`. The remote is therefore
 
 ## Two live deployments
 
-- **GitHub Pages** — `https://ccardow.github.io/pi-dashboard/` (current)
-- **Vercel** — `https://pi-dashboard-delta.vercel.app` (serves Feb 2026
-  markup; its Git integration stopped triggering builds. Re-link it in the
-  Vercel dashboard to bring it current.)
+Both read the same Gist, so the *data* is identical on each:
 
-Both read the same Gist, so the *data* is live on Vercel even though its
-markup is old. GitHub Pages is the one to use.
+- **Vercel** — `https://pi-dashboard-delta.vercel.app/` (the original URL)
+- **GitHub Pages** — `https://ccardow.github.io/pi-dashboard/`
+
+Both rebuild on every push that reaches `master`. The bot only commits when
+the content fingerprint changes, so a quiet cycle produces no rebuild on
+either one.
 
 ## Adding feeds
 
