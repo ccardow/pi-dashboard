@@ -195,7 +195,7 @@
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 04:15 PM",
+  "lastUpdate": "10/19/2026, 09:99 PM",
   "news": [
     {
       "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -244,39 +244,39 @@
     "feels_like": "13",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 04:14 PM"
+    "updated": "Oct 19, 09:99 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 921,
+      "tokens_used": 99999,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "16:14",
+        "time": "99:99",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 436 msgs · 211 tools"
       },
       {
-        "time": "16:09",
+        "time": "99:99",
         "msg": "default/CLI: nvidia/nemotron-3-ultra-550b-a55b:free · 4 msgs · 0 tools"
       },
       {
-        "time": "17:13",
+        "time": "99:99",
         "msg": "default/CLI: poolside/laguna-s-2.1:free · 27 msgs · 10 tools"
       },
       {
-        "time": "16:55",
+        "time": "99:99",
         "msg": "default/CLI: stealth/space-bunny-alpha · 2 msgs · 0 tools"
       },
       {
-        "time": "16:50",
+        "time": "99:99",
         "msg": "default/CLI: space-bunny · 6 msgs · 0 tools"
       },
       {
-        "time": "16:49",
+        "time": "99:99",
         "msg": "default/CLI: space-bunny · 2 msgs · 0 tools"
       }
     ],
@@ -284,7 +284,7 @@
       "pid": 15631,
       "version": "0.22.2",
       "state": "running",
-      "uptime_seconds": 29978,
+      "uptime_seconds": 88888,
       "profiles": [
         "default",
         "atlas",
@@ -299,14 +299,14 @@
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 38005509,
-      "output_tokens": 657359,
-      "tool_calls": 1211
+      "input_tokens": 1,
+      "output_tokens": 2,
+      "tool_calls": 3
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 15631"
+        "status": "running · v0.22.2 · pid 99999"
       },
       {
         "name": "Agent Profiles",
@@ -318,10 +318,10 @@
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 38663k tokens · 1211 tool calls"
+        "status": "99 sessions · 999k tokens · 999 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 04:15 PM"
+    "lastUpdate": "Oct 19, 09:99 PM"
   },
   "hn_posts": [
     {

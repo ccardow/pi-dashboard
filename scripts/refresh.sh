@@ -84,9 +84,32 @@ if [ -z "$(git status --porcelain)" ]; then
 fi
 
 log "committing refreshed data..."
+
+# Skip the commit when nothing substantive changed. The data always carries
+# a fresh timestamp, so a raw `git status` would report a change every run
+# and trigger a rebuild of the static host every 30 minutes for no reason.
+# The fingerprint hashes only the meaningful content, so a no-op run stays
+# local and costs nothing.
+#
+# This runs BEFORE staging so a skipped run leaves the index clean.
+NEW_FP="$(node scripts/data-fingerprint.js vibes.json 2>/dev/null || echo 'ERROR')"
+OLD_FP="$(git show HEAD:vibes.json 2>/dev/null | node scripts/data-fingerprint.js - 2>/dev/null || echo 'NONE')"
+
+if [ "$NEW_FP" = "ERROR" ]; then
+    fail "fingerprint failed — refusing to guess whether anything changed"
+fi
+
+if [ "$NEW_FP" = "$OLD_FP" ]; then
+    log "content unchanged (fingerprint $NEW_FP) — skipping commit and push"
+    log "done"
+    exit 0
+fi
+log "content changed (fingerprint $OLD_FP -> $NEW_FP)"
+
 # Stage explicitly: vibes.json/vibes.js are gitignored, so a plain
 # `git commit -a` would miss them entirely.
 git add -f vibes.json vibes.js
+
 # Use -c flags for this commit ONLY. Setting the repo's user.name/user.email
 # would rewrite the identity for every future commit too, including yours.
 git -c user.name="lifeos-bot" -c user.email="lifeos-bot@localhost" \
