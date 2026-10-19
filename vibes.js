@@ -70,13 +70,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 19 Oct 2026 22:11:32 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112305667705016628#m",
-      "published": "Mon, 19 Oct 2026 22:11:30 GMT"
-    },
-    {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
       "content": "The people panicking about AI are the same ones who said: • The internet was a fad • Social media was for kids • Remote work would never last They're not wrong because they're dumb. They're wrong because they're comfortable. Comfort is the enemy of the next era.",
@@ -131,6 +124,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "🦞 OpenClaw v2026.10.5 is out! 🤖 Sidebar keeps your agents within reach ↩️ Skill Workshop 2.0 gets Undo 🔗 Public conversation links need no sign-in 🎉 2,250 PRs and 637 contributors. Just the highlights. Much more in the full notes 👇 https://docs.openclaw.ai/releases/2026.10.5",
       "url": "http://nitter.meowing.monster/openclaw/status/2112260434116108528#m",
       "published": "Mon, 19 Oct 2026 19:11:46 GMT"
+    },
+    {
+      "user": "AlexFinn",
+      "topic": "AI / ML",
+      "content": "I'll pay $1,000 over retail to anyone who has an in-store pickup iPhone Duo for this Friday Must be the blue one and 512gb or larger Must be Palo Alto/Santa Clara/Cupertino area Must send proof you got the res About to change the world with this thing",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2112250699811803604#m",
+      "published": "Mon, 19 Oct 2026 18:33:05 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 03:21 PM",
+  "lastUpdate": "10/19/2026, 03:35 PM",
   "news": [
     {
       "title": "Trump approval hits record-low 31 percent, polls show Republican struggles",
@@ -244,20 +244,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "13",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 03:20 PM"
+    "updated": "Oct 19, 03:34 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 376,
+      "tokens_used": 654,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "15:20",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 467 msgs · 226 tools"
+        "time": "15:34",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 202 msgs · 99 tools"
       },
       {
         "time": "16:09",
@@ -299,9 +299,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 37566566,
-      "output_tokens": 551769,
-      "tool_calls": 1226
+      "input_tokens": 37817991,
+      "output_tokens": 578658,
+      "tool_calls": 1099
     },
     "roadmap": [
       {
@@ -318,12 +318,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 38118k tokens · 1226 tool calls"
+        "status": "60 sessions · 38397k tokens · 1099 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 03:21 PM"
+    "lastUpdate": "Oct 19, 03:35 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "The reverts will continue until morale improves",
+      "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+      "published": "Mon, 19 Oct 2026 18:42:32 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -386,13 +393,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
       "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
       "published": "Mon, 19 Oct 2026 10:53:39 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Timestral: Mistral's time-series foundation models",
-      "url": "https://mistral.ai/news/timestral/",
-      "published": "Mon, 19 Oct 2026 09:59:32 +0000"
     }
   ],
   "verse": {
