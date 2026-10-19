@@ -94,14 +94,14 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
+      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     },
     {
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 TEXAS! Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Texas, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/texas/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294609980198977#m",
+      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294609980198977#m",
       "published": "Mon, 19 Oct 2026 21:27:34 GMT"
     },
     {
@@ -115,7 +115,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "Geopolitics",
       "content": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112293785472225568#m",
+      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112293785472225568#m",
       "published": "Mon, 19 Oct 2026 21:24:17 GMT"
     },
     {
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 04:15 PM",
+  "lastUpdate": "10/19/2026, 04:35 PM",
   "news": [
     {
       "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -240,24 +240,24 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "15",
-    "condition": "Mostly Clear",
+    "condition": "Clear",
     "feels_like": "13",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 04:14 PM"
+    "updated": "Oct 19, 04:35 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 921,
+      "tokens_used": 1303,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "16:14",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 436 msgs · 211 tools"
+        "time": "16:34",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 248 msgs · 118 tools"
       },
       {
         "time": "16:09",
@@ -299,9 +299,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 38005509,
-      "output_tokens": 657359,
-      "tool_calls": 1211
+      "input_tokens": 38344869,
+      "output_tokens": 700007,
+      "tool_calls": 1118
     },
     "roadmap": [
       {
@@ -318,10 +318,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 38663k tokens · 1211 tool calls"
+        "status": "60 sessions · 39045k tokens · 1118 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 04:15 PM"
+    "lastUpdate": "Oct 19, 04:35 PM"
   },
   "hn_posts": [
     {
@@ -400,5 +400,171 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "reference": "Daniel 10:2",
     "translation": "kjv",
     "date": "2026-10-19"
+  },
+  "firebuilt": {
+    "agents": [
+      {
+        "name": "Grace",
+        "id": "grace",
+        "role": "Help churches use technology faithfully",
+        "model": "nemotron-3-ultra-free",
+        "provider": "opencode-free",
+        "sessions": 1,
+        "messages": 4,
+        "last_activity": 1788237208.2780097,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Atlas",
+        "id": "atlas",
+        "role": "Quality gate",
+        "model": "nemotron-3-ultra",
+        "provider": "ollama-cloud",
+        "sessions": 1,
+        "messages": 4,
+        "last_activity": 1788237051.4327016,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Harper",
+        "id": "harper",
+        "role": "Write the words that connect churches to their communities",
+        "model": "deepseek-v4-flash",
+        "provider": "ollama-cloud",
+        "sessions": 0,
+        "messages": 0,
+        "last_activity": null,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Marcus",
+        "id": "marcus",
+        "role": "Lead strategist and orchestrator",
+        "model": "deepseek-v4-flash",
+        "provider": "ollama-cloud",
+        "sessions": 0,
+        "messages": 0,
+        "last_activity": null,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Maya",
+        "id": "maya",
+        "role": "Build the things",
+        "model": "deepseek-v4-flash",
+        "provider": "ollama-cloud",
+        "sessions": 0,
+        "messages": 0,
+        "last_activity": null,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Montage",
+        "id": "montage",
+        "role": "Make churches look and sound amazing on every screen",
+        "model": "deepseek-v4-flash",
+        "provider": "ollama-cloud",
+        "sessions": 0,
+        "messages": 0,
+        "last_activity": null,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Sienna",
+        "id": "sienna",
+        "role": "Brand director and visual identity lead",
+        "model": "deepseek-v4-flash",
+        "provider": "ollama-cloud",
+        "sessions": 0,
+        "messages": 0,
+        "last_activity": null,
+        "skills": 27,
+        "cron": 4
+      }
+    ],
+    "agent_count": 7,
+    "total_sessions": 2,
+    "total_messages": 8,
+    "last_activity": 1788237208.2780097
+  },
+  "feed_health": {
+    "youtube": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 10,
+      "error": null,
+      "source": "youtube.com/feeds",
+      "age_min": 0
+    },
+    "x": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 10,
+      "error": null,
+      "source": "nitter mirrors",
+      "age_min": 0
+    },
+    "hackernews": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 10,
+      "error": null,
+      "source": "hnrss.org",
+      "age_min": 0
+    },
+    "steipete": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 10,
+      "error": null,
+      "source": "steipete.me",
+      "age_min": 0
+    },
+    "news": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 5,
+      "error": null,
+      "source": "RSS + CBC",
+      "age_min": 0
+    },
+    "weather": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 1,
+      "error": null,
+      "source": "open-meteo",
+      "age_min": 0
+    },
+    "verse": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 1,
+      "error": null,
+      "source": "bible-api.com",
+      "age_min": 0
+    },
+    "pi": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "count": 1,
+      "error": null,
+      "source": "hermes local",
+      "age_min": 0
+    },
+    "firebuilt": {
+      "status": "live",
+      "fetched_at": "2026-10-19T23:35:26.864Z",
+      "count": 7,
+      "error": null,
+      "source": "hermes profiles",
+      "age_min": 0
+    }
   }
 });
