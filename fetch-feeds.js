@@ -534,6 +534,200 @@ async function fetchDailyVerse() {
 // ═══════════════════════════════════════════════
 const HERMES_HOME = process.env.HERMES_HOME || '/home/cam/.hermes';
 
+// ─── Feed health tracking ───
+//
+// Records, per feed, whether this run actually reached the source and how
+// fresh the data is. A card that renders *something* is indistinguishable
+// from a card that works — this makes staleness visible instead of silent.
+//
+// Each entry:
+//   status      'live'     fetched successfully this run
+//               'stale'    this run failed; serving the last known-good value
+//   fetched_at  ISO timestamp of the last SUCCESSFUL fetch
+//   age_min     minutes since that fetch, measured at publish time
+//   count       number of items in the served value
+//   error       the failure message from the most recent failed attempt
+//   source      where the data came from (for display)
+
+var health = {};
+
+function recordHealth(feed, ok, opts) {
+    opts = opts || {};
+    var now = new Date();
+    var entry = {
+        status: ok ? 'live' : 'stale',
+        fetched_at: ok ? now.toISOString() : null,
+        count: opts.count || 0,
+        error: ok ? null : (opts.error || null),
+        source: opts.source || null,
+    };
+    health[feed] = entry;
+    return entry;
+}
+
+function applyHealth(vibesObj) {
+    // Carry forward the last successful fetch time for feeds that failed, so
+    // the age keeps climbing instead of resetting on every failure.
+    var prior = (vibesObj.feed_health && typeof vibesObj.feed_health === 'object') ? vibesObj.feed_health : {};
+    var out = {};
+    Object.keys(health).forEach(function (key) {
+        var entry = health[key];
+        if (entry.status === 'stale' && prior[key] && prior[key].fetched_at && !entry.fetched_at) {
+            entry.fetched_at = prior[key].fetched_at;
+        }
+        if (entry.fetched_at) {
+            entry.age_min = Math.max(0, Math.round(
+                (Date.now() - new Date(entry.fetched_at).getTime()) / 60000
+            ));
+        } else {
+            entry.age_min = null;
+        }
+        out[key] = entry;
+    });
+    return out;
+}
+
+// ─── FireBuilt agent roster ───
+//
+// Reads the real Hermes profile directories so the FireBuilt card shows the
+// team as it actually is, rather than a hardcoded paragraph that goes stale
+// the moment reality changes. Each agent's role comes from its own SOUL.md,
+// and its model from its own config.yaml.
+
+var FIREBUILT_ROLES = {
+    marcus:  'Lead strategist and orchestrator',
+    sienna:  'Brand director and visual identity lead',
+    maya:    'Build the things',
+    atlas:   'Quality gate',
+    harper:  'Write the words that connect churches to their communities',
+    montage: 'Make churches look and sound amazing on every screen',
+    grace:   'Help churches use technology faithfully',
+};
+
+function stripLeadingArticle(s) {
+    return s.replace(/^(the|a|an)\s+/i, '');
+}
+
+function capitalizeFirst(s) {
+    if (!s) return s;
+    return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+function readAgentRole(profileDir) {
+    try {
+        var soul = fs.readFileSync(path.join(profileDir, 'SOUL.md'), 'utf8');
+        // The identity paragraph reads:
+        //   "You are Marcus. You are the lead strategist and orchestrator for FireBuilt Media."
+        //   "You are Maya. You build the things. You are the hands of FireBuilt Media."
+        //   "You are Atlas. You are the quality gate. Nothing ships broken on your watch."
+        // The FIRST clause after the name is the agent's own tagline.
+        var m = soul.match(/^\s*You are ([A-Z][a-zA-Z]+)\.\s*([^\n]*)/m);
+        if (!m) return null;
+        var rest = (m[2] || '').trim();
+        if (!rest) return null;
+
+        var areThe = rest.match(/^You are the (.+?)(?: for FireBuilt Media)?\./);
+        if (areThe) return capitalizeFirst(stripLeadingArticle(areThe[1].trim()));
+
+        var youDo = rest.match(/^You ([a-z].+?)\./);
+        if (youDo) return capitalizeFirst(youDo[1].trim());
+
+        return null;
+    } catch (e) {
+        return null;
+    }
+}
+
+function readAgentModel(profileDir) {
+    try {
+        var cfg = fs.readFileSync(path.join(profileDir, 'config.yaml'), 'utf8');
+        var model = cfg.match(/^\s*default:\s*(\S+)/m);
+        var provider = cfg.match(/^\s*provider:\s*(\S+)/m);
+        return {
+            model: model ? model[1] : null,
+            provider: provider ? provider[1] : null,
+        };
+    } catch (e) { return { model: null, provider: null }; }
+}
+
+function countEntries(dir) {
+    try { return fs.readdirSync(dir).filter(function (f) { return f[0] !== '.'; }).length; }
+    catch (e) { return 0; }
+}
+
+function readAgentSessions(profileDir) {
+    // Per-profile state.db is the authoritative record of that agent's work.
+    var dbPath = path.join(profileDir, 'state.db');
+    try {
+        var out = execSync(
+            'sqlite3 "' + dbPath + '" "SELECT COUNT(*), COALESCE(SUM(message_count),0), ' +
+            'COALESCE(MAX(last_activity_at),0) FROM sessions;" 2>/dev/null',
+            { encoding: 'utf8' }
+        ).trim();
+        var parts = out.split('|');
+        return {
+            sessions: parseInt(parts[0], 10) || 0,
+            messages: parseInt(parts[1], 10) || 0,
+            last_activity: parseFloat(parts[2]) || 0 || null,
+        };
+    } catch (e) {
+        return { sessions: 0, messages: 0, last_activity: null };
+    }
+}
+
+function fetchFireBuiltRoster() {
+    var profilesRoot = path.join(HERMES_HOME, 'profiles');
+    var dirs;
+    try { dirs = fs.readdirSync(profilesRoot); }
+    catch (e) { return null; }
+
+    var agents = [];
+    dirs.forEach(function (name) {
+        var dir = path.join(profilesRoot, name);
+        try { if (!fs.statSync(dir).isDirectory()) return; } catch (e) { return; }
+
+        var mm = readAgentModel(dir);
+        var sess = readAgentSessions(dir);
+        var role = readAgentRole(dir);
+        agents.push({
+            name: name.charAt(0).toUpperCase() + name.slice(1),
+            id: name,
+            role: role || FIREBUILT_ROLES[name] || 'FireBuilt agent',
+            model: mm.model,
+            provider: mm.provider,
+            sessions: sess.sessions,
+            messages: sess.messages,
+            last_activity: sess.last_activity,
+            skills: countEntries(path.join(dir, 'skills')),
+            cron: countEntries(path.join(dir, 'cron')),
+        });
+    });
+
+    if (!agents.length) return null;
+
+    // Most recently active first — the roster should surface who is working.
+    agents.sort(function (a, b) {
+        var at = a.last_activity || 0, bt = b.last_activity || 0;
+        if (at !== bt) return bt - at;
+        return a.name.localeCompare(b.name);
+    });
+
+    var totalSessions = 0, totalMessages = 0, lastAny = null;
+    agents.forEach(function (a) {
+        totalSessions += a.sessions;
+        totalMessages += a.messages;
+        if (a.last_activity && (!lastAny || a.last_activity > lastAny)) lastAny = a.last_activity;
+    });
+
+    return {
+        agents: agents,
+        agent_count: agents.length,
+        total_sessions: totalSessions,
+        total_messages: totalMessages,
+        last_activity: lastAny,
+    };
+}
+
 function readJsonSafe(file) {
     try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
     catch (e) { return null; }
@@ -828,66 +1022,145 @@ async function main() {
     if (youtube && youtube.length > 0) {
         vibes.youtube = youtube;
         updated = true;
+        recordHealth('youtube', true, { count: youtube.length, source: 'youtube.com/feeds' });
         console.log('\n✅ YouTube: ' + youtube.length + ' videos');
     } else if (previous.youtube && previous.youtube.length) {
         vibes.youtube = previous.youtube;
+        recordHealth('youtube', false, {
+            count: previous.youtube.length,
+            error: 'fetch returned no items',
+            source: 'youtube.com/feeds',
+        });
         console.log('⚠ YouTube: fetch failed, keeping last known-good (' + previous.youtube.length + ' videos)');
+    } else {
+        recordHealth('youtube', false, { error: 'fetch returned no items and no last known-good value' });
     }
     if (xPosts && xPosts.length > 0) {
         vibes.x_posts = xPosts;
         updated = true;
+        recordHealth('x', true, { count: xPosts.length, source: 'nitter mirrors' });
         console.log('✅ X Personalities: ' + xPosts.length + ' posts');
     } else if (previous.x_posts && previous.x_posts.length) {
         vibes.x_posts = previous.x_posts;
+        recordHealth('x', false, {
+            count: previous.x_posts.length,
+            error: 'all nitter mirrors failed',
+            source: 'nitter mirrors',
+        });
         console.log('⚠ X: fetch failed, keeping last known-good (' + previous.x_posts.length + ' posts)');
+    } else {
+        recordHealth('x', false, { error: 'all nitter mirrors failed and no last known-good value' });
     }
     if (hnPosts && hnPosts.length > 0) {
         vibes.hn_posts = hnPosts;
         updated = true;
+        recordHealth('hackernews', true, { count: hnPosts.length, source: 'hnrss.org' });
         console.log('✅ Hacker News: ' + hnPosts.length + ' stories');
     } else if (previous.hn_posts && previous.hn_posts.length) {
         vibes.hn_posts = previous.hn_posts;
+        recordHealth('hackernews', false, {
+            count: previous.hn_posts.length,
+            error: 'hnrss.org unreachable',
+            source: 'hnrss.org',
+        });
         console.log('⚠ Hacker News: fetch failed, keeping last known-good (' + previous.hn_posts.length + ' stories)');
+    } else {
+        recordHealth('hackernews', false, { error: 'hnrss.org unreachable and no last known-good value' });
     }
     if (peterX && peterX.length > 0) {
         vibes.peter_x = peterX;
         updated = true;
+        recordHealth('steipete', true, { count: peterX.length, source: 'steipete.me' });
         console.log('✅ steipete: ' + peterX.length + ' posts');
     } else if (previous.peter_x && previous.peter_x.length) {
         vibes.peter_x = previous.peter_x;
+        recordHealth('steipete', false, {
+            count: previous.peter_x.length,
+            error: 'steipete feeds unreachable',
+            source: 'steipete.me',
+        });
         console.log('⚠ steipete: fetch failed, keeping last known-good');
+    } else {
+        recordHealth('steipete', false, { error: 'steipete feeds unreachable and no last known-good value' });
     }
     if (geoData && geoData.news && geoData.news.length > 0) {
         vibes.news = geoData.news;
         vibes.vibes = geoData.vibes;
         updated = true;
+        recordHealth('news', true, { count: geoData.news.length, source: 'RSS + CBC' });
         console.log('✅ US/Canada Geo: ' + geoData.news.length + ' articles');
     } else if (previous.news && previous.news.length) {
         vibes.news = previous.news;
         if (previous.vibes) vibes.vibes = previous.vibes;
+        recordHealth('news', false, {
+            count: previous.news.length,
+            error: 'news feeds unreachable',
+            source: 'RSS + CBC',
+        });
         console.log('⚠ Geo: fetch failed, keeping last known-good');
+    } else {
+        recordHealth('news', false, { error: 'news feeds unreachable and no last known-good value' });
     }
     if (weather) {
         vibes.weather = weather;
         updated = true;
+        recordHealth('weather', true, { count: 1, source: 'open-meteo' });
         console.log('✅ Weather: ' + weather.temp + '°C ' + weather.condition);
     } else if (previous.weather) {
         vibes.weather = previous.weather;
+        recordHealth('weather', false, { count: 1, error: 'open-meteo unreachable', source: 'open-meteo' });
         console.log('⚠ Weather: fetch failed, keeping last known-good');
+    } else {
+        recordHealth('weather', false, { error: 'open-meteo unreachable and no last known-good value' });
     }
     if (verse && verse.text) {
         vibes.verse = verse;
         updated = true;
+        recordHealth('verse', true, { count: 1, source: 'bible-api.com' });
         console.log('✅ Daily Verse: ' + verse.reference);
     } else if (previous.verse && previous.verse.text) {
         vibes.verse = previous.verse;
+        recordHealth('verse', false, {
+            count: 1,
+            error: 'bible-api.com unreachable',
+            source: 'bible-api.com',
+        });
         console.log('⚠ Daily Verse: fetch failed, keeping last known-good (' + previous.verse.reference + ')');
+    } else {
+        recordHealth('verse', false, { error: 'bible-api.com unreachable and no last known-good value' });
     }
     if (piStatus) {
         vibes.pi_status = piStatus;
         updated = true;
+        recordHealth('pi', true, { count: 1, source: 'hermes local' });
         console.log('✅ Pi Intelligence: ' + piStatus.model.name);
+    } else {
+        recordHealth('pi', false, { count: 1, error: 'hermes state unreadable', source: 'hermes local' });
     }
+
+    // FireBuilt roster — live from the Hermes profile directories.
+    var firebuilt = null;
+    try { firebuilt = fetchFireBuiltRoster(); }
+    catch (err) { console.error('FireBuilt roster fatal:', err.message); }
+    if (firebuilt && firebuilt.agents && firebuilt.agents.length) {
+        vibes.firebuilt = firebuilt;
+        updated = true;
+        recordHealth('firebuilt', true, { count: firebuilt.agents.length, source: 'hermes profiles' });
+        console.log('✅ FireBuilt: ' + firebuilt.agent_count + ' agents');
+    } else if (previous.firebuilt && previous.firebuilt.agents) {
+        vibes.firebuilt = previous.firebuilt;
+        recordHealth('firebuilt', false, {
+            count: previous.firebuilt.agent_count || 0,
+            error: 'profile directory unreadable',
+            source: 'hermes profiles',
+        });
+        console.log('⚠ FireBuilt: roster unavailable, keeping last known-good');
+    } else {
+        recordHealth('firebuilt', false, { error: 'no Hermes profiles found' });
+    }
+
+    // Publish the health snapshot alongside the data.
+    vibes.feed_health = applyHealth(vibes);
 
     vibes.lastUpdate = new Date().toLocaleString('en-US', {
         timeZone: LOCATION.timezone,

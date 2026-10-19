@@ -22,6 +22,7 @@ set -uo pipefail
 REPO="${LIFEOS_REPO:-/home/cam/work/pi-dashboard}"
 ENV_FILE="${XDG_CONFIG_HOME:-$HOME/.config}/lifeos/lifeos.env"
 LOG_PREFIX="[lifeos-refresh]"
+LOCK_FILE="${LIFEOS_LOCK:-/tmp/lifeos-refresh.lock}"
 
 NO_COMMIT=0
 for arg in "$@"; do
@@ -37,6 +38,23 @@ fail() {
     fi
     exit 1
 }
+
+# ── Single-instance lock ──
+# The timer fires every 30 minutes and a fetch can take over a minute, so
+# a slow run can still be in flight when the next one starts. Two runs
+# writing the same data file and pushing the same Gist is a race, and a
+# manual run started by hand can collide with a scheduled one.
+#
+# flock is released automatically when the process exits, including on
+# failure, so a crashed run cannot leave the lock stuck.
+if [ -z "${LIFEOS_NO_LOCK:-}" ]; then
+    exec 9>"$LOCK_FILE"
+    if ! flock -n 9; then
+        log "another refresh is already running — skipping this one"
+        log "done"
+        exit 0
+    fi
+fi
 
 cd "$REPO" || fail "cannot cd to $REPO"
 

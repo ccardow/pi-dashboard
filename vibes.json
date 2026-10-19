@@ -195,7 +195,7 @@
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 09:99 PM",
+  "lastUpdate": "10/19/2026, 04:54 PM",
   "news": [
     {
       "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -244,39 +244,39 @@
     "feels_like": "13",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 09:99 PM"
+    "updated": "Oct 19, 04:53 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 99999,
+      "tokens_used": 1410,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "99:99",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 248 msgs · 118 tools"
+        "time": "16:53",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 399 msgs · 192 tools"
       },
       {
-        "time": "99:99",
+        "time": "16:09",
         "msg": "default/CLI: nvidia/nemotron-3-ultra-550b-a55b:free · 4 msgs · 0 tools"
       },
       {
-        "time": "99:99",
+        "time": "17:13",
         "msg": "default/CLI: poolside/laguna-s-2.1:free · 27 msgs · 10 tools"
       },
       {
-        "time": "99:99",
+        "time": "16:55",
         "msg": "default/CLI: stealth/space-bunny-alpha · 2 msgs · 0 tools"
       },
       {
-        "time": "99:99",
+        "time": "16:50",
         "msg": "default/CLI: space-bunny · 6 msgs · 0 tools"
       },
       {
-        "time": "99:99",
+        "time": "16:49",
         "msg": "default/CLI: space-bunny · 2 msgs · 0 tools"
       }
     ],
@@ -284,7 +284,7 @@
       "pid": 15631,
       "version": "0.22.2",
       "state": "running",
-      "uptime_seconds": 88888,
+      "uptime_seconds": 29978,
       "profiles": [
         "default",
         "atlas",
@@ -299,14 +299,14 @@
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 1,
-      "output_tokens": 2,
-      "tool_calls": 3
+      "input_tokens": 38403703,
+      "output_tokens": 748254,
+      "tool_calls": 1192
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 99999"
+        "status": "running · v0.22.2 · pid 15631"
       },
       {
         "name": "Agent Profiles",
@@ -318,12 +318,19 @@
       },
       {
         "name": "Session Ledger",
-        "status": "99 sessions · 999k tokens · 999 tool calls"
+        "status": "60 sessions · 39152k tokens · 1192 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 09:99 PM"
+    "lastUpdate": "Oct 19, 04:54 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+      "url": "https://josie.lol/blog/linux-rtx-spark",
+      "published": "Mon, 19 Oct 2026 21:08:18 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -386,13 +393,6 @@
       "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
       "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
       "published": "Mon, 19 Oct 2026 10:53:39 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Timestral: Mistral's time-series foundation models",
-      "url": "https://mistral.ai/news/timestral/",
-      "published": "Mon, 19 Oct 2026 09:59:32 +0000"
     }
   ],
   "verse": {
@@ -496,7 +496,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -504,7 +504,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -512,7 +512,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -520,7 +520,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -528,7 +528,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -536,7 +536,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -544,7 +544,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 1,
       "error": null,
       "source": "bible-api.com",
@@ -552,7 +552,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -560,7 +560,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.864Z",
+      "fetched_at": "2026-10-19T23:54:35.460Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",

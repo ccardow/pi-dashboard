@@ -2,44 +2,65 @@
 # Verify the refresh script's skip path: when the fetched data differs from
 # HEAD only in volatile fields, no commit is created and no push happens.
 #
-# The stub rewrites vibes.json with ONLY volatile fields changed — the exact
-# situation a quiet 30-minute cycle produces.
+# ═══ IMPORTANT: this test runs against a COPY of the repo ═══
 #
-# Baseline matters: the test resets vibes.json to HEAD's committed version
-# first, so the only difference between the stub's output and HEAD is the
-# volatile fields. Without that, a working tree that legitimately differs
-# from HEAD (new fields, fresher data) would mask the behaviour under test.
+# The first version of this test stubbed fetch-feeds.js and push-to-gist.js
+# in the live working tree. The 30-minute timer fired while the stubs were
+# installed, so the scheduled run used the stubs instead of the real
+# fetcher — the Gist silently stopped receiving real data and nobody
+# noticed until the live dashboard showed "no health data".
+#
+# Now the whole thing runs in a temporary copy: the live repo is never
+# modified, the real Gist is never touched, and the timer cannot collide
+# with the test. The copy has its own lock file and a remote that points
+# nowhere, so a commit in it can never reach the real repository.
 set -uo pipefail
 
-REPO="/home/cam/work/pi-dashboard"
-cd "$REPO" || exit 1
+REAL_REPO="/home/cam/work/pi-dashboard"
+cd "$REAL_REPO" || exit 1
 
-BACKUP="$(mktemp -d)"
-cp vibes.json "$BACKUP/vibes.json" 2>/dev/null
-cp vibes.js "$BACKUP/vibes.js" 2>/dev/null
-cp fetch-feeds.js "$BACKUP/fetch-feeds.js"
-cp push-to-gist.js "$BACKUP/push-to-gist.js"
+# Refuse to run against a dirty working tree. A test that modifies the live
+# repo can destroy uncommitted work, and a dirty tree makes it impossible to
+# tell which changes the test caused. (This is not hypothetical — the first
+# version of this test reverted an uncommitted fetch-feeds.js.)
+bash scripts/require-clean-tree.sh "test-skip-noop.sh" || exit 1
 
-BEFORE_COMMIT="$(git rev-parse HEAD)"
-BEFORE_REMOTE="$(git ls-remote origin master | cut -f1)"
+SANDBOX="$(mktemp -d /tmp/lifeos-skiptest-XXXXXX)"
 
 cleanup() {
-    cp "$BACKUP/fetch-feeds.js" fetch-feeds.js
-    cp "$BACKUP/push-to-gist.js" push-to-gist.js
-    cp "$BACKUP/vibes.json" vibes.json 2>/dev/null
-    cp "$BACKUP/vibes.js" vibes.js 2>/dev/null
-    git checkout -- fetch-feeds.js push-to-gist.js 2>/dev/null || true
-    rm -rf "$BACKUP"
+    rm -rf "$SANDBOX"
 }
 trap cleanup EXIT
 
-# Establish the baseline: the working data file IS HEAD's committed data.
+# ── Build the sandbox ──
+cp -a "$REAL_REPO" "$SANDBOX/repo" 2>/dev/null
+cd "$SANDBOX/repo" || { echo "could not create sandbox"; exit 1; }
+
+# Point the runner at the sandbox, with its own lock and no credential file
+# (the Gist push is stubbed, so no token is needed).
+export LIFEOS_REPO="$SANDBOX/repo"
+export LIFEOS_LOCK="$SANDBOX/refresh.lock"
+export LIFEOS_NO_LOCK=1
+export XDG_CONFIG_HOME="$SANDBOX/config"
+mkdir -p "$XDG_CONFIG_HOME"
+
+# The copy must never be able to push to the real remote.
+git remote remove origin 2>/dev/null || true
+git remote add origin "$SANDBOX/nowhere.git"
+
+BEFORE_COMMIT="$(git rev-parse HEAD)"
+
+# ── Establish the baseline ──
+# The working data file must equal HEAD's committed data, or the fingerprint
+# comparison would legitimately detect a real change and the test would be
+# measuring the wrong thing.
 git show HEAD:vibes.json > vibes.json
 
 HEAD_FP="$(git show HEAD:vibes.json | node scripts/data-fingerprint.js -)"
-echo "HEAD fingerprint: $HEAD_FP"
+echo "HEAD fingerprint:    $HEAD_FP"
 
-# Stub: mutate only volatile fields in the current vibes.json.
+# ── Stub the fetcher ──
+# Mutates only volatile fields in the current vibes.json.
 cat > fetch-feeds.js <<'STUB'
 const fs = require('fs');
 const d = JSON.parse(fs.readFileSync('vibes.json', 'utf8'));
@@ -68,16 +89,15 @@ fs.writeFileSync('vibes.json', JSON.stringify(d, null, 2));
 console.log('stub: wrote vibes.json with only volatile fields changed');
 STUB
 
-# Stub: don't touch the real Gist.
+# Stub the Gist push so the real Gist is never touched.
 cat > push-to-gist.js <<'STUB'
 console.log('stub: Gist push skipped for this test');
 STUB
 
-# The stub runs as part of refresh.sh, so run it once here to confirm the
-# baseline is right before the real assertions.
+# Run the stub once to confirm the baseline is right.
 node fetch-feeds.js >/dev/null 2>&1
 STUB_FP="$(node scripts/data-fingerprint.js vibes.json)"
-echo "stub fingerprint: $STUB_FP"
+echo "stub fingerprint:   $STUB_FP"
 echo
 
 echo "--- running refresh.sh with a noise-only fetch ---"
@@ -85,7 +105,6 @@ OUT="$(bash scripts/refresh.sh 2>&1)"
 echo "$OUT" | grep -E 'lifeos-refresh\]'
 
 AFTER_COMMIT="$(git rev-parse HEAD)"
-AFTER_REMOTE="$(git ls-remote origin master | cut -f1)"
 
 echo
 echo "--- results ---"
@@ -105,10 +124,10 @@ if [ "$BEFORE_COMMIT" = "$AFTER_COMMIT" ]; then
 else
     echo "  FAIL  commit was created ($BEFORE_COMMIT -> $AFTER_COMMIT)"; FAIL=1
 fi
-if [ "$BEFORE_REMOTE" = "$AFTER_REMOTE" ]; then
-    echo "  PASS  nothing pushed to the remote"
+if git log --oneline origin/master 2>/dev/null | grep -q "$AFTER_COMMIT"; then
+    echo "  FAIL  the commit reached a remote"
 else
-    echo "  FAIL  remote moved ($BEFORE_REMOTE -> $AFTER_REMOTE)"; FAIL=1
+    echo "  PASS  no remote received the commit"
 fi
 
 echo

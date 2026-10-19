@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 04:35 PM",
+  "lastUpdate": "10/19/2026, 04:54 PM",
   "news": [
     {
       "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -244,20 +244,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "13",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 04:35 PM"
+    "updated": "Oct 19, 04:53 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 1303,
+      "tokens_used": 1410,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "16:34",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 248 msgs · 118 tools"
+        "time": "16:53",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 399 msgs · 192 tools"
       },
       {
         "time": "16:09",
@@ -299,9 +299,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 38344869,
-      "output_tokens": 700007,
-      "tool_calls": 1118
+      "input_tokens": 38403703,
+      "output_tokens": 748254,
+      "tool_calls": 1192
     },
     "roadmap": [
       {
@@ -318,12 +318,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 39045k tokens · 1118 tool calls"
+        "status": "60 sessions · 39152k tokens · 1192 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 04:35 PM"
+    "lastUpdate": "Oct 19, 04:54 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+      "url": "https://josie.lol/blog/linux-rtx-spark",
+      "published": "Mon, 19 Oct 2026 21:08:18 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -386,13 +393,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
       "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
       "published": "Mon, 19 Oct 2026 10:53:39 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Timestral: Mistral's time-series foundation models",
-      "url": "https://mistral.ai/news/timestral/",
-      "published": "Mon, 19 Oct 2026 09:59:32 +0000"
     }
   ],
   "verse": {
@@ -496,7 +496,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -504,7 +504,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -512,7 +512,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -520,7 +520,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -528,7 +528,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -536,7 +536,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -544,7 +544,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 1,
       "error": null,
       "source": "bible-api.com",
@@ -552,7 +552,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.822Z",
+      "fetched_at": "2026-10-19T23:54:35.416Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -560,7 +560,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-19T23:35:26.864Z",
+      "fetched_at": "2026-10-19T23:54:35.460Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
