@@ -94,14 +94,14 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
+      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     },
     {
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 TEXAS! Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Texas, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/texas/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294609980198977#m",
+      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294609980198977#m",
       "published": "Mon, 19 Oct 2026 21:27:34 GMT"
     },
     {
@@ -115,7 +115,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "Geopolitics",
       "content": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112293785472225568#m",
+      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112293785472225568#m",
       "published": "Mon, 19 Oct 2026 21:24:17 GMT"
     },
     {
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 04:06 PM",
+  "lastUpdate": "10/19/2026, 04:08 PM",
   "news": [
     {
       "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -203,6 +203,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Trump: ‘Paris is going to be a Muslim city very soon’",
       "source": "Al Jazeera",
       "published": "Mon, 19 Oct 2026 22:37:19 +0000"
+    },
+    {
+      "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
+      "url": "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal",
+      "summary": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
+      "source": "NPR News",
+      "published": "Mon, 19 Oct 2026 17:56:37 -0400"
     },
     {
       "title": "Trump approval hits record-low 31 percent, polls show Republican struggles",
@@ -224,13 +231,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Trump signs order launching women’s health division at NIH, White House",
       "source": "Al Jazeera",
       "published": "Mon, 19 Oct 2026 20:29:46 +0000"
-    },
-    {
-      "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
-      "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
-      "source": "BBC World",
-      "published": "Mon, 19 Oct 2026 18:22:48 GMT"
     }
   ],
   "vibes": "⚠ Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -244,20 +244,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "13",
     "hi": "15",
     "lo": "6",
-    "updated": "Oct 19, 04:04 PM"
+    "updated": "Oct 19, 04:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 886,
+      "tokens_used": 889,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "16:05",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 368 msgs · 178 tools"
+        "time": "16:06",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 374 msgs · 180 tools"
       },
       {
         "time": "16:09",
@@ -295,13 +295,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 37994724,
-      "output_tokens": 633732,
-      "tool_calls": 1178
+      "input_tokens": 37996445,
+      "output_tokens": 635104,
+      "tool_calls": 1180
     },
     "roadmap": [
       {
@@ -313,59 +313,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "60 sessions · 38628k tokens · 1178 tool calls"
+        "status": "60 sessions · 38632k tokens · 1180 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 04:06 PM"
+    "lastUpdate": "Oct 19, 04:08 PM"
   },
   "hn_posts": [
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Drupal is now light-years ahead of its reputation",
-      "url": "https://dri.es/state-of-drupal-presentation-september-2026",
-      "published": "Mon, 19 Oct 2026 21:38:02 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Open Source",
-      "content": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
-      "url": "https://bsd.network/@brynet/117407035545900963",
-      "published": "Mon, 19 Oct 2026 21:11:45 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
-      "url": "https://josie.lol/blog/linux-rtx-spark",
-      "published": "Mon, 19 Oct 2026 21:08:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "One Hash Bloom Filters",
-      "url": "https://calabro.io/ohbf",
-      "published": "Mon, 19 Oct 2026 20:50:08 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "The End of Rationing",
-      "url": "https://sanketsaurav.com/writing/end-of-rationing",
-      "published": "Mon, 19 Oct 2026 19:19:33 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "My Neighbor, Me, and a Grand Principle",
-      "url": "https://lastwordonnothing.com/2026/10/19/my-neighbor-me-and-a-grand-principle/",
-      "published": "Mon, 19 Oct 2026 19:05:53 +0000"
-    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -383,16 +337,58 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Evidence (YC S21) Is Hiring Software Engineers",
-      "url": "https://evidence.dev/jobs",
-      "published": "Mon, 19 Oct 2026 17:21:33 +0000"
+      "content": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "published": "Mon, 19 Oct 2026 16:45:30 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Android apps running native on macOS",
-      "url": "https://github.com/kksimp/Mac.apk",
-      "published": "Mon, 19 Oct 2026 16:45:30 +0000"
+      "content": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "published": "Mon, 19 Oct 2026 16:39:09 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "published": "Mon, 19 Oct 2026 15:28:24 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "published": "Mon, 19 Oct 2026 13:35:34 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "published": "Mon, 19 Oct 2026 11:24:34 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Alternatives to animal testing are finally taking off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "published": "Mon, 19 Oct 2026 11:10:54 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "published": "Mon, 19 Oct 2026 10:53:39 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "published": "Mon, 19 Oct 2026 09:59:32 +0000"
     }
   ],
   "verse": {
