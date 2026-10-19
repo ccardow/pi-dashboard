@@ -623,19 +623,51 @@ function readConfigModel() {
     }
 }
 
-// Context window (in k) for a model, from the cached context_length_cache.yaml.
+// Context window (in k) for a model.
+// 1. Hermes' own context_length_cache.yaml (keyed "stem@base_url")
+// 2. The OpenRouter model catalog (public, no auth) — cached to disk
+// 3. A conservative default
+const CTX_CACHE_FILE = path.join(HERMES_HOME, '.lifeos-context-cache.json');
+
 function readContextWindow(modelId) {
     if (!modelId) return 256;
-    var cachePath = path.join(HERMES_HOME, 'context_length_cache.yaml');
-    // cache keys look like "minimax-m3@https://ollama.com/v1" — match on model stem
     var stem = modelId.split('/').pop().split(':')[0];
+
+    // 1. Hermes' cache
+    var cachePath = path.join(HERMES_HOME, 'context_length_cache.yaml');
     try {
         if (fs.existsSync(cachePath)) {
             var txt = fs.readFileSync(cachePath, 'utf8');
             var m = txt.match(new RegExp('^\\s*' + stem.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '@[^:]+:\\s*(\\d+)', 'm'));
             if (m) return Math.round(parseInt(m[1], 10) / 1000);
         }
-    } catch (e) { /* fall through to default */ }
+    } catch (e) { /* fall through */ }
+
+    // 2. Local cache of OpenRouter lookups
+    var local = {};
+    try {
+        if (fs.existsSync(CTX_CACHE_FILE)) local = JSON.parse(fs.readFileSync(CTX_CACHE_FILE, 'utf8'));
+    } catch (e) { /* ignore */ }
+    if (local[modelId]) return Math.round(local[modelId] / 1000);
+
+    // 3. OpenRouter catalog (public, no auth needed)
+    if (modelId.indexOf('openrouter') === 0 || modelId.indexOf('/') !== -1) {
+        var orId = modelId.indexOf('/') !== -1 ? modelId : modelId;
+        try {
+            var raw = execSync('curl -s --max-time 8 https://openrouter.ai/api/v1/models', { encoding: 'utf8' });
+            var models = JSON.parse(raw).data || [];
+            for (var i = 0; i < models.length; i++) {
+                if (models[i].id === orId && models[i].context_length) {
+                    local[modelId] = models[i].context_length;
+                    try {
+                        fs.writeFileSync(CTX_CACHE_FILE, JSON.stringify(local, null, 2));
+                    } catch (e2) { /* cache write is best-effort */ }
+                    return Math.round(models[i].context_length / 1000);
+                }
+            }
+        } catch (e3) { /* offline — fall through to default */ }
+    }
+
     return 256;
 }
 

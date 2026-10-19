@@ -65,9 +65,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "Run your AI from anywhere without starting over. Here's my setup: → Hermes Jarvis runs the tasks → Obsidian saves the memory → Tailscale links my devices Took about 10 minutes to set up. Zero extra cost in my demo. One AI system. Same memory on every device. Want the SOP? DM me.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112302780006519052#m",
-      "published": "Mon, 19 Oct 2026 22:00:02 GMT"
+      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112305676706029908#m",
+      "published": "Mon, 19 Oct 2026 22:11:32 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112305667705016628#m",
+      "published": "Mon, 19 Oct 2026 22:11:30 GMT"
     },
     {
       "user": "JuliaEMcCoy",
@@ -87,14 +94,14 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294730247627212#m",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     },
     {
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 TEXAS! Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Texas, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/texas/",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294609980198977#m",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294609980198977#m",
       "published": "Mon, 19 Oct 2026 21:27:34 GMT"
     },
     {
@@ -108,7 +115,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "Geopolitics",
       "content": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112293785472225568#m",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112293785472225568#m",
       "published": "Mon, 19 Oct 2026 21:24:17 GMT"
     },
     {
@@ -119,18 +126,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 19 Oct 2026 21:01:38 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
+      "user": "openclaw",
       "topic": "AI / ML",
-      "content": "Most people think an AI agent setup means new hardware and another monthly API bill. My community asked me about it all week, and it turns out most of those worries are myths. Here are three of them from the article. Your agent doesn't lose its memory when your laptop is off, because the Obsidian syncing MCP keeps your vault on every device. A voice agent doesn't need a new API bill, because it can run on your existing Codex subscription. You don't need a dedicated Mac Mini, because Tailscale links all your devices for free in about 10 minutes. I also cover how my team scopes and prices AI automation for clients. The full breakdown is in the article below.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112287678674690128#m",
-      "published": "Mon, 19 Oct 2026 21:00:01 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Get More Client Work Done in Less Time Stop jumping between 10 AI tools. My Agent OS puts Hermes, Claude, video, images, and voice in one place. Here's the 3-step system: 1. Pick a task you do every day. 2. Let your AI agent build the workflow. 3. Test, fix, and repeat. Less busywork. More time for clients. Want the SOP? DM me.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112272580342321328#m",
-      "published": "Mon, 19 Oct 2026 20:00:01 GMT"
+      "content": "🦞 OpenClaw v2026.10.5 is out! 🤖 Sidebar keeps your agents within reach ↩️ Skill Workshop 2.0 gets Undo 🔗 Public conversation links need no sign-in 🎉 2,250 PRs and 637 contributors. Just the highlights. Much more in the full notes 👇 https://docs.openclaw.ai/releases/2026.10.5",
+      "url": "http://nitter.meowing.monster/openclaw/status/2112260434116108528#m",
+      "published": "Mon, 19 Oct 2026 19:11:46 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 03:07 PM",
+  "lastUpdate": "10/19/2026, 03:21 PM",
   "news": [
     {
       "title": "Trump approval hits record-low 31 percent, polls show Republican struggles",
@@ -243,21 +243,21 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "condition": "Clear",
     "feels_like": "13",
     "hi": "15",
-    "lo": "6",
-    "updated": "Oct 19, 03:06 PM"
+    "lo": "5",
+    "updated": "Oct 19, 03:20 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 328,
-      "tokens_total": 256
+      "tokens_used": 376,
+      "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "15:07",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 385 msgs · 185 tools"
+        "time": "15:20",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 467 msgs · 226 tools"
       },
       {
         "time": "16:09",
@@ -299,9 +299,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 37537055,
-      "output_tokens": 532820,
-      "tool_calls": 1185
+      "input_tokens": 37566566,
+      "output_tokens": 551769,
+      "tool_calls": 1226
     },
     "roadmap": [
       {
@@ -318,10 +318,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 38070k tokens · 1185 tool calls"
+        "status": "60 sessions · 38118k tokens · 1226 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 03:07 PM"
+    "lastUpdate": "Oct 19, 03:21 PM"
   },
   "hn_posts": [
     {
