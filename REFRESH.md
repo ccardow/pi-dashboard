@@ -69,18 +69,43 @@ directories: each agent's role from its own `SOUL.md`, its model from its
 `config.yaml`, and its session/message counts from its own `state.db`. The
 card has no hardcoded copy, so it cannot quietly become untrue.
 
+### Current context, not lifetime tokens
+
+The Pi card's "Context" figure is the **current context occupancy**, read
+from the session row's `model_config._usage_anchor.prompt_tokens` — the same
+number the Hermes CLI shows as "Current context".
+
+Do NOT use the session row's `input_tokens`/`output_tokens` for this. Those
+are lifetime totals for the whole session; adding them produces readings
+like `1413k / 1000k` once a session runs long enough. When the anchor is
+missing the fetcher emits `null` and the card shows `—`, never a fabricated
+zero.
+
 ### Tests
 
 ```bash
 node scripts/test-fingerprint.js            # 25 checks: noise vs real changes
 node scripts/test-health-render-logic.js    # 39 checks: renders real main.js functions
+node scripts/test-context-reading.js        # 16 checks: current context vs lifetime tokens
 bash scripts/test-skip-noop.sh              # a noise-only refresh -> no commit, no push
 node scripts/probe-agent-roles.js           # shows the role parsed from each SOUL.md
 ```
 
 `test-health-render-logic.js` extracts the real functions from `main.js`
 with a brace matcher and runs them against a fake DOM, so it cannot drift
-away from the code it tests.
+away from the code it tests. `test-context-reading.js` does the same for
+`readCurrentContext` in `fetch-feeds.js`.
+
+`test-skip-noop.sh` runs against a **temporary copy** of the repo, never
+the live working tree. An earlier version stubbed the fetcher in place,
+and the 30-minute timer fired while the stubs were installed — the
+scheduled run used the stub and the real Gist silently stopped receiving
+data. `scripts/require-clean-tree.sh` now refuses to run a test against a
+dirty working tree, so a test can never be blamed for work that was
+already in progress.
+
+`scripts/refresh.sh` takes an `flock`, so a slow run and the next timer
+tick cannot overlap.
 
 ## Monitoring
 
