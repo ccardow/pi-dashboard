@@ -73,7 +73,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "elonmusk",
       "topic": "Apple / iOS",
       "content": "Have to give the EU regulators credit where it’s due for making all Apple products use USB-C",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2112348601255125059#m",
+      "url": "http://nitter.pp.ua/elonmusk/status/2112348601255125059#m",
       "published": "Tue, 20 Oct 2026 01:02:06 GMT"
     },
     {
@@ -101,7 +101,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "elonmusk",
       "topic": "AI / ML",
       "content": "RT by @elonmusk: Using TBC tunnels to transport freight. The latest Prufrock Liner Truck (using Tesla Model 3 batteries and drive units) has been modified to carry a standard 20’ shipping container. Fits like a glove!",
-      "url": "http://nitter.meowing.monster/boringcompany/status/2112327189366722970#m",
+      "url": "http://nitter.pp.ua/boringcompany/status/2112327189366722970#m",
       "published": "Mon, 19 Oct 2026 23:37:01 GMT"
     },
     {
@@ -122,15 +122,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "elonmusk",
       "topic": "Tech Intel",
       "content": "RT by @elonmusk: Starstruck",
-      "url": "http://nitter.meowing.monster/Tesla/status/2112295035568091273#m",
+      "url": "http://nitter.pp.ua/Tesla/status/2112295035568091273#m",
       "published": "Mon, 19 Oct 2026 21:29:15 GMT"
     },
     {
-      "user": "MatthewBerman",
+      "user": "realDonaldTrump",
       "topic": "AI / ML",
-      "content": "We are putting out MORE and BETTER videos than ever. Here's how Brian (@ForwardEditor) uses AI to edit our videos.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112288084951961786#m",
-      "published": "Mon, 19 Oct 2026 21:01:38 GMT"
+      "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
+      "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 07:09 PM",
+  "lastUpdate": "10/19/2026, 07:20 PM",
   "news": [
     {
       "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
@@ -251,13 +251,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 143,
+      "tokens_used": 178,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "19:08",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 241 msgs · 119 tools"
+        "time": "19:20",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 321 msgs · 157 tools"
       },
       {
         "time": "16:09",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792462086.428099,
+          "started_at": 1792462714.479149,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792462086.428099
+              "at": 1792462714.479149
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792462086.428099,
+          "ended_at": 1792462177.602869,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792462086.428099
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792462173.647147
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792462174.878928
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792462174.881032
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792462175.924844
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792462177.602869
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792462177.602869
+            }
+          ],
+          "duration_s": 91,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792460384.661646,
@@ -423,15 +467,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792454853.73785,
+          "started_at": 1792454952.206386,
           "ended_at": 1792454955.272139,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792454853.73785
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -463,98 +502,25 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792454955.272139
             }
           ],
-          "duration_s": 102,
+          "duration_s": 3,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792453073.921748,
-          "ended_at": 1792453074.029606,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792453073.921748
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792453073.943215
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792453073.966323
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792453073.968129
-            },
-            {
-              "kind": "unchanged",
-              "text": "content unchanged",
-              "at": 1792453074.029606
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792453074.029606
-            }
-          ],
-          "duration_s": 0,
-          "summary": "published to Gist (no content change)"
-        },
-        {
-          "started_at": 1792451792.193002,
-          "ended_at": 1792451793.455125,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792451792.193002
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792451793.394662
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792451793.396889
-            },
-            {
-              "kind": "unchanged",
-              "text": "content unchanged",
-              "at": 1792451793.455125
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792451793.455125
-            }
-          ],
-          "duration_s": 1,
-          "summary": "published to Gist (no content change)"
         }
       ],
       "last_run": {
-        "started_at": 1792462086.428099,
+        "started_at": 1792462714.479149,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792462086.428099
+            "at": 1792462714.479149
           }
         ],
         "duration_s": null,
         "summary": "run in progress"
       },
-      "total_runs": 7
+      "total_runs": 6
     },
     "gateway": {
       "pid": 15631,
@@ -575,9 +541,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 39146763,
-      "output_tokens": 897891,
-      "tool_calls": 1119
+      "input_tokens": 39312000,
+      "output_tokens": 920353,
+      "tool_calls": 1157
     },
     "roadmap": [
       {
@@ -594,10 +560,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 40045k tokens · 1119 tool calls"
+        "status": "60 sessions · 40232k tokens · 1157 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 07:09 PM"
+    "lastUpdate": "Oct 19, 07:20 PM"
   },
   "hn_posts": [
     {
@@ -606,13 +572,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
       "url": "https://josie.lol/blog/linux-rtx-spark",
       "published": "Mon, 19 Oct 2026 21:08:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "The reverts will continue until morale improves",
-      "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
-      "published": "Mon, 19 Oct 2026 18:42:32 +0000"
     },
     {
       "user": "Hacker News",
@@ -659,26 +618,32 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
-      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
-      "published": "Mon, 19 Oct 2026 10:53:39 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
       "content": "Timestral: Mistral's time-series foundation models",
       "url": "https://mistral.ai/news/timestral/",
       "published": "Mon, 19 Oct 2026 09:59:32 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "published": "Mon, 19 Oct 2026 09:05:07 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Starcraft: Ashfall",
+      "url": "https://starcraft-shooter-2026.pages.dev/",
+      "published": "Mon, 19 Oct 2026 01:18:02 +0000"
     }
   ],
   "verse": {
-    "text": "Love takes no pleasure in evil, but rejoices in the truth.",
-    "reference": "1 Corinthians 13:6",
-    "translation": "BSB",
-    "version": "Berean Standard Bible",
+    "text": "In those days I Daniel was mourning three full weeks.",
+    "reference": "Daniel 10:2",
+    "translation": "kjv",
     "date": "2026-10-19",
-    "attribution": "Public Domain",
-    "source": "youversion"
+    "attribution": null,
+    "source": "bible-api.com"
   },
   "firebuilt": {
     "agents": [
@@ -775,7 +740,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "fetched_at": "2026-10-20T02:20:50.625Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -783,7 +748,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "fetched_at": "2026-10-20T02:20:50.625Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -791,7 +756,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "fetched_at": "2026-10-20T02:20:50.625Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -799,7 +764,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "fetched_at": "2026-10-20T02:20:50.625Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -807,31 +772,31 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "fetched_at": "2026-10-20T02:20:50.625Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
       "age_min": 0
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T02:09:33.599Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 11
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "fetched_at": "2026-10-20T02:20:50.625Z",
       "count": 1,
       "error": null,
-      "source": "youversion",
+      "source": "bible-api.com",
       "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "fetched_at": "2026-10-20T02:20:50.625Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -839,7 +804,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:09:33.639Z",
+      "fetched_at": "2026-10-20T02:20:50.666Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
