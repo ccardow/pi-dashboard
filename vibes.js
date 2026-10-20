@@ -65,23 +65,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
+      "content": "R to @JulianGoldieSEO: https://www.youtube.com/watch?v=DTw6MH9ab-k Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112611394256621819#m",
+      "published": "Tue, 20 Oct 2026 18:26:21 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "NVIDIA just dropped an AI model that codes up to 4X faster. 🤯 And somehow… that’s not even the crazy part. Nemotron 3.5 Super VL can read images, PDFs, charts, and video too. It’s open AND built for AI agents. Big closed models should probably be watching this one. 😂 Link in the comments 👇",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112611391735791895#m",
+      "published": "Tue, 20 Oct 2026 18:26:20 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
       "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112606961959317767#m",
-      "published": "Tue, 20 Oct 2026 18:08:44 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Build a local SEO website from one short brief. Agent OS can do the heavy lifting for you. Here's how I use Design OS: → Pick a target city → Choose a local service niche → List the services you want to offer → Add your target customers and business details → Generate and preview the full site Then add real local details, check the facts, and connect your lead form. One brief gives you a starting point for a whole website. Save this video, you'll know how to build your first Rank & Rent site. Want the SOP? DM me. 💬",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112606959476339023#m",
-      "published": "Tue, 20 Oct 2026 18:08:44 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: https://www.youtube.com/watch?v=Ade3LVNsX9I Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112606167633641909#m",
-      "published": "Tue, 20 Oct 2026 18:05:35 GMT"
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112611230762631245#m",
+      "published": "Tue, 20 Oct 2026 18:25:42 GMT"
     },
     {
       "user": "danmartell",
@@ -195,8 +195,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 11:09 AM",
+  "lastUpdate": "10/20/2026, 11:39 AM",
   "news": [
+    {
+      "title": "Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
+      "url": "https://www.theglobeandmail.com/politics/article-partnering-us-canada-under-attack-ambassador-pete-hoekstra/",
+      "summary": "Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
+      "source": "Globe Politics",
+      "published": "Tue, 20 Oct 2026 18:32:41 +0000"
+    },
     {
       "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
       "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
@@ -224,37 +231,38 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "‘You have to sacrifice’: Trump voters stay loyal as US midterms approach",
       "source": "Al Jazeera",
       "published": "Tue, 20 Oct 2026 15:57:47 +0000"
-    },
-    {
-      "title": "Ottawa’s accounting obscures true scale of borrowing, PBO says ahead of 2026 budget",
-      "url": "https://www.theglobeandmail.com/politics/article-parliamentary-budget-office-federal-debt-annette-ryan/",
-      "summary": "Ottawa’s accounting obscures true scale of borrowing, PBO says ahead of 2026 budget",
-      "source": "Globe Politics",
-      "published": "Tue, 20 Oct 2026 15:50:12 +0000"
     }
   ],
-  "vibes": "⚠ Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+  "vibes": "⚠ Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "11",
+    "temp": "13",
     "condition": "Clear",
-    "feels_like": "9",
+    "feels_like": "11",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 11:08 AM"
+    "updated": "Oct 20, 11:38 AM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 132,
+      "tokens_used": null,
       "tokens_total": 1000
     },
     "logs": [
+      {
+        "time": "11:38",
+        "msg": "default/GUI: minimax/minimax-m3.1-flash:free · 0 msgs · 0 tools"
+      },
+      {
+        "time": "11:30",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 74 msgs · 37 tools"
+      },
       {
         "time": "20:01",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 224 msgs · 104 tools"
@@ -270,14 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "16:55",
         "msg": "default/CLI: stealth/space-bunny-alpha · 2 msgs · 0 tools"
-      },
-      {
-        "time": "16:50",
-        "msg": "default/CLI: space-bunny · 6 msgs · 0 tools"
-      },
-      {
-        "time": "16:49",
-        "msg": "default/CLI: space-bunny · 2 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792519685.835996,
+          "started_at": 1792521487.360108,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792519685.835996
+              "at": 1792521487.360108
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792519685.835996,
+          "ended_at": 1792519761.230473,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792519685.835996
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792519756.237418
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792519757.996099
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792519758.004874
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792519759.287197
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792519761.228203
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792519761.230473
+            }
+          ],
+          "duration_s": 75,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792518613.907553,
@@ -401,15 +445,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "run in progress"
         },
         {
-          "started_at": 1792463880.038946,
+          "started_at": 1792463935.485479,
           "ended_at": 1792463940.227207,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792463880.038946
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -441,58 +480,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792463940.227207
             }
           ],
-          "duration_s": 60,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792462850.675738,
-          "ended_at": 1792462855.036765,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792462850.675738
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792462852.188364
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792462852.190549
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792462853.259109
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792462855.036765
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792462855.036765
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792519685.835996,
+        "started_at": 1792521487.360108,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792519685.835996
+            "at": 1792521487.360108
           }
         ],
         "duration_s": null,
@@ -501,10 +501,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1304,
+      "pid": 1219,
       "version": "0.22.2",
       "state": "running",
-      "uptime_seconds": 5181521,
+      "uptime_seconds": 3938,
       "profiles": [
         "default",
         "atlas",
@@ -518,15 +518,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "active_agents": 0
     },
     "totals": {
-      "sessions": 60,
-      "input_tokens": 39870010,
-      "output_tokens": 985146,
-      "tool_calls": 1104
+      "sessions": 62,
+      "input_tokens": 39910279,
+      "output_tokens": 1004295,
+      "tool_calls": 1141
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 1304"
+        "status": "running · v0.22.2 · pid 1219"
       },
       {
         "name": "Agent Profiles",
@@ -534,60 +534,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 40855k tokens · 1104 tool calls"
+        "status": "62 sessions · 40915k tokens · 1141 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 11:09 AM"
+    "lastUpdate": "Oct 20, 11:39 AM"
   },
   "hn_posts": [
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "url": "https://github.com/google-pytorch/torch_tpu",
-      "published": "Tue, 20 Oct 2026 16:40:24 +0000"
-    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "Voxtral 3",
       "url": "https://mistral.ai/news/voxtral-3/",
       "published": "Tue, 20 Oct 2026 16:02:07 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
-      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-      "published": "Tue, 20 Oct 2026 15:48:26 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "IKEA – 3D Guide",
-      "url": "https://sael.net/flatpack/",
-      "published": "Tue, 20 Oct 2026 15:42:45 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
-      "url": "https://jevcards.com",
-      "published": "Tue, 20 Oct 2026 15:11:56 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
-      "url": "https://github.com/AbdullahAlhariri/penmentor",
-      "published": "Tue, 20 Oct 2026 15:10:54 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
-      "url": "https://news.ycombinator.com/item?id=50167583",
-      "published": "Tue, 20 Oct 2026 15:09:29 +0000"
     },
     {
       "user": "Hacker News",
@@ -599,16 +557,58 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Ofcom Concedes Defeat in the 4chan Case",
+      "content": "Ofcom concedes defeat in 4chan case",
       "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
       "published": "Tue, 20 Oct 2026 14:30:31 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "My Friend Bob Cringely",
-      "url": "https://tyma.com/my-cringe-story/",
-      "published": "Tue, 20 Oct 2026 14:13:49 +0000"
+      "content": "EMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "published": "Tue, 20 Oct 2026 13:58:33 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "How I got over 300 Tor exit nodes removed",
+      "url": "https://kaba.cx/posts/20261020_Tor/",
+      "published": "Tue, 20 Oct 2026 13:39:24 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "published": "Tue, 20 Oct 2026 13:18:07 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "published": "Tue, 20 Oct 2026 13:06:22 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Apple / iOS",
+      "content": "Apple broke an essential presentation feature of iPads",
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+      "published": "Tue, 20 Oct 2026 12:17:28 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+      "published": "Tue, 20 Oct 2026 10:26:02 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "published": "Tue, 20 Oct 2026 09:08:54 +0000"
     }
   ],
   "verse": {
@@ -622,6 +622,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "firebuilt": {
     "agents": [
+      {
+        "name": "Maya",
+        "id": "maya",
+        "role": "Build the things",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 1,
+        "messages": 6,
+        "last_activity": 1792521104.092065,
+        "skills": 27,
+        "cron": 4
+      },
       {
         "name": "Grace",
         "id": "grace",
@@ -671,18 +683,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "cron": 4
       },
       {
-        "name": "Maya",
-        "id": "maya",
-        "role": "Build the things",
-        "model": "deepseek-v4-flash",
-        "provider": "ollama-cloud",
-        "sessions": 1,
-        "messages": 0,
-        "last_activity": null,
-        "skills": 27,
-        "cron": 4
-      },
-      {
         "name": "Montage",
         "id": "montage",
         "role": "Make churches look and sound amazing on every screen",
@@ -698,8 +698,8 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Sienna",
         "id": "sienna",
         "role": "Brand director and visual identity lead",
-        "model": "deepseek-v4-flash",
-        "provider": "ollama-cloud",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
         "sessions": 0,
         "messages": 0,
         "last_activity": null,
@@ -709,13 +709,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     ],
     "agent_count": 7,
     "total_sessions": 7,
-    "total_messages": 8,
-    "last_activity": 1788237208.2780097
+    "total_messages": 14,
+    "last_activity": 1792521104.092065
   },
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.083Z",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -723,23 +723,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.083Z",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 18
+      "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.083Z",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -747,7 +747,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.083Z",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -755,7 +755,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.083Z",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -763,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.083Z",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -771,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.083Z",
+      "fetched_at": "2026-10-20T18:39:00.110Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -779,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:09:16.207Z",
+      "fetched_at": "2026-10-20T18:39:00.150Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
