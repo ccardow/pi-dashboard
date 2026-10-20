@@ -1,43 +1,74 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
+      "title": "3 New Claude Prompts You Need To Try",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=aIrrq3CLSKM",
+      "published": "2026-10-19T12:43:39+00:00"
+    },
+    {
       "title": "Gemini 4 Argon Really Surprised Me",
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
       "published": "2026-10-19T08:49:21+00:00"
     },
     {
+      "title": "Give Me 14 Mins and I'll Save You Millions of Claude Tokens",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=peZyP4UC88U",
+      "published": "2026-10-18T17:30:33+00:00"
+    },
+    {
+      "title": "I Turned Claude Code Into a Game Studio (free kit)",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=5D6UkmsPDPA",
+      "published": "2026-10-17T21:30:26+00:00"
+    },
+    {
+      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
+      "published": "2026-10-17T14:00:30+00:00"
+    },
+    {
+      "title": "Demis Hassabis: Put your life force into a problem that matters",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=LbmiPYnFj48",
+      "published": "2026-10-16T19:24:49+00:00"
+    },
+    {
+      "title": "AI News: 6 New Models & A Nano Banana Killer",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=KGcuuhqmPhI",
+      "published": "2026-10-16T16:20:28+00:00"
+    },
+    {
+      "title": "This Tesla Actually Flies (NOT AI)",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=WXWFmwfo1JA",
+      "published": "2026-10-16T04:30:35+00:00"
+    },
+    {
+      "title": "Claude Edited This Entire Video",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=kFvk_38hWWw",
+      "published": "2026-10-16T03:00:26+00:00"
+    },
+    {
       "title": "The runtime wars are over... and Node won",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
       "published": "2026-10-15T17:35:15+00:00"
-    },
-    {
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-      "published": "2026-10-14T17:48:10+00:00"
-    },
-    {
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "published": "2026-10-13T08:56:12+00:00"
-    },
-    {
-      "title": "Every app on Earth is now open source... whether it likes it or not",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
-      "published": "2026-10-12T19:15:23+00:00"
-    },
-    {
-      "title": "DeepSeek Solved AI’s Memory Problem",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-      "published": "2026-10-11T16:53:17+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "elonmusk",
+      "topic": "Apple / iOS",
+      "content": "Have to give the EU regulators credit where it’s due for making all Apple products use USB-C",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2112348601255125059#m",
+      "published": "Tue, 20 Oct 2026 01:02:06 GMT"
+    },
     {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
@@ -58,6 +89,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "I built 3D worlds, a game and websites with Gemini 4 Argon and Opus 5.5. The model that wins the benchmarks didn't win the builds. Here's what I found when I put them side by side. Opus 5.5's 3D city was more cinematic and even let you switch between styles like Monsoon and Pink Dawn. Gemini's 3D game had controls so backwards that the character moonwalked around the planet. If you're already on Google AI Pro, you can plug Argon into your agentic setup without paying for anything new. I'm not switching, but I'm not ignoring it either. The full breakdown is in the article.",
       "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112332972951249403#m",
       "published": "Tue, 20 Oct 2026 00:00:00 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: Using TBC tunnels to transport freight. The latest Prufrock Liner Truck (using Tesla Model 3 batteries and drive units) has been modified to carry a standard 20’ shipping container. Fits like a glove!",
+      "url": "http://nitter.meowing.monster/boringcompany/status/2112327189366722970#m",
+      "published": "Mon, 19 Oct 2026 23:37:01 GMT"
     },
     {
       "user": "JulianGoldieSEO",
@@ -81,32 +119,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 19 Oct 2026 21:31:40 GMT"
     },
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "RT by @elonmusk: Starstruck",
+      "url": "http://nitter.meowing.monster/Tesla/status/2112295035568091273#m",
+      "published": "Mon, 19 Oct 2026 21:29:15 GMT"
+    },
+    {
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
+      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "AI / ML",
-      "content": "🚨 TEXAS! Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Texas, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/texas/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294609980198977#m",
-      "published": "Mon, 19 Oct 2026 21:27:34 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Geopolitics",
-      "content": "RT by @elonmusk: A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112293785472225568#m",
-      "published": "Mon, 19 Oct 2026 21:24:17 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "Geopolitics",
-      "content": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112293785472225568#m",
-      "published": "Mon, 19 Oct 2026 21:24:17 GMT"
     }
   ],
   "peter_x": [
@@ -171,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 05:40 PM",
+  "lastUpdate": "10/19/2026, 06:06 PM",
   "news": [
     {
       "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
@@ -215,12 +239,12 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "13",
+    "temp": "12",
     "condition": "Clear",
-    "feels_like": "11",
+    "feels_like": "10",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 05:39 PM"
+    "updated": "Oct 19, 06:06 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -631,9 +655,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Mercury 3: Diffusion at scale",
-      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-      "published": "Mon, 19 Oct 2026 17:27:11 +0000"
+      "content": "Evidence (YC S21) Is Hiring Software Engineers",
+      "url": "https://evidence.dev/jobs",
+      "published": "Mon, 19 Oct 2026 17:21:33 +0000"
     }
   ],
   "verse": {
@@ -737,15 +761,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
-      "count": 6,
+      "fetched_at": "2026-10-20T01:06:59.297Z",
+      "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
+      "fetched_at": "2026-10-20T01:06:59.297Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -753,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
+      "fetched_at": "2026-10-20T01:06:59.297Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -761,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
+      "fetched_at": "2026-10-20T01:06:59.297Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -769,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
+      "fetched_at": "2026-10-20T01:06:59.297Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -777,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
+      "fetched_at": "2026-10-20T01:06:59.297Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -785,27 +809,27 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
+      "fetched_at": "2026-10-20T01:06:59.297Z",
       "count": 1,
       "error": null,
       "source": "bible-api.com",
       "age_min": 0
     },
     "pi": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T00:40:08.930Z",
       "count": 1,
-      "error": null,
+      "error": "hermes state unreadable",
       "source": "hermes local",
-      "age_min": 0
+      "age_min": 27
     },
     "firebuilt": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T00:40:08.970Z",
       "count": 7,
-      "error": null,
+      "error": "profile directory unreadable",
       "source": "hermes profiles",
-      "age_min": 0
+      "age_min": 27
     }
   }
 });
