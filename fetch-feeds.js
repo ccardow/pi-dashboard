@@ -655,6 +655,8 @@ async function fetchVerseBibleApi() {
         reference: reference,
         translation: BIBLE_TRANSLATION,
         date: dayKey,
+        attribution: null,
+        source: 'bible-api.com',
     };
 }
 
@@ -1363,16 +1365,19 @@ async function main() {
         process.exit(1);
     }
 
-    fs.writeFileSync(VIBES_PATH, JSON.stringify(vibes, null, 2));
-    console.log('\n💾 vibes.json written');
-
-    // Also write vibes.js for local file:// access (JSONP)
-    var vibesJsContent = 'window.__DASHBOARD_DATA_CALLBACK__(' + JSON.stringify(vibes, null, 2) + ');';
-    fs.writeFileSync(path.join(__dirname, 'vibes.js'), vibesJsContent);
-    console.log('💾 vibes.js written (for local file:// access)');
-
     if (DRY_RUN) {
-        console.log('\n🔍 DRY RUN — Gist push skipped. Sample:');
+        // A dry run must leave nothing behind. Check this BEFORE writing
+        // the files, not after — otherwise "dry run" still rewrites the
+        // data files and the name lies.
+        console.log('\n🔍 DRY RUN — nothing written, Gist push skipped. Sample:');
+        if (vibes.verse) {
+            console.log('  Verse:', JSON.stringify({
+                reference: vibes.verse.reference,
+                translation: vibes.verse.translation,
+                source: vibes.verse.source,
+                attribution: vibes.verse.attribution,
+            }));
+        }
         if (vibes.youtube && vibes.youtube[0]) console.log('  YouTube[0]:', JSON.stringify(vibes.youtube[0]));
         if (vibes.x_posts && vibes.x_posts[0]) console.log('  X[0]:', JSON.stringify(vibes.x_posts[0]));
         if (vibes.hn_posts && vibes.hn_posts[0]) console.log('  HN[0]:', JSON.stringify(vibes.hn_posts[0]));
@@ -1382,6 +1387,14 @@ async function main() {
         console.log('  pi_status:', vibes.pi_status ? vibes.pi_status.activity : '(none)');
         return;
     }
+
+    fs.writeFileSync(VIBES_PATH, JSON.stringify(vibes, null, 2));
+    console.log('\n💾 vibes.json written');
+
+    // Also write vibes.js for local file:// access (JSONP)
+    var vibesJsContent = 'window.__DASHBOARD_DATA_CALLBACK__(' + JSON.stringify(vibes, null, 2) + ');';
+    fs.writeFileSync(path.join(__dirname, 'vibes.js'), vibesJsContent);
+    console.log('💾 vibes.js written (for local file:// access)');
 
     if (NO_PUSH) {
         console.log('\n📦 --no-push — data written locally, skipping Gist push.');
