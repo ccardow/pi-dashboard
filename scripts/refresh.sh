@@ -103,6 +103,48 @@ fi
 
 log "committing refreshed data..."
 
+# ── Sync with the remote FIRST ──
+#
+# The GitHub Actions workflow also commits the generated data files to
+# this branch, every two hours. When it pushes first, the local branch is
+# behind and `git push` is rejected as a non-fast-forward — which the old
+# error message reported as "is the SSH key authorised for this repo?".
+# That was wrong and sent the diagnosis in the wrong direction.
+#
+# Syncing before committing means the commit is made on top of the
+# current remote head, so the push is always a fast-forward. It also
+# avoids the data-file conflicts a post-commit rebase would hit: the
+# Actions bot and the local bot both write vibes.json and vibes.js, and
+# rebasing one onto the other conflicts every time.
+#
+# `git reset --mixed` moves HEAD and the index to the remote while
+# LEAVING the working tree alone, so the freshly fetched data survives.
+# Nothing on disk is destroyed by it — but the guard below still refuses
+# to sync when tracked source files have uncommitted changes, because
+# changing the base under someone's work is confusing even when it is
+# not destructive. Untracked files are ignored: a mixed reset does not
+# touch them.
+#
+# Note the commit below stages ONLY the generated files, so a stray
+# modification can never end up inside the bot's commit.
+
+NON_GENERATED="$(git status --porcelain --untracked-files=no | grep -v -E 'vibes\.(json|js)$' || true)"
+if [ -n "$NON_GENERATED" ]; then
+    # Not fatal. A mixed reset does not touch the working tree, and the
+    # commit below stages ONLY the generated files, so nothing here can be
+    # lost or swept into the bot's commit. It only means the diff base
+    # moves, which is worth saying out loud.
+    log "note: working tree has changes outside the generated data files — syncing anyway:"
+    echo "$NON_GENERATED" | sed 's/^/    /'
+fi
+
+git fetch origin master >/dev/null 2>&1 || log "could not fetch origin (continuing)"
+if ! git diff --quiet HEAD origin/master 2>/dev/null; then
+    log "remote has new commits — syncing before committing"
+    git reset --mixed origin/master >/dev/null 2>&1 \
+        || fail "could not sync with origin/master"
+fi
+
 # Skip the commit when nothing substantive changed. The data always carries
 # a fresh timestamp, so a raw `git status` would report a change every run
 # and trigger a rebuild of the static host every 30 minutes for no reason.
@@ -135,8 +177,20 @@ git -c user.name="lifeos-bot" -c user.email="lifeos-bot@localhost" \
 
 # Push over SSH. The gh OAuth token lacks the `workflow` scope,
 # so HTTPS pushes of .github/workflows/* are refused — SSH works.
-if ! git push origin master; then
-    fail "git push failed (is the SSH key authorised for this repo?)"
+if ! git push origin master 2>/tmp/lifeos-push.err; then
+    # Report the ACTUAL reason. "SSH key not authorised" is wrong for a
+    # non-fast-forward rejection, and it sent the diagnosis in the wrong
+    # direction for an hour.
+    PUSH_ERR="$(cat /tmp/lifeos-push.err 2>/dev/null)"
+    rm -f /tmp/lifeos-push.err
+    if echo "$PUSH_ERR" | grep -q -i -E 'non-fast-forward|fetch first|behind its remote'; then
+        fail "git push rejected: the branch moved ahead (the Actions workflow also commits to it). The next run will sync first."
+    elif echo "$PUSH_ERR" | grep -q -i -E 'permission denied|could not read from remote repository|publickey'; then
+        fail "git push rejected: SSH authorisation failed. Check ~/.ssh/id_ed25519 is registered on the repo."
+    else
+        fail "git push failed:
+$PUSH_ERR"
+    fi
 fi
 log "repo updated"
 
