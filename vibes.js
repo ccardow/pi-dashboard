@@ -195,42 +195,42 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 03:02 PM",
+  "lastUpdate": "10/20/2026, 03:07 PM",
   "news": [
     {
       "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
       "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
       "summary": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
       "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 20:01:04 GMT"
+      "published": "Tue, 20 Oct 2026 21:27:39 GMT"
     },
     {
-      "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-      "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 20:00:57 GMT"
-    },
-    {
-      "title": "Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
-      "url": "https://www.theglobeandmail.com/politics/article-carney-alberta-separation-referendum-results-immigration-constitution/",
-      "summary": "Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
-      "source": "Globe Politics",
-      "published": "Tue, 20 Oct 2026 19:51:26 +0000"
-    },
-    {
-      "title": "Netanyahu says he discussed ‘eliminating’ Iran’s regime with Trump",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss",
-      "summary": "Netanyahu says he discussed ‘eliminating’ Iran’s regime with Trump",
+      "title": "Trump commits more than $400m ahead of high-stakes midterm elections",
+      "url": "https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss",
+      "summary": "Trump commits more than $400m ahead of high-stakes midterm elections",
       "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 19:51:09 +0000"
+      "published": "Tue, 20 Oct 2026 21:27:38 +0000"
     },
     {
-      "title": "Trump sued over Canadian tariffs in latest legal challenge",
-      "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump sued over Canadian tariffs in latest legal challenge",
-      "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 19:30:05 GMT"
+      "title": "US food importer sues Trump over 50 percent tariffs on Canadian goods",
+      "url": "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
+      "summary": "US food importer sues Trump over 50 percent tariffs on Canadian goods",
+      "source": "Al Jazeera",
+      "published": "Tue, 20 Oct 2026 21:19:12 +0000"
+    },
+    {
+      "title": "Why do the US midterms matter for Trump and Congress?",
+      "url": "https://www.aljazeera.com/news/2026/10/20/why-do-the-us-midterms-matter-for-trump-and-congress?traffic_source=rss",
+      "summary": "Why do the US midterms matter for Trump and Congress?",
+      "source": "Al Jazeera",
+      "published": "Tue, 20 Oct 2026 21:00:42 +0000"
+    },
+    {
+      "title": "Trump: Ilhan Omar could be deported, slams Somalia as a ‘s—house’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/trump-ilhan-omar-could-be-deported-slams-somalia-as-a-s?traffic_source=rss",
+      "summary": "Trump: Ilhan Omar could be deported, slams Somalia as a ‘s—house’",
+      "source": "Al Jazeera",
+      "published": "Tue, 20 Oct 2026 20:32:29 +0000"
     }
   ],
   "vibes": "⚠ Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
@@ -241,20 +241,24 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "timezone": "America/Vancouver",
     "temp": "16",
     "condition": "Clear",
-    "feels_like": "13",
-    "hi": "17",
+    "feels_like": "15",
+    "hi": "16",
     "lo": "4",
-    "updated": "Oct 20, 01:37 PM"
+    "updated": "Oct 20, 03:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 329,
+      "tokens_used": 88,
       "tokens_total": 1000
     },
     "logs": [
+      {
+        "time": "15:06",
+        "msg": "default/TUI: minimax/minimax-m3.1-flash:free · 48 msgs · 30 tools"
+      },
       {
         "time": "13:56",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 393 msgs · 233 tools"
@@ -274,10 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "16:09",
         "msg": "default/CLI: nvidia/nemotron-3-ultra-550b-a55b:free · 4 msgs · 0 tools"
-      },
-      {
-        "time": "17:13",
-        "msg": "default/CLI: poolside/laguna-s-2.1:free · 27 msgs · 10 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792533739.751175,
+          "started_at": 1792534033.953105,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792533739.751175
+              "at": 1792534033.953105
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792533739.751175,
+          "ended_at": 1792533763.668141,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792533739.751175
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792533758.746361
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792533760.22889
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792533760.237379
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792533761.462576
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792533763.668141
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792533763.668141
+            }
+          ],
+          "duration_s": 24,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792528648.650963,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792523326.083603,
+          "started_at": 1792523398.036918,
           "ended_at": 1792523404.640978,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792523326.083603
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792523404.640978
             }
           ],
-          "duration_s": 79,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792521540.156187,
-          "ended_at": 1792521544.308926,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792521540.156187
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792521541.451392
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792521541.453746
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792521542.49251
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792521544.308926
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792521544.308926
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 7,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792533739.751175,
+        "started_at": 1792534033.953105,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792533739.751175
+            "at": 1792534033.953105
           }
         ],
         "duration_s": null,
@@ -545,13 +545,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
-      "sessions": 62,
-      "input_tokens": 40861759,
-      "output_tokens": 1315123,
-      "tool_calls": 1442
+      "sessions": 63,
+      "input_tokens": 40931846,
+      "output_tokens": 1337082,
+      "tool_calls": 1472
     },
     "roadmap": [
       {
@@ -563,11 +563,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "62 sessions · 42177k tokens · 1442 tool calls"
+        "status": "63 sessions · 42269k tokens · 1472 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 03:02 PM"
+    "lastUpdate": "Oct 20, 03:07 PM"
   },
   "hn_posts": [
     {
@@ -576,6 +580,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "SimCity, but with Permits",
       "url": "https://permit.petercai.com/",
       "published": "Tue, 20 Oct 2026 18:29:09 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "What shall I teach my son?",
+      "url": "https://stevekrouse.com/ends",
+      "published": "Tue, 20 Oct 2026 17:25:07 +0000"
     },
     {
       "user": "Hacker News",
@@ -625,13 +636,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Tsrs: A Port of TypeScript to Rust",
       "url": "https://blog.cloudflare.com/typescript-rust-port/",
       "published": "Tue, 20 Oct 2026 13:18:07 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Publish fake stats, get cited in LLMs",
-      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-      "published": "Tue, 20 Oct 2026 13:06:22 +0000"
     },
     {
       "user": "Hacker News",
@@ -744,64 +748,64 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 10,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 85
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T22:02:38.703Z",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 85
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 85
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 85
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 85
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 85
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T22:02:38.703Z",
+      "fetched_at": "2026-10-20T22:07:31.990Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +813,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T22:02:38.740Z",
+      "fetched_at": "2026-10-20T22:07:32.028Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
