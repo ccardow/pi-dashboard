@@ -15,10 +15,17 @@
 
 set -uo pipefail
 
-REPO="${LIFEOS_REPO:-/home/cam/work/pi-dashboard}"
+REPO="${LIFEOS_REPO:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 TEST_NAME="${1:-this test}"
 
 cd "$REPO" || { echo "FAIL: cannot cd to $REPO"; exit 1; }
+
+# Not a git repo is an error, not a clean tree. `git status` prints nothing
+# to stdout when it fails, which would otherwise look like "clean".
+if ! git rev-parse --git-dir >/dev/null 2>&1; then
+    echo "FAIL: $REPO is not a git repository — cannot check the working tree."
+    exit 1
+fi
 
 # The generated data files are expected to be dirty after a fetch — they are
 # committed by the bot, not by hand. Only source files matter here.
