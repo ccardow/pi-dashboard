@@ -103,7 +103,13 @@ const updateVerse = (data) => {
     const v = data && data.verse;
     if (v && v.text) {
         verseText.textContent = `"${v.text}"`;
-        verseRef.textContent = v.reference;
+        // Always name the translation. On the YouVersion path the
+        // attribution line names it too, but on the fallback path there
+        // is no attribution — and without this you would not know
+        // whether you were reading the curated verse of the day or a
+        // random pick in a different translation.
+        const label = v.translation ? String(v.translation).toUpperCase() : '';
+        verseRef.textContent = label ? `${v.reference} · ${label}` : v.reference;
         logActivity('Daily verse loaded: ' + v.reference);
 
         if (verseAttrib) {

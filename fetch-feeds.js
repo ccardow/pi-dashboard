@@ -72,7 +72,7 @@ const STEIPETE_FEEDS = [
 // Key: req.destroy() is called on timeout so the socket is killed immediately.
 // Without this, Node.js keeps the process alive waiting for the orphaned socket.
 const TIMEOUT_MS = 8000;
-function httpsGet(url, depth, extraHeaders) {
+function httpsGet(url, depth, extraHeaders, timeoutMs) {
     depth = depth || 0;
     return new Promise(function (resolve, reject) {
         if (depth > 6) return reject(new Error('Too many redirects'));
@@ -102,7 +102,7 @@ function httpsGet(url, depth, extraHeaders) {
                 var next = loc.startsWith('http') ? loc : new URL(loc, url).href;
                 res.resume();
                 // Carry the custom headers across the redirect.
-                return httpsGet(next, depth + 1, extraHeaders)
+                return httpsGet(next, depth + 1, extraHeaders, timeoutMs)
                     .then(function (v) { finish(resolve, v); })
                     .catch(function (e) { finish(reject, e); });
             }
@@ -118,8 +118,8 @@ function httpsGet(url, depth, extraHeaders) {
         // Hard deadline: destroy the socket so it releases the active handle
         var timer = setTimeout(function () {
             req.destroy();  // triggers 'error' → finish(reject, …) above
-            finish(reject, new Error('Timeout after ' + TIMEOUT_MS + 'ms'));
-        }, TIMEOUT_MS);
+            finish(reject, new Error('Timeout after ' + (timeoutMs || TIMEOUT_MS) + 'ms'));
+        }, timeoutMs || TIMEOUT_MS);
     });
 }
 
@@ -530,12 +530,31 @@ function dayOfYearInZone(tz) {
 }
 
 // GET with the YouVersion app key header.
+//
+// The endpoint is fast on its own — around 50ms — but the fetcher runs
+// a dozen feeds concurrently, and under that load a request can sit in
+// the socket queue long enough to blow the default 8 second budget. It
+// did exactly that once, and the verse silently fell back to the random
+// bible-api.com pick. So: a longer budget for this API, and one retry.
+const YVP_TIMEOUT_MS = 20000;
+
 async function yvpGet(path) {
-    var raw = await httpsGet(YVP_API + path, 0, {
-        'X-YVP-App-Key': process.env.YVP_APP_KEY,
-        'Accept': 'application/json',
-    });
-    return JSON.parse(raw);
+    var lastError = null;
+    for (var attempt = 0; attempt < 2; attempt++) {
+        try {
+            var raw = await httpsGet(YVP_API + path, 0, {
+                'X-YVP-App-Key': process.env.YVP_APP_KEY,
+                'Accept': 'application/json',
+            }, YVP_TIMEOUT_MS);
+            return JSON.parse(raw);
+        } catch (err) {
+            lastError = err;
+            if (attempt === 0) {
+                console.warn('  ⚠ YouVersion request failed (' + err.message + ') — retrying');
+            }
+        }
+    }
+    throw lastError;
 }
 
 async function fetchVerseYouVersion() {
@@ -661,6 +680,11 @@ async function fetchVerseBibleApi() {
         text: text,
         reference: reference,
         translation: BIBLE_TRANSLATION,
+        // The full version name, so the card can name the translation
+        // even on the fallback path. Without it you would not know
+        // whether you were reading the curated YouVersion verse or this
+        // random pick.
+        version: 'King James Version',
         date: dayKey,
         attribution: null,
         source: 'bible-api.com',

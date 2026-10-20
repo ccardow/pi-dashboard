@@ -114,11 +114,21 @@ const META = {
 let seenAppKey = null;
 let seenPaths = [];
 
+let failFirst = false;
 const server = http.createServer((req, res) => {
     seenPaths.push(req.url);
     seenAppKey = req.headers['x-yvp-app-key'];
     res.setHeader('Content-Type', 'application/json');
-    if (req.url.startsWith('/v1/verse-of-the-days/')) return res.end(JSON.stringify(VOTD));
+    if (req.url.startsWith('/v1/verse-of-the-days/')) {
+        if (failFirst) {
+            // Simulate a transient failure: destroy the socket so the
+            // client sees a network error rather than an HTTP status.
+            failFirst = false;
+            req.socket.destroy();
+            return;
+        }
+        return res.end(JSON.stringify(VOTD));
+    }
     if (req.url.indexOf('/passages/') !== -1) return res.end(JSON.stringify(PASSAGE));
     if (req.url === '/v1/bibles/3034') return res.end(JSON.stringify(META));
     res.statusCode = 404;
@@ -187,6 +197,26 @@ server.listen(0, '127.0.0.1', async () => {
         check('the YouVersion API was not called without a key',
             !seenPaths.some(p => p.startsWith('/v1/verse-of-the-days')),
             seenPaths.join(' | '));
+
+        console.log('\na transient failure must be retried, not fallen back on:');
+        // The fetcher runs a dozen feeds at once, and under that load a
+        // request can exceed the shared 8 second budget. It did once, and
+        // the card silently fell back to a random verse in a different
+        // translation. The YouVersion path gets a longer budget and a retry.
+        failFirst = true;
+        seenPaths = [];
+        const { fetchVerseYouVersion: retryFetcher } = await loadFetcher({
+            YVP_API: base,
+            YVP_APP_KEY: 'test-key-123',
+            YVP_BIBLE_ID: '3034',
+        });
+        const retried = await retryFetcher();
+        check('the verse still came through after a retry', retried && retried.text === PASSAGE.content,
+            retried ? retried.text : 'null');
+        check('it was retried rather than abandoned',
+            seenPaths.filter(p => p.startsWith('/v1/verse-of-the-days')).length >= 2,
+            seenPaths.join(' | '));
+        failFirst = false;
     } catch (e) {
         fail++;
         console.log('  FAIL  the YouVersion path threw: ' + e.message);
