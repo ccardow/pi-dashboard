@@ -195,8 +195,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 12:09 PM",
+  "lastUpdate": "10/20/2026, 12:39 PM",
   "news": [
+    {
+      "title": "Trump sued over Canadian tariffs in latest legal challenge",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump sued over Canadian tariffs in latest legal challenge",
+      "source": "BBC World",
+      "published": "Tue, 20 Oct 2026 19:30:05 GMT"
+    },
     {
       "title": "Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
       "url": "https://www.theglobeandmail.com/politics/article-partnering-us-canada-under-attack-ambassador-pete-hoekstra/",
@@ -224,44 +231,37 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Trump official claims record-breaking 300,000 visas were revoked",
       "source": "Al Jazeera",
       "published": "Tue, 20 Oct 2026 16:02:47 +0000"
-    },
-    {
-      "title": "‘You have to sacrifice’: Trump voters stay loyal as US midterms approach",
-      "url": "https://www.aljazeera.com/news/2026/10/20/you-have-to-sacrifice-trump-voters-stay-loyal-as-us-midterms-approach?traffic_source=rss",
-      "summary": "‘You have to sacrifice’: Trump voters stay loyal as US midterms approach",
-      "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 15:57:47 +0000"
     }
   ],
-  "vibes": "⚠ Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
+  "vibes": "⚠ Trump sued over Canadian tariffs in latest legal challenge",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "14",
+    "temp": "15",
     "condition": "Clear",
-    "feels_like": "11",
+    "feels_like": "12",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 12:08 PM"
+    "updated": "Oct 20, 12:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 257,
+      "tokens_used": 170,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "12:07",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 455 msgs · 232 tools"
+        "time": "12:39",
+        "msg": "default/GUI: minimax/minimax-m3.1-flash:free · 134 msgs · 85 tools"
       },
       {
-        "time": "11:38",
-        "msg": "default/GUI: minimax/minimax-m3.1-flash:free · 0 msgs · 0 tools"
+        "time": "12:22",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 103 msgs · 51 tools"
       },
       {
         "time": "20:01",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792523326.083603,
+          "started_at": 1792525088.661716,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792523326.083603
+              "at": 1792525088.661716
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792523326.083603,
+          "ended_at": 1792523404.640978,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792523326.083603
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792523398.036918
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792523400.877956
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792523400.879946
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792523402.430075
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792523404.640978
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792523404.640978
+            }
+          ],
+          "duration_s": 79,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792521487.360108,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792465686.425474,
+          "started_at": 1792465718.461221,
           "ended_at": 1792465722.441393,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792465686.425474
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,25 +510,25 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792465722.441393
             }
           ],
-          "duration_s": 36,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792523326.083603,
+        "started_at": 1792525088.661716,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792523326.083603
+            "at": 1792525088.661716
           }
         ],
         "duration_s": null,
         "summary": "run in progress"
       },
-      "total_runs": 5
+      "total_runs": 6
     },
     "gateway": {
       "pid": 1219,
@@ -506,13 +545,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 2
     },
     "totals": {
-      "sessions": 62,
-      "input_tokens": 40068827,
-      "output_tokens": 1104115,
-      "tool_calls": 1336
+      "sessions": 61,
+      "input_tokens": 40406569,
+      "output_tokens": 1183238,
+      "tool_calls": 1240
     },
     "roadmap": [
       {
@@ -524,11 +563,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "2"
+      },
+      {
         "name": "Session Ledger",
-        "status": "62 sessions · 41173k tokens · 1336 tool calls"
+        "status": "61 sessions · 41590k tokens · 1240 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 12:09 PM"
+    "lastUpdate": "Oct 20, 12:39 PM"
   },
   "hn_posts": [
     {
@@ -614,26 +657,14 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "firebuilt": {
     "agents": [
       {
-        "name": "Maya",
-        "id": "maya",
-        "role": "Build the things",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 2,
-        "messages": 10,
-        "last_activity": 1792523168.11243,
-        "skills": 27,
-        "cron": 4
-      },
-      {
         "name": "Sienna",
         "id": "sienna",
         "role": "Brand director and visual identity lead",
         "model": "minimax/minimax-m3.1-flash:free",
         "provider": "openrouter",
         "sessions": 3,
-        "messages": 4,
-        "last_activity": 1792522303.1672,
+        "messages": 183,
+        "last_activity": 1792525155.8351805,
         "skills": 27,
         "cron": 4
       },
@@ -644,8 +675,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "model": "minimax/minimax-m3.1-flash:free",
         "provider": "openrouter",
         "sessions": 3,
-        "messages": 4,
-        "last_activity": 1792522296.997566,
+        "messages": 6,
+        "last_activity": 1792524297.9100888,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Maya",
+        "id": "maya",
+        "role": "Build the things",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 2,
+        "messages": 12,
+        "last_activity": 1792523928.6216724,
         "skills": 27,
         "cron": 4
       },
@@ -700,13 +743,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     ],
     "agent_count": 7,
     "total_sessions": 22,
-    "total_messages": 42,
-    "last_activity": 1792523168.11243
+    "total_messages": 225,
+    "last_activity": 1792525155.8351805
   },
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -714,7 +757,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -722,7 +765,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -730,7 +773,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -738,7 +781,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -746,7 +789,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -754,7 +797,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -762,7 +805,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:57.992Z",
+      "fetched_at": "2026-10-20T19:39:32.032Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -770,7 +813,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T19:09:58.030Z",
+      "fetched_at": "2026-10-20T19:39:32.068Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
