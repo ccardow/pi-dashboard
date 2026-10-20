@@ -1,30 +1,6 @@
 {
   "youtube": [
     {
-      "title": "Gemini 4 Argon Really Surprised Me",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "published": "2026-10-19T08:49:21+00:00"
-    },
-    {
-      "title": "Give Me 14 Mins and I'll Save You Millions of Claude Tokens",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=peZyP4UC88U",
-      "published": "2026-10-18T17:30:33+00:00"
-    },
-    {
-      "title": "I Turned Claude Code Into a Game Studio (free kit)",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=5D6UkmsPDPA",
-      "published": "2026-10-17T21:30:26+00:00"
-    },
-    {
-      "title": "Claude Edited This Entire Video",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=kFvk_38hWWw",
-      "published": "2026-10-16T03:00:26+00:00"
-    },
-    {
       "title": "The runtime wars are over... and Node won",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
@@ -37,22 +13,10 @@
       "published": "2026-10-14T17:48:10+00:00"
     },
     {
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "published": "2026-10-13T08:56:12+00:00"
-    },
-    {
       "title": "Every app on Earth is now open source... whether it likes it or not",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
       "published": "2026-10-12T19:15:23+00:00"
-    },
-    {
-      "title": "DeepSeek Solved AI’s Memory Problem",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-      "published": "2026-10-11T16:53:17+00:00"
     }
   ],
   "x_posts": [
@@ -120,11 +84,11 @@
       "published": "Mon, 19 Oct 2026 21:29:15 GMT"
     },
     {
-      "user": "MatthewBerman",
+      "user": "realDonaldTrump",
       "topic": "AI / ML",
-      "content": "We are putting out MORE and BETTER videos than ever. Here's how Brian (@ForwardEditor) uses AI to edit our videos.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112288084951961786#m",
-      "published": "Mon, 19 Oct 2026 21:01:38 GMT"
+      "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
+      "url": "http://nitter.pp.ua/realDonaldTrump/status/2112294730247627212#m",
+      "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     }
   ],
   "peter_x": [
@@ -189,7 +153,7 @@
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 06:51 PM",
+  "lastUpdate": "10/19/2026, 06:52 PM",
   "news": [
     {
       "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
@@ -237,21 +201,21 @@
     "condition": "Clear",
     "feels_like": "9",
     "hi": "15",
-    "lo": "5",
-    "updated": "Oct 19, 06:50 PM"
+    "lo": "6",
+    "updated": "Oct 19, 06:51 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 262,
+      "tokens_used": 265,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "18:50",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 141 msgs · 73 tools"
+        "time": "18:51",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 153 msgs · 79 tools"
       },
       {
         "time": "16:09",
@@ -605,9 +569,9 @@
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 39016511,
-      "output_tokens": 872087,
-      "tool_calls": 1073
+      "input_tokens": 39018062,
+      "output_tokens": 873925,
+      "tool_calls": 1079
     },
     "roadmap": [
       {
@@ -624,10 +588,10 @@
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 39889k tokens · 1073 tool calls"
+        "status": "60 sessions · 39892k tokens · 1079 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 06:51 PM"
+    "lastUpdate": "Oct 19, 06:52 PM"
   },
   "hn_posts": [
     {
@@ -802,15 +766,15 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.865Z",
-      "count": 9,
+      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "count": 3,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.865Z",
+      "fetched_at": "2026-10-20T01:52:30.358Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -818,7 +782,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.865Z",
+      "fetched_at": "2026-10-20T01:52:30.358Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -826,7 +790,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.865Z",
+      "fetched_at": "2026-10-20T01:52:30.358Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -834,7 +798,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.866Z",
+      "fetched_at": "2026-10-20T01:52:30.358Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -842,7 +806,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.866Z",
+      "fetched_at": "2026-10-20T01:52:30.358Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -850,7 +814,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.866Z",
+      "fetched_at": "2026-10-20T01:52:30.358Z",
       "count": 1,
       "error": null,
       "source": "bible-api.com",
@@ -858,7 +822,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.866Z",
+      "fetched_at": "2026-10-20T01:52:30.358Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -866,7 +830,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:51:09.909Z",
+      "fetched_at": "2026-10-20T01:52:30.399Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
