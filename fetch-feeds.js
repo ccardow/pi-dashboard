@@ -744,7 +744,7 @@ function readHermesSessions(limit) {
         try {
             var stmt = db.prepare(
                 'SELECT id, source, model, profile_name, message_count, tool_call_count, ' +
-                'input_tokens, output_tokens, started_at, last_activity_at, title ' +
+                'input_tokens, output_tokens, started_at, last_activity_at, title, model_config ' +
                 'FROM sessions ' +
                 'ORDER BY COALESCE(last_activity_at, started_at) DESC LIMIT ?'
             );
@@ -758,7 +758,33 @@ function readHermesSessions(limit) {
     }
 }
 
-// Total token/tool spend across all sessions.
+// Current context occupancy for the live session, in tokens.
+// Hermes persists the real figure in the session row's model_config blob
+// under _usage_anchor: prompt_tokens for the last API call plus the
+// completion, which is the same number the CLI shows as "Current context".
+//
+// The session row's own input_tokens/output_tokens are LIFETIME totals and
+// must NOT be used here — they grow with every call and produce readings
+// far above 100% of the context window.
+//
+// Returns null when no anchor is available, so the caller can show "—" rather
+// than a wrong number.
+function readCurrentContext(live) {
+    if (!live) return null;
+    try {
+        var cfgBlob = live.model_config;
+        if (!cfgBlob) return null;
+        if (typeof cfgBlob === 'string') cfgBlob = JSON.parse(cfgBlob);
+        var anchor = cfgBlob && cfgBlob._usage_anchor;
+        if (!anchor || typeof anchor !== 'object') return null;
+        var prompt = parseInt(anchor.prompt_tokens, 10);
+        if (!isNaN(prompt) && prompt > 0) return prompt;
+        return null;
+    } catch (e) {
+        return null;
+    }
+}
+
 function readHermesTokenTotals() {
     var dbPath = path.join(HERMES_HOME, 'state.db');
     if (!fs.existsSync(dbPath)) return null;
@@ -882,10 +908,18 @@ function fetchPiStatus() {
     var modelId = (live && live.model) || (cfg && cfg.model) || 'unknown';
     var provider = (cfg && cfg.provider) || 'hermes';
 
-    // Token usage of the live session
-    var usedK = live
-        ? Math.round(((live.input_tokens || 0) + (live.output_tokens || 0)) / 1000)
-        : 0;
+    // Current context occupancy.
+    //
+    // The session row's input_tokens/output_tokens are LIFETIME totals for
+    // the whole session, not the size of the current context window. Adding
+    // them together and calling it "context" produced readings over 100%
+    // (e.g. "1413k / 1000k") once a session ran long enough.
+    //
+    // Hermes records the real occupancy in the session's _usage_anchor:
+    // prompt_tokens for the last API call plus the messages appended since.
+    // That is the same figure the CLI shows as "Current context".
+    var contextUsed = readCurrentContext(live);
+    var usedK = contextUsed === null ? 0 : Math.round(contextUsed / 1000);
     var contextWindow = readContextWindow(modelId);
 
     // Activity log: recent sessions as terminal-style lines
@@ -934,7 +968,9 @@ function fetchPiStatus() {
         activity: 'Hermes Gateway · ' + modelId + ' via ' + provider,
         model: {
             name: provider + '/' + modelId,
-            tokens_used: usedK,
+            // null means "unknown" — the frontend renders an em dash rather
+            // than a fabricated zero. 0 would claim the context is empty.
+            tokens_used: contextUsed === null ? null : usedK,
             tokens_total: contextWindow,
         },
         logs: logs,

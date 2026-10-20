@@ -555,16 +555,27 @@ const renderData = (data) => {
         if (data.pi_status.model) {
             if (modelName) modelName.textContent = data.pi_status.model.name || '--';
             if (modelTokens) {
-                const used = data.pi_status.model.tokens_used || 0;
                 const total = data.pi_status.model.tokens_total || 256;
-                modelTokens.textContent = `${used}k / ${total}k`;
-                if (modelRemaining) {
-                    const remaining = Math.max(0, total - used);
-                    modelRemaining.textContent = `${remaining}k`;
-                }
-                if (modelProgress) {
-                    const pct = Math.min(100, Math.round((used / total) * 100));
-                    modelProgress.style.width = `${pct}%`;
+                const used = data.pi_status.model.tokens_used;
+
+                // No anchor means we do not know the current occupancy. Say so
+                // rather than showing a fabricated zero, and never render a
+                // figure above the window's size.
+                if (used === null || used === undefined) {
+                    modelTokens.textContent = `— / ${total}k`;
+                    if (modelRemaining) modelRemaining.textContent = '—';
+                    if (modelProgress) modelProgress.style.width = '0%';
+                } else {
+                    const clamped = Math.min(used, total);
+                    modelTokens.textContent = `${clamped}k / ${total}k`;
+                    if (modelRemaining) {
+                        const remaining = Math.max(0, total - clamped);
+                        modelRemaining.textContent = `${remaining}k`;
+                    }
+                    if (modelProgress) {
+                        const pct = Math.min(100, Math.round((clamped / total) * 100));
+                        modelProgress.style.width = `${pct}%`;
+                    }
                 }
             }
         }
