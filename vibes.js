@@ -63,6 +63,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "DuncanRogoff",
+      "topic": "AI / ML",
+      "content": "Claude just made a six and a half minute film about all 98 Best Picture winners, and every frame, note and cut was written in code. The free add-on behind it, Lemo Opuscar, gives Claude Code 51 film styles and no AI video generator. https://github.com/lemomo-ai/lemo-opuscar",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2112635070540390772#m",
+      "published": "Tue, 20 Oct 2026 20:00:26 GMT"
+    },
+    {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
       "content": "Build AI websites that look like a pro made them. No more cheap templates. I built a Web Design OS in 30 minutes using GPT-6 Astra. 5 design skills + brand rules + style library. Same AI. Much better design. Want the SOP? DM me.",
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "MiniMax M3.1 Flash from @MiniMax_AI is now available in OpenClaw. Running v2026.10.1 or newer? No OpenClaw update needed.",
       "url": "http://nitter.meowing.monster/openclaw/status/2112569427527172435#m",
       "published": "Tue, 20 Oct 2026 15:39:35 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Venture",
-      "content": "RT by @elonmusk: Elon Musk in new interview with Walter Isaacson on the wealth he's created: \"A fundamental misunderstanding of economics arises because of conflating resource allocation and consumption; I've created. My so-called wealth is simply a percentage ownership in SpaceX and Tesla. And this is going to be taxed quite heavily, and there's not some magical way to avoid taxes. If there were I would know about it. At the end of the day, this will get whittled down, and a few generations from now, if money still matters, which I don't think it will, my descendants would have a tiny fraction of what I have.\"",
-      "url": "http://nitter.meowing.monster/SawyerMerritt/status/2112551927649018058#m",
-      "published": "Tue, 20 Oct 2026 14:30:03 GMT"
     }
   ],
   "peter_x": [
@@ -195,8 +195,22 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 01:11 PM",
+  "lastUpdate": "10/20/2026, 01:37 PM",
   "news": [
+    {
+      "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "summary": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+      "source": "BBC World",
+      "published": "Tue, 20 Oct 2026 20:01:04 GMT"
+    },
+    {
+      "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+      "source": "BBC World",
+      "published": "Tue, 20 Oct 2026 20:00:57 GMT"
+    },
     {
       "title": "Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
       "url": "https://www.theglobeandmail.com/politics/article-carney-alberta-separation-referendum-results-immigration-constitution/",
@@ -205,56 +219,46 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Tue, 20 Oct 2026 19:51:26 +0000"
     },
     {
+      "title": "Netanyahu says he discussed ‘eliminating’ Iran’s regime with Trump",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss",
+      "summary": "Netanyahu says he discussed ‘eliminating’ Iran’s regime with Trump",
+      "source": "Al Jazeera",
+      "published": "Tue, 20 Oct 2026 19:51:09 +0000"
+    },
+    {
       "title": "Trump sued over Canadian tariffs in latest legal challenge",
       "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
       "summary": "Trump sued over Canadian tariffs in latest legal challenge",
       "source": "BBC World",
       "published": "Tue, 20 Oct 2026 19:30:05 GMT"
-    },
-    {
-      "title": "Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
-      "url": "https://www.theglobeandmail.com/politics/article-partnering-us-canada-under-attack-ambassador-pete-hoekstra/",
-      "summary": "Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
-      "source": "Globe Politics",
-      "published": "Tue, 20 Oct 2026 18:32:41 +0000"
-    },
-    {
-      "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-      "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-      "summary": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-      "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 17:30:15 GMT"
-    },
-    {
-      "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
-      "summary": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
-      "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 16:59:06 GMT"
     }
   ],
-  "vibes": "⚠ Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
+  "vibes": "⚠ Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "15",
+    "temp": "16",
     "condition": "Clear",
     "feels_like": "13",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 01:08 PM"
+    "updated": "Oct 20, 01:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 285,
+      "tokens_used": 111,
       "tokens_total": 1000
     },
     "logs": [
+      {
+        "time": "13:37",
+        "msg": "default/GUI: minimax/minimax-m3.1-flash:free · 95 msgs · 54 tools"
+      },
       {
         "time": "12:56",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 271 msgs · 164 tools"
@@ -274,10 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "17:13",
         "msg": "default/CLI: poolside/laguna-s-2.1:free · 27 msgs · 10 tools"
-      },
-      {
-        "time": "16:55",
-        "msg": "default/CLI: stealth/space-bunny-alpha · 2 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792526926.334047,
+          "started_at": 1792528648.650963,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792526926.334047
+              "at": 1792528648.650963
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792526926.334047,
+          "ended_at": 1792527076.784957,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792526926.334047
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792527072.543294
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792527073.84869
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792527073.850621
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792527074.873376
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792527076.784957
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792527076.784957
+            }
+          ],
+          "duration_s": 150,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792525088.661716,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792519685.835996,
+          "started_at": 1792519756.237418,
           "ended_at": 1792519761.230473,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792519685.835996
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792519761.230473
             }
           ],
-          "duration_s": 75,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792518691.625337,
-          "ended_at": 1792518698.441904,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792518691.625337
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792518693.837606
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792518693.847713
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792518695.494853
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792518698.441904
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792518698.441904
-            }
-          ],
-          "duration_s": 7,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792526926.334047,
+        "started_at": 1792528648.650963,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792526926.334047
+            "at": 1792528648.650963
           }
         ],
         "duration_s": null,
@@ -548,10 +548,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "active_agents": 2
     },
     "totals": {
-      "sessions": 61,
-      "input_tokens": 40442338,
-      "output_tokens": 1262058,
-      "tool_calls": 1319
+      "sessions": 62,
+      "input_tokens": 40553471,
+      "output_tokens": 1288107,
+      "tool_calls": 1373
     },
     "roadmap": [
       {
@@ -568,12 +568,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "61 sessions · 41704k tokens · 1319 tool calls"
+        "status": "62 sessions · 41842k tokens · 1373 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 01:11 PM"
+    "lastUpdate": "Oct 20, 01:37 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "published": "Tue, 20 Oct 2026 18:29:09 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -636,13 +643,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Apple broke an essential presentation feature of iPads",
       "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
       "published": "Tue, 20 Oct 2026 12:17:28 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Google Cloud outage affects almost all banking and other operations in Europe",
-      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-      "published": "Tue, 20 Oct 2026 10:26:02 +0000"
     }
   ],
   "verse": {
@@ -657,27 +657,27 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "firebuilt": {
     "agents": [
       {
-        "name": "Atlas",
-        "id": "atlas",
-        "role": "Quality gate",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 4,
-        "messages": 145,
-        "last_activity": 1792527058.3424459,
-        "skills": 27,
-        "cron": 4
-      },
-      {
         "name": "Sienna",
         "id": "sienna",
         "role": "Brand director and visual identity lead",
         "model": "minimax/minimax-m3.1-flash:free",
         "provider": "openrouter",
         "sessions": 3,
-        "messages": 488,
-        "last_activity": 1792527043.7131672,
+        "messages": 412,
+        "last_activity": 1792528617.276026,
         "skills": 36,
+        "cron": 4
+      },
+      {
+        "name": "Atlas",
+        "id": "atlas",
+        "role": "Quality gate",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 4,
+        "messages": 341,
+        "last_activity": 1792528236.6838048,
+        "skills": 27,
         "cron": 4
       },
       {
@@ -743,13 +743,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     ],
     "agent_count": 7,
     "total_sessions": 22,
-    "total_messages": 724,
-    "last_activity": 1792527058.3424459
+    "total_messages": 844,
+    "last_activity": 1792528617.276026
   },
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -757,7 +757,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -765,7 +765,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -773,7 +773,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -781,7 +781,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -789,7 +789,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -797,7 +797,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -805,7 +805,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.499Z",
+      "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -813,7 +813,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:11:12.537Z",
+      "fetched_at": "2026-10-20T20:37:46.118Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
