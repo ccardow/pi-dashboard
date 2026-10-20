@@ -119,6 +119,13 @@ rm -f /tmp/yvp-meta.json
 # Rewrite the file, preserving every other key. The old script used `>`,
 # so running it again would have wiped GIST_TOKEN.
 touch "$ENV_FILE"
+
+# Remember what was there before, so we can say whether anything actually
+# changed. YouVersion has no key-rotation flow — a new key comes from
+# creating a new app — so it is easy to re-run this with the same key
+# and believe you rotated when you did not. Say so plainly.
+PREVIOUS_KEY="$(grep -m1 '^YVP_APP_KEY=' "$ENV_FILE" 2>/dev/null | cut -d= -f2- || true)"
+
 TMP_FILE="$(mktemp)"
 chmod 600 "$TMP_FILE"
 
@@ -136,5 +143,13 @@ chmod 600 "$ENV_FILE"
 echo
 echo "Wrote $ENV_FILE (mode $(stat -c '%a' "$ENV_FILE"))"
 echo "  YVP_APP_KEY set, YVP_BIBLE_ID=$BIBLE_ID"
+if [ -n "$PREVIOUS_KEY" ] && [ "$PREVIOUS_KEY" = "$APP_KEY" ]; then
+    echo "  NOTE: the key is UNCHANGED from the previous value."
+    echo "        YouVersion does not rotate keys in place — a new key comes from"
+    echo "        creating a NEW app in the Developer Dashboard. If you intended to"
+    echo "        rotate, create a new app, then run this again with its key."
+elif [ -n "$PREVIOUS_KEY" ]; then
+    echo "  The key has CHANGED from the previous value."
+fi
 echo "  Existing credentials preserved:"
 grep -o -E '^[A-Z_]+=' "$ENV_FILE" | tr -d '=' | sed 's/^/    /'
