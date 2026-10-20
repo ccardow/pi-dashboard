@@ -1,25 +1,74 @@
 {
   "youtube": [
     {
+      "title": "3 New Claude Prompts You Need To Try",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=aIrrq3CLSKM",
+      "published": "2026-10-19T12:43:39+00:00"
+    },
+    {
+      "title": "Gemini 4 Argon Really Surprised Me",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "published": "2026-10-19T08:49:21+00:00"
+    },
+    {
+      "title": "Give Me 14 Mins and I'll Save You Millions of Claude Tokens",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=peZyP4UC88U",
+      "published": "2026-10-18T17:30:33+00:00"
+    },
+    {
+      "title": "I Turned Claude Code Into a Game Studio (free kit)",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=5D6UkmsPDPA",
+      "published": "2026-10-17T21:30:26+00:00"
+    },
+    {
+      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
+      "published": "2026-10-17T14:00:30+00:00"
+    },
+    {
+      "title": "Demis Hassabis: Put your life force into a problem that matters",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=LbmiPYnFj48",
+      "published": "2026-10-16T19:24:49+00:00"
+    },
+    {
+      "title": "AI News: 6 New Models & A Nano Banana Killer",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=KGcuuhqmPhI",
+      "published": "2026-10-16T16:20:28+00:00"
+    },
+    {
+      "title": "This Tesla Actually Flies (NOT AI)",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=WXWFmwfo1JA",
+      "published": "2026-10-16T04:30:35+00:00"
+    },
+    {
+      "title": "Claude Edited This Entire Video",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=kFvk_38hWWw",
+      "published": "2026-10-16T03:00:26+00:00"
+    },
+    {
       "title": "The runtime wars are over... and Node won",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
       "published": "2026-10-15T17:35:15+00:00"
-    },
-    {
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-      "published": "2026-10-14T17:48:10+00:00"
-    },
-    {
-      "title": "Every app on Earth is now open source... whether it likes it or not",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
-      "published": "2026-10-12T19:15:23+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112363553948946733#m",
+      "published": "Tue, 20 Oct 2026 02:01:31 GMT"
+    },
     {
       "user": "elonmusk",
       "topic": "Apple / iOS",
@@ -56,13 +105,6 @@
       "published": "Mon, 19 Oct 2026 23:37:01 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112305676706029908#m",
-      "published": "Mon, 19 Oct 2026 22:11:32 GMT"
-    },
-    {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
       "content": "The people panicking about AI are the same ones who said: • The internet was a fad • Social media was for kids • Remote work would never last They're not wrong because they're dumb. They're wrong because they're comfortable. Comfort is the enemy of the next era.",
@@ -87,7 +129,7 @@
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "http://nitter.pp.ua/realDonaldTrump/status/2112294730247627212#m",
+      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     }
   ],
@@ -153,8 +195,15 @@
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 06:52 PM",
+  "lastUpdate": "10/19/2026, 07:05 PM",
   "news": [
+    {
+      "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+      "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+      "source": "BBC World",
+      "published": "Tue, 20 Oct 2026 01:52:43 GMT"
+    },
     {
       "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3?traffic_source=rss",
@@ -182,40 +231,33 @@
       "summary": "Trump approval hits record-low 31 percent, polls show Republican struggles",
       "source": "Al Jazeera",
       "published": "Mon, 19 Oct 2026 20:59:05 +0000"
-    },
-    {
-      "title": "Canada’s top soldier vows to release results of official probe into deadly Wainwright fire",
-      "url": "https://www.theglobeandmail.com/politics/article-chief-defence-staff-vows-make-cfb-wainwright-inquire-results-public/",
-      "summary": "Canada’s top soldier vows to release results of official probe into deadly Wainwright fire",
-      "source": "Globe Politics",
-      "published": "Mon, 19 Oct 2026 20:46:57 +0000"
     }
   ],
-  "vibes": "⚠ Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
+  "vibes": "⚠ Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "11",
-    "condition": "Clear",
-    "feels_like": "9",
+    "temp": "10",
+    "condition": "Mostly Clear",
+    "feels_like": "8",
     "hi": "15",
     "lo": "6",
-    "updated": "Oct 19, 06:51 PM"
+    "updated": "Oct 19, 07:05 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 265,
+      "tokens_used": 143,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "18:51",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 153 msgs · 79 tools"
+        "time": "19:05",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 241 msgs · 119 tools"
       },
       {
         "time": "16:09",
@@ -569,9 +611,9 @@
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 39018062,
-      "output_tokens": 873925,
-      "tool_calls": 1079
+      "input_tokens": 39146763,
+      "output_tokens": 897891,
+      "tool_calls": 1119
     },
     "roadmap": [
       {
@@ -588,12 +630,54 @@
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 39892k tokens · 1079 tool calls"
+        "status": "60 sessions · 40045k tokens · 1119 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 06:52 PM"
+    "lastUpdate": "Oct 19, 07:05 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Lula supporters protest against Meta to denounce its 'electoral interference'",
+      "url": "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/",
+      "published": "Tue, 20 Oct 2026 00:53:52 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "France's supermarket fridges were vulnerable online for months",
+      "url": "https://ipinfo.io/blog/france-fridges-hack",
+      "published": "Tue, 20 Oct 2026 00:00:49 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "published": "Mon, 19 Oct 2026 23:22:18 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "“bonsoir, Elliot”: How abliterated models can get you pwned",
+      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
+      "published": "Mon, 19 Oct 2026 23:08:52 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "An ad-free Android TV",
+      "url": "https://cretezy.com/2026/ad-free-android-tv",
+      "published": "Mon, 19 Oct 2026 22:32:37 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Open Source",
+      "content": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "url": "https://bsd.network/@brynet/117407035545900963",
+      "published": "Mon, 19 Oct 2026 21:11:45 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -604,72 +688,33 @@
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
+      "content": "One Hash Bloom Filters",
+      "url": "https://calabro.io/ohbf",
+      "published": "Mon, 19 Oct 2026 20:50:08 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "The End of Rationing",
+      "url": "https://sanketsaurav.com/writing/end-of-rationing",
+      "published": "Mon, 19 Oct 2026 19:19:33 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
       "content": "The reverts will continue until morale improves",
       "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
       "published": "Mon, 19 Oct 2026 18:42:32 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Android apps running native on macOS",
-      "url": "https://github.com/kksimp/Mac.apk",
-      "published": "Mon, 19 Oct 2026 16:45:30 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "MiniMax M3.1 Flash",
-      "url": "https://www.minimax.io/blog/minimax-m31f",
-      "published": "Mon, 19 Oct 2026 16:39:09 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Wine ported to OpenBSD",
-      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-      "published": "Mon, 19 Oct 2026 13:35:34 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "url": "https://news.ycombinator.com/item?id=50151036",
-      "published": "Mon, 19 Oct 2026 11:24:34 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Alternatives to animal testing are finally taking off",
-      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
-      "published": "Mon, 19 Oct 2026 11:10:54 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
-      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
-      "published": "Mon, 19 Oct 2026 10:53:39 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Timestral: Mistral's time-series foundation models",
-      "url": "https://mistral.ai/news/timestral/",
-      "published": "Mon, 19 Oct 2026 09:59:32 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "I built a drone with only one motor [video]",
-      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
-      "published": "Mon, 19 Oct 2026 09:05:07 +0000"
     }
   ],
   "verse": {
-    "text": "In those days I Daniel was mourning three full weeks.",
-    "reference": "Daniel 10:2",
-    "translation": "kjv",
-    "date": "2026-10-19"
+    "text": "Love takes no pleasure in evil, but rejoices in the truth.",
+    "reference": "1 Corinthians 13:6",
+    "translation": "BSB",
+    "version": "Berean Standard Bible",
+    "date": "2026-10-19",
+    "attribution": "Public Domain",
+    "source": "youversion"
   },
   "firebuilt": {
     "agents": [
@@ -766,15 +811,15 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
-      "count": 3,
+      "fetched_at": "2026-10-20T02:05:27.193Z",
+      "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "fetched_at": "2026-10-20T02:05:27.193Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -782,7 +827,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "fetched_at": "2026-10-20T02:05:27.193Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -790,7 +835,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "fetched_at": "2026-10-20T02:05:27.193Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -798,7 +843,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "fetched_at": "2026-10-20T02:05:27.193Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -806,7 +851,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "fetched_at": "2026-10-20T02:05:27.193Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -814,15 +859,15 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "fetched_at": "2026-10-20T02:05:27.193Z",
       "count": 1,
       "error": null,
-      "source": "bible-api.com",
+      "source": "youversion",
       "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.358Z",
+      "fetched_at": "2026-10-20T02:05:27.193Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -830,7 +875,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:52:30.399Z",
+      "fetched_at": "2026-10-20T02:05:27.239Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
