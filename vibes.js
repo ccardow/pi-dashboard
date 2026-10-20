@@ -1,12 +1,6 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "3 New Claude Prompts You Need To Try",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=aIrrq3CLSKM",
-      "published": "2026-10-19T12:43:39+00:00"
-    },
-    {
       "title": "Gemini 4 Argon Really Surprised Me",
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
@@ -25,30 +19,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "2026-10-17T21:30:26+00:00"
     },
     {
-      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
-      "published": "2026-10-17T14:00:30+00:00"
-    },
-    {
-      "title": "Demis Hassabis: Put your life force into a problem that matters",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=LbmiPYnFj48",
-      "published": "2026-10-16T19:24:49+00:00"
-    },
-    {
-      "title": "AI News: 6 New Models & A Nano Banana Killer",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=KGcuuhqmPhI",
-      "published": "2026-10-16T16:20:28+00:00"
-    },
-    {
-      "title": "This Tesla Actually Flies (NOT AI)",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=WXWFmwfo1JA",
-      "published": "2026-10-16T04:30:35+00:00"
-    },
-    {
       "title": "Claude Edited This Entire Video",
       "channel": "Duncan Rogoff",
       "url": "https://www.youtube.com/watch?v=kFvk_38hWWw",
@@ -59,6 +29,30 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
       "published": "2026-10-15T17:35:15+00:00"
+    },
+    {
+      "title": "OpenAI’s lead engineer was secretly a spy...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+      "published": "2026-10-14T17:48:10+00:00"
+    },
+    {
+      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "published": "2026-10-13T08:56:12+00:00"
+    },
+    {
+      "title": "Every app on Earth is now open source... whether it likes it or not",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
+      "published": "2026-10-12T19:15:23+00:00"
+    },
+    {
+      "title": "DeepSeek Solved AI’s Memory Problem",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "published": "2026-10-11T16:53:17+00:00"
     }
   ],
   "x_posts": [
@@ -126,11 +120,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 19 Oct 2026 21:29:15 GMT"
     },
     {
-      "user": "realDonaldTrump",
+      "user": "MatthewBerman",
       "topic": "AI / ML",
-      "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294730247627212#m",
-      "published": "Mon, 19 Oct 2026 21:28:02 GMT"
+      "content": "We are putting out MORE and BETTER videos than ever. Here's how Brian (@ForwardEditor) uses AI to edit our videos.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112288084951961786#m",
+      "published": "Mon, 19 Oct 2026 21:01:38 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +189,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 06:06 PM",
+  "lastUpdate": "10/19/2026, 06:51 PM",
   "news": [
     {
       "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
@@ -239,25 +233,25 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "12",
+    "temp": "11",
     "condition": "Clear",
-    "feels_like": "10",
+    "feels_like": "9",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 06:06 PM"
+    "updated": "Oct 19, 06:50 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 223,
+      "tokens_used": 262,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "17:30",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 415 msgs · 205 tools"
+        "time": "18:50",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 141 msgs · 73 tools"
       },
       {
         "time": "16:09",
@@ -285,18 +279,128 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
+          "started_at": 1792460384.661646,
+          "ended_at": 1792460407.975308,
+          "outcome": "failed",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792460384.661646
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792460404.569438
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792460406.839437
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792460406.841796
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792460406.905777
+            },
+            {
+              "kind": "failed",
+              "text": "FAILED",
+              "at": 1792460407.975308
+            }
+          ],
+          "error": "git push failed (is the SSH key authorised for this repo?)",
+          "duration_s": 23,
+          "summary": "FAILED: git push failed (is the SSH key authorised for this repo?)"
+        },
+        {
+          "started_at": 1792458467.446447,
+          "ended_at": 1792460384.635988,
+          "outcome": "failed",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792458467.446447
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792460382.122933
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792460383.496932
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792460383.499241
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792460383.564038
+            },
+            {
+              "kind": "failed",
+              "text": "FAILED",
+              "at": 1792460384.635988
+            }
+          ],
+          "error": "git push failed (is the SSH key authorised for this repo?)",
+          "duration_s": 1917,
+          "summary": "FAILED: git push failed (is the SSH key authorised for this repo?)"
+        },
+        {
           "started_at": 1792456746.424282,
-          "ended_at": null,
-          "outcome": "running",
+          "ended_at": 1792456811.935984,
+          "outcome": "ok",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
               "at": 1792456746.424282
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792456808.977478
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792456810.163433
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792456810.165959
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792456810.228819
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792456811.935984
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792456811.935984
             }
           ],
-          "duration_s": null,
-          "summary": "run in progress"
+          "duration_s": 66,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792454853.73785,
@@ -421,31 +525,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist (no content change)"
         },
         {
-          "started_at": 1792451286.432893,
+          "started_at": 1792451331.516231,
           "ended_at": 1792451331.516231,
           "outcome": "ok",
           "events": [
             {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792451286.432893
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792451328.232698
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792451329.818087
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792451329.820273
-            },
-            {
               "kind": "committed",
               "text": "repo committed",
               "at": 1792451331.516231
@@ -456,96 +540,49 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792451331.516231
             }
           ],
-          "duration_s": 45,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792451082.470317,
-          "ended_at": 1792451171.16771,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792451082.470317
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792451168.158351
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792451169.490324
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792451169.492888
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792451171.16771
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792451171.16771
-            }
-          ],
-          "duration_s": 89,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792449545.064665,
-          "ended_at": 1792449547.981075,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792449545.064665
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792449546.234009
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792449546.236042
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792449547.981075
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792449547.981075
-            }
-          ],
-          "duration_s": 3,
+          "duration_s": 0,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792456746.424282,
-        "ended_at": null,
-        "outcome": "running",
+        "started_at": 1792460384.661646,
+        "ended_at": 1792460407.975308,
+        "outcome": "failed",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792456746.424282
+            "at": 1792460384.661646
+          },
+          {
+            "kind": "publish-start",
+            "text": "pushing to Gist",
+            "at": 1792460404.569438
+          },
+          {
+            "kind": "published",
+            "text": "Gist published",
+            "at": 1792460406.839437
+          },
+          {
+            "kind": "commit-start",
+            "text": "committing data",
+            "at": 1792460406.841796
+          },
+          {
+            "kind": "changed",
+            "text": "content changed",
+            "at": 1792460406.905777
+          },
+          {
+            "kind": "failed",
+            "text": "FAILED",
+            "at": 1792460407.975308
           }
         ],
-        "duration_s": null,
-        "summary": "run in progress"
+        "error": "git push failed (is the SSH key authorised for this repo?)",
+        "duration_s": 23,
+        "summary": "FAILED: git push failed (is the SSH key authorised for this repo?)"
       },
       "total_runs": 7
     },
@@ -564,13 +601,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 38780809,
-      "output_tokens": 845839,
-      "tool_calls": 1205
+      "input_tokens": 39016511,
+      "output_tokens": 872087,
+      "tool_calls": 1073
     },
     "roadmap": [
       {
@@ -582,68 +619,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "60 sessions · 39627k tokens · 1205 tool calls"
+        "status": "60 sessions · 39889k tokens · 1073 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 05:40 PM"
+    "lastUpdate": "Oct 19, 06:51 PM"
   },
   "hn_posts": [
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "France's Supermarket Fridges Were Vulnerable Online for Months",
-      "url": "https://ipinfo.io/blog/france-fridges-hack",
-      "published": "Tue, 20 Oct 2026 00:00:49 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Token-maxxing is dead, OpenRouter's token usage plateaus",
-      "url": "https://openrouter.ai/rankings",
-      "published": "Mon, 19 Oct 2026 23:40:15 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "“bonsoir, Elliot”: How abliterated models can get you pwned",
-      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
-      "published": "Mon, 19 Oct 2026 23:08:52 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Drupal is now light-years ahead of its reputation",
-      "url": "https://dri.es/state-of-drupal-presentation-september-2026",
-      "published": "Mon, 19 Oct 2026 21:38:02 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Open Source",
-      "content": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
-      "url": "https://bsd.network/@brynet/117407035545900963",
-      "published": "Mon, 19 Oct 2026 21:11:45 +0000"
-    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
       "url": "https://josie.lol/blog/linux-rtx-spark",
       "published": "Mon, 19 Oct 2026 21:08:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "One Hash Bloom Filters",
-      "url": "https://calabro.io/ohbf",
-      "published": "Mon, 19 Oct 2026 20:50:08 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "The End of Rationing",
-      "url": "https://sanketsaurav.com/writing/end-of-rationing",
-      "published": "Mon, 19 Oct 2026 19:19:33 +0000"
     },
     {
       "user": "Hacker News",
@@ -655,9 +647,58 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Evidence (YC S21) Is Hiring Software Engineers",
-      "url": "https://evidence.dev/jobs",
-      "published": "Mon, 19 Oct 2026 17:21:33 +0000"
+      "content": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "published": "Mon, 19 Oct 2026 16:45:30 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "published": "Mon, 19 Oct 2026 16:39:09 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "published": "Mon, 19 Oct 2026 13:35:34 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "published": "Mon, 19 Oct 2026 11:24:34 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Alternatives to animal testing are finally taking off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "published": "Mon, 19 Oct 2026 11:10:54 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "published": "Mon, 19 Oct 2026 10:53:39 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "published": "Mon, 19 Oct 2026 09:59:32 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "published": "Mon, 19 Oct 2026 09:05:07 +0000"
     }
   ],
   "verse": {
@@ -761,15 +802,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:06:59.297Z",
-      "count": 10,
+      "fetched_at": "2026-10-20T01:51:09.865Z",
+      "count": 9,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:06:59.297Z",
+      "fetched_at": "2026-10-20T01:51:09.865Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -777,7 +818,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:06:59.297Z",
+      "fetched_at": "2026-10-20T01:51:09.865Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -785,7 +826,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:06:59.297Z",
+      "fetched_at": "2026-10-20T01:51:09.865Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -793,7 +834,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:06:59.297Z",
+      "fetched_at": "2026-10-20T01:51:09.866Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -801,7 +842,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:06:59.297Z",
+      "fetched_at": "2026-10-20T01:51:09.866Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -809,27 +850,27 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T01:06:59.297Z",
+      "fetched_at": "2026-10-20T01:51:09.866Z",
       "count": 1,
       "error": null,
       "source": "bible-api.com",
       "age_min": 0
     },
     "pi": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T00:40:08.930Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T01:51:09.866Z",
       "count": 1,
-      "error": "hermes state unreadable",
+      "error": null,
       "source": "hermes local",
-      "age_min": 27
+      "age_min": 0
     },
     "firebuilt": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T00:40:08.970Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T01:51:09.909Z",
       "count": 7,
-      "error": "profile directory unreadable",
+      "error": null,
       "source": "hermes profiles",
-      "age_min": 27
+      "age_min": 0
     }
   }
 });
