@@ -65,16 +65,37 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: https://www.youtube.com/watch?v=O9o0W7QCdI8 Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112602266423423287#m",
-      "published": "Tue, 20 Oct 2026 17:50:05 GMT"
+      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112606961959317767#m",
+      "published": "Tue, 20 Oct 2026 18:08:44 GMT"
     },
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "This MiniMax Design agent is absolutely wild. 🤯 I give it ONE creative brief. It splits the job across its own AI team. One plans. One makes images. One makes video. One edits. It even remembers my brand style for the next job. 😂 Link in the comments 👇",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112602263827214838#m",
-      "published": "Tue, 20 Oct 2026 17:50:04 GMT"
+      "content": "Build a local SEO website from one short brief. Agent OS can do the heavy lifting for you. Here's how I use Design OS: → Pick a target city → Choose a local service niche → List the services you want to offer → Add your target customers and business details → Generate and preview the full site Then add real local details, check the facts, and connect your lead form. One brief gives you a starting point for a whole website. Save this video, you'll know how to build your first Rank & Rent site. Want the SOP? DM me. 💬",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112606959476339023#m",
+      "published": "Tue, 20 Oct 2026 18:08:44 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "R to @JulianGoldieSEO: https://www.youtube.com/watch?v=Ade3LVNsX9I Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112606167633641909#m",
+      "published": "Tue, 20 Oct 2026 18:05:35 GMT"
+    },
+    {
+      "user": "danmartell",
+      "topic": "Tech Intel",
+      "content": "Your heroes were once: - Rejected - Underqualified - Just as unsure as you Don’t underestimate yourself.",
+      "url": "http://nitter.meowing.monster/danmartell/status/2112604786306552125#m",
+      "published": "Tue, 20 Oct 2026 18:00:06 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "“Lack of electricity” is an oversimplification. Everything is hard about bringing massive compute online at extremely high speed. If there was twice as much time, this would be relatively easy, but there is not.",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2112603906723487744#m",
+      "published": "Tue, 20 Oct 2026 17:56:36 GMT"
     },
     {
       "user": "elonmusk",
@@ -82,20 +103,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Johann Sebastian Bach is the Shakespeare of music. Best there ever was.",
       "url": "http://nitter.meowing.monster/elonmusk/status/2112600761762717997#m",
       "published": "Tue, 20 Oct 2026 17:44:06 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "Agents",
-      "content": "Why Hermes Agent Connect to Antigravity Ends the 10-Minute Recap",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112600648164524489#m",
-      "published": "Tue, 20 Oct 2026 17:43:39 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "The fate of Texas and America is at stake. Vote for @KenPaxtonTX today.",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2112593866461216942#m",
-      "published": "Tue, 20 Oct 2026 17:16:42 GMT"
     },
     {
       "user": "JuliaEMcCoy",
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Most underrated skill in life: knowing when to shut up.",
       "url": "http://nitter.meowing.monster/danmartell/status/2112544386525384809#m",
       "published": "Tue, 20 Oct 2026 14:00:05 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Tech Intel",
-      "content": "This hits different after seeing the movie...",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112390306817851530#m",
-      "published": "Tue, 20 Oct 2026 03:47:50 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 10:51 AM",
+  "lastUpdate": "10/20/2026, 11:09 AM",
   "news": [
     {
       "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
@@ -244,7 +244,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "9",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 10:50 AM"
+    "updated": "Oct 20, 11:08 AM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792518613.907553,
+          "started_at": 1792519685.835996,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792518613.907553
+              "at": 1792519685.835996
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792518613.907553,
+          "ended_at": 1792518698.441904,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792518613.907553
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792518691.625337
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792518693.837606
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792518693.847713
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792518695.494853
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792518698.441904
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792518698.441904
+            }
+          ],
+          "duration_s": 85,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792465686.425474,
@@ -401,15 +445,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792462714.479149,
+          "started_at": 1792462850.675738,
           "ended_at": 1792462855.036765,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792462714.479149
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -441,58 +480,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792462855.036765
             }
           ],
-          "duration_s": 141,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792462173.647147,
-          "ended_at": 1792462177.602869,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792462173.647147
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792462174.878928
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792462174.881032
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792462175.924844
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792462177.602869
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792462177.602869
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792518613.907553,
+        "started_at": 1792519685.835996,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792518613.907553
+            "at": 1792519685.835996
           }
         ],
         "duration_s": null,
@@ -537,7 +537,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "60 sessions · 40855k tokens · 1104 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 10:51 AM"
+    "lastUpdate": "Oct 20, 11:09 AM"
   },
   "hn_posts": [
     {
@@ -715,7 +715,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "fetched_at": "2026-10-20T18:09:16.083Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -723,23 +723,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "fetched_at": "2026-10-20T18:09:16.083Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 18
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "fetched_at": "2026-10-20T18:09:16.083Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -747,7 +747,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "fetched_at": "2026-10-20T18:09:16.083Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -755,7 +755,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "fetched_at": "2026-10-20T18:09:16.083Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -763,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "fetched_at": "2026-10-20T18:09:16.083Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -771,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "fetched_at": "2026-10-20T18:09:16.083Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -779,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T17:51:31.618Z",
+      "fetched_at": "2026-10-20T18:09:16.207Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
