@@ -153,8 +153,18 @@ The key lands in `~/.config/lifeos/lifeos.env` as `YVP_APP_KEY`, next to
 `GIST_TOKEN`. The setup script **merges** rather than overwrites, so the
 Gist token survives.
 
-`YVP_BIBLE_ID` selects the translation (default `3034`, the Berean
-Standard Bible — public domain, no licence agreement needed).
+`YVP_BIBLE_ID` selects the translation. The default and the decision is
+**3034 — the Berean Standard Bible**: public domain, so it needs no
+licence agreement, and the key reaches it out of the box. KJV (id `1`)
+is also available to most keys if the preference changes; the
+`check-youversion-key.sh` listing shows what a given key can actually
+reach.
+
+The attribution line on the card is the requirement that decides the
+card's look: YouVersion requires the version abbreviation and its
+copyright line whenever Bible text is displayed. For BSB that copyright
+is about 160 characters, so it is rendered small, muted, and under a
+dotted rule rather than as a second headline.
 
 **The day of the year must be local, not UTC.** At 17:00 in Abbotsford it
 is already the next day in UTC, so a UTC-based day number shows tomorrow's
