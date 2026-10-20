@@ -138,11 +138,28 @@ if [ -n "$NON_GENERATED" ]; then
     echo "$NON_GENERATED" | sed 's/^/    /'
 fi
 
-git fetch origin master >/dev/null 2>&1 || log "could not fetch origin (continuing)"
-if ! git diff --quiet HEAD origin/master 2>/dev/null; then
-    log "remote has new commits — syncing before committing"
-    git reset --mixed origin/master >/dev/null 2>&1 \
-        || fail "could not sync with origin/master"
+git fetch origin master >/dev/null 2>&1 || log "could not fetch origin (continuing — the push will report any problem)"
+# Only sync when the fetch actually produced a usable origin/master. A
+# failed fetch must not be mistaken for "the remote moved ahead".
+if git rev-parse --verify origin/master >/dev/null 2>&1 \
+   && git rev-parse --verify FETCH_HEAD >/dev/null 2>&1; then
+    if ! git diff --quiet HEAD origin/master 2>/dev/null; then
+        # Before resetting, check what the LOCAL branch has that the remote
+        # does not. If those commits touch source files, resetting would
+        # silently drop them from the branch — the working tree would keep
+        # the changes but the commits would vanish from the history.
+        # That is exactly what happened once already.
+        LOCAL_ONLY="$(git diff --name-only origin/master..HEAD 2>/dev/null | grep -v -E 'vibes\.(json|js)$' || true)"
+        if [ -n "$LOCAL_ONLY" ]; then
+            fail "local commits touch source files and the remote has moved — refusing to reset.
+Local-only commits change:
+$(echo "$LOCAL_ONLY" | sed 's/^/    /')
+Push them first (git push origin master), then re-run."
+        fi
+        log "remote has new commits — syncing before committing"
+        git reset --mixed origin/master >/dev/null 2>&1 \
+            || fail "could not sync with origin/master"
+    fi
 fi
 
 # Skip the commit when nothing substantive changed. The data always carries
