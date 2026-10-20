@@ -65,16 +65,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112305676706029908#m",
-      "published": "Mon, 19 Oct 2026 22:11:32 GMT"
+      "content": "Get hours of work done before you open your laptop. Manus 2.0 can start tasks on its own. → New email? Sort it. → Meeting in 1 hour? Build a brief. → Friday afternoon? Write your report. No need to type a prompt each time. Want the SOP? DM me.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112332975740514601#m",
+      "published": "Tue, 20 Oct 2026 00:00:01 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "I built 3D worlds, a game and websites with Gemini 4 Argon and Opus 5.5. The model that wins the benchmarks didn't win the builds. Here's what I found when I put them side by side. Opus 5.5's 3D city was more cinematic and even let you switch between styles like Monsoon and Pink Dawn. Gemini's 3D game had controls so backwards that the character moonwalked around the planet. If you're already on Google AI Pro, you can plug Argon into your agentic setup without paying for anything new. I'm not switching, but I'm not ignoring it either. The full breakdown is in the article.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112332972951249403#m",
+      "published": "Tue, 20 Oct 2026 00:00:00 GMT"
     },
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
       "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112305667705016628#m",
-      "published": "Mon, 19 Oct 2026 22:11:30 GMT"
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112305676706029908#m",
+      "published": "Mon, 19 Oct 2026 22:11:32 GMT"
     },
     {
       "user": "JuliaEMcCoy",
@@ -94,14 +101,14 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294730247627212#m",
+      "url": "http://nitter.pp.ua/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     },
     {
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 TEXAS! Early Voting, in-person, opened in the Great State of Texas TODAY, October 19th. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Texas, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/texas/",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112294609980198977#m",
+      "url": "http://nitter.pp.ua/realDonaldTrump/status/2112294609980198977#m",
       "published": "Mon, 19 Oct 2026 21:27:34 GMT"
     },
     {
@@ -115,7 +122,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "realDonaldTrump",
       "topic": "Geopolitics",
       "content": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
-      "url": "http://shitter.thepixora.com/realDonaldTrump/status/2112293785472225568#m",
+      "url": "http://nitter.pp.ua/realDonaldTrump/status/2112293785472225568#m",
       "published": "Mon, 19 Oct 2026 21:24:17 GMT"
     },
     {
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "We are putting out MORE and BETTER videos than ever. Here's how Brian (@ForwardEditor) uses AI to edit our videos.",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2112288084951961786#m",
       "published": "Mon, 19 Oct 2026 21:01:38 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "🦞 OpenClaw v2026.10.5 is out! 🤖 Sidebar keeps your agents within reach ↩️ Skill Workshop 2.0 gets Undo 🔗 Public conversation links need no sign-in 🎉 2,250 PRs and 637 contributors. Just the highlights. Much more in the full notes 👇 https://docs.openclaw.ai/releases/2026.10.5",
-      "url": "http://nitter.meowing.monster/openclaw/status/2112260434116108528#m",
-      "published": "Mon, 19 Oct 2026 19:11:46 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 05:00 PM",
+  "lastUpdate": "10/19/2026, 05:09 PM",
   "news": [
     {
       "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
@@ -244,20 +244,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "13",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 05:00 PM"
+    "updated": "Oct 19, 05:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 254,
+      "tokens_used": 217,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "16:59",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 501 msgs · 243 tools"
+        "time": "17:08",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 157 msgs · 77 tools"
       },
       {
         "time": "16:09",
@@ -299,9 +299,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 38418305,
-      "output_tokens": 767676,
-      "tool_calls": 1243
+      "input_tokens": 38631211,
+      "output_tokens": 776375,
+      "tool_calls": 1077
     },
     "roadmap": [
       {
@@ -318,10 +318,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 39186k tokens · 1243 tool calls"
+        "status": "60 sessions · 39408k tokens · 1077 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 05:00 PM"
+    "lastUpdate": "Oct 19, 05:09 PM"
   },
   "hn_posts": [
     {
@@ -362,13 +362,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-      "published": "Mon, 19 Oct 2026 15:28:24 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
       "content": "Wine ported to OpenBSD",
       "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
       "published": "Mon, 19 Oct 2026 13:35:34 +0000"
@@ -393,6 +386,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
       "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
       "published": "Mon, 19 Oct 2026 10:53:39 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "published": "Mon, 19 Oct 2026 09:59:32 +0000"
     }
   ],
   "verse": {
@@ -496,7 +496,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.603Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -504,7 +504,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.603Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -512,7 +512,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.603Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -520,7 +520,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.604Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -528,7 +528,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.604Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -536,7 +536,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.604Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -544,7 +544,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.604Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 1,
       "error": null,
       "source": "bible-api.com",
@@ -552,7 +552,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.604Z",
+      "fetched_at": "2026-10-20T00:09:12.155Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -560,7 +560,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T00:00:57.652Z",
+      "fetched_at": "2026-10-20T00:09:12.198Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
