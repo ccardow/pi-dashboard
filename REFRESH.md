@@ -114,6 +114,74 @@ every cycle, so the fingerprint keeps only `last_run.outcome` and
 `last_run.error`. A refresh that fetched fine but then failed to publish
 is a real incident and must change the hash.
 
+### The daily verse comes from YouVersion
+
+The verse card used to show a date-seeded random pick from bible-api.com.
+It now prefers **YouVersion's editorial "Verse of the Day"** — the verse
+their own Bible App shows. It is curated, and it changes on its own.
+
+Three calls, because the verse-of-the-day endpoint returns only a
+reference, not text:
+
+```
+GET /v1/verse-of-the-days/{day}     -> { passage_id }
+GET /v1/bibles/{id}/passages/{pid}  -> { content, reference }
+GET /v1/bibles/{id}                 -> { abbreviation, copyright }
+```
+
+The third call exists because **YouVersion requires attribution** when
+Bible text is displayed. Their own SDK fails rather than return a display
+model with no usable attribution, so the card renders the version
+abbreviation and its copyright line.
+
+```bash
+# Provision the app key (hidden prompt, verified against the live API)
+bash scripts/setup-youversion-key.sh
+```
+
+The key lands in `~/.config/lifeos/lifeos.env` as `YVP_APP_KEY`, next to
+`GIST_TOKEN`. The setup script **merges** rather than overwrites, so the
+Gist token survives.
+
+`YVP_BIBLE_ID` selects the translation (default `3034`, the Berean
+Standard Bible — public domain, no licence agreement needed).
+
+**The day of the year must be local, not UTC.** At 17:00 in Abbotsford it
+is already the next day in UTC, so a UTC-based day number shows tomorrow's
+verse every evening. `dayOfYearInZone()` uses the location's timezone.
+
+bible-api.com remains the fallback, so a missing key or an outage
+degrades rather than losing the card. The verse's health entry reports
+which source actually served it.
+
+### The remote is synced BEFORE the commit
+
+The GitHub Actions workflow also commits the generated data files to this
+branch, every two hours. When it pushes first, the local branch is behind
+and `git push` is rejected as a non-fast-forward.
+
+`refresh.sh` now syncs **before** committing, so the commit lands on top
+of the current remote head and the push is always a fast-forward:
+
+```bash
+git fetch origin master
+git reset --mixed origin/master   # moves HEAD+index, leaves the worktree alone
+```
+
+Two guards, both learned the hard way:
+
+- The sync only runs when the fetch actually produced a usable
+  `origin/master`. A failed fetch must not be read as "the remote moved".
+- If the local-only commits touch anything other than the generated data
+  files, the sync **refuses** and says to push first. A `reset --mixed`
+  would move HEAD back and drop those commits from the branch — the
+  working tree keeps the changes, but the commits vanish from the
+  history. That happened once.
+
+The push error message also reports the **actual** reason. It used to say
+"is the SSH key authorised for this repo?" for every failure, which sent
+the diagnosis in the wrong direction for a non-fast-forward rejection.
+
 ### Tests
 
 ```bash
@@ -122,7 +190,8 @@ node scripts/test-health-render-logic.js    # 39 checks: renders real main.js fu
 node scripts/test-context-reading.js        # 16 checks: current context vs lifetime tokens
 node scripts/test-refresh-journal.js        # 27 checks: journal folding + System Activity renderer
 node scripts/test-main-loads.js             #  9 checks: main.js loads without throwing
-bash scripts/test-skip-noop.sh              # a noise-only refresh -> no commit, no push
+node scripts/test-verse.js                  # 16 checks: YouVersion verse path vs a mock API
+bash scripts/test-skip-noop.sh              #  4 checks: a noise-only refresh -> no commit
 node scripts/probe-agent-roles.js           # shows the role parsed from each SOUL.md
 ```
 
