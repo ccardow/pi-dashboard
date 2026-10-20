@@ -63,25 +63,32 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: https://www.youtube.com/watch?v=DTw6MH9ab-k Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112611394256621819#m",
-      "published": "Tue, 20 Oct 2026 18:26:21 GMT"
+      "user": "MatthewBerman",
+      "topic": "Apple / iOS",
+      "content": "Can anyone recommend a thunderbolt switcher that works with Apple Studio Displays?",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112617710660317622#m",
+      "published": "Tue, 20 Oct 2026 18:51:27 GMT"
     },
     {
       "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "NVIDIA just dropped an AI model that codes up to 4X faster. 🤯 And somehow… that’s not even the crazy part. Nemotron 3.5 Super VL can read images, PDFs, charts, and video too. It’s open AND built for AI agents. Big closed models should probably be watching this one. 😂 Link in the comments 👇",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112611391735791895#m",
-      "published": "Tue, 20 Oct 2026 18:26:20 GMT"
+      "topic": "Tech Intel",
+      "content": "Why I Stopped Writing One Blog Post for AEO and GEO",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112615723633893627#m",
+      "published": "Tue, 20 Oct 2026 18:43:33 GMT"
     },
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
       "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112611230762631245#m",
-      "published": "Tue, 20 Oct 2026 18:25:42 GMT"
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112615303612145798#m",
+      "published": "Tue, 20 Oct 2026 18:41:53 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "Want ChatGPT to recommend your business? Claude can help you find the pages AI reads before it answers. Here's my 5-step GEO workflow: → Track the AI questions buyers ask → Find the smaller searches AI runs → Check which pages AI cites → Use Claude to write useful comparison pages → Track where your brand gets mentioned I use Radar Kit and Agent OS to connect these steps. The goal is to show up in the sources AI trusts. Save this video, you'll have a Claude GEO workflow to test. Want the SOP? DM me. 💬",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112615301116481578#m",
+      "published": "Tue, 20 Oct 2026 18:41:52 GMT"
     },
     {
       "user": "danmartell",
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "RT by @elonmusk: Elon Musk in new interview with Walter Isaacson on the wealth he's created: \"A fundamental misunderstanding of economics arises because of conflating resource allocation and consumption; I've created. My so-called wealth is simply a percentage ownership in SpaceX and Tesla. And this is going to be taxed quite heavily, and there's not some magical way to avoid taxes. If there were I would know about it. At the end of the day, this will get whittled down, and a few generations from now, if money still matters, which I don't think it will, my descendants would have a tiny fraction of what I have.\"",
       "url": "http://nitter.meowing.monster/SawyerMerritt/status/2112551927649018058#m",
       "published": "Tue, 20 Oct 2026 14:30:03 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "Most underrated skill in life: knowing when to shut up.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2112544386525384809#m",
-      "published": "Tue, 20 Oct 2026 14:00:05 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 11:39 AM",
+  "lastUpdate": "10/20/2026, 12:09 PM",
   "news": [
     {
       "title": "Idea of partnering with U.S. is ‘under attack’ in Canada, Hoekstra says",
@@ -239,29 +239,29 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "13",
+    "temp": "14",
     "condition": "Clear",
     "feels_like": "11",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 11:38 AM"
+    "updated": "Oct 20, 12:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": null,
+      "tokens_used": 257,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "11:38",
-        "msg": "default/GUI: minimax/minimax-m3.1-flash:free · 0 msgs · 0 tools"
+        "time": "12:07",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 455 msgs · 232 tools"
       },
       {
-        "time": "11:30",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 74 msgs · 37 tools"
+        "time": "11:38",
+        "msg": "default/GUI: minimax/minimax-m3.1-flash:free · 0 msgs · 0 tools"
       },
       {
         "time": "20:01",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792521487.360108,
+          "started_at": 1792523326.083603,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792521487.360108
+              "at": 1792523326.083603
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792521487.360108,
+          "ended_at": 1792521544.308926,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792521487.360108
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792521540.156187
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792521541.451392
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792521541.453746
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792521542.49251
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792521544.308926
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792521544.308926
+            }
+          ],
+          "duration_s": 57,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792519685.835996,
@@ -429,76 +473,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
           ],
           "duration_s": 36,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792464166.336229,
-          "ended_at": null,
-          "outcome": "running",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792464166.336229
-            }
-          ],
-          "duration_s": null,
-          "summary": "run in progress"
-        },
-        {
-          "started_at": 1792463935.485479,
-          "ended_at": 1792463940.227207,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792463935.485479
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792463937.200806
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792463937.203058
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792463938.468497
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792463940.227207
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792463940.227207
-            }
-          ],
-          "duration_s": 5,
-          "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792521487.360108,
+        "started_at": 1792523326.083603,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792521487.360108
+            "at": 1792523326.083603
           }
         ],
         "duration_s": null,
         "summary": "run in progress"
       },
-      "total_runs": 6
+      "total_runs": 5
     },
     "gateway": {
       "pid": 1219,
@@ -519,9 +510,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 62,
-      "input_tokens": 39910279,
-      "output_tokens": 1004295,
-      "tool_calls": 1141
+      "input_tokens": 40068827,
+      "output_tokens": 1104115,
+      "tool_calls": 1336
     },
     "roadmap": [
       {
@@ -534,10 +525,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "62 sessions · 40915k tokens · 1141 tool calls"
+        "status": "62 sessions · 41173k tokens · 1336 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 11:39 AM"
+    "lastUpdate": "Oct 20, 12:09 PM"
   },
   "hn_posts": [
     {
@@ -628,69 +619,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "role": "Build the things",
         "model": "minimax/minimax-m3.1-flash:free",
         "provider": "openrouter",
-        "sessions": 1,
-        "messages": 6,
-        "last_activity": 1792521104.092065,
-        "skills": 27,
-        "cron": 4
-      },
-      {
-        "name": "Grace",
-        "id": "grace",
-        "role": "Help churches use technology faithfully",
-        "model": "nemotron-3-ultra-free",
-        "provider": "opencode-free",
         "sessions": 2,
-        "messages": 4,
-        "last_activity": 1788237208.2780097,
-        "skills": 27,
-        "cron": 4
-      },
-      {
-        "name": "Atlas",
-        "id": "atlas",
-        "role": "Quality gate",
-        "model": "nemotron-3-ultra",
-        "provider": "ollama-cloud",
-        "sessions": 2,
-        "messages": 4,
-        "last_activity": 1788237051.4327016,
-        "skills": 27,
-        "cron": 4
-      },
-      {
-        "name": "Harper",
-        "id": "harper",
-        "role": "Write the words that connect churches to their communities",
-        "model": "deepseek-v4-flash",
-        "provider": "ollama-cloud",
-        "sessions": 1,
-        "messages": 0,
-        "last_activity": null,
-        "skills": 27,
-        "cron": 4
-      },
-      {
-        "name": "Marcus",
-        "id": "marcus",
-        "role": "Lead strategist and orchestrator",
-        "model": "deepseek-v4-flash",
-        "provider": "ollama-cloud",
-        "sessions": 1,
-        "messages": 0,
-        "last_activity": null,
-        "skills": 27,
-        "cron": 4
-      },
-      {
-        "name": "Montage",
-        "id": "montage",
-        "role": "Make churches look and sound amazing on every screen",
-        "model": "deepseek-v4-flash",
-        "provider": "ollama-cloud",
-        "sessions": 0,
-        "messages": 0,
-        "last_activity": null,
+        "messages": 10,
+        "last_activity": 1792523168.11243,
         "skills": 27,
         "cron": 4
       },
@@ -700,22 +631,82 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "role": "Brand director and visual identity lead",
         "model": "minimax/minimax-m3.1-flash:free",
         "provider": "openrouter",
-        "sessions": 0,
-        "messages": 0,
-        "last_activity": null,
+        "sessions": 3,
+        "messages": 4,
+        "last_activity": 1792522303.1672,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Montage",
+        "id": "montage",
+        "role": "Make churches look and sound amazing on every screen",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 3,
+        "messages": 4,
+        "last_activity": 1792522296.997566,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Marcus",
+        "id": "marcus",
+        "role": "Lead strategist and orchestrator",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 3,
+        "messages": 4,
+        "last_activity": 1792522286.3003137,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Harper",
+        "id": "harper",
+        "role": "Write the words that connect churches to their communities",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 3,
+        "messages": 4,
+        "last_activity": 1792522283.1172915,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Grace",
+        "id": "grace",
+        "role": "Help churches use technology faithfully",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 4,
+        "messages": 8,
+        "last_activity": 1792522278.6938303,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Atlas",
+        "id": "atlas",
+        "role": "Quality gate",
+        "model": "minimax/minimax-m3.1-flash:free",
+        "provider": "openrouter",
+        "sessions": 4,
+        "messages": 8,
+        "last_activity": 1792522274.3200498,
         "skills": 27,
         "cron": 4
       }
     ],
     "agent_count": 7,
-    "total_sessions": 7,
-    "total_messages": 14,
-    "last_activity": 1792521104.092065
+    "total_sessions": 22,
+    "total_messages": 42,
+    "last_activity": 1792523168.11243
   },
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -723,7 +714,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -731,7 +722,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -739,7 +730,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -747,7 +738,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -755,7 +746,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -763,7 +754,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -771,7 +762,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.110Z",
+      "fetched_at": "2026-10-20T19:09:57.992Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -779,7 +770,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T18:39:00.150Z",
+      "fetched_at": "2026-10-20T19:09:58.030Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
