@@ -20,7 +20,16 @@ const path = require('path');
 const vm = require('vm');
 
 const REPO = path.join(__dirname, '..');
-const mainJs = fs.readFileSync(path.join(REPO, 'main.js'), 'utf8');
+const mainJsPath = path.join(REPO, 'main.js');
+
+// When this file is copied into a skill directory there is no main.js to
+// load. Say so plainly rather than failing with a confusing ENOENT.
+if (!fs.existsSync(mainJsPath)) {
+    console.log('(no main.js here — nothing to load-check.)');
+    process.exit(0);
+}
+
+const mainJs = fs.readFileSync(mainJsPath, 'utf8');
 
 let pass = 0, fail = 0;
 const check = (name, cond, detail) => {

@@ -81,12 +81,47 @@ like `1413k / 1000k` once a session runs long enough. When the anchor is
 missing the fetcher emits `null` and the card shows `—`, never a fabricated
 zero.
 
+### The System Activity card shows the real pipeline history
+
+It used to show a hardcoded boot sequence — "LIFE.OS v2.0 kernel loaded",
+"Initializing Cyber-Zen subsystems...", "Scripture engine: ready" —
+presented as live telemetry. It was a random quote generator wearing a
+terminal costume.
+
+`scripts/read-refresh-journal.js` reads the real history from the
+systemd journal (`journalctl --user -u lifeos-refresh.service -o json`),
+folds the flat log lines into run records, and writes a plain-text copy
+to `~/.config/lifeos/refresh-history.log` so the history survives journal
+rotation and the fetcher does not depend on `journalctl` existing.
+
+`vibes.json` carries it as `pi_status.refresh`:
+
+```js
+pi_status.refresh = {
+  source: 'systemd journal',
+  runs: [ { started_at, duration_s, outcome, summary, error } ],
+  last_run: { ... },
+}
+```
+
+Each run renders as one line — `17:07:33 > [OK] 102s published to Gist
+and committed to repo` — and the status line reflects the last real run
+("Last Refresh Failed", "Refresh In Progress", "All Systems Nominal")
+rather than a hardcoded phrase.
+
+Fingerprint interaction: the history is a rolling window that changes
+every cycle, so the fingerprint keeps only `last_run.outcome` and
+`last_run.error`. A refresh that fetched fine but then failed to publish
+is a real incident and must change the hash.
+
 ### Tests
 
 ```bash
-node scripts/test-fingerprint.js            # 25 checks: noise vs real changes
+node scripts/test-fingerprint.js            # 26 checks: noise vs real changes
 node scripts/test-health-render-logic.js    # 39 checks: renders real main.js functions
 node scripts/test-context-reading.js        # 16 checks: current context vs lifetime tokens
+node scripts/test-refresh-journal.js        # 27 checks: journal folding + System Activity renderer
+node scripts/test-main-loads.js             #  9 checks: main.js loads without throwing
 bash scripts/test-skip-noop.sh              # a noise-only refresh -> no commit, no push
 node scripts/probe-agent-roles.js           # shows the role parsed from each SOUL.md
 ```
@@ -95,6 +130,12 @@ node scripts/probe-agent-roles.js           # shows the role parsed from each SO
 with a brace matcher and runs them against a fake DOM, so it cannot drift
 away from the code it tests. `test-context-reading.js` does the same for
 `readCurrentContext` in `fetch-feeds.js`.
+
+`test-main-loads.js` runs the whole of `main.js` in a `vm` sandbox with a
+stub DOM and asserts it loads without throwing. This exists because
+`node --check` is not enough: deleting a constant but leaving one
+reference to it makes the page throw a ReferenceError at load and render
+**nothing**, while the file still passes a syntax check.
 
 `test-skip-noop.sh` runs against a **temporary copy** of the repo, never
 the live working tree. An earlier version stubbed the fetcher in place,

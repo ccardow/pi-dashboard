@@ -88,8 +88,18 @@ check('a skipped run says so',
 
 // ─── The renderer ───
 // Extract the REAL functions from main.js so this test cannot drift from
-// the code it tests.
-const mainJs = fs.readFileSync(path.join(REPO, 'main.js'), 'utf8');
+// the code it tests. When this file is copied into a skill directory
+// there is no main.js to extract from, so the renderer checks are skipped
+// and only the journal folding is asserted.
+const mainJsPath = path.join(REPO, 'main.js');
+if (!fs.existsSync(mainJsPath)) {
+    console.log('\n(no main.js here — skipping the renderer checks.)');
+    console.log('The journal folding above is still asserted.');
+    console.log(`\n${pass} passed, ${fail} failed`);
+    process.exit(fail ? 1 : 0);
+}
+
+const mainJs = fs.readFileSync(mainJsPath, 'utf8');
 
 const grab = (name) => {
     const marker = 'const ' + name + ' = ';
