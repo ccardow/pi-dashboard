@@ -65,15 +65,29 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112363553948946733#m",
-      "published": "Tue, 20 Oct 2026 02:01:31 GMT"
+      "content": "R to @JulianGoldieSEO: Checking competitor prices by hand is a job that never really ends. Let AI track it for you, so you always know where you stand without the manual digging. 👉 Join The AI Profit Boardroom here → https://www.skool.com/ai-profit-lab-7462/about",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112371310701731850#m",
+      "published": "Tue, 20 Oct 2026 02:32:21 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "⏳ 𝟭𝟭 𝗛𝗼𝘂𝗿𝘀 𝗟𝗲𝗳𝘁: 𝗧𝗵𝗲 𝗔𝗜 𝗣𝗿𝗼𝗳𝗶𝘁 𝗕𝗼𝗮𝗿𝗱𝗿𝗼𝗼𝗺'𝘀 𝗠𝗼𝗻𝗱𝗮𝘆 𝗔𝗜 𝗙𝗿𝗲𝘀𝗵 𝗦𝘁𝗮𝗿𝘁 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 Checking competitor prices by hand is a job that never really ends. Let AI track it for you, so you always know where you stand without the manual digging. 👉 Join The AI Profit Boardroom here → https://www.skool.com/ai-profit-lab-7462/about 11 hours left on The Monday AI Fresh Start Session — your way into The AI Profit Boardroom, the community helping business owners automate the research they'd otherwise do by hand, save time, and stay competitive without the extra effort. 𝗡𝗲𝘄 𝗛𝗲𝗿𝗲? The AI Profit Boardroom is a Skool community for business owners who'd rather have AI tracking the market than checking it manually every week. For $69/month or $399/year, you get: ✅ Daily livestreams with Julian, showing real AI automation step by step ✅ 4 live coaching calls every week with a PhD scientist trained specifically in AI automation ✅ Unlimited tech support whenever you're stuck ✅ A community actually implementing AI, not just discussing it 👉 Get started today → https://www.skool.com/ai-profit-lab-7462/about 𝗪𝗵𝗮𝘁 𝗬𝗼𝘂 𝗚𝗲𝘁 𝗜𝗻𝘀𝗶𝗱𝗲 ✅ The AI Business-in-a-Box: a prebuilt client funnel, an AI outreach engine, a YouTube AI growth kit, done-for-you delivery workflows, and client scripts ✅ 1000+ plug-and-play AI workflows ready to use ✅ Daily Q&A with Julian — ask, get an answer, keep moving Staying competitive doesn't mean watching the market all day. It means having something else do the watching for you. 👉 Join The AI Profit Boardroom → https://www.skool.com/ai-profit-lab-7462/about 🎁 𝗧𝗵𝗲 𝗙𝘂𝗹𝗹 𝗕𝗼𝗻𝘂𝘀 𝗦𝘁𝗮𝗰𝗸 ($𝟭𝟱,𝟰𝟭𝟵 𝘃𝗮𝗹𝘂𝗲) ✅ The AI Business-in-a-Box ($4,500 value) → Funnel, outreach, content kit, delivery workflows, and scripts, ready to use ✅ Daily Accountability Group ($5,000/year value) → Check in daily, post your goals, stay consistent ✅ SEO Boardroom Access ($1,428/year value) → Grow free, organic traffic from Google over time ✅ AI Avatar Clone System ($1,500 value) → Create content without needing to be on camera ✅ Twitter/X AI Automation ($997 value) → Keep your audience growing without manually posting ✅ Empire Builder Focus Manual ($500 value) → A simple system for staying focused instead of overwhelmed ✅ Digital Nomad Blueprint ($997 value) → Run your business from anywhere ✅ AI Affiliate Marketing Course ($497 value) → A second, simple way to put AI to work for you 👉 Claim the full bonus stack → https://www.skool.com/ai-profit-lab-7462/about 🆕 𝗧𝗼𝗱𝗮𝘆-𝗢𝗻𝗹𝘆 𝗕𝗼𝗻𝘂𝘀: 𝗔𝗜 𝗖𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗼𝗿 𝗣𝗿𝗶𝗰𝗲 𝗧𝗿𝗮𝗰𝗸𝗲𝗿 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 ($350 value) Join in the next 11 hours and get a ready-made template that keeps an eye on competitor pricing for you, so you're never the last to know what's changed. 👉 Lock in today's bonus → https://www.skool.com/ai-profit-lab-7462/about 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗧𝗼𝘁𝗮𝗹: $𝟭𝟱,𝟳𝟲𝟵+ 𝗶𝗻 𝗯𝗼𝗻𝘂𝘀𝗲𝘀, 𝘁𝗼𝗱𝗮𝘆 𝗼𝗻𝗹𝘆 𝗕𝘂𝘆 𝗢𝗻𝗲, 𝗚𝗶𝗳𝘁 𝗢𝗻𝗲 𝗙𝗿𝗲𝗲 Join today and gift a free membership to someone you know — a partner, a teammate, anyone trying to keep an eye on their market. They get full access and the same bonuses, free. Just DM Julian inside the community with their email once you're in. 👉 Join and bring someone with you → https://www.skool.com/ai-profit-lab-7462/about 𝗨𝗽𝗴𝗿𝗮𝗱𝗲 𝗧𝗼 𝗔𝗻𝗻𝘂𝗮𝗹 𝗔𝗻𝗱 𝗦𝗮𝘃𝗲 Monthly adds up to $828/year ($69 x 12). Annual is one $399 payment — $429 saved, plus a vault monthly members don't get: ✅ 100+ playbooks, SOPs, swipe files, and automation blueprints (Annual Member Vault) ✅ A commercial license to use our templates and systems with your own clients ✅ $1,000 credit toward Goldie Agency services ✅ All future courses and features, free, for as long as you're annual ✅ 2 bonus annual memberships to give to your team or clients ✅ A lifetime price lock at $399/year, even after prices go up 👉 Already a member? Upgrade to annual here → https://docs.google.com/document/d/1uEflYhJLOgH1Cw_S2-gNXHEV0a8-5ZLVlnlH26w9zv8/edit?tab=t.0 👉 New here? Start on annual and get it all from day one → https://www.skool.com/ai-profit-lab-7462/about Not sure yet? Read 114 pages of real member feedback first: 👉 https://docs.google.com/document/d/1dpdMktIMiJTsOCf_Jb4kFLQfr3uMXX0RHUR9Bub0dU8/edit?tab=t.0 𝗢𝘂𝗿 𝗗𝗼𝘂𝗯𝗹𝗲 𝗚𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲 ✅ 7-Day No-Questions Refund — try it, and if it's not for you, get your money back ✅ 30-Day Time-Saving Guarantee — use even one workflow, and if it doesn't save you real time, we'll refund you 11 hours left to keep your edge without the extra work. 👉 Join The Monday AI Fresh Start Session now → https://www.skool.com/ai-profit-lab-7462/about",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112371203390505294#m",
+      "published": "Tue, 20 Oct 2026 02:31:55 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "⏳ 𝗛𝗮𝗹𝗳𝘄𝗮𝘆 𝗣𝗼𝗶𝗻𝘁: 𝟭𝟮 𝗛𝗼𝘂𝗿𝘀 𝗟𝗲𝗳𝘁 𝗢𝗻 𝗧𝗵𝗲 𝗔𝗜 𝗣𝗿𝗼𝗳𝗶𝘁 𝗕𝗼𝗮𝗿𝗱𝗿𝗼𝗼𝗺'𝘀 𝗠𝗼𝗻𝗱𝗮𝘆 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗛𝗮𝗹𝗳𝘄𝗮𝘆 𝗠𝗮𝗿𝗸: 12 hours gone, 12 hours left. The Monday AI Fresh Start Session is exactly halfway through. Half the day's gone, and the chance to let AI start saving you time is still wide open. The other half won't wait. 👉 Join The AI Profit Boardroom here → https://www.skool.com/ai-profit-lab-7462/about 12 hours left on The Monday AI Fresh Start Session — your way into The AI Profit Boardroom, the community helping business owners automate the day-to-day, save time, and bring in more customers without adding more hours to their week. 𝗡𝗲𝘄 𝗛𝗲𝗿𝗲? The AI Profit Boardroom is a Skool community for business owners who'd rather let AI do the repeat work than keep doing it themselves. For $69/month or $399/year, you get: ✅ Daily livestreams with Julian, covering real AI automation in plain English ✅ 4 live coaching calls every week with a PhD scientist trained specifically in AI automation ✅ Unlimited tech support whenever you need it ✅ A community actually implementing AI, not just talking about it 👉 Get started today → https://www.skool.com/ai-profit-lab-7462/about 𝗪𝗵𝗮𝘁 𝗬𝗼𝘂 𝗚𝗲𝘁 𝗜𝗻𝘀𝗶𝗱𝗲 ✅ The AI Business-in-a-Box: a prebuilt client funnel, an AI outreach engine, a YouTube AI growth kit, done-for-you delivery workflows, and client scripts ✅ 1000+ plug-and-play AI workflows ready to use ✅ Daily Q&A with Julian — ask, get an answer, keep moving Twelve hours in, the question is simple: do you want to keep doing everything manually, or let AI start carrying some of the load today? 👉 Join The AI Profit Boardroom → https://www.skool.com/ai-profit-lab-7462/about 🎁 𝗧𝗵𝗲 𝗙𝘂𝗹𝗹 𝗕𝗼𝗻𝘂𝘀 𝗦𝘁𝗮𝗰𝗸 ($𝟭𝟱,𝟰𝟭𝟵 𝘃𝗮𝗹𝘂𝗲) ✅ The AI Business-in-a-Box ($4,500 value) → Funnel, outreach, content kit, delivery workflows, and scripts, ready to use ✅ Daily Accountability Group ($5,000/year value) → Check in daily, post your goals, stay consistent ✅ SEO Boardroom Access ($1,428/year value) → Grow free, organic traffic from Google over time ✅ AI Avatar Clone System ($1,500 value) → Create content without needing to be on camera ✅ Twitter/X AI Automation ($997 value) → Keep your audience growing without manually posting ✅ Empire Builder Focus Manual ($500 value) → A simple system for staying focused instead of overwhelmed ✅ Digital Nomad Blueprint ($997 value) → Run your business from anywhere ✅ AI Affiliate Marketing Course ($497 value) → A second, simple way to put AI to work for you 👉 Claim the full bonus stack → https://www.skool.com/ai-profit-lab-7462/about 🆕 𝗧𝗼𝗱𝗮𝘆-𝗢𝗻𝗹𝘆 𝗕𝗼𝗻𝘂𝘀: 𝗔𝗜 𝗪𝗲𝗲𝗸𝗹𝘆 𝗥𝗲𝗽𝗼𝗿𝘁 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗧𝗲𝗺𝗽𝗹𝗮𝘁𝗲 ($400 value) Join in the next 12 hours and get a ready-made template that pulls your numbers together into a weekly report automatically, so you're not building one by hand every Friday. 👉 Lock in today's bonus → https://www.skool.com/ai-profit-lab-7462/about 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗧𝗼𝘁𝗮𝗹: $𝟭𝟱,𝟴𝟭𝟵+ 𝗶𝗻 𝗯𝗼𝗻𝘂𝘀𝗲𝘀, 𝘁𝗼𝗱𝗮𝘆 𝗼𝗻𝗹𝘆 𝗕𝘂𝘆 𝗢𝗻𝗲, 𝗚𝗶𝗳𝘁 𝗢𝗻𝗲 𝗙𝗿𝗲𝗲 Join today and gift a free membership to someone you know — a partner, a teammate, anyone who dreads pulling reports together. They get full access and the same bonuses, free. Just DM Julian inside the community with their email once you're in. 👉 Join and bring someone with you → https://www.skool.com/ai-profit-lab-7462/about 𝗨𝗽𝗴𝗿𝗮𝗱𝗲 𝗧𝗼 𝗔𝗻𝗻𝘂𝗮𝗹 𝗔𝗻𝗱 𝗦𝗮𝘃𝗲 Monthly adds up to $828/year ($69 x 12). Annual is one $399 payment — $429 saved, plus a vault monthly members don't get: ✅ 100+ playbooks, SOPs, swipe files, and automation blueprints (Annual Member Vault) ✅ A commercial license to use our templates and systems with your own clients ✅ $1,000 credit toward Goldie Agency services ✅ All future courses and features, free, for as long as you're annual ✅ 2 bonus annual memberships to give to your team or clients ✅ A lifetime price lock at $399/year, even after prices go up 👉 Already a member? Upgrade to annual here → https://docs.google.com/document/d/1uEflYhJLOgH1Cw_S2-gNXHEV0a8-5ZLVlnlH26w9zv8/edit?tab=t.0 👉 New here? Start on annual and get it all from day one → https://www.skool.com/ai-profit-lab-7462/about Not sure yet? Read 114 pages of real member feedback first: 👉 https://docs.google.com/document/d/1dpdMktIMiJTsOCf_Jb4kFLQfr3uMXX0RHUR9Bub0dU8/edit?tab=t.0 𝗢𝘂𝗿 𝗗𝗼𝘂𝗯𝗹𝗲 𝗚𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲 ✅ 7-Day No-Questions Refund — try it, and if it's not for you, get your money back ✅ 30-Day Time-Saving Guarantee — use even one workflow, and if it doesn't save you real time, we'll refund you 12 hours left. Halfway through, still time to join. 👉 Join The Monday AI Fresh Start Session now → https://www.skool.com/ai-profit-lab-7462/about",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112369528302948534#m",
+      "published": "Tue, 20 Oct 2026 02:25:16 GMT"
     },
     {
       "user": "elonmusk",
       "topic": "Apple / iOS",
       "content": "Have to give the EU regulators credit where it’s due for making all Apple products use USB-C",
-      "url": "http://nitter.pp.ua/elonmusk/status/2112348601255125059#m",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2112348601255125059#m",
       "published": "Tue, 20 Oct 2026 01:02:06 GMT"
     },
     {
@@ -84,24 +98,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Tue, 20 Oct 2026 00:28:16 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Get hours of work done before you open your laptop. Manus 2.0 can start tasks on its own. → New email? Sort it. → Meeting in 1 hour? Build a brief. → Friday afternoon? Write your report. No need to type a prompt each time. Want the SOP? DM me.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112332975740514601#m",
-      "published": "Tue, 20 Oct 2026 00:00:01 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "I built 3D worlds, a game and websites with Gemini 4 Argon and Opus 5.5. The model that wins the benchmarks didn't win the builds. Here's what I found when I put them side by side. Opus 5.5's 3D city was more cinematic and even let you switch between styles like Monsoon and Pink Dawn. Gemini's 3D game had controls so backwards that the character moonwalked around the planet. If you're already on Google AI Pro, you can plug Argon into your agentic setup without paying for anything new. I'm not switching, but I'm not ignoring it either. The full breakdown is in the article.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112332972951249403#m",
-      "published": "Tue, 20 Oct 2026 00:00:00 GMT"
-    },
-    {
       "user": "elonmusk",
       "topic": "AI / ML",
       "content": "RT by @elonmusk: Using TBC tunnels to transport freight. The latest Prufrock Liner Truck (using Tesla Model 3 batteries and drive units) has been modified to carry a standard 20’ shipping container. Fits like a glove!",
-      "url": "http://nitter.pp.ua/boringcompany/status/2112327189366722970#m",
+      "url": "http://nitter.meowing.monster/boringcompany/status/2112327189366722970#m",
       "published": "Mon, 19 Oct 2026 23:37:01 GMT"
     },
     {
@@ -122,14 +122,14 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "user": "elonmusk",
       "topic": "Tech Intel",
       "content": "RT by @elonmusk: Starstruck",
-      "url": "http://nitter.pp.ua/Tesla/status/2112295035568091273#m",
+      "url": "http://nitter.meowing.monster/Tesla/status/2112295035568091273#m",
       "published": "Mon, 19 Oct 2026 21:29:15 GMT"
     },
     {
       "user": "realDonaldTrump",
       "topic": "AI / ML",
       "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
+      "url": "http://nitter.pp.ua/realDonaldTrump/status/2112294730247627212#m",
       "published": "Mon, 19 Oct 2026 21:28:02 GMT"
     }
   ],
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 07:20 PM",
+  "lastUpdate": "10/19/2026, 07:35 PM",
   "news": [
     {
       "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
@@ -240,24 +240,24 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "10",
-    "condition": "Mostly Clear",
+    "condition": "Clear",
     "feels_like": "8",
     "hi": "15",
-    "lo": "6",
-    "updated": "Oct 19, 07:08 PM"
+    "lo": "5",
+    "updated": "Oct 19, 07:35 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 178,
+      "tokens_used": 222,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "19:20",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 321 msgs · 157 tools"
+        "time": "19:34",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 413 msgs · 200 tools"
       },
       {
         "time": "16:09",
@@ -286,17 +286,47 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "runs": [
         {
           "started_at": 1792462714.479149,
-          "ended_at": null,
-          "outcome": "running",
+          "ended_at": 1792462855.036765,
+          "outcome": "ok",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
               "at": 1792462714.479149
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792462850.675738
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792462852.188364
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792462852.190549
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792462853.259109
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792462855.036765
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792462855.036765
             }
           ],
-          "duration_s": null,
-          "summary": "run in progress"
+          "duration_s": 141,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792462086.428099,
@@ -508,17 +538,47 @@ window.__DASHBOARD_DATA_CALLBACK__({
       ],
       "last_run": {
         "started_at": 1792462714.479149,
-        "ended_at": null,
-        "outcome": "running",
+        "ended_at": 1792462855.036765,
+        "outcome": "ok",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
             "at": 1792462714.479149
+          },
+          {
+            "kind": "publish-start",
+            "text": "pushing to Gist",
+            "at": 1792462850.675738
+          },
+          {
+            "kind": "published",
+            "text": "Gist published",
+            "at": 1792462852.188364
+          },
+          {
+            "kind": "commit-start",
+            "text": "committing data",
+            "at": 1792462852.190549
+          },
+          {
+            "kind": "changed",
+            "text": "content changed",
+            "at": 1792462853.259109
+          },
+          {
+            "kind": "committed",
+            "text": "repo committed",
+            "at": 1792462855.036765
+          },
+          {
+            "kind": "done",
+            "text": "run complete",
+            "at": 1792462855.036765
           }
         ],
-        "duration_s": null,
-        "summary": "run in progress"
+        "duration_s": 141,
+        "summary": "published to Gist and committed to repo"
       },
       "total_runs": 6
     },
@@ -541,9 +601,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 39312000,
-      "output_tokens": 920353,
-      "tool_calls": 1157
+      "input_tokens": 39328643,
+      "output_tokens": 947329,
+      "tool_calls": 1200
     },
     "roadmap": [
       {
@@ -560,10 +620,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 40232k tokens · 1157 tool calls"
+        "status": "60 sessions · 40276k tokens · 1200 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 07:20 PM"
+    "lastUpdate": "Oct 19, 07:35 PM"
   },
   "hn_posts": [
     {
@@ -638,12 +698,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     }
   ],
   "verse": {
-    "text": "In those days I Daniel was mourning three full weeks.",
-    "reference": "Daniel 10:2",
-    "translation": "kjv",
+    "text": "Love takes no pleasure in evil, but rejoices in the truth.",
+    "reference": "1 Corinthians 13:6",
+    "translation": "BSB",
+    "version": "Berean Standard Bible",
     "date": "2026-10-19",
-    "attribution": null,
-    "source": "bible-api.com"
+    "attribution": "Public Domain",
+    "source": "youversion"
   },
   "firebuilt": {
     "agents": [
@@ -740,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.625Z",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -748,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.625Z",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -756,7 +817,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.625Z",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -764,7 +825,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.625Z",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -772,31 +833,31 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.625Z",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
       "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-20T02:09:33.599Z",
+      "status": "live",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 11
+      "age_min": 0
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.625Z",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 1,
       "error": null,
-      "source": "bible-api.com",
+      "source": "youversion",
       "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.625Z",
+      "fetched_at": "2026-10-20T02:35:40.851Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -804,7 +865,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:20:50.666Z",
+      "fetched_at": "2026-10-20T02:35:40.895Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
