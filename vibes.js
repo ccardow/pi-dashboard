@@ -1,94 +1,136 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "The runtime wars are over... and Node won",
+      "title": "Did Google just dethrone OpenAI and Anthropic?",
       "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
-      "published": "2026-10-15T17:35:15+00:00"
+      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
+      "published": "2026-10-20T16:21:03+00:00"
     },
     {
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-      "published": "2026-10-14T17:48:10+00:00"
+      "title": "My favorite new image editing tool",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=VVBszkWK0Io",
+      "published": "2026-10-20T04:19:39+00:00"
     },
     {
-      "title": "Every app on Earth is now open source... whether it likes it or not",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
-      "published": "2026-10-12T19:15:23+00:00"
+      "title": "3 New Claude Prompts You Need To Try",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=aIrrq3CLSKM",
+      "published": "2026-10-19T12:43:39+00:00"
+    },
+    {
+      "title": "Gemini 4 Argon Is Not What I Expected",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "published": "2026-10-19T08:49:21+00:00"
+    },
+    {
+      "title": "Give Me 14 Mins and I'll Save You Millions of Claude Tokens",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=peZyP4UC88U",
+      "published": "2026-10-18T17:30:33+00:00"
+    },
+    {
+      "title": "I Turned Claude Code Into a Game Studio (free kit)",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=5D6UkmsPDPA",
+      "published": "2026-10-17T21:30:26+00:00"
+    },
+    {
+      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
+      "published": "2026-10-17T14:00:30+00:00"
+    },
+    {
+      "title": "Demis Hassabis: Put your life force into a problem that matters",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=LbmiPYnFj48",
+      "published": "2026-10-16T19:24:49+00:00"
+    },
+    {
+      "title": "AI News: 6 New Models & A Nano Banana Killer",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=KGcuuhqmPhI",
+      "published": "2026-10-16T16:20:28+00:00"
+    },
+    {
+      "title": "Claude Edited This Entire Video",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=kFvk_38hWWw",
+      "published": "2026-10-16T03:00:26+00:00"
     }
   ],
   "x_posts": [
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: Important details from a meeting have a way of disappearing the moment the call ends. AI can capture them for you, so nothing a customer asked for gets forgotten. 👉 Join The AI Profit Boardroom here → https://www.skool.com/ai-profit-lab-7462/about",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112379349664219497#m",
-      "published": "Tue, 20 Oct 2026 03:04:17 GMT"
+      "content": "R to @JulianGoldieSEO: https://www.youtube.com/watch?v=O9o0W7QCdI8 Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112602266423423287#m",
+      "published": "Tue, 20 Oct 2026 17:50:05 GMT"
     },
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "⏳ 𝟵 𝗛𝗼𝘂𝗿𝘀 𝗟𝗲𝗳𝘁: 𝗧𝗵𝗲 𝗔𝗜 𝗣𝗿𝗼𝗳𝗶𝘁 𝗕𝗼𝗮𝗿𝗱𝗿𝗼𝗼𝗺'𝘀 𝗠𝗼𝗻𝗱𝗮𝘆 𝗔𝗜 𝗙𝗿𝗲𝘀𝗵 𝗦𝘁𝗮𝗿𝘁 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 Important details from a meeting have a way of disappearing the moment the call ends. AI can capture them for you, so nothing a customer asked for gets forgotten. 👉 Join The AI Profit Boardroom here → https://www.skool.com/ai-profit-lab-7462/about 9 hours left on The Monday AI Fresh Start Session — your way into The AI Profit Boardroom, the community helping business owners automate the small follow-ups that build trust, save time, and keep every customer conversation on track. 𝗡𝗲𝘄 𝗛𝗲𝗿𝗲? The AI Profit Boardroom is a Skool community for business owners who'd rather have AI summarizing meetings than scrambling for notes afterward. For $69/month or $399/year, you get: ✅ Daily livestreams with Julian, covering real AI automation in plain English ✅ 4 live coaching calls every week with a PhD scientist trained specifically in AI automation ✅ Unlimited tech support whenever you're stuck ✅ A community actually implementing AI, not just discussing it 👉 Get started today → https://www.skool.com/ai-profit-lab-7462/about 𝗪𝗵𝗮𝘁 𝗬𝗼𝘂 𝗚𝗲𝘁 𝗜𝗻𝘀𝗶𝗱𝗲 ✅ The AI Business-in-a-Box: a prebuilt client funnel, an AI outreach engine, a YouTube AI growth kit, done-for-you delivery workflows, and client scripts ✅ 1000+ plug-and-play AI workflows ready to use ✅ Daily Q&A with Julian — ask, get an answer, keep moving A customer who feels remembered is far more likely to come back. Automating your follow-up notes means that happens by default, not by luck. 👉 Join The AI Profit Boardroom → https://www.skool.com/ai-profit-lab-7462/about 🎁 𝗧𝗵𝗲 𝗙𝘂𝗹𝗹 𝗕𝗼𝗻𝘂𝘀 𝗦𝘁𝗮𝗰𝗸 ($𝟭𝟱,𝟰𝟭𝟵 𝘃𝗮𝗹𝘂𝗲) ✅ The AI Business-in-a-Box ($4,500 value) → Funnel, outreach, content kit, delivery workflows, and scripts, ready to use ✅ Daily Accountability Group ($5,000/year value) → Check in daily, post your goals, stay consistent ✅ SEO Boardroom Access ($1,428/year value) → Grow free, organic traffic from Google over time ✅ AI Avatar Clone System ($1,500 value) → Create content without needing to be on camera ✅ Twitter/X AI Automation ($997 value) → Keep your audience growing without manually posting ✅ Empire Builder Focus Manual ($500 value) → A simple system for staying focused instead of overwhelmed ✅ Digital Nomad Blueprint ($997 value) → Run your business from anywhere ✅ AI Affiliate Marketing Course ($497 value) → A second, simple way to put AI to work for you 👉 Claim the full bonus stack → https://www.skool.com/ai-profit-lab-7462/about 🆕 𝗧𝗼𝗱𝗮𝘆-𝗢𝗻𝗹𝘆 𝗕𝗼𝗻𝘂𝘀: 𝗔𝗜 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗡𝗼𝘁𝗲𝘀 𝗔𝗻𝗱 𝗙𝗼𝗹𝗹𝗼𝘄-𝗨𝗽 𝗦𝘂𝗺𝗺𝗮𝗿𝗶𝘇𝗲𝗿 ($250 value) Join in the next 9 hours and get a ready-made tool that turns meeting notes into a clear summary and follow-up list automatically, so nothing discussed gets lost. 👉 Lock in today's bonus → https://www.skool.com/ai-profit-lab-7462/about 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗧𝗼𝘁𝗮𝗹: $𝟭𝟱,𝟲𝟲𝟵+ 𝗶𝗻 𝗯𝗼𝗻𝘂𝘀𝗲𝘀, 𝘁𝗼𝗱𝗮𝘆 𝗼𝗻𝗹𝘆 𝗕𝘂𝘆 𝗢𝗻𝗲, 𝗚𝗶𝗳𝘁 𝗢𝗻𝗲 𝗙𝗿𝗲𝗲 Join today and gift a free membership to someone you know — a partner, a teammate, anyone who loses track of meeting details. They get full access and the same bonuses, free. Just DM Julian inside the community with their email once you're in. 👉 Join and bring someone with you → https://www.skool.com/ai-profit-lab-7462/about 𝗨𝗽𝗴𝗿𝗮𝗱𝗲 𝗧𝗼 𝗔𝗻𝗻𝘂𝗮𝗹 𝗔𝗻𝗱 𝗦𝗮𝘃𝗲 Monthly adds up to $828/year ($69 x 12). Annual is one $399 payment — $429 saved, plus a vault monthly members don't get: ✅ 100+ playbooks, SOPs, swipe files, and automation blueprints (Annual Member Vault) ✅ A commercial license to use our templates and systems with your own clients ✅ $1,000 credit toward Goldie Agency services ✅ All future courses and features, free, for as long as you're annual ✅ 2 bonus annual memberships to give to your team or clients ✅ A lifetime price lock at $399/year, even after prices go up 👉 Already a member? Upgrade to annual here → https://docs.google.com/document/d/1uEflYhJLOgH1Cw_S2-gNXHEV0a8-5ZLVlnlH26w9zv8/edit?tab=t.0 👉 New here? Start on annual and get it all from day one → https://www.skool.com/ai-profit-lab-7462/about Not sure yet? Read 114 pages of real member feedback first: 👉 https://docs.google.com/document/d/1dpdMktIMiJTsOCf_Jb4kFLQfr3uMXX0RHUR9Bub0dU8/edit?tab=t.0 𝗢𝘂𝗿 𝗗𝗼𝘂𝗯𝗹𝗲 𝗚𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲 ✅ 7-Day No-Questions Refund — try it, and if it's not for you, get your money back ✅ 30-Day Time-Saving Guarantee — use even one workflow, and if it doesn't save you real time, we'll refund you 9 hours left to wrap up meetings in minutes, not hours. 👉 Join The Monday AI Fresh Start Session now → https://www.skool.com/ai-profit-lab-7462/about",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112379248535339338#m",
-      "published": "Tue, 20 Oct 2026 03:03:53 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Google just made its AI checker free for everyone, and it doesn't only check Google's own content. The SynthID Detector also reads files from OpenAI, Nvidia and Kakao, with Apple next. Here's what I found when I dug into it: Google has hidden its watermark in more than 180 billion images and videos, and the checks built into Search, Gemini and Chrome handle over 1 million requests a day. It caught all three Gemini images I tested, even though the mark is invisible. A clean result doesn't prove a file is real, because tools that don't use SynthID leave nothing to find. I've also covered the strange new place Google is taking this watermark, and it isn't pictures or video. The full article is below.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112378273623601219#m",
-      "published": "Tue, 20 Oct 2026 03:00:01 GMT"
+      "content": "This MiniMax Design agent is absolutely wild. 🤯 I give it ONE creative brief. It splits the job across its own AI team. One plans. One makes images. One makes video. One edits. It even remembers my brand style for the next job. 😂 Link in the comments 👇",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112602263827214838#m",
+      "published": "Tue, 20 Oct 2026 17:50:04 GMT"
     },
     {
       "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "Two important changes to timeline recommendations: - New AI/SI ranking model that predicts probable time spent much better - Retrieval model trained to surface posts people read all the way through User active seconds is growing exponentially and hitting all-time highs almost every day:",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2112373713937084809#m",
-      "published": "Tue, 20 Oct 2026 02:41:54 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Apple / iOS",
-      "content": "Have to give the EU regulators credit where it’s due for making all Apple products use USB-C",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2112348601255125059#m",
-      "published": "Tue, 20 Oct 2026 01:02:06 GMT"
-    },
-    {
-      "user": "MatthewBerman",
       "topic": "Tech Intel",
-      "content": "This is just one of about 10 projects I've been cooking btw",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112340085513605239#m",
-      "published": "Tue, 20 Oct 2026 00:28:16 GMT"
+      "content": "Johann Sebastian Bach is the Shakespeare of music. Best there ever was.",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2112600761762717997#m",
+      "published": "Tue, 20 Oct 2026 17:44:06 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "Agents",
+      "content": "Why Hermes Agent Connect to Antigravity Ends the 10-Minute Recap",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112600648164524489#m",
+      "published": "Tue, 20 Oct 2026 17:43:39 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "The fate of Texas and America is at stake. Vote for @KenPaxtonTX today.",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2112593866461216942#m",
+      "published": "Tue, 20 Oct 2026 17:16:42 GMT"
     },
     {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
-      "content": "The people panicking about AI are the same ones who said: • The internet was a fad • Social media was for kids • Remote work would never last They're not wrong because they're dumb. They're wrong because they're comfortable. Comfort is the enemy of the next era.",
-      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2112299479101784502#m",
-      "published": "Mon, 19 Oct 2026 21:46:55 GMT"
+      "content": "Things I used to pay a team of 100 for that cost me almost nothing now (and get done better/faster/way cheaper): ▪️a first draft of anything ▪️ a video I never filmed ▪️ a keynote in my voice while I'm home ▪️ weeks of research done in seconds ▪️ a 24/7 detailed answer for every client question Same team. Higher ceiling.",
+      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2112584705220751581#m",
+      "published": "Tue, 20 Oct 2026 16:40:18 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "MiniMax M3.1 Flash from @MiniMax_AI is now available in OpenClaw. Running v2026.10.1 or newer? No OpenClaw update needed.",
+      "url": "http://nitter.meowing.monster/openclaw/status/2112569427527172435#m",
+      "published": "Tue, 20 Oct 2026 15:39:35 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Venture",
+      "content": "RT by @elonmusk: Elon Musk in new interview with Walter Isaacson on the wealth he's created: \"A fundamental misunderstanding of economics arises because of conflating resource allocation and consumption; I've created. My so-called wealth is simply a percentage ownership in SpaceX and Tesla. And this is going to be taxed quite heavily, and there's not some magical way to avoid taxes. If there were I would know about it. At the end of the day, this will get whittled down, and a few generations from now, if money still matters, which I don't think it will, my descendants would have a tiny fraction of what I have.\"",
+      "url": "http://nitter.meowing.monster/SawyerMerritt/status/2112551927649018058#m",
+      "published": "Tue, 20 Oct 2026 14:30:03 GMT"
+    },
+    {
+      "user": "danmartell",
+      "topic": "Tech Intel",
+      "content": "Most underrated skill in life: knowing when to shut up.",
+      "url": "http://nitter.meowing.monster/danmartell/status/2112544386525384809#m",
+      "published": "Tue, 20 Oct 2026 14:00:05 GMT"
     },
     {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
-      "content": "You have no idea what's coming...",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112295644765585560#m",
-      "published": "Mon, 19 Oct 2026 21:31:40 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "RT by @elonmusk: Starstruck",
-      "url": "http://nitter.meowing.monster/Tesla/status/2112295035568091273#m",
-      "published": "Mon, 19 Oct 2026 21:29:15 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "AI / ML",
-      "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "https://nitter.kareem.one/realDonaldTrump/status/2112294730247627212#m",
-      "published": "Mon, 19 Oct 2026 21:28:02 GMT"
+      "content": "This hits different after seeing the movie...",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112390306817851530#m",
+      "published": "Tue, 20 Oct 2026 03:47:50 GMT"
     }
   ],
   "peter_x": [
@@ -153,56 +195,56 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 08:08 PM",
+  "lastUpdate": "10/20/2026, 10:51 AM",
   "news": [
     {
-      "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
-      "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+      "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+      "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
       "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 01:52:43 GMT"
+      "published": "Tue, 20 Oct 2026 17:30:15 GMT"
     },
     {
-      "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3?traffic_source=rss",
-      "summary": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
+      "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
+      "summary": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
+      "source": "BBC World",
+      "published": "Tue, 20 Oct 2026 16:59:06 GMT"
+    },
+    {
+      "title": "Trump official claims record-breaking 300,000 visas were revoked",
+      "url": "https://www.aljazeera.com/news/2026/10/20/trump-official-claims-record-breaking-300000-visas-were-revoked?traffic_source=rss",
+      "summary": "Trump official claims record-breaking 300,000 visas were revoked",
       "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 00:00:00 +0000"
+      "published": "Tue, 20 Oct 2026 16:02:47 +0000"
     },
     {
-      "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/trump-paris-is-going-to-be-a-muslim-city-very?traffic_source=rss",
-      "summary": "Trump: ‘Paris is going to be a Muslim city very soon’",
+      "title": "‘You have to sacrifice’: Trump voters stay loyal as US midterms approach",
+      "url": "https://www.aljazeera.com/news/2026/10/20/you-have-to-sacrifice-trump-voters-stay-loyal-as-us-midterms-approach?traffic_source=rss",
+      "summary": "‘You have to sacrifice’: Trump voters stay loyal as US midterms approach",
       "source": "Al Jazeera",
-      "published": "Mon, 19 Oct 2026 22:37:19 +0000"
+      "published": "Tue, 20 Oct 2026 15:57:47 +0000"
     },
     {
-      "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
-      "url": "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal",
-      "summary": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
-      "source": "NPR News",
-      "published": "Mon, 19 Oct 2026 17:56:37 -0400"
-    },
-    {
-      "title": "Fifty investigators probing deaths of soldiers in CFB Wainwright fire, Carney says",
-      "url": "https://www.theglobeandmail.com/politics/article-cfb-wainwright-fire-investigation-october-19/",
-      "summary": "Fifty investigators probing deaths of soldiers in CFB Wainwright fire, Carney says",
+      "title": "Ottawa’s accounting obscures true scale of borrowing, PBO says ahead of 2026 budget",
+      "url": "https://www.theglobeandmail.com/politics/article-parliamentary-budget-office-federal-debt-annette-ryan/",
+      "summary": "Ottawa’s accounting obscures true scale of borrowing, PBO says ahead of 2026 budget",
       "source": "Globe Politics",
-      "published": "Mon, 19 Oct 2026 16:10:51 +0000"
+      "published": "Tue, 20 Oct 2026 15:50:12 +0000"
     }
   ],
-  "vibes": "⚠ Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+  "vibes": "⚠ Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "9",
+    "temp": "11",
     "condition": "Clear",
-    "feels_like": "7",
-    "hi": "15",
-    "lo": "5",
-    "updated": "Oct 19, 08:08 PM"
+    "feels_like": "9",
+    "hi": "17",
+    "lo": "4",
+    "updated": "Oct 20, 10:50 AM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -243,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792465686.425474,
+          "started_at": 1792518613.907553,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792465686.425474
+              "at": 1792518613.907553
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792465686.425474,
+          "ended_at": 1792465722.441393,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792465686.425474
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792465718.461221
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792465719.704543
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792465719.70664
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792465720.712772
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792465722.441393
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792465722.441393
+            }
+          ],
+          "duration_s": 36,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792464166.336229,
@@ -359,15 +445,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792462086.428099,
+          "started_at": 1792462173.647147,
           "ended_at": 1792462177.602869,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792462086.428099
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -399,54 +480,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792462177.602869
             }
           ],
-          "duration_s": 91,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792460404.569438,
-          "ended_at": 1792460407.975308,
-          "outcome": "failed",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792460404.569438
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792460406.839437
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792460406.841796
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792460406.905777
-            },
-            {
-              "kind": "failed",
-              "text": "FAILED",
-              "at": 1792460407.975308
-            }
-          ],
-          "error": "git push failed (is the SSH key authorised for this repo?)",
-          "duration_s": 3,
-          "summary": "FAILED: git push failed (is the SSH key authorised for this repo?)"
         }
       ],
       "last_run": {
-        "started_at": 1792465686.425474,
+        "started_at": 1792518613.907553,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792465686.425474
+            "at": 1792518613.907553
           }
         ],
         "duration_s": null,
@@ -455,10 +501,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 15631,
+      "pid": 1304,
       "version": "0.22.2",
       "state": "running",
-      "uptime_seconds": 29978,
+      "uptime_seconds": 5181521,
       "profiles": [
         "default",
         "atlas",
@@ -480,7 +526,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 15631"
+        "status": "running · v0.22.2 · pid 1304"
       },
       {
         "name": "Agent Profiles",
@@ -491,86 +537,86 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "60 sessions · 40855k tokens · 1104 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 08:08 PM"
+    "lastUpdate": "Oct 20, 10:51 AM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Lula supporters protest against Meta to denounce its 'electoral interference'",
-      "url": "https://efe.com/english/latest-news/2026-10-20/lula-supporters-protest-against-meta-to-denounce-its-electoral-interference/",
-      "published": "Tue, 20 Oct 2026 00:53:52 +0000"
+      "topic": "Tech Intel",
+      "content": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "published": "Tue, 20 Oct 2026 16:40:24 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
-      "url": "https://josie.lol/blog/linux-rtx-spark",
-      "published": "Mon, 19 Oct 2026 21:08:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Android apps running native on macOS",
-      "url": "https://github.com/kksimp/Mac.apk",
-      "published": "Mon, 19 Oct 2026 16:45:30 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "MiniMax M3.1 Flash",
-      "url": "https://www.minimax.io/blog/minimax-m31f",
-      "published": "Mon, 19 Oct 2026 16:39:09 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
-      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
-      "published": "Mon, 19 Oct 2026 13:36:43 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Wine ported to OpenBSD",
-      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-      "published": "Mon, 19 Oct 2026 13:35:34 +0000"
+      "content": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "published": "Tue, 20 Oct 2026 16:02:07 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "url": "https://news.ycombinator.com/item?id=50151036",
-      "published": "Mon, 19 Oct 2026 11:24:34 +0000"
+      "content": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "published": "Tue, 20 Oct 2026 15:48:26 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Alternatives to animal testing are finally taking off",
-      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
-      "published": "Mon, 19 Oct 2026 11:10:54 +0000"
+      "content": "IKEA – 3D Guide",
+      "url": "https://sael.net/flatpack/",
+      "published": "Tue, 20 Oct 2026 15:42:45 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
+      "url": "https://jevcards.com",
+      "published": "Tue, 20 Oct 2026 15:11:56 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
+      "url": "https://github.com/AbdullahAlhariri/penmentor",
+      "published": "Tue, 20 Oct 2026 15:10:54 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "url": "https://news.ycombinator.com/item?id=50167583",
+      "published": "Tue, 20 Oct 2026 15:09:29 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Facebook Pages require paid subscription to post more than two links per month",
+      "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
+      "published": "Tue, 20 Oct 2026 15:06:08 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "I built a drone with only one motor [video]",
-      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
-      "published": "Mon, 19 Oct 2026 09:05:07 +0000"
+      "content": "Ofcom Concedes Defeat in the 4chan Case",
+      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
+      "published": "Tue, 20 Oct 2026 14:30:31 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Starcraft: Ashfall",
-      "url": "https://starcraft-shooter-2026.pages.dev/",
-      "published": "Mon, 19 Oct 2026 01:18:02 +0000"
+      "content": "My Friend Bob Cringely",
+      "url": "https://tyma.com/my-cringe-story/",
+      "published": "Tue, 20 Oct 2026 14:13:49 +0000"
     }
   ],
   "verse": {
-    "text": "Love takes no pleasure in evil, but rejoices in the truth.",
-    "reference": "1 Corinthians 13:6",
+    "text": "For God is not unjust. He will not forget your work and the love you have shown for His name as you have ministered to the saints and continue to do so.",
+    "reference": "Hebrews 6:10",
     "translation": "BSB",
     "version": "Berean Standard Bible",
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "attribution": "Public Domain",
     "source": "youversion"
   },
@@ -669,15 +715,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
-      "count": 3,
+      "fetched_at": "2026-10-20T17:51:31.581Z",
+      "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
+      "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -685,7 +731,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
+      "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -693,7 +739,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
+      "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -701,7 +747,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
+      "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -709,7 +755,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
+      "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -717,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
+      "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -725,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.414Z",
+      "fetched_at": "2026-10-20T17:51:31.581Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -733,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T03:08:38.453Z",
+      "fetched_at": "2026-10-20T17:51:31.618Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
