@@ -1,15 +1,40 @@
 name: Refresh LIFE.OS Feeds
 
-# The dashboard reads from a GitHub Gist. This workflow refreshes the data
-# every 2 hours and commits it to the repo, which Vercel redeploys — so the
-# live site stays current even when the Gist is unreachable.
+# This workflow is a CANARY, not a publisher.
+#
+# It used to commit the fetched data to the repo every two hours, which
+# was meant to keep the site current when the Gist was unreachable. It
+# did three harmful things instead:
+#
+#   1. It committed a WORSE verse than the live one. This runner has no
+#      YVP_APP_KEY, so it fell back to the random bible-api.com pick and
+#      overwrote the curated YouVersion verse in the repo copy. The repo
+#      copy is the client's fallback when the Gist is unreachable, so a
+#      Gist outage would show a random verse with nothing marking it.
+#
+#   2. It raced the local timer. The local timer is the only publisher
+#      that matters — it is the only one that can read ~/.hermes/state.db
+#      and gateway_state.json, so a CI runner literally cannot produce a
+#      correct pi_status. When the bot pushed first, the timer's push was
+#      rejected as a non-fast-forward, which failed the run.
+#
+#   3. It triggered a redundant static-host rebuild for data that was
+#      not better than what was already published.
+#
+# So it now fetches, checks the result, and uploads it as an artifact.
+# It never touches the branch. The local timer is the only publisher.
+#
+# What it is still good for: proving the fetch pipeline works from a
+# clean checkout, on a machine that is not Cam's, on a schedule. If the
+# artifact is missing or the verse is empty, the pipeline is broken and
+# this workflow says so.
 on:
   schedule:
     - cron: '17 */2 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Fetch only, do not commit or push'
+        description: 'Fetch only, do not upload the artifact'
         type: boolean
         default: false
 
@@ -17,7 +42,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      # Read-only. This workflow must not be able to push.
+      contents: read
 
     steps:
       - uses: actions/checkout@v4
@@ -30,22 +56,56 @@ jobs:
       - name: Fetch feeds
         run: node fetch-feeds.js --no-push
 
-      - name: Commit refreshed data
-        if: ${{ inputs.dry_run != 'true' }}
+      - name: Check the result
+        id: check
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -f vibes.json vibes.js
-          if git diff --staged --quiet; then
-            echo "content unchanged — nothing to commit"
-            exit 0
-          fi
-          # Refuse to publish a credential. The Gist, the repository and
-          # both static hosts are public, so a credential in this payload
-          # is a credential in the world. The guard reads secret values
-          # from the environment, so it works here as well as on the
-          # machine that has the credential file.
+          # A credential must never reach the artifact either. The guard
+          # reads secret values from the environment, so it works here as
+          # well as on the machine that has the credential file.
           bash scripts/require-no-credentials.sh
-          git commit -m "chore: refresh feeds $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
-          echo '::notice::Vercel will redeploy with the refreshed data.'
+
+          # Report what the fetch actually produced. The point of this
+          # workflow is to prove the pipeline works, so the result has to
+          # be checkable, not just assumed. This runner has no
+          # YVP_APP_KEY, so the verse it fetches is the random
+          # bible-api.com fallback, not the curated one. That is expected
+          # here, and it is exactly why this workflow must not publish.
+          node -e "
+            const d = require('./vibes.json');
+            const v = d.verse || {};
+            const feeds = Object.entries(d.feed_health || {});
+            const live = feeds.filter(([, e]) => e.status === 'live').length;
+            console.log('verse      :', v.reference || '(none)', '| source:', v.source || '(none)');
+            console.log('feeds live :', live + '/' + feeds.length);
+            for (const [k, e] of feeds) {
+              if (e.status !== 'live') console.log('  not live  :', k, '->', e.status, e.error || '');
+            }
+            if (!v.text) { console.error('FAIL: no verse was fetched'); process.exit(1); }
+            if (feeds.length && live === 0) { console.error('FAIL: no feed came back live'); process.exit(1); }
+          "
+
+          echo "verse=$(node -p "require('./vibes.json').verse.reference")" >> "$GITHUB_OUTPUT"
+          echo "source=$(node -p "require('./vibes.json').verse.source || 'none'")" >> "$GITHUB_OUTPUT"
+
+      - name: Upload the result as an artifact
+        if: ${{ inputs.dry_run != 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: vibes-${{ github.run_number }}
+          path: |
+            vibes.json
+            vibes.js
+          retention-days: 3
+
+      - name: Summary
+        run: |
+          {
+            echo "### Feed canary"
+            echo ""
+            echo "- **Verse:** ${{ steps.check.outputs.verse }}"
+            echo "- **Source:** ${{ steps.check.outputs.source }}"
+            echo ""
+            echo "This workflow does not publish. The local timer at \`~/work/pi-dashboard\`"
+            echo "is the only publisher, because it is the only one that can read the"
+            echo "local Hermes runtime state."
+          } >> "$GITHUB_STEP_SUMMARY"

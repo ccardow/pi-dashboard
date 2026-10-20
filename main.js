@@ -450,6 +450,10 @@ const ageMinutes = (entry) => {
 const healthClass = (entry) => {
     if (!entry) return 'unknown';
     if (entry.status === 'live') return 'live';
+    // 'fallback': the primary source failed and a secondary one served
+    // the card. The data is fresh, but it is not what the card is
+    // supposed to show, so it reads amber rather than green.
+    if (entry.status === 'fallback') return 'fallback';
     if (entry.status === 'stale' && entry.count > 0) return 'stale';
     return 'failed';
 };
@@ -473,12 +477,13 @@ const renderHealthStrip = (health) => {
     const keys = order.filter(k => health[k]);
     const extra = Object.keys(health).filter(k => !order.includes(k));
 
-    let live = 0, stale = 0, failed = 0;
+    let live = 0, stale = 0, failed = 0, fallback = 0;
     const pills = keys.concat(extra).map(key => {
         const entry = health[key];
         const cls = healthClass(entry);
         if (cls === 'live') live++;
         else if (cls === 'stale') stale++;
+        else if (cls === 'fallback') fallback++;
         else failed++;
 
         const label = HEALTH_LABELS[key] || key;
@@ -500,6 +505,11 @@ const renderHealthStrip = (health) => {
         verdictClass = 'bad';
     } else if (stale > 0) {
         verdict = `${stale} STALE`;
+        verdictClass = 'warn';
+    } else if (fallback > 0) {
+        // The data is fresh, but the primary source did not serve it.
+        // "ALL LIVE" would be a lie here.
+        verdict = `${fallback} FALLBACK`;
         verdictClass = 'warn';
     } else {
         verdict = 'ALL LIVE';

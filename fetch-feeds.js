@@ -220,13 +220,35 @@ async function fetchYouTube() {
 }
 
 // ─── Fetch X posts via Nitter mirrors ───
+//
 // Mirrors rate-limit aggressively (403) and a 200 can still carry zero items
 // (Cloudflare interstitial). Strategy: walk the mirror list; for each mirror
 // retry up to MIRROR_ATTEMPTS times with backoff, requiring a non-empty item
 // list before accepting the result.
+//
+// The mirror list is the fragile part: these are public Nitter mirrors
+// that can vanish, and 1 of 4 was serving at the time of writing.
+//
+// The retry structure is 10 handles x 4 mirrors x 3 attempts, and each
+// attempt can burn the full 8 second request timeout. That is up to
+// 120 requests, and a run where the mirrors are all down took 32
+// minutes — long enough to blow past the systemd start timeout and
+// block every later cycle.
+//
+// So the whole X fetch has a wall-clock deadline. When it expires the
+// loop stops trying mirrors and returns whatever it has. Losing the
+// remaining handles is far better than stalling the pipeline.
+//
+// A side benefit: a fast mirror is tried first for every handle, so the
+// deadline almost never bites in normal operation. The fetch normally
+// completes in well under a minute.
+const X_FETCH_DEADLINE_MS = Number(process.env.X_FETCH_DEADLINE_MS) || 180000; // 3 minutes
+
 async function fetchXPosts() {
     console.log('\n𝕏 Fetching X posts... (' + X_HANDLES.length + ' handles)');
     var allPosts = [];
+    var deadline = Date.now() + X_FETCH_DEADLINE_MS;
+    var timedOut = false;
 
     for (var i = 0; i < X_HANDLES.length; i++) {
         var handle = X_HANDLES[i].replace(/^@/, '');
@@ -237,6 +259,10 @@ async function fetchXPosts() {
             var url = 'https://' + instance + '/' + handle + '/rss';
 
             for (var attempt = 0; attempt < MIRROR_ATTEMPTS && got === 0; attempt++) {
+                if (Date.now() > deadline) {
+                    timedOut = true;
+                    break;
+                }
                 if (attempt > 0) await sleep(3000 * attempt);  // back off before retrying
                 try {
                     var xml = await httpsGet(url);
@@ -261,6 +287,12 @@ async function fetchXPosts() {
                     }
                 }
             }
+            if (timedOut) break;
+        }
+        if (timedOut) {
+            console.warn('  ⚠ X fetch hit its ' + (X_FETCH_DEADLINE_MS / 1000) +
+                         's deadline — stopping mirror retries');
+            break;
         }
         if (got === 0) console.warn('  ✗ @' + handle + ': no mirror served this handle');
     }
@@ -269,6 +301,7 @@ async function fetchXPosts() {
     allPosts.sort(function (a, b) { return new Date(b.published) - new Date(a.published); });
     var top = allPosts.slice(0, X_MAX);
     console.log('  → ' + top.length + ' posts selected (from ' + allPosts.length + ' fetched)');
+    fetchXPosts.timedOut = timedOut;
     return top.length > 0 ? top : null;
 }
 
@@ -717,11 +750,19 @@ var health = {};
 function recordHealth(feed, ok, opts) {
     opts = opts || {};
     var now = new Date();
+    // 'fallback' is a third state: the feed produced a value, but the
+    // PRIMARY source failed and a secondary one served it. That is
+    // materially different from 'live' and from 'stale', and a card
+    // that renders it must not look like the primary source worked.
+    var status = opts.status || (ok ? 'live' : 'stale');
     var entry = {
-        status: ok ? 'live' : 'stale',
-        fetched_at: ok ? now.toISOString() : null,
+        status: status,
+        // A fallback DID fetch successfully — from the secondary source.
+        // The data is fresh, so fetched_at is set and the card does not
+        // look stale. Only the source was different.
+        fetched_at: (ok || status === 'fallback') ? now.toISOString() : null,
         count: opts.count || 0,
-        error: ok ? null : (opts.error || null),
+        error: (ok && status === 'live') ? null : (opts.error || null),
         source: opts.source || null,
     };
     health[feed] = entry;
@@ -1335,7 +1376,21 @@ async function main() {
     if (verse && verse.text) {
         vibes.verse = verse;
         updated = true;
-        recordHealth('verse', true, { count: 1, source: verse.source || 'bible-api.com' });
+        // A 'fallback' status means the PRIMARY source failed and a
+        // secondary one served the card. That is not the same as 'live':
+        // the curated verse of the day was not available, only a stand-in.
+        // The strip shows amber so the difference is visible.
+        var servedByFallback = verse.source && verse.source !== 'youversion';
+        recordHealth('verse', !servedByFallback, {
+            count: 1,
+            source: verse.source || 'bible-api.com',
+            status: servedByFallback ? 'fallback' : undefined,
+            error: servedByFallback
+                ? (fetchDailyVerse.lastError
+                    ? fetchDailyVerse.lastError + ' — served by the ' + verse.source + ' fallback'
+                    : 'served by the ' + verse.source + ' fallback')
+                : undefined,
+        });
         console.log('✅ Daily Verse: ' + verse.reference);
     } else if (previous.verse && previous.verse.text) {
         vibes.verse = previous.verse;

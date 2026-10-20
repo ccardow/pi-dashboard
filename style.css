@@ -1006,6 +1006,23 @@ kbd {
     color: var(--accent-amber);
 }
 
+/* fallback — the PRIMARY source failed and a secondary one served the
+   card. The data is fresh, so it is not "stale", but it is not what the
+   card is supposed to show, so it must not read green. */
+.health-pill--fallback {
+    border-color: rgba(251, 191, 36, 0.4);
+    border-style: dashed;
+}
+
+.health-pill--fallback .health-pill__dot {
+    background: var(--accent-amber);
+    box-shadow: none;
+}
+
+.health-pill--fallback .health-pill__name {
+    color: var(--accent-amber);
+}
+
 /* failed — no value at all, and the last attempt errored */
 .health-pill--failed {
     border-color: rgba(251, 113, 133, 0.45);
@@ -1072,6 +1089,11 @@ kbd {
 
 .card__health--failed {
     color: var(--accent-rose);
+}
+
+/* fallback — fresh data, but the primary source did not serve it */
+.card__health--fallback {
+    color: var(--accent-amber);
 }
 
 .card__health__dot {

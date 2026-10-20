@@ -202,6 +202,78 @@ The push error message also reports the **actual** reason. It used to say
 "is the SSH key authorised for this repo?" for every failure, which sent
 the diagnosis in the wrong direction for a non-fast-forward rejection.
 
+### The Actions workflow is a canary, not a publisher
+
+It used to commit the fetched data to the repo every two hours. That did
+three harmful things:
+
+1. **It committed a worse verse.** The runner has no `YVP_APP_KEY`, so
+   it fell back to the random bible-api.com pick and overwrote the
+   curated YouVersion verse in the repo copy — which is the client's
+   fallback when the Gist is unreachable.
+2. **It raced the local timer.** When the bot pushed first, the timer's
+   push was rejected as a non-fast-forward, which failed the run.
+3. **It triggered redundant rebuilds** for data that was not better than
+   what was already published.
+
+It now fetches, checks the result, and uploads it as an artifact. It
+never touches the branch, and its permissions are `contents: read`.
+
+The local timer is the only publisher, because it is the only one that
+can read `~/.hermes/state.db` and `gateway_state.json` — a CI runner
+literally cannot produce a correct `pi_status`.
+
+What it is still good for: proving the fetch pipeline works from a clean
+checkout, on a schedule, on a machine that is not Cam's.
+
+### A fallback is not a live feed
+
+The verse card has a fallback source: YouVersion's curated Verse of the
+Day, and bible-api.com's random pick. When the primary source fails and
+the fallback serves the card, the health entry is `status: 'fallback'` —
+a third state, distinct from `live` and from `stale`:
+
+- The data **is** fresh, so `fetched_at` is set and the card does not
+  look stale.
+- But the primary source did not serve it, so the strip shows amber and
+  the verdict reads `1 FALLBACK` instead of `ALL LIVE`.
+- The card names the translation in the reference line
+  (`1 Corinthians 13:6 · BSB`), so a stand-in is distinguishable from the
+  real thing even at a glance.
+
+"ALL LIVE" would be a lie when the primary source failed. This is the
+same failure class as the frozen Psalm 116, one level up: a graceful
+fallback that hides a degraded result.
+
+### The X fetch has a wall-clock deadline
+
+The mirror list is fragile — 1 of 4 Nitter mirrors was serving at the
+time of writing. The retry structure is 10 handles × 4 mirrors × 3
+attempts, each able to burn the full 8 second request timeout. A run
+with the mirrors all down took **32 minutes**, long enough to block
+every later cycle.
+
+`X_FETCH_DEADLINE_MS` (default 180000) caps the whole X fetch. When it
+expires the loop stops trying mirrors and returns what it has. Losing
+the remaining handles beats stalling the pipeline.
+
+### systemd's start timeout needs a daemon-reload
+
+`TimeoutStartSec=600` on the `lifeos-refresh.service` unit **is**
+enforced — a probe unit with a 15 second timeout was killed with
+`status=15/TERM` as expected.
+
+But a 32-minute run got through it. The cause: the unit file on disk
+had the timeout, but **systemd was still running the older version in
+memory** because the unit had not been reloaded after the edit.
+
+```bash
+systemctl --user daemon-reload    # after ANY edit to the unit file
+```
+
+The X deadline above is the belt to that braces: the pipeline should not
+depend on a systemd timeout to stay bounded.
+
 ### Nothing reaches the public payload
 
 The Gist, the repository and both static hosts are public. A credential

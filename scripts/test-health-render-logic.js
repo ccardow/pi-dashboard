@@ -167,6 +167,14 @@ const check = (name, cond, detail) => {
 const live = { status: 'live', fetched_at: 'x', age_min: 0, count: 10, error: null, source: 's' };
 const stale = { status: 'stale', fetched_at: 'x', age_min: 214, count: 10, error: 'mirrors failed', source: 's' };
 const failed = { status: 'stale', fetched_at: null, age_min: null, count: 0, error: 'unreachable', source: 's' };
+// The primary source failed, a secondary one served the card. The data
+// is fresh, but it is not what the card is supposed to show — so it must
+// not read green.
+const fallback = {
+    status: 'fallback', fetched_at: 'x', age_min: 0, count: 1,
+    error: 'connect ECONNREFUSED — served by the bible-api.com fallback',
+    source: 'bible-api.com',
+};
 
 console.log('classification:');
 check('live -> live', healthClass(live) === 'live');
@@ -174,6 +182,9 @@ check('stale with a value -> stale', healthClass(stale) === 'stale');
 check('stale with no value -> failed', healthClass(failed) === 'failed');
 check('missing -> unknown', healthClass(undefined) === 'unknown');
 check('unknown is never green', healthClass(undefined) !== 'live');
+check('fallback -> fallback', healthClass(fallback) === 'fallback');
+check('fallback is never green', healthClass(fallback) !== 'live');
+check('fallback is not failed (the data is fresh)', healthClass(fallback) !== 'failed');
 
 console.log('\nage display:');
 check('null age -> em dash', formatAge(null) === '—');
@@ -220,6 +231,16 @@ check('verdict is styled bad', html.includes('health-verdict--bad'));
 check('HN pill is red', html.includes('health-pill--failed'));
 check('a failed feed outranks a stale one', !html.includes('ALL LIVE'));
 
+console.log('\nrendered strip — one feed on a fallback:');
+fakeStrip.innerHTML = '';
+renderHealthStrip({ x: live, hackernews: live, verse: fallback });
+html = fakeStrip.innerHTML;
+check('verdict does NOT read ALL LIVE', !html.includes('ALL LIVE'), html.slice(0, 200));
+check('verdict reads 1 FALLBACK', html.includes('1 FALLBACK'), html.slice(0, 200));
+check('verdict is styled warn, not bad', html.includes('health-verdict--warn') && !html.includes('health-verdict--bad'));
+check('the verse pill is amber, not green', html.includes('health-pill--fallback') && !html.includes('health-pill--live">'));
+check('the fallback reason is in the tooltip', html.includes('served by the bible-api.com fallback'));
+
 console.log('\nrendered strip — no health data at all:');
 fakeStrip.innerHTML = '';
 renderHealthStrip(null);
@@ -247,6 +268,20 @@ check('stale feed marker is visible', fakeMarkers[1].style.display === 'inline-f
 check('stale feed marker is classed stale', fakeMarkers[1].className.includes('card__health--stale'));
 check('stale feed marker tooltip names the error', fakeMarkers[1].title.includes('mirrors failed'));
 check('live feed marker is hidden (2nd)', fakeMarkers[2].style.display === 'none');
+
+console.log('\ncard markers — a feed on a fallback:');
+const fallbackMarker = makeMarker('verse');
+fakeMarkers.length = 0;
+fakeMarkers.push(fallbackMarker);
+renderCardHealth({ verse: fallback });
+check('a fallback feed marker is visible', fallbackMarker.style.display !== 'none',
+    String(fallbackMarker.style.display));
+check('a fallback feed marker is classed fallback',
+    String(fallbackMarker.className).includes('card__health--fallback'),
+    String(fallbackMarker.className));
+check('a fallback feed marker tooltip names the error',
+    String(fallbackMarker.title).includes('served by the bible-api.com fallback'),
+    String(fallbackMarker.title));
 
 console.log('\ncard markers — a feed with no health entry:');
 fakeMarkers.length = 0;
