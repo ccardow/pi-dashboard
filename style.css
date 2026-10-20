@@ -724,6 +724,36 @@ body::before {
     color: var(--text-dim);
 }
 
+/* Live client events, as opposed to the server-side refresh history. */
+.log-item--live .log-msg {
+    color: var(--accent-teal);
+}
+
+.log-msg--error {
+    color: var(--accent-rose) !important;
+}
+
+.log-msg--warn {
+    color: var(--accent-amber) !important;
+}
+
+/* The status dot reflects the last REAL refresh run. */
+.pulse-dot--error {
+    background: var(--accent-rose);
+    box-shadow: 0 0 6px var(--accent-rose);
+}
+
+.pulse-dot--warn {
+    background: var(--accent-amber);
+    box-shadow: 0 0 6px var(--accent-amber);
+}
+
+.pulse-dot--unknown {
+    background: var(--text-muted);
+    box-shadow: none;
+    animation: none;
+}
+
 @keyframes logFadeIn {
     from {
         opacity: 0;

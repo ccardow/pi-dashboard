@@ -56,6 +56,23 @@ const base = {
         gateway: { pid: 15631, version: '0.22.2', state: 'running', uptime_seconds: 1000, active_agents: 1 },
         totals: { sessions: 60, input_tokens: 37996445, output_tokens: 635104, tool_calls: 1180 },
         logs: [{ time: '16:06', msg: 'default/LOCAL: minimax/minimax-m3.1-flash:free · 374 msgs · 180 tools' }],
+        refresh: {
+            source: 'systemd journal',
+            unit: 'lifeos-refresh.service',
+            total_runs: 3,
+            last_run: {
+                started_at: 1780000000,
+                ended_at: 1780000102,
+                duration_s: 102,
+                outcome: 'ok',
+                summary: 'published to Gist and committed to repo',
+            },
+            runs: [
+                { started_at: 1780000000, duration_s: 102, outcome: 'ok', summary: 'published to Gist and committed to repo' },
+                { started_at: 1779999600, duration_s: 0, outcome: 'ok', summary: 'published to Gist (no content change)' },
+                { started_at: 1779999200, duration_s: 51, outcome: 'ok', summary: 'published to Gist (no content change)' },
+            ],
+        },
         roadmap: [
             { name: 'Hermes Gateway', status: 'running · v0.22.2 · pid 15631' },
             { name: 'Session Ledger', status: '60 sessions · 38632k tokens · 1180 tool calls' },
@@ -91,6 +108,16 @@ noise.feed_health.x.fetched_at = '2026-10-19T23:59:00.000Z';
 noise.feed_health.x.age_min = 119;
 noise.feed_health.hn.fetched_at = '2026-10-19T23:59:00.000Z';
 noise.feed_health.hn.age_min = 119;
+// The refresh history is a rolling window: a new run arrives, the run
+// list grows, and every entry is re-timed. All of that is noise.
+noise.pi_status.refresh.total_runs = 9;
+noise.pi_status.refresh.runs.unshift({ started_at: 1780000500, duration_s: 77, outcome: 'ok', summary: 'published to Gist' });
+noise.pi_status.refresh.runs[0].started_at = 1780000600;
+noise.pi_status.refresh.runs[0].duration_s = 88;
+noise.pi_status.refresh.runs[1].duration_s = 12;
+noise.pi_status.refresh.last_run.started_at = 1780000600;
+noise.pi_status.refresh.last_run.ended_at = 1780000688;
+noise.pi_status.refresh.last_run.duration_s = 88;
 check('timestamps / counters / log suffixes -> same hash', fingerprint(noise) === h0);
 
 console.log('\nreal content changes MUST change the fingerprint:');
@@ -117,6 +144,9 @@ const cases = [
     ['an agent gains a session', d => { d.firebuilt.agents[0].sessions = 1; d.firebuilt.total_sessions = 3; }],
     ['an agent works', d => { d.firebuilt.agents[0].last_activity = 1780000500; d.firebuilt.last_activity = 1780000500; }],
     ['the roster shrinks', d => { d.firebuilt.agents.pop(); d.firebuilt.agent_count = 6; }],
+    // A refresh that fetched fine but FAILED to publish is a real incident.
+    // The published payload must not claim everything is healthy.
+    ['the last refresh failed', d => { d.pi_status.refresh.last_run.outcome = 'failed'; d.pi_status.refresh.last_run.error = 'push-to-gist.js failed'; }],
 ];
 for (const [name, mutate] of cases) {
     const d = JSON.parse(JSON.stringify(base));

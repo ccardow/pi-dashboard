@@ -728,6 +728,22 @@ function fetchFireBuiltRoster() {
     };
 }
 
+// Real refresh history, read from the systemd journal by the companion
+// script. Returns null when the history cannot be read at all, so the
+// caller can show "unknown" rather than an empty list that looks like
+// "nothing has ever run".
+function readRefreshHistory() {
+    try {
+        var mod = require(path.join(__dirname, 'scripts', 'read-refresh-journal.js'));
+        var result = mod.main ? mod.main({ quiet: true }) : null;
+        if (!result || !result.runs || !result.runs.length) return null;
+        return result;
+    } catch (e) {
+        console.warn('  ⚠ refresh history unavailable: ' + e.message);
+        return null;
+    }
+}
+
 function readJsonSafe(file) {
     try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
     catch (e) { return null; }
@@ -974,6 +990,10 @@ function fetchPiStatus() {
             tokens_total: contextWindow,
         },
         logs: logs,
+        // The REAL refresh history, read from the systemd journal. This
+        // replaces a hardcoded boot sequence that used to be presented as
+        // live telemetry.
+        refresh: readRefreshHistory(),
         gateway: gw ? {
             pid: gw.pid,
             version: gw.code_version,

@@ -44,6 +44,19 @@ const VOLATILE_ARRAY_ITEM_KEYS = [
 // but the timestamps inside it move on every single run and must not.
 const VOLATILE_HEALTH_KEYS = ['fetched_at', 'age_min'];
 
+// The refresh history is a rolling window of recent runs. Every run adds
+// an entry and re-times the others, so most of the block changes on every
+// cycle.
+//
+// The one part that is SUBSTANTIVE is the last run's outcome: a refresh
+// that fetched fine but then failed to publish is a real incident, and
+// the published payload must not pretend everything is healthy. So the
+// block is reduced to {outcome, error} and everything else is dropped.
+//
+// Note this reflects the PREVIOUS completed run, because the fetcher runs
+// at the start of a refresh — the current run is not in the journal yet.
+// The reduction itself lives in reduceRefresh() below.
+
 // Numeric patterns inside human-readable status strings. These counters
 // tick constantly (session counts, tool counts, token totals) while the
 // surrounding text stays the same. Mask just the number so the sentence
@@ -105,10 +118,28 @@ function maskStrings(obj) {
     }
 }
 
+// Reduce the refresh history to the one substantive part: the last run's
+// outcome and error. Everything else (the run list, timestamps, durations)
+// changes on every cycle and must not affect the hash.
+function reduceRefresh(obj) {
+    const refresh = obj && obj.pi_status && obj.pi_status.refresh;
+    if (!refresh || typeof refresh !== 'object') return;
+    const last = refresh.last_run;
+    if (!last || typeof last !== 'object') {
+        obj.pi_status.refresh = null;
+        return;
+    }
+    obj.pi_status.refresh = {
+        outcome: last.outcome || 'unknown',
+        error: last.error || null,
+    };
+}
+
 function normalize(data) {
     const copy = JSON.parse(JSON.stringify(data));
     for (const path of VOLATILE_PATHS) deletePath(copy, path);
     for (const { path, key } of VOLATILE_ARRAY_ITEM_KEYS) deleteArrayItemKey(copy, path, key);
+    reduceRefresh(copy);
 
     // feed_health keeps its status/count/error (a feed going stale IS a real
     // change) but drops the per-run timestamps.

@@ -99,7 +99,7 @@ const updateVerse = (data) => {
     } else {
         verseText.textContent = '"Verse unavailable."';
         verseRef.textContent = '—';
-        logActivity('Daily verse unavailable.');
+        logActivity('Daily verse unavailable.', 'warn');
     }
 };
 
@@ -159,40 +159,129 @@ setInterval(updateUptime, 1000);
 document.getElementById('footer-year').textContent = now.getFullYear();
 
 // ─── Activity Log ───
-const logActivity = (message) => {
+//
+// Two layers share this terminal:
+//   1. The refresh HISTORY from the server (renderRefreshHistory) — the
+//      real record of what the pipeline did, oldest at the bottom.
+//   2. LIVE client events appended on top (a verse loaded, a feed errored).
+//
+// Live events are marked so the two are never confused: the history is
+// what happened, the live events are what this browser session just did.
+const logActivity = (message, kind) => {
     const log = document.getElementById('activity-log');
     if (!log) return;
     const item = document.createElement('div');
-    item.className = 'log-item';
+    item.className = 'log-item log-item--live';
     const time = new Date().toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    item.innerHTML = `<span class="log-time">${time}</span> <span class="log-msg">> ${message}</span>`;
+    const cls = kind === 'error' ? 'log-msg--error' : (kind === 'warn' ? 'log-msg--warn' : '');
+    item.innerHTML = `<span class="log-time">${time}</span> <span class="log-msg ${cls}">> ${message}</span>`;
     log.prepend(item);
-    // Keep only last 20 entries
-    while (log.children.length > 20) {
+    // Keep only the last 40 entries. The history is re-rendered from the
+    // payload on every load, so trimming here only affects live events.
+    while (log.children.length > 40) {
         log.lastChild.remove();
     }
 };
 
-// ─── Boot Sequence ───
-const bootMessages = [
-    'LIFE.OS v2.0 kernel loaded',
-    'Initializing Cyber-Zen subsystems...',
-    'Connecting intelligence feeds...',
-    'Weather module: locked',
-    'Scripture engine: ready',
-    'Feed aggregator: scanning 𝕏...',
-    'Hermes gateway: handshake',
-    'Dashboard render: complete',
-    'Awaiting operator input.'
-];
+// ─── Refresh History ───
+//
+// The System Activity card used to show a hardcoded boot sequence —
+// invented lines like "LIFE.OS v2.0 kernel loaded" and "Prairie skies:
+// clear" — presented as if they were live telemetry. They were a random
+// quote generator wearing a terminal costume.
+//
+// The real history comes from the systemd journal and arrives in the
+// payload as pi_status.refresh.runs. Each entry is one actual refresh
+// run: when it happened, how long it took, and what it did.
 
-const runBootSequence = () => {
-    bootMessages.forEach((msg, i) => {
-        setTimeout(() => logActivity(msg), i * 250);
+const REFRESH_OUTCOME_LABEL = {
+    ok: 'OK',
+    failed: 'FAILED',
+    running: 'RUNNING',
+};
+
+// Format a run's start time as HH:MM:SS in the dashboard's timezone.
+//
+// The timezone is not known until the payload arrives (it comes from the
+// configured location), so it defaults to the location's timezone and is
+// corrected by setDashboardTimezone() once the data loads.
+let dashboardTimezone = 'America/Vancouver';
+
+const setDashboardTimezone = (tz) => {
+    if (tz) dashboardTimezone = tz;
+};
+
+const refreshRunTime = (ts) => {
+    if (!ts) return '--:--:--';
+    const d = new Date(ts * 1000);
+    if (isNaN(d.getTime())) return '--:--:--';
+    return d.toLocaleTimeString('en-US', {
+        timeZone: dashboardTimezone, hour12: false,
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
     });
 };
 
-runBootSequence();
+// Render the real refresh history into the System Activity terminal.
+const renderRefreshHistory = (refresh) => {
+    const log = document.getElementById('activity-log');
+    if (!log) return;
+
+    if (!refresh || !refresh.runs || !refresh.runs.length) {
+        // No history is a different state from "nothing has run". Say so.
+        log.innerHTML = `
+            <div class="log-item">
+                <span class="log-time">--:--:--</span>
+                <span class="log-msg log-msg--warn">> refresh history unavailable</span>
+            </div>
+        `;
+        return;
+    }
+
+    log.innerHTML = refresh.runs.map((run) => {
+        const outcome = run.outcome || 'running';
+        const label = REFRESH_OUTCOME_LABEL[outcome] || outcome.toUpperCase();
+        const dur = run.duration_s !== null && run.duration_s !== undefined
+            ? ` ${run.duration_s}s`
+            : '';
+        const cls = outcome === 'failed' ? 'log-msg--error' : '';
+        return `
+            <div class="log-item">
+                <span class="log-time">${refreshRunTime(run.started_at)}</span>
+                <span class="log-msg ${cls}">> [${label}]${dur} ${run.summary}</span>
+            </div>
+        `;
+    }).join('');
+};
+
+// The status line reflects the last real run, not a hardcoded phrase.
+const renderSystemStatus = (refresh) => {
+    const display = document.getElementById('status-display');
+    const dot = document.querySelector('.pulse-dot');
+    if (!display) return;
+
+    if (!refresh || !refresh.last_run) {
+        display.textContent = 'Status Unknown';
+        if (dot) dot.classList.add('pulse-dot--unknown');
+        return;
+    }
+
+    const last = refresh.last_run;
+    if (last.outcome === 'failed') {
+        display.textContent = 'Last Refresh Failed';
+        if (dot) dot.classList.add('pulse-dot--error');
+    } else if (last.outcome === 'running') {
+        display.textContent = 'Refresh In Progress';
+        if (dot) dot.classList.add('pulse-dot--warn');
+    } else {
+        display.textContent = 'All Systems Nominal';
+        if (dot) dot.classList.remove('pulse-dot--error', 'pulse-dot--warn', 'pulse-dot--unknown');
+    }
+};
+
+// ─── Boot Sequence ───
+// The fake boot sequence is gone. The log now shows real activity:
+// the refresh history from the server, plus genuine client-side events
+// (a verse loaded, a feed errored) appended below it.
 
 // ─── Fetch and Render Dashboard Data ───
 const updateDashboard = async () => {
@@ -229,7 +318,7 @@ const updateDashboard = async () => {
                 // Fall back to the copy committed to the repo — GitHub Actions
                 // refreshes it, and Vercel redeploys it, so the site still
                 // updates even when the Gist is unreachable.
-                logActivity('Gist unavailable, using repo fallback...');
+                logActivity('Gist unavailable, using repo fallback...', 'warn');
                 const fallback = await fetch('vibes.json?t=' + Date.now());
                 if (!fallback.ok) throw new Error(`HTTP ${fallback.status}`);
                 data = await fallback.json();
@@ -242,12 +331,17 @@ const updateDashboard = async () => {
         if (data.weather && data.weather.timezone) {
             setClockZone(data.weather.timezone);
             updateGreeting(data.weather.timezone);
+            setDashboardTimezone(data.weather.timezone);
         }
         renderData(data);
+        // The System Activity card shows the REAL refresh history from the
+        // server journal, not an invented boot sequence.
+        renderRefreshHistory(data.pi_status && data.pi_status.refresh);
+        renderSystemStatus(data.pi_status && data.pi_status.refresh);
         logActivity('All feeds synchronized.');
     } catch (err) {
         console.error('Feed sync failed:', err);
-        logActivity(`ERROR: ${err.message}`);
+        logActivity(`ERROR: ${err.message}`, 'error');
     }
 };
 
@@ -718,10 +812,13 @@ setInterval(() => {
 }, 20000);
 
 // ─── Initialize ───
-// Delay dashboard fetch slightly to let boot sequence play
+// A short delay lets the page paint before the first fetch. (This used
+// to wait out a boot animation that no longer exists — and the stale
+// reference to the removed boot message array made this file throw a
+// ReferenceError at load, so the dashboard never rendered at all.)
 setTimeout(() => {
     updateDashboard();
-}, bootMessages.length * 250 + 500);
+}, 300);
 
 // ─── Auto-Refresh Every 5 Minutes ───
 // Re-fetches from the Gist so cards update as fetch-feeds.js runs on a schedule
