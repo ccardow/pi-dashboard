@@ -139,6 +139,16 @@ abbreviation and its copyright line.
 bash scripts/setup-youversion-key.sh
 ```
 
+To try the key WITHOUT saving it first:
+
+```bash
+bash scripts/check-youversion-key.sh
+```
+
+That reads the key from a hidden prompt, writes nothing, and shows the
+verse it would fetch, the translation, the attribution line, and every
+English version the key can reach. Run it as many times as you like.
+
 The key lands in `~/.config/lifeos/lifeos.env` as `YVP_APP_KEY`, next to
 `GIST_TOKEN`. The setup script **merges** rather than overwrites, so the
 Gist token survives.
@@ -191,6 +201,7 @@ node scripts/test-context-reading.js        # 16 checks: current context vs life
 node scripts/test-refresh-journal.js        # 27 checks: journal folding + System Activity renderer
 node scripts/test-main-loads.js             #  9 checks: main.js loads without throwing
 node scripts/test-verse.js                  # 16 checks: YouVersion verse path vs a mock API
+node scripts/test-check-youversion-key.js   # 15 checks: the key checker, bad key + good key
 bash scripts/test-skip-noop.sh              #  4 checks: a noise-only refresh -> no commit
 node scripts/probe-agent-roles.js           # shows the role parsed from each SOUL.md
 ```
