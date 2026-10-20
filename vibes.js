@@ -63,74 +63,74 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "Build a full website from just ONE prompt. No coding. No web designer. No long setup. I used Gemini 4 Argon to create an SEO audit landing page with a form, FAQs, testimonials, and buttons. All from one request. Want the SOP? DM me.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112665170006638603#m",
+      "published": "Tue, 20 Oct 2026 22:00:02 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: Here’s full Elon Musk’s remarks at SpaceX Q3 2026 results: 0:00 - Inflection moment for SpaceX 0:50 - Starship Flight 14 to orbit 1:40 - Flight 15 catch both stages 2:50 - Louisiana spaceport announced 4:00 - Weekly then twice weekly flights 5:20 - Complete reusability like airplane 6:30 - Starlink 26 Tbps = 10 Falcon 9 7:50 - 100x bandwidth, 100k satellites 9:10 - 1000x demand from AI agents 10:20 - SI constraint: power & cooling 11:30 - Memphis 200k GB300s monthly 12:40 - Aiming 20 GW next year 13:20 - 440k Vera Rubin cluster Q2 14:00 - GrokBot fastest growth ever 14:35 - $500 B-$1T ARR by end 2027",
+      "url": "http://nitter.meowing.monster/cb_doge/status/2112653610953887818#m",
+      "published": "Tue, 20 Oct 2026 21:14:06 GMT"
+    },
+    {
+      "user": "sama",
+      "topic": "Security",
+      "content": "I am very grateful Aleksander accepted our request to come take this on; the safety and security challenges in front of us as we confront superintelligence are immense, and he has an excellent set of skills to work on this.",
+      "url": "http://nitter.meowing.monster/sama/status/2112652656602923366#m",
+      "published": "Tue, 20 Oct 2026 21:10:19 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "Most business ideas die because building them needs a developer and a designer. Google just turned one desk photo into a playable 3D game, and the team barely touched the code. I've broken down how Gemini 4 Argon and Antigravity did it. Here's what's inside: You'll see the stack behind it, with Argon as the brain, Antigravity as the workshop and Nano Banana as the artist. You'll learn the three checks I'd want before letting any agent near client work. You'll find the four mistakes that waste your first week. Antigravity is free for developers right now. The full article is below.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112650065395241409#m",
+      "published": "Tue, 20 Oct 2026 21:00:01 GMT"
+    },
+    {
+      "user": "AlexFinn",
+      "topic": "AI / ML",
+      "content": "R to @AlexFinn: If you want to check out my autonomous business: https://agentusecases.ai/ 60% of views are from X. 40% are SEO and AEO",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2112646274264813913#m",
+      "published": "Tue, 20 Oct 2026 20:44:57 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "AI / ML",
+      "content": "🚨 OHIO! Early Voting, in-person, is UNDERWAY NOW in the Great State of Ohio. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Ohio, you can cast your early Vote, in-person, all the way through November 1st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/ohio/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645390369718527#m",
+      "published": "Tue, 20 Oct 2026 20:41:26 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "AI / ML",
+      "content": "🚨 NORTH CAROLINA! Early Voting, in-person, is UNDERWAY NOW in the Great State of North Carolina. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In North Carolina, you can cast your early Vote, in-person, all the way through October 31st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/north-carolina/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645301043691816#m",
+      "published": "Tue, 20 Oct 2026 20:41:05 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "AI / ML",
+      "content": "🚨 MAINE! Early Voting, in-person, is UNDERWAY NOW in the Great State of Maine. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Maine, you can cast your early Vote, in-person, all the way through October 29th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/maine/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645220861120714#m",
+      "published": "Tue, 20 Oct 2026 20:40:46 GMT"
+    },
+    {
+      "user": "AlexFinn",
+      "topic": "AI / ML",
+      "content": "Last week Grok Bot built me a completely autonomous business Since then it has: • Made $1,800 • Gotten almost 100,000 visitors • 200,000+ page views • 3,000 newsletter subscribers All I've had to do since launch is post about it You can do this too. It's so easy All you need to do is: 1. Choose an AI agent (I like Grok Bot) 2. Talk to your agent. Find challenges your audience has 3. Choose a challenge and ask your Grok Bot to build an autonomous business that solves that challenge 4. Ask it to build and maintain the site, optimize for SEO and AEO, and start a newsletter for it 5. Use Resend, Vercel, Stripe, and GitHub as plugins 6. Talk about your autonomous business on social media so you get distribution It's that simple EVERYONE should have an autonomous business",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2112640023803871268#m",
+      "published": "Tue, 20 Oct 2026 20:20:07 GMT"
+    },
+    {
       "user": "DuncanRogoff",
       "topic": "AI / ML",
       "content": "Claude just made a six and a half minute film about all 98 Best Picture winners, and every frame, note and cut was written in code. The free add-on behind it, Lemo Opuscar, gives Claude Code 51 film styles and no AI video generator. https://github.com/lemomo-ai/lemo-opuscar",
       "url": "http://nitter.meowing.monster/DuncanRogoff/status/2112635070540390772#m",
       "published": "Tue, 20 Oct 2026 20:00:26 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Build AI websites that look like a pro made them. No more cheap templates. I built a Web Design OS in 30 minutes using GPT-6 Astra. 5 design skills + brand rules + style library. Same AI. Much better design. Want the SOP? DM me.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112634967968641450#m",
-      "published": "Tue, 20 Oct 2026 20:00:01 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Apple / iOS",
-      "content": "Can anyone recommend a thunderbolt switcher that works with Apple Studio Displays?",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112617710660317622#m",
-      "published": "Tue, 20 Oct 2026 18:51:27 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "Tech Intel",
-      "content": "Why I Stopped Writing One Blog Post for AEO and GEO",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112615723633893627#m",
-      "published": "Tue, 20 Oct 2026 18:43:33 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Want ChatGPT to recommend your business? Claude can help you find the pages AI reads before it answers. Here's my 5-step GEO workflow: → Track the AI questions buyers ask → Find the smaller searches AI runs → Check which pages AI cites → Use Claude to write useful comparison pages → Track where your brand gets mentioned I use Radar Kit and Agent OS to connect these steps. The goal is to show up in the sources AI trusts. Save this video, you'll have a Claude GEO workflow to test. Want the SOP? DM me. 💬",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112615301116481578#m",
-      "published": "Tue, 20 Oct 2026 18:41:52 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "Your heroes were once: - Rejected - Underqualified - Just as unsure as you Don’t underestimate yourself.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2112604786306552125#m",
-      "published": "Tue, 20 Oct 2026 18:00:06 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "“Lack of electricity” is an oversimplification. Everything is hard about bringing massive compute online at extremely high speed. If there was twice as much time, this would be relatively easy, but there is not.",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2112603906723487744#m",
-      "published": "Tue, 20 Oct 2026 17:56:36 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "Johann Sebastian Bach is the Shakespeare of music. Best there ever was.",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2112600761762717997#m",
-      "published": "Tue, 20 Oct 2026 17:44:06 GMT"
-    },
-    {
-      "user": "JuliaEMcCoy",
-      "topic": "AI / ML",
-      "content": "Things I used to pay a team of 100 for that cost me almost nothing now (and get done better/faster/way cheaper): ▪️a first draft of anything ▪️ a video I never filmed ▪️ a keynote in my voice while I'm home ▪️ weeks of research done in seconds ▪️ a 24/7 detailed answer for every client question Same team. Higher ceiling.",
-      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2112584705220751581#m",
-      "published": "Tue, 20 Oct 2026 16:40:18 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "MiniMax M3.1 Flash from @MiniMax_AI is now available in OpenClaw. Running v2026.10.1 or newer? No OpenClaw update needed.",
-      "url": "http://nitter.meowing.monster/openclaw/status/2112569427527172435#m",
-      "published": "Tue, 20 Oct 2026 15:39:35 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 01:37 PM",
+  "lastUpdate": "10/20/2026, 03:02 PM",
   "news": [
     {
       "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
@@ -251,17 +251,17 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 111,
+      "tokens_used": 329,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "13:37",
-        "msg": "default/GUI: minimax/minimax-m3.1-flash:free · 95 msgs · 54 tools"
+        "time": "13:56",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 393 msgs · 233 tools"
       },
       {
-        "time": "12:56",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 271 msgs · 164 tools"
+        "time": "13:37",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 96 msgs · 54 tools"
       },
       {
         "time": "12:22",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792528648.650963,
+          "started_at": 1792533739.751175,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792528648.650963
+              "at": 1792533739.751175
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792528648.650963,
+          "ended_at": 1792528670.450967,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792528648.650963
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792528666.125912
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792528667.351223
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792528667.353541
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792528668.426912
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792528670.450967
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792528670.450967
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792526926.334047,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792521487.360108,
+          "started_at": 1792521540.156187,
           "ended_at": 1792521544.308926,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792521487.360108
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792521544.308926
             }
           ],
-          "duration_s": 57,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792519756.237418,
-          "ended_at": 1792519761.230473,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792519756.237418
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792519757.996099
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792519758.004874
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792519759.287197
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792519761.228203
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792519761.230473
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792528648.650963,
+        "started_at": 1792533739.751175,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792528648.650963
+            "at": 1792533739.751175
           }
         ],
         "duration_s": null,
@@ -531,10 +531,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1219,
+      "pid": 1192,
       "version": "0.22.2",
       "state": "running",
-      "uptime_seconds": 3938,
+      "uptime_seconds": 2766,
       "profiles": [
         "default",
         "atlas",
@@ -545,33 +545,29 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 2
+      "active_agents": 0
     },
     "totals": {
       "sessions": 62,
-      "input_tokens": 40553471,
-      "output_tokens": 1288107,
-      "tool_calls": 1373
+      "input_tokens": 40861759,
+      "output_tokens": 1315123,
+      "tool_calls": 1442
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 1219"
+        "status": "running · v0.22.2 · pid 1192"
       },
       {
         "name": "Agent Profiles",
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "2"
-      },
-      {
         "name": "Session Ledger",
-        "status": "62 sessions · 41842k tokens · 1373 tool calls"
+        "status": "62 sessions · 42177k tokens · 1442 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 01:37 PM"
+    "lastUpdate": "Oct 20, 03:02 PM"
   },
   "hn_posts": [
     {
@@ -663,8 +659,8 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "model": "minimax/minimax-m3.1-flash:free",
         "provider": "openrouter",
         "sessions": 3,
-        "messages": 412,
-        "last_activity": 1792528617.276026,
+        "messages": 107,
+        "last_activity": 1792529032.4696815,
         "skills": 36,
         "cron": 4
       },
@@ -743,69 +739,69 @@ window.__DASHBOARD_DATA_CALLBACK__({
     ],
     "agent_count": 7,
     "total_sessions": 22,
-    "total_messages": 844,
-    "last_activity": 1792528617.276026
+    "total_messages": 539,
+    "last_activity": 1792529032.4696815
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 10,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 85
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "fetched_at": "2026-10-20T22:02:38.703Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 85
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 85
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 85
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 85
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-20T20:37:46.078Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 85
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:37:46.078Z",
+      "fetched_at": "2026-10-20T22:02:38.703Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -813,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T20:37:46.118Z",
+      "fetched_at": "2026-10-20T22:02:38.740Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
