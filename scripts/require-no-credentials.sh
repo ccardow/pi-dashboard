@@ -31,29 +31,48 @@ fi
 
 # Values that must never be published. Read from the file at run time so
 # this script never contains a credential itself.
+#
+# The environment is checked as well as the file, so the same guard works
+# on a CI runner that receives a credential as a secret rather than as a
+# file. A value found in either place is treated as a secret.
 SECRETS=()
-while IFS='=' read -r name value; do
-    case "$name" in
-        YVP_APP_KEY|GIST_TOKEN)
-            [ -n "$value" ] && SECRETS+=("$value")
-            ;;
-    esac
-done < "$ENV_FILE"
+SECRET_NAMES=()
+
+add_secret() {
+    local name="$1" value="$2"
+    [ -z "$value" ] && return 0
+    for existing in "${SECRETS[@]}"; do
+        [ "$existing" = "$value" ] && return 0
+    done
+    SECRETS+=("$value")
+    SECRET_NAMES+=("$name")
+}
+
+if [ -f "$ENV_FILE" ]; then
+    while IFS='=' read -r name value; do
+        case "$name" in
+            YVP_APP_KEY|GIST_TOKEN)
+                add_secret "$name" "$value"
+                ;;
+        esac
+    done < "$ENV_FILE"
+fi
+
+# The same names from the environment, for CI.
+add_secret "YVP_APP_KEY" "${YVP_APP_KEY:-}"
+add_secret "GIST_TOKEN" "${GIST_TOKEN:-}"
 
 if [ ${#SECRETS[@]} -eq 0 ]; then
-    echo "no secret values found in $ENV_FILE — nothing to check"
+    echo "no secret values found — nothing to check"
     exit 0
 fi
 
 FOUND=0
 REPORT=""
 
-for secret in "${SECRETS[@]}"; do
-    label=""
-    while IFS='=' read -r name value; do
-        if [ "$value" = "$secret" ]; then label="$name"; break; fi
-    done < "$ENV_FILE"
-    [ -z "$label" ] && label="(unknown)"
+for i in "${!SECRETS[@]}"; do
+    secret="${SECRETS[$i]}"
+    label="${SECRET_NAMES[$i]}"
 
     # The commit about to be pushed.
     if git grep -F -l -- "$secret" HEAD >/dev/null 2>&1; then

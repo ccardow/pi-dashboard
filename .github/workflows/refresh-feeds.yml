@@ -37,9 +37,15 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add -f vibes.json vibes.js
           if git diff --staged --quiet; then
-            echo 'No data changes.'
-          else
-            git commit -m "chore: refresh feeds $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
-            echo '::notice::Vercel will redeploy with the refreshed data.'
+            echo "content unchanged — nothing to commit"
+            exit 0
           fi
+          # Refuse to publish a credential. The Gist, the repository and
+          # both static hosts are public, so a credential in this payload
+          # is a credential in the world. The guard reads secret values
+          # from the environment, so it works here as well as on the
+          # machine that has the credential file.
+          bash scripts/require-no-credentials.sh
+          git commit -m "chore: refresh feeds $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+          echo '::notice::Vercel will redeploy with the refreshed data.'
