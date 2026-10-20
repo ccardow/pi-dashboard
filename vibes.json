@@ -126,11 +126,11 @@
       "published": "Mon, 19 Oct 2026 21:29:15 GMT"
     },
     {
-      "user": "realDonaldTrump",
+      "user": "MatthewBerman",
       "topic": "AI / ML",
-      "content": "🚨 NEVADA! Early Voting, in-person, opened in the Great State of Nevada this past weekend. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Nevada, you can cast your early Vote, in-person, all the way through October 30th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/nevada/",
-      "url": "http://nitter.pp.ua/realDonaldTrump/status/2112294730247627212#m",
-      "published": "Mon, 19 Oct 2026 21:28:02 GMT"
+      "content": "We are putting out MORE and BETTER videos than ever. Here's how Brian (@ForwardEditor) uses AI to edit our videos.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2112288084951961786#m",
+      "published": "Mon, 19 Oct 2026 21:01:38 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/19/2026, 07:35 PM",
+  "lastUpdate": "10/19/2026, 07:38 PM",
   "news": [
     {
       "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
@@ -244,20 +244,20 @@
     "feels_like": "8",
     "hi": "15",
     "lo": "5",
-    "updated": "Oct 19, 07:35 PM"
+    "updated": "Oct 19, 07:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 222,
+      "tokens_used": 210,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "19:34",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 413 msgs · 200 tools"
+        "time": "19:38",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 431 msgs · 207 tools"
       },
       {
         "time": "16:09",
@@ -284,6 +284,20 @@
       "source": "systemd journal",
       "unit": "lifeos-refresh.service",
       "runs": [
+        {
+          "started_at": 1792463880.038946,
+          "ended_at": null,
+          "outcome": "running",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792463880.038946
+            }
+          ],
+          "duration_s": null,
+          "summary": "run in progress"
+        },
         {
           "started_at": 1792462714.479149,
           "ended_at": 1792462855.036765,
@@ -453,15 +467,10 @@
           "summary": "FAILED: git push failed (is the SSH key authorised for this repo?)"
         },
         {
-          "started_at": 1792456746.424282,
+          "started_at": 1792456808.977478,
           "ended_at": 1792456811.935984,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792456746.424282
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -493,92 +502,23 @@
               "at": 1792456811.935984
             }
           ],
-          "duration_s": 66,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792454952.206386,
-          "ended_at": 1792454955.272139,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792454952.206386
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792454953.476493
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792454953.478514
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792454953.536339
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792454955.271941
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792454955.272139
-            }
-          ],
           "duration_s": 3,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792462714.479149,
-        "ended_at": 1792462855.036765,
-        "outcome": "ok",
+        "started_at": 1792463880.038946,
+        "ended_at": null,
+        "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792462714.479149
-          },
-          {
-            "kind": "publish-start",
-            "text": "pushing to Gist",
-            "at": 1792462850.675738
-          },
-          {
-            "kind": "published",
-            "text": "Gist published",
-            "at": 1792462852.188364
-          },
-          {
-            "kind": "commit-start",
-            "text": "committing data",
-            "at": 1792462852.190549
-          },
-          {
-            "kind": "changed",
-            "text": "content changed",
-            "at": 1792462853.259109
-          },
-          {
-            "kind": "committed",
-            "text": "repo committed",
-            "at": 1792462855.036765
-          },
-          {
-            "kind": "done",
-            "text": "run complete",
-            "at": 1792462855.036765
+            "at": 1792463880.038946
           }
         ],
-        "duration_s": 141,
-        "summary": "published to Gist and committed to repo"
+        "duration_s": null,
+        "summary": "run in progress"
       },
       "total_runs": 6
     },
@@ -601,9 +541,9 @@
     },
     "totals": {
       "sessions": 60,
-      "input_tokens": 39328643,
-      "output_tokens": 947329,
-      "tool_calls": 1200
+      "input_tokens": 39516518,
+      "output_tokens": 955161,
+      "tool_calls": 1207
     },
     "roadmap": [
       {
@@ -620,10 +560,10 @@
       },
       {
         "name": "Session Ledger",
-        "status": "60 sessions · 40276k tokens · 1200 tool calls"
+        "status": "60 sessions · 40472k tokens · 1207 tool calls"
       }
     ],
-    "lastUpdate": "Oct 19, 07:35 PM"
+    "lastUpdate": "Oct 19, 07:38 PM"
   },
   "hn_posts": [
     {
@@ -801,7 +741,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -809,7 +749,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -817,7 +757,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -825,7 +765,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -833,7 +773,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -841,7 +781,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -849,7 +789,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -857,7 +797,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.851Z",
+      "fetched_at": "2026-10-20T02:38:55.436Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -865,7 +805,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T02:35:40.895Z",
+      "fetched_at": "2026-10-20T02:38:55.477Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
