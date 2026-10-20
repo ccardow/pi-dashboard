@@ -559,9 +559,11 @@ async function fetchVerseYouVersion() {
     // unattributed scripture.
     var attribution = null;
     var abbr = null;
+    var version = null;
     try {
         var meta = await yvpGet('/v1/bibles/' + YVP_BIBLE_ID);
         abbr = meta.abbreviation || meta.localized_abbreviation || null;
+        version = meta.title || meta.localized_title || null;
         attribution = (meta.copyright || meta.promotional_content || '').trim() || null;
     } catch (e) {
         console.warn('  ⚠ verse attribution unavailable: ' + e.message);
@@ -575,6 +577,11 @@ async function fetchVerseYouVersion() {
         text: text,
         reference: reference,
         translation: abbr || ('youversion:' + YVP_BIBLE_ID),
+        // The full version name. YouVersion's own display pattern shows
+        // the version name and the attribution as two separate things, so
+        // the card renders "Berean Standard Bible (BSB) — Public Domain"
+        // rather than the bare abbreviation.
+        version: version,
         date: dayKey,
         // The attribution line the card must display.
         attribution: attribution,

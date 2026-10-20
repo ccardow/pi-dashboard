@@ -108,9 +108,15 @@ const updateVerse = (data) => {
 
         if (verseAttrib) {
             if (v.attribution) {
-                verseAttrib.textContent = v.translation
-                    ? `${v.translation} — ${v.attribution}`
-                    : v.attribution;
+                // YouVersion's own display pattern shows the version name
+                // and the attribution as two separate things. Render the
+                // full name with the abbreviation in brackets, so the line
+                // reads "Berean Standard Bible (BSB) — Public Domain".
+                let name = v.version || v.translation || '';
+                if (v.version && v.translation && v.version !== v.translation) {
+                    name = v.version + ' (' + v.translation + ')';
+                }
+                verseAttrib.textContent = name ? `${name} — ${v.attribution}` : v.attribution;
                 verseAttrib.hidden = false;
             } else {
                 // No attribution available: hide the line rather than show
