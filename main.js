@@ -82,13 +82,22 @@ updateClock();
 setInterval(updateClock, 1000);
 
 // ─── Scripture Engine ───
-// The verse now comes from the fetched data (vibes.verse) — the old
-// bible-api.com/random endpoint was removed and 404s, which left this card
-// frozen on its hardcoded HTML default. The fetcher picks a deterministic
-// verse per calendar day so it rolls over at local midnight.
+// The verse comes from the fetched data (vibes.verse).
+//
+// Two possible sources:
+//   - YouVersion's editorial "Verse of the Day" (preferred, needs an app
+//     key). A real curated daily verse that changes on its own.
+//   - bible-api.com with a date-seeded deterministic pick (fallback).
+//
+// The old bible-api.com/random endpoint was removed and 404s, which left
+// this card frozen on its hardcoded HTML default.
+//
+// YouVersion REQUIRES attribution when Bible text is displayed, so the
+// version abbreviation and its copyright line are rendered underneath.
 const updateVerse = (data) => {
     const verseText = document.getElementById('verse-text');
     const verseRef = document.getElementById('verse-ref');
+    const verseAttrib = document.getElementById('verse-attrib');
     if (!verseText || !verseRef) return;
 
     const v = data && data.verse;
@@ -96,9 +105,24 @@ const updateVerse = (data) => {
         verseText.textContent = `"${v.text}"`;
         verseRef.textContent = v.reference;
         logActivity('Daily verse loaded: ' + v.reference);
+
+        if (verseAttrib) {
+            if (v.attribution) {
+                verseAttrib.textContent = v.translation
+                    ? `${v.translation} — ${v.attribution}`
+                    : v.attribution;
+                verseAttrib.hidden = false;
+            } else {
+                // No attribution available: hide the line rather than show
+                // an empty one. The card still renders the verse.
+                verseAttrib.textContent = '';
+                verseAttrib.hidden = true;
+            }
+        }
     } else {
         verseText.textContent = '"Verse unavailable."';
         verseRef.textContent = '—';
+        if (verseAttrib) { verseAttrib.textContent = ''; verseAttrib.hidden = true; }
         logActivity('Daily verse unavailable.', 'warn');
     }
 };

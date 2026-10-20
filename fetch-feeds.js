@@ -72,7 +72,7 @@ const STEIPETE_FEEDS = [
 // Key: req.destroy() is called on timeout so the socket is killed immediately.
 // Without this, Node.js keeps the process alive waiting for the orphaned socket.
 const TIMEOUT_MS = 8000;
-function httpsGet(url, depth) {
+function httpsGet(url, depth, extraHeaders) {
     depth = depth || 0;
     return new Promise(function (resolve, reject) {
         if (depth > 6) return reject(new Error('Too many redirects'));
@@ -84,17 +84,25 @@ function httpsGet(url, depth) {
             fn(val);
         }
         var lib = url.startsWith('https') ? https : http;
-        var req = lib.get(url, {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (compatible; LIFE.OS/5.0 FeedBot)',
-                'Accept': 'application/atom+xml, application/rss+xml, application/xml, text/xml, */*',
+        var headers = {
+            'User-Agent': 'Mozilla/5.0 (compatible; LIFE.OS/5.0 FeedBot)',
+            'Accept': 'application/atom+xml, application/rss+xml, application/xml, text/xml, */*',
+        };
+        // Some APIs (YouVersion) need a request header of their own.
+        if (extraHeaders) {
+            for (var h in extraHeaders) {
+                if (Object.prototype.hasOwnProperty.call(extraHeaders, h)) headers[h] = extraHeaders[h];
             }
+        }
+        var req = lib.get(url, {
+            headers: headers,
         }, function (res) {
             if ([301, 302, 307, 308].indexOf(res.statusCode) !== -1 && res.headers.location) {
                 var loc = res.headers.location;
                 var next = loc.startsWith('http') ? loc : new URL(loc, url).href;
                 res.resume();
-                return httpsGet(next, depth + 1)
+                // Carry the custom headers across the redirect.
+                return httpsGet(next, depth + 1, extraHeaders)
                     .then(function (v) { finish(resolve, v); })
                     .catch(function (e) { finish(reject, e); });
             }
@@ -477,8 +485,130 @@ function makeRng(seed) {
     };
 }
 
+// ─── Fetch Daily Verse — YouVersion ───
+//
+// The YouVersion Platform publishes a real editorial "Verse of the Day"
+// calendar — the verse its own Bible App shows. That is a meaningfully
+// better daily card than a date-seeded random pick: it is curated, and
+// it changes on its own.
+//
+// Three requests:
+//   GET /v1/verse-of-the-days/{day}       -> { passage_id }   (day of year)
+//   GET /v1/bibles/{id}/passages/{pid}    -> { content, reference }
+//   GET /v1/bibles/{id}                  -> { abbreviation, title, copyright }
+//
+// The third one exists because YouVersion REQUIRES attribution when
+// Bible text is displayed: the version abbreviation plus its copyright
+// line. Their own SDK fails rather than return a display model with no
+// usable attribution.
+//
+// The app key comes from the environment (YVP_APP_KEY), which the refresh
+// timer sources from ~/.config/lifeos/lifeos.env. Without it, the caller
+// falls back to bible-api.com.
+
+const YVP_API = process.env.YVP_API || 'https://api.youversion.com';
+const YVP_BIBLE_ID = process.env.YVP_BIBLE_ID || '3034'; // 3034 = BSB, public domain
+
+// Day of the year (1-366) in the dashboard's timezone.
+//
+// This MUST use the local calendar day, not UTC. At 17:00 in Abbotsford
+// it is already the next day in UTC, so a UTC-based day number would
+// show tomorrow's verse every evening.
+function dayOfYearInZone(tz) {
+    var parts = new Intl.DateTimeFormat('en-CA', {
+        timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit',
+    }).formatToParts(new Date());
+    var y = 0, m = 1, d = 1;
+    for (var i = 0; i < parts.length; i++) {
+        if (parts[i].type === 'year') y = parseInt(parts[i].value, 10);
+        else if (parts[i].type === 'month') m = parseInt(parts[i].value, 10);
+        else if (parts[i].type === 'day') d = parseInt(parts[i].value, 10);
+    }
+    // Days from the local Jan 1 to the local date, in UTC terms so DST
+    // cannot shift the count.
+    return Math.round((Date.UTC(y, m - 1, d) - Date.UTC(y, 0, 0)) / 86400000);
+}
+
+// GET with the YouVersion app key header.
+async function yvpGet(path) {
+    var raw = await httpsGet(YVP_API + path, 0, {
+        'X-YVP-App-Key': process.env.YVP_APP_KEY,
+        'Accept': 'application/json',
+    });
+    return JSON.parse(raw);
+}
+
+async function fetchVerseYouVersion() {
+    var appKey = process.env.YVP_APP_KEY;
+    if (!appKey) return null; // caller falls back
+
+    var tz = LOCATION.timezone;
+    var day = dayOfYearInZone(tz);
+    var dayKey = new Date().toLocaleDateString('en-CA', { timeZone: tz });
+
+    var votd = await yvpGet('/v1/verse-of-the-days/' + day);
+    if (!votd || !votd.passage_id) throw new Error('verse-of-the-days returned no passage_id');
+
+    var passage = await yvpGet(
+        '/v1/bibles/' + YVP_BIBLE_ID + '/passages/' + encodeURIComponent(votd.passage_id) + '?format=text'
+    );
+    if (!passage || !passage.content) throw new Error('passage returned no content');
+
+    // Attribution is required. If the version metadata cannot be read,
+    // fall back to the passage's own reference rather than displaying
+    // unattributed scripture.
+    var attribution = null;
+    var abbr = null;
+    try {
+        var meta = await yvpGet('/v1/bibles/' + YVP_BIBLE_ID);
+        abbr = meta.abbreviation || meta.localized_abbreviation || null;
+        attribution = (meta.copyright || meta.promotional_content || '').trim() || null;
+    } catch (e) {
+        console.warn('  ⚠ verse attribution unavailable: ' + e.message);
+    }
+
+    var text = String(passage.content).replace(/\s+/g, ' ').trim();
+    var reference = passage.reference || votd.passage_id;
+
+    console.log('  ✓ ' + reference + ' [' + abbr + '] (day ' + day + ', ' + dayKey + ')');
+    return {
+        text: text,
+        reference: reference,
+        translation: abbr || ('youversion:' + YVP_BIBLE_ID),
+        date: dayKey,
+        // The attribution line the card must display.
+        attribution: attribution,
+        source: 'youversion',
+    };
+}
+
 async function fetchDailyVerse() {
     console.log('\n✝ Fetching daily verse...');
+
+    // Preferred: YouVersion's real editorial Verse of the Day.
+    if (process.env.YVP_APP_KEY) {
+        try {
+            var yv = await fetchVerseYouVersion();
+            if (yv && yv.text) return yv;
+        } catch (err) {
+            console.warn('  ⚠ YouVersion verse failed: ' + err.message);
+            // Fall through to the bible-api.com path rather than losing the
+            // card — but remember the failure so the health entry can say so.
+            fetchDailyVerse.lastError = err.message;
+        }
+    }
+
+    return fetchVerseBibleApi();
+}
+
+// Fallback path: bible-api.com, with a date-seeded deterministic pick.
+// bible-api.com's /random endpoint was removed (404s), so the old client-side
+// fetch silently failed and the card froze on its hardcoded HTML default.
+// The API still serves the full Bible hierarchically:
+//   /data/{translation}            -> list of books
+//   /data/{translation}/{BOOK}     -> chapters
+//   /data/{translation}/{BOOK}/{CH}-> verses
+async function fetchVerseBibleApi() {
     var tz = LOCATION.timezone;
     // Use the location's calendar day so the verse rolls over at local midnight.
     var dayKey = new Date().toLocaleDateString('en-CA', { timeZone: tz }); // YYYY-MM-DD
@@ -1172,18 +1302,22 @@ async function main() {
     if (verse && verse.text) {
         vibes.verse = verse;
         updated = true;
-        recordHealth('verse', true, { count: 1, source: 'bible-api.com' });
+        recordHealth('verse', true, { count: 1, source: verse.source || 'bible-api.com' });
         console.log('✅ Daily Verse: ' + verse.reference);
     } else if (previous.verse && previous.verse.text) {
         vibes.verse = previous.verse;
         recordHealth('verse', false, {
             count: 1,
-            error: 'bible-api.com unreachable',
-            source: 'bible-api.com',
+            error: (fetchDailyVerse.lastError ? fetchDailyVerse.lastError + ' — ' : '') +
+                   'verse source unreachable',
+            source: previous.verse.source || 'bible-api.com',
         });
         console.log('⚠ Daily Verse: fetch failed, keeping last known-good (' + previous.verse.reference + ')');
     } else {
-        recordHealth('verse', false, { error: 'bible-api.com unreachable and no last known-good value' });
+        recordHealth('verse', false, {
+            error: (fetchDailyVerse.lastError ? fetchDailyVerse.lastError + ' — ' : '') +
+                   'verse source unreachable and no last known-good value',
+        });
     }
     if (piStatus) {
         vibes.pi_status = piStatus;
