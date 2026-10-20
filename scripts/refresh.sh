@@ -192,6 +192,14 @@ git add -f vibes.json vibes.js
 git -c user.name="lifeos-bot" -c user.email="lifeos-bot@localhost" \
     commit -q -m "chore: refresh feeds $(date -u +%Y-%m-%dT%H:%MZ)" || fail "git commit failed"
 
+# Refuse to publish a credential. The Gist, the repository and both
+# static hosts are public, so a credential that reaches this payload
+# reaches the world. Checked here, immediately before the push, so the
+# machine catches the mistake rather than someone's memory.
+if ! bash scripts/require-no-credentials.sh; then
+    fail "credential check failed — refusing to publish"
+fi
+
 # Push over SSH. The gh OAuth token lacks the `workflow` scope,
 # so HTTPS pushes of .github/workflows/* are refused — SSH works.
 if ! git push origin master 2>/tmp/lifeos-push.err; then

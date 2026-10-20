@@ -202,6 +202,35 @@ The push error message also reports the **actual** reason. It used to say
 "is the SSH key authorised for this repo?" for every failure, which sent
 the diagnosis in the wrong direction for a non-fast-forward rejection.
 
+### Nothing reaches the public payload
+
+The Gist, the repository and both static hosts are public. A credential
+that reaches the payload reaches the world.
+
+`scripts/require-no-credentials.sh` reads the secret values from
+`~/.config/lifeos/lifeos.env` at run time (the script never contains a
+credential itself) and refuses if any of them appear in:
+
+- a tracked working-tree file
+- the commit about to be pushed
+- the commits that differ from the remote
+- a commit message
+- `vibes.json` or `vibes.js` — the files that actually get published
+
+`refresh.sh` runs it immediately before the push, so the machine catches
+the mistake rather than someone's memory. A leak fails the run and
+nothing is published.
+
+```bash
+bash scripts/require-no-credentials.sh   # check right now
+bash scripts/test-credential-guard.sh     # 6 checks: prove it catches leaks
+```
+
+The test injects each secret into a tracked file, a commit and a commit
+message, in a sandbox copy with its own credential file, and asserts the
+guard refuses every time. A guard that always says "clean" would be
+worse than no guard.
+
 ### Tests
 
 ```bash
@@ -213,6 +242,7 @@ node scripts/test-main-loads.js             #  9 checks: main.js loads without t
 node scripts/test-verse.js                  # 16 checks: YouVersion verse path vs a mock API
 node scripts/test-check-youversion-key.js   # 15 checks: the key checker, bad key + good key
 bash scripts/test-skip-noop.sh              #  4 checks: a noise-only refresh -> no commit
+bash scripts/test-credential-guard.sh       #  6 checks: the credential guard catches leaks
 node scripts/probe-agent-roles.js           # shows the role parsed from each SOUL.md
 ```
 
