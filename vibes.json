@@ -1,10 +1,52 @@
 {
   "youtube": [
     {
+      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
+      "published": "2026-10-21T20:15:02+00:00"
+    },
+    {
+      "title": "Everything Claude Launched This Month (in 13 minutes)",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=imkKVWoIzVM",
+      "published": "2026-10-21T19:30:34+00:00"
+    },
+    {
+      "title": "AI Breakthroughs Everyone Missed",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
+      "published": "2026-10-21T17:45:26+00:00"
+    },
+    {
+      "title": "I Taught Claude How to Edit Videos, and It's Insane",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=LcjhtVm8DvU",
+      "published": "2026-10-21T16:21:34+00:00"
+    },
+    {
+      "title": "5 Prompts With Google's ULTRA Powerful New Model",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=S2srfNCa50A",
+      "published": "2026-10-21T12:53:28+00:00"
+    },
+    {
+      "title": "I taught Claude how to edit videos and it's INSANE",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=REAOFI534lk",
+      "published": "2026-10-21T00:15:31+00:00"
+    },
+    {
       "title": "Did Google just dethrone OpenAI and Anthropic?",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
       "published": "2026-10-20T16:21:03+00:00"
+    },
+    {
+      "title": "My favorite new image editing tool",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=VVBszkWK0Io",
+      "published": "2026-10-20T04:19:39+00:00"
     },
     {
       "title": "Gemini 4 Argon Is Not What I Expected",
@@ -17,48 +59,6 @@
       "channel": "Y Combinator",
       "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
       "published": "2026-10-17T14:00:30+00:00"
-    },
-    {
-      "title": "Demis Hassabis: Put your life force into a problem that matters",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=LbmiPYnFj48",
-      "published": "2026-10-16T19:24:49+00:00"
-    },
-    {
-      "title": "The runtime wars are over... and Node won",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
-      "published": "2026-10-15T17:35:15+00:00"
-    },
-    {
-      "title": "Alexandr Wang on what matters in an age of abundant intelligence",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=Klcl8qEdMaw",
-      "published": "2026-10-14T18:44:27+00:00"
-    },
-    {
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-      "published": "2026-10-14T17:48:10+00:00"
-    },
-    {
-      "title": "Grok Bot just built me an autonomous business...",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=lmYLF3keVmw",
-      "published": "2026-10-13T22:07:49+00:00"
-    },
-    {
-      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
-      "published": "2026-10-13T21:26:16+00:00"
-    },
-    {
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "published": "2026-10-13T08:56:12+00:00"
     }
   ],
   "x_posts": [
@@ -136,6 +136,12 @@
   "peter_x": [
     {
       "topic": "AI / ML",
+      "content": "Mailroom automation with an API: Split, classify, route",
+      "url": "https://www.nutrient.io/blog/mailroom-automation-api/",
+      "published": "Tue, 20 Oct 2026 12:00:00 GMT"
+    },
+    {
+      "topic": "AI / ML",
       "content": "Why we built a decision model for documents | Nutrient",
       "url": "https://www.nutrient.io/blog/decision-model-for-documents/",
       "published": "Mon, 19 Oct 2026 10:00:00 GMT"
@@ -187,64 +193,58 @@
       "content": "Why we moved our observability from HyperDX to Dash0",
       "url": "https://www.nutrient.io/blog/migrating-observability-hyperdx-to-dash0/",
       "published": "Tue, 06 Oct 2026 10:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "How to scan and read barcodes in C#",
-      "url": "https://www.nutrient.io/blog/how-to-scan-barcodes-in-csharp/",
-      "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 03:27 PM",
+  "lastUpdate": "10/21/2026, 03:38 PM",
   "news": [
     {
-      "title": "Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
-      "url": "https://www.theglobeandmail.com/politics/article-bill-c-39-labour-code-changes-industry-union-hearings/",
-      "summary": "Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
+      "title": "Tehran displays mock installation of Trump behind bars",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss",
+      "summary": "Tehran displays mock installation of Trump behind bars",
+      "source": "Al Jazeera",
+      "published": "Wed, 21 Oct 2026 21:43:06 +0000"
+    },
+    {
+      "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
+      "url": "https://www.aljazeera.com/news/2026/10/21/trump-heads-to-south-carolina-to-boost-senator-darline-graham-in-race?traffic_source=rss",
+      "summary": "Trump heads to South Carolina to boost Senator Darline Graham in race",
+      "source": "Al Jazeera",
+      "published": "Wed, 21 Oct 2026 21:07:43 +0000"
+    },
+    {
+      "title": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval",
+      "summary": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
+      "source": "NPR News",
+      "published": "Wed, 21 Oct 2026 16:56:07 -0400"
+    },
+    {
+      "title": "Canada-EU summit to seek ways to lessen dependence on United States",
+      "url": "https://www.theglobeandmail.com/politics/article-canada-eu-summit-carney-von-der-leyen-united-states-dependence/",
+      "summary": "Canada-EU summit to seek ways to lessen dependence on United States",
       "source": "Globe Politics",
-      "published": "Tue, 20 Oct 2026 22:28:28 +0000"
+      "published": "Wed, 21 Oct 2026 20:28:41 +0000"
     },
     {
-      "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
-      "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
-      "summary": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
-      "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 22:22:17 GMT"
-    },
-    {
-      "title": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
-      "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss",
-      "summary": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
-      "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 22:20:13 +0000"
-    },
-    {
-      "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-      "summary": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
-      "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 21:27:39 GMT"
-    },
-    {
-      "title": "Trump commits more than $400m ahead of high-stakes midterm elections",
-      "url": "https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss",
-      "summary": "Trump commits more than $400m ahead of high-stakes midterm elections",
-      "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 21:27:38 +0000"
+      "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump",
+      "summary": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
+      "source": "NPR News",
+      "published": "Wed, 21 Oct 2026 15:47:18 -0400"
     }
   ],
-  "vibes": "⚠ Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
+  "vibes": "⚠ Tehran displays mock installation of Trump behind bars",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "13",
-    "condition": "Clear",
-    "feels_like": "12",
+    "temp": "17",
+    "condition": "Mostly Clear",
+    "feels_like": "16",
     "hi": "17",
-    "lo": "4",
-    "updated": "Oct 20, 06:08 PM"
+    "lo": "6",
+    "updated": "Oct 21, 03:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792621630.964258,
+          "started_at": 1792622269.385271,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792621630.964258
+              "at": 1792622269.385271
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792621630.964258,
+          "ended_at": 1792621661.574725,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792621630.964258
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792621654.496503
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792621656.002432
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792621656.004215
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792621659.815359
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792621661.574725
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792621661.574725
+            }
+          ],
+          "duration_s": 31,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792546657.698573,
@@ -412,15 +456,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792541293.95619,
+          "started_at": 1792541311.098878,
           "ended_at": 1792541315.176512,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792541293.95619
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -452,58 +491,19 @@
               "at": 1792541315.176512
             }
           ],
-          "duration_s": 21,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792539511.469752,
-          "ended_at": 1792539515.508393,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792539511.469752
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792539512.812935
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792539512.815145
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792539513.867314
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792539515.508393
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792539515.508393
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792621630.964258,
+        "started_at": 1792622269.385271,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792621630.964258
+            "at": 1792622269.385271
           }
         ],
         "duration_s": null,
@@ -548,86 +548,86 @@
         "status": "66 sessions · 42891k tokens · 1673 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 03:27 PM"
+    "lastUpdate": "Oct 21, 03:38 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "SimCity, but with Permits",
-      "url": "https://permit.petercai.com/",
-      "published": "Tue, 20 Oct 2026 18:29:09 +0000"
+      "topic": "AI / ML",
+      "content": "Claude Duet",
+      "url": "https://claude.com/product/claude-duet",
+      "published": "Wed, 21 Oct 2026 19:14:01 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Open Source",
+      "content": "GitLab Critical Patch Release",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "published": "Wed, 21 Oct 2026 19:01:12 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "What shall I teach my son?",
-      "url": "https://stevekrouse.com/ends",
-      "published": "Tue, 20 Oct 2026 17:25:07 +0000"
+      "content": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+      "published": "Wed, 21 Oct 2026 17:45:13 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "url": "https://github.com/google-pytorch/torch_tpu",
-      "published": "Tue, 20 Oct 2026 16:40:24 +0000"
+      "content": "EA is shutting down BioWare",
+      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+      "published": "Wed, 21 Oct 2026 17:29:33 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "Today's PHP security release, and how we're strengthening security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "published": "Wed, 21 Oct 2026 15:48:56 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Voxtral 3",
-      "url": "https://mistral.ai/news/voxtral-3/",
-      "published": "Tue, 20 Oct 2026 16:02:07 +0000"
+      "content": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
+      "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+      "published": "Wed, 21 Oct 2026 15:20:04 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "published": "Wed, 21 Oct 2026 14:03:43 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery",
-      "url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
-      "published": "Tue, 20 Oct 2026 15:59:06 +0000"
+      "content": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "published": "Wed, 21 Oct 2026 14:01:22 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "published": "Wed, 21 Oct 2026 14:00:26 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Ofcom concedes defeat in 4chan case",
-      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
-      "published": "Tue, 20 Oct 2026 14:30:31 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "My Friend Bob Cringely",
-      "url": "https://tyma.com/my-cringe-story/",
-      "published": "Tue, 20 Oct 2026 14:13:49 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "EMudhra Intermediate CA Compromise",
-      "url": "https://emudhra.we-have-a-problem.com/",
-      "published": "Tue, 20 Oct 2026 13:58:33 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "2026 is an exciting year for the Rust compiler (and me)",
-      "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
-      "published": "Tue, 20 Oct 2026 13:53:48 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "How I got over 300 Tor exit nodes removed",
-      "url": "https://kaba.cx/posts/20261020_Tor/",
-      "published": "Tue, 20 Oct 2026 13:39:24 +0000"
+      "content": "PHP 8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "published": "Wed, 21 Oct 2026 13:45:33 +0000"
     }
   ],
   "verse": {
-    "text": "For God is not unjust. He will not forget your work and the love you have shown for His name as you have ministered to the saints and continue to do so.",
-    "reference": "Hebrews 6:10",
+    "text": "A Psalm of David. The earth is the Lord’s, and the fullness thereof, the world and all who dwell therein.",
+    "reference": "Psalm 24:1",
     "translation": "BSB",
     "version": "Berean Standard Bible",
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "attribution": "Public Domain",
     "source": "youversion"
   },
@@ -725,64 +725,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "status": "live",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 10,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 1278
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:27:34.455Z",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "status": "live",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 1278
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "status": "live",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 1278
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "status": "live",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 1278
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "status": "live",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 1278
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "status": "live",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 1278
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:27:34.455Z",
+      "fetched_at": "2026-10-21T22:38:16.707Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -790,7 +790,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:27:34.490Z",
+      "fetched_at": "2026-10-21T22:38:16.746Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
