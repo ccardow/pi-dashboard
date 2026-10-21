@@ -63,6 +63,20 @@
   ],
   "x_posts": [
     {
+      "user": "AlexFinn",
+      "topic": "AI / ML",
+      "content": "I got early access to Claude Duet. Let's test it live https://x.com/i/broadcasts/1dGYlaEkDaXKX",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2113043643531710829#m",
+      "published": "Wed, 21 Oct 2026 23:03:57 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "When people talk about the global market for GPUs, the thing that I think it misses is people are assuming that models are going to stay at the same capability and the same cost per task as today. For sufficiently high-quality intelligence at sufficiently low cost, I think it’s very hard to talk about an arbitrary market size there. I think it’s just gonna keep—people call us all sorts of things, Jevons paradox, whatever. I think it’s just gonna keep going up. I believe there will be some periods where, like with any new technology, there’s supply constraints and supply gluts.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113043402941927830#m",
+      "published": "Wed, 21 Oct 2026 23:03:00 GMT"
+    },
+    {
       "user": "openclaw",
       "topic": "AI / ML",
       "content": "Come build OpenClaw along side our team! We're inviting people to join our Maintainers on our team server Come prompt along side us and work on things that will meaningfully improve OpenClaw! https://openclaw.ai/blog/openclaw-focus-weeks",
@@ -79,30 +93,9 @@
     {
       "user": "elonmusk",
       "topic": "AI / ML",
-      "content": "RT by @elonmusk: Elon Musk on Optimus: \"We've started early production. The growth of Optimus is an S curve, but the initial curve is a shallow slope. We have the vast majority of the 1 million unit/year line installed at Fremont. There's still some things we need to tweak about the design. There's still quite a lot of work to do with the AI in the robot. I would expect that the AI, the electromechanical design, reliability, usage life, expect these issues to be solved by the end of next year. I remain convinced Optimus will be the biggest product on Earth. I do want to temper expectations that we still have a lot to get through, it will take about a year to get through that.\"",
-      "url": "http://nitter.meowing.monster/SawyerMerritt/status/2113022539140087843#m",
-      "published": "Wed, 21 Oct 2026 21:40:06 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "Go check out my friend and former colleague Michael's new YC startup Spacesheep. After working on the Artifacts feature at Anthropic, he knew he wanted to build a better version.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113022367610085854#m",
-      "published": "Wed, 21 Oct 2026 21:39:25 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "Grok @Bot is like hiring a super smart and fun employee!",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113011511429902609#m",
-      "published": "Wed, 21 Oct 2026 20:56:16 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "People are buying FSD with a car attached, not the other way around",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113011056847278486#m",
-      "published": "Wed, 21 Oct 2026 20:54:28 GMT"
+      "content": "RT by @elonmusk: If you are an ambitious young person I still believe joining @SpaceX is one of the best career decisions you can make The world is pivoting from bits to atoms and there is no better training ground for atoms than SpaceX It may feel late but it's early Also the mission! 🚀🌕",
+      "url": "http://nitter.meowing.monster/shaunmmaguire/status/2112998791125328306#m",
+      "published": "Wed, 21 Oct 2026 20:05:44 GMT"
     },
     {
       "user": "DuncanRogoff",
@@ -131,6 +124,13 @@
       "content": "NVIDIA RTX Spark: Local AI, Unlocked | The ClawCast Episode 14 https://x.com/i/broadcasts/1mGPaZoWBnnJN",
       "url": "http://nitter.meowing.monster/openclaw/status/2112974517387800888#m",
       "published": "Wed, 21 Oct 2026 18:29:16 GMT"
+    },
+    {
+      "user": "danmartell",
+      "topic": "Tech Intel",
+      "content": "The older I get, the more I realize most of my problems were self induced.",
+      "url": "http://nitter.meowing.monster/danmartell/status/2112967368267714848#m",
+      "published": "Wed, 21 Oct 2026 18:00:52 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@
       "published": "Tue, 06 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 03:38 PM",
+  "lastUpdate": "10/21/2026, 04:09 PM",
   "news": [
     {
       "title": "Tehran displays mock installation of Trump behind bars",
@@ -240,11 +240,11 @@
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "17",
-    "condition": "Mostly Clear",
+    "condition": "Partly Cloudy",
     "feels_like": "16",
     "hi": "17",
     "lo": "6",
-    "updated": "Oct 21, 03:38 PM"
+    "updated": "Oct 21, 04:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792622269.385271,
+          "started_at": 1792624129.382409,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792622269.385271
+              "at": 1792624129.382409
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792622269.385271,
+          "ended_at": 1792622303.183625,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792622269.385271
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792622296.754683
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792622299.552271
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792622299.554576
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792622301.4963
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792622303.183625
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792622303.183625
+            }
+          ],
+          "duration_s": 34,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792621630.964258,
@@ -412,15 +456,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792543033.949449,
+          "started_at": 1792543059.073712,
           "ended_at": 1792543063.188319,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792543033.949449
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -452,58 +491,19 @@
               "at": 1792543063.188319
             }
           ],
-          "duration_s": 29,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792541311.098878,
-          "ended_at": 1792541315.176512,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792541311.098878
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792541312.394996
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792541312.397193
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792541313.399021
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792541315.176512
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792541315.176512
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792622269.385271,
+        "started_at": 1792624129.382409,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792622269.385271
+            "at": 1792624129.382409
           }
         ],
         "duration_s": null,
@@ -548,7 +548,7 @@
         "status": "66 sessions · 42891k tokens · 1673 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 03:38 PM"
+    "lastUpdate": "Oct 21, 04:09 PM"
   },
   "hn_posts": [
     {
@@ -726,7 +726,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -734,7 +734,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -742,7 +742,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -750,7 +750,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -758,7 +758,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -766,7 +766,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -774,7 +774,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -782,7 +782,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.707Z",
+      "fetched_at": "2026-10-21T23:09:07.241Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -790,7 +790,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-21T22:38:16.746Z",
+      "fetched_at": "2026-10-21T23:09:07.278Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
