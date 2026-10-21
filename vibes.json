@@ -1,34 +1,16 @@
 {
   "youtube": [
     {
-      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
-      "published": "2026-10-21T20:15:02+00:00"
-    },
-    {
       "title": "Everything Claude Launched This Month (in 13 minutes)",
       "channel": "Duncan Rogoff",
       "url": "https://www.youtube.com/watch?v=imkKVWoIzVM",
       "published": "2026-10-21T19:30:34+00:00"
     },
     {
-      "title": "AI Breakthroughs Everyone Missed",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
-      "published": "2026-10-21T17:45:26+00:00"
-    },
-    {
       "title": "I Taught Claude How to Edit Videos, and It's Insane",
       "channel": "Duncan Rogoff",
       "url": "https://www.youtube.com/watch?v=LcjhtVm8DvU",
       "published": "2026-10-21T16:21:34+00:00"
-    },
-    {
-      "title": "5 Prompts With Google's ULTRA Powerful New Model",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=S2srfNCa50A",
-      "published": "2026-10-21T12:53:28+00:00"
     },
     {
       "title": "I taught Claude how to edit videos and it's INSANE",
@@ -43,22 +25,40 @@
       "published": "2026-10-20T16:21:03+00:00"
     },
     {
-      "title": "My favorite new image editing tool",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=VVBszkWK0Io",
-      "published": "2026-10-20T04:19:39+00:00"
-    },
-    {
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "published": "2026-10-19T08:49:21+00:00"
-    },
-    {
       "title": "AI Safety Fact vs. Fiction | YC Paper Club",
       "channel": "Y Combinator",
       "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
       "published": "2026-10-17T14:00:30+00:00"
+    },
+    {
+      "title": "Demis Hassabis: Put your life force into a problem that matters",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=LbmiPYnFj48",
+      "published": "2026-10-16T19:24:49+00:00"
+    },
+    {
+      "title": "The runtime wars are over... and Node won",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
+      "published": "2026-10-15T17:35:15+00:00"
+    },
+    {
+      "title": "Alexandr Wang on what matters in an age of abundant intelligence",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=Klcl8qEdMaw",
+      "published": "2026-10-14T18:44:27+00:00"
+    },
+    {
+      "title": "OpenAI’s lead engineer was secretly a spy...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+      "published": "2026-10-14T17:48:10+00:00"
+    },
+    {
+      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "published": "2026-10-13T21:26:16+00:00"
     }
   ],
   "x_posts": [
@@ -135,6 +135,12 @@
   ],
   "peter_x": [
     {
+      "topic": "Tech Intel",
+      "content": "How to digitally sign a PDF in C# (2026)",
+      "url": "https://www.nutrient.io/blog/how-to-digitally-sign-pdf-in-csharp/",
+      "published": "Wed, 21 Oct 2026 10:00:00 GMT"
+    },
+    {
       "topic": "AI / ML",
       "content": "Mailroom automation with an API: Split, classify, route",
       "url": "https://www.nutrient.io/blog/mailroom-automation-api/",
@@ -187,15 +193,9 @@
       "content": "How to add electronic signatures to PDFs with an API",
       "url": "https://www.nutrient.io/blog/electronic-signature-api/",
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Why we moved our observability from HyperDX to Dash0",
-      "url": "https://www.nutrient.io/blog/migrating-observability-hyperdx-to-dash0/",
-      "published": "Tue, 06 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 04:09 PM",
+  "lastUpdate": "10/21/2026, 04:39 PM",
   "news": [
     {
       "title": "Tehran displays mock installation of Trump behind bars",
@@ -242,19 +242,23 @@
     "temp": "17",
     "condition": "Partly Cloudy",
     "feels_like": "16",
-    "hi": "17",
+    "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 04:08 PM"
+    "updated": "Oct 21, 04:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 202,
+      "tokens_used": 259,
       "tokens_total": 1000
     },
     "logs": [
+      {
+        "time": "16:38",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 268 msgs · 132 tools"
+      },
       {
         "time": "17:59",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 163 msgs · 92 tools"
@@ -274,10 +278,6 @@
       {
         "time": "15:24",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 128 msgs · 80 tools"
-      },
-      {
-        "time": "13:56",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 393 msgs · 233 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792624129.382409,
+          "started_at": 1792625929.389198,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792624129.382409
+              "at": 1792625929.389198
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792624129.382409,
+          "ended_at": 1792624155.313395,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792624129.382409
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792624147.288453
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792624148.526485
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792624148.528606
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792624153.53169
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792624155.313395
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792624155.313395
+            }
+          ],
+          "duration_s": 26,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792622269.385271,
@@ -412,15 +456,10 @@
           "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
         },
         {
-          "started_at": 1792544929.396224,
+          "started_at": 1792544952.834424,
           "ended_at": 1792544956.864066,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792544929.396224
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -452,58 +491,19 @@
               "at": 1792544956.864066
             }
           ],
-          "duration_s": 27,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792543059.073712,
-          "ended_at": 1792543063.188319,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792543059.073712
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792543060.484038
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792543060.48644
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792543061.512637
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792543063.188319
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792543063.188319
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792624129.382409,
+        "started_at": 1792625929.389198,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792624129.382409
+            "at": 1792625929.389198
           }
         ],
         "duration_s": null,
@@ -512,10 +512,10 @@
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1193,
+      "pid": 190597,
       "version": "0.22.2",
       "state": "running",
-      "uptime_seconds": 4638,
+      "uptime_seconds": 8074167,
       "profiles": [
         "default",
         "atlas",
@@ -526,37 +526,55 @@
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
-      "sessions": 66,
-      "input_tokens": 41328003,
-      "output_tokens": 1563408,
-      "tool_calls": 1673
+      "sessions": 67,
+      "input_tokens": 41632768,
+      "output_tokens": 1681186,
+      "tool_calls": 1805
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 1193"
+        "status": "running · v0.22.2 · pid 190597"
       },
       {
         "name": "Agent Profiles",
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "66 sessions · 42891k tokens · 1673 tool calls"
+        "status": "67 sessions · 43314k tokens · 1805 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 04:09 PM"
+    "lastUpdate": "Oct 21, 04:39 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Railway Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "published": "Wed, 21 Oct 2026 21:58:03 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
       "content": "Claude Duet",
       "url": "https://claude.com/product/claude-duet",
       "published": "Wed, 21 Oct 2026 19:14:01 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Google's Rust Style Guide",
+      "url": "https://google.github.io/styleguide/rustguide.html",
+      "published": "Wed, 21 Oct 2026 19:11:57 +0000"
     },
     {
       "user": "Hacker News",
@@ -606,20 +624,6 @@
       "content": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
       "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
       "published": "Wed, 21 Oct 2026 14:01:22 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-      "published": "Wed, 21 Oct 2026 14:00:26 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "PHP 8.2.35",
-      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-      "published": "Wed, 21 Oct 2026 13:45:33 +0000"
     }
   ],
   "verse": {
@@ -726,7 +730,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -734,7 +738,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -742,7 +746,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -750,7 +754,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -758,7 +762,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -766,7 +770,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -774,7 +778,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -782,7 +786,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.241Z",
+      "fetched_at": "2026-10-21T23:39:06.741Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -790,7 +794,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:09:07.278Z",
+      "fetched_at": "2026-10-21T23:39:06.776Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
