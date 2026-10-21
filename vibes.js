@@ -1,6 +1,12 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
+      "title": "I taught Claude how to edit videos and it's INSANE",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=REAOFI534lk",
+      "published": "2026-10-21T00:15:31+00:00"
+    },
+    {
       "title": "Did Google just dethrone OpenAI and Anthropic?",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
@@ -53,28 +59,29 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=KGcuuhqmPhI",
       "published": "2026-10-16T16:20:28+00:00"
-    },
-    {
-      "title": "Claude Edited This Entire Video",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=kFvk_38hWWw",
-      "published": "2026-10-16T03:00:26+00:00"
     }
   ],
   "x_posts": [
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "I gave the same AI model the same job in two different tools, and I got two different apps. The model was DeepSeek V4.1 Flash, and the tools were Hermes Agent and Claude Code. The Hermes build came out noticeably better, and it cost a fraction of what Opus would have charged. Here's what's inside the article. I show you the side-by-side test that proves the harness changes the output. I explain why fast models like this stop Hermes from timing out on big builds. I share the simple routing rule I use to split work between a free model, DeepSeek and Opus 5.5. The full break drown is in the article below.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112695365837226033#m",
-      "published": "Wed, 21 Oct 2026 00:00:01 GMT"
+      "content": "R to @JulianGoldieSEO: We're halfway through the day, and this is still the easiest way to get hours of manual work off your plate. The AI Profit Boardroom gives you the automations to handle the repetitive stuff for you, so your time goes toward growing instead of grinding. 👉 https://www.skool.com/ai-profit-lab-7462/about",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112699293769634272#m",
+      "published": "Wed, 21 Oct 2026 00:15:38 GMT"
     },
     {
       "user": "JulianGoldieSEO",
-      "topic": "Tech Intel",
-      "content": "Stop losing new members because you forgot to follow up. Perplexity Computer can run tasks when someone joins. Send a welcome message. Share your 30-day plan. Flag anyone who stays quiet for 3 days. All on autopilot. Want the SOP? DM me.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112695360162566188#m",
-      "published": "Wed, 21 Oct 2026 00:00:00 GMT"
+      "topic": "AI / ML",
+      "content": "⏰ 12 Hours Left: Halfway Through The Tuesday AI Workload Lift 🕛 We're halfway through the day, and this is still the easiest way to get hours of manual work off your plate. The AI Profit Boardroom gives you the automations to handle the repetitive stuff for you, so your time goes toward growing instead of grinding. 👉 https://www.skool.com/ai-profit-lab-7462/about 🕛 HALFWAY MARK: 12 HOURS LEFT ON THE TUESDAY AI WORKLOAD LIFT Twelve hours gone. Twelve hours left. If you've been reading these posts today and still haven't joined, this is the midpoint reminder: the clock doesn't pause, and this offer closes at the same time it started, 24 hours after it opened. 🆕 NEW HERE? HERE'S WHAT THE AI PROFIT BOARDROOM ACTUALLY IS It's a community built for people who want AI doing the repetitive work, so they can spend their time where it actually counts. Inside, you get: • Step-by-step training on setting up AI automations, beginner-friendly • Ready-made workflows for content, outreach, scheduling, support, and more • A space to ask questions and get real answers, fast • A system built around freeing up your time, not adding more to your plate This isn't about chasing a quick win. It's about building habits and systems that keep working after you log off. 👉 Join The AI Profit Boardroom here → https://www.skool.com/ai-profit-lab-7462/about 🎯 WHAT YOU GET INSIDE ✅ The AI Business Automation Stack Prebuilt workflows for outreach, content, and client delivery. Plug them in instead of building from scratch. ✅ AI Lead & Customer Flow Tools Automations that help new customers find you, so you're not stuck chasing people down manually. ✅ Daily Q&A Support Ask a question, get a real answer. No waiting days for a reply. ✅ 4 Live Coaching Calls Per Week Live sessions with a PhD scientist trained specifically in AI automation, who's helped thousands of people implement this stuff. ✅ Daily Livestreams With Julian Watch the automations get built in real time, then copy them for your own business. 👉 Get instant access → https://www.skool.com/ai-profit-lab-7462/about 🎁 TODAY-ONLY BONUS: The AI Automation Audit (worth $240) A guided walkthrough where you identify the three most time-consuming tasks in your week, and get a clear automation plan for each. Members use this to stop guessing what to automate first. 👉 Claim it before this hour ends → https://www.skool.com/ai-profit-lab-7462/about 📊 RUNNING TOTAL: $6,015 in bonuses unlocked today so far, on top of everything already inside The AI Profit Boardroom. 🙋 DAILY ACCOUNTABILITY GROUP (included free) Check in daily. Share what you're working on. Get support and stay consistent with the systems you build. This is the difference between automations you build and automations you actually use. 👉 Get access when you join → https://www.skool.com/ai-profit-lab-7462/about 🎁 BUY ONE, GIFT ONE FREE Join today and bring someone with you, free. A business partner, a teammate, anyone who could use fewer hours spent on manual work. You both get full access. One price. 👉 Claim your spot and gift one → https://www.skool.com/ai-profit-lab-7462/about 🚨 WANT MORE VALUE? UPGRADE TO ANNUAL Pay $399 for the year instead of 69/month(828/year), and save $429 automatically. On top of the savings, annual members unlock: • The full SOP Playbook (115+ documented automation systems) • The Annual Member Vault (100+ playbooks, templates, and swipe files) • A Commercial License to use templates and systems with your own clients • All future courses and features, free • A Lifetime Price Lock, so your rate never goes up Total annual bonus value: $112,755+ 👉 New members, start annual here → https://www.skool.com/ai-profit-lab-7462/about 👉 Already a member? Upgrade to annual here → https://docs.google.com/document/d/1uEflYhJLOgH1Cw_S2-gNXHEV0a8-5ZLVlnlH26w9zv8/edit?tab=t.0 📚 DON'T JUST TAKE MY WORD FOR IT 114 pages of real member results and feedback, right here: 👉 https://docs.google.com/document/d/1dpdMktIMiJTsOCf_Jb4kFLQfr3uMXX0RHUR9Bub0dU8/edit?tab=t.0 🛡️ DOUBLE GUARANTEE ✅ 7-Day No-Questions Refund ✅ 30-Day Time-Saved Guarantee: if these automations don't save you real time within 30 days, you get your money back You're covered either way. 👉 Join risk-free → https://www.skool.com/ai-profit-lab-7462/about ⏰ 12 hours left on The Tuesday AI Workload Lift. Halfway there. Less busywork from here on, or the same grind as yesterday. Your call. 👉 Get in now → https://www.skool.com/ai-profit-lab-7462/about",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112699212353904758#m",
+      "published": "Wed, 21 Oct 2026 00:15:18 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "I gave the same AI model the same job in two different tools, and I got two different apps. The model was DeepSeek V4.1 Flash, and the tools were Hermes Agent and Claude Code. The Hermes build came out noticeably better, and it cost a fraction of what Opus would have charged. Here's what's inside the article. I show you the side-by-side test that proves the harness changes the output. I explain why fast models like this stop Hermes from timing out on big builds. I share the simple routing rule I use to split work between a free model, DeepSeek and Opus 5.5. The full break drown is in the article below.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112695365837226033#m",
+      "published": "Wed, 21 Oct 2026 00:00:01 GMT"
     },
     {
       "user": "elonmusk",
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "🚨 NORTH CAROLINA! Early Voting, in-person, is UNDERWAY NOW in the Great State of North Carolina. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In North Carolina, you can cast your early Vote, in-person, all the way through October 31st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/north-carolina/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645301043691816#m",
       "published": "Tue, 20 Oct 2026 20:41:05 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "AI / ML",
-      "content": "🚨 MAINE! Early Voting, in-person, is UNDERWAY NOW in the Great State of Maine. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Maine, you can cast your early Vote, in-person, all the way through October 29th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/maine/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645220861120714#m",
-      "published": "Tue, 20 Oct 2026 20:40:46 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 05:08 PM",
+  "lastUpdate": "10/20/2026, 05:37 PM",
   "news": [
     {
       "title": "Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
@@ -212,13 +212,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Tue, 20 Oct 2026 22:22:17 GMT"
     },
     {
-      "title": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
-      "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss",
-      "summary": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
-      "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 22:20:13 +0000"
-    },
-    {
       "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
       "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
       "summary": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
@@ -226,11 +219,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Tue, 20 Oct 2026 21:27:39 GMT"
     },
     {
-      "title": "Trump commits more than $400m ahead of high-stakes midterm elections",
-      "url": "https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss",
-      "summary": "Trump commits more than $400m ahead of high-stakes midterm elections",
-      "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 21:27:38 +0000"
+      "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+      "source": "BBC World",
+      "published": "Tue, 20 Oct 2026 20:00:57 GMT"
+    },
+    {
+      "title": "Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
+      "url": "https://www.theglobeandmail.com/politics/article-carney-alberta-separation-referendum-results-immigration-constitution/",
+      "summary": "Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
+      "source": "Globe Politics",
+      "published": "Tue, 20 Oct 2026 19:51:26 +0000"
     }
   ],
   "vibes": "⚠ Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
@@ -239,22 +239,26 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "16",
+    "temp": "15",
     "condition": "Clear",
-    "feels_like": "15",
+    "feels_like": "14",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 05:08 PM"
+    "updated": "Oct 20, 05:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 222,
+      "tokens_used": 157,
       "tokens_total": 1000
     },
     "logs": [
+      {
+        "time": "17:36",
+        "msg": "default/TUI: minimax/minimax-m3.1-flash:free · 63 msgs · 40 tools"
+      },
       {
         "time": "15:24",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 128 msgs · 80 tools"
@@ -274,10 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "20:01",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 224 msgs · 104 tools"
-      },
-      {
-        "time": "16:09",
-        "msg": "default/CLI: nvidia/nemotron-3-ultra-550b-a55b:free · 4 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792541293.95619,
+          "started_at": 1792543033.949449,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792541293.95619
+              "at": 1792543033.949449
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792541293.95619,
+          "ended_at": 1792541315.176512,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792541293.95619
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792541311.098878
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792541312.394996
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792541312.397193
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792541313.399021
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792541315.176512
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792541315.176512
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792539493.958144,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792534033.953105,
+          "started_at": 1792534052.036292,
           "ended_at": 1792534056.136355,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792534033.953105
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792534056.136355
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792533758.746361,
-          "ended_at": 1792533763.668141,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792533758.746361
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792533760.22889
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792533760.237379
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792533761.462576
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792533763.668141
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792533763.668141
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792541293.95619,
+        "started_at": 1792543033.949449,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792541293.95619
+            "at": 1792543033.949449
           }
         ],
         "duration_s": null,
@@ -545,13 +545,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
-      "sessions": 63,
-      "input_tokens": 40967288,
-      "output_tokens": 1433456,
-      "tool_calls": 1522
+      "sessions": 64,
+      "input_tokens": 41074051,
+      "output_tokens": 1486823,
+      "tool_calls": 1562
     },
     "roadmap": [
       {
@@ -563,11 +563,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "63 sessions · 42401k tokens · 1522 tool calls"
+        "status": "64 sessions · 42561k tokens · 1562 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 05:08 PM"
+    "lastUpdate": "Oct 20, 05:37 PM"
   },
   "hn_posts": [
     {
@@ -636,9 +640,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "How I got over 300 Tor exit nodes removed",
-      "url": "https://kaba.cx/posts/20261020_Tor/",
-      "published": "Tue, 20 Oct 2026 13:39:24 +0000"
+      "content": "2026 is an exciting year for the Rust compiler (and me)",
+      "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
+      "published": "Tue, 20 Oct 2026 13:53:48 +0000"
     }
   ],
   "verse": {
@@ -745,7 +749,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +757,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +765,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +773,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +781,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +789,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +797,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +805,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.054Z",
+      "fetched_at": "2026-10-21T00:37:39.027Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +813,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:08:31.093Z",
+      "fetched_at": "2026-10-21T00:37:39.065Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
