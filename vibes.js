@@ -1,46 +1,16 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "I taught Claude how to edit videos and it's INSANE",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=REAOFI534lk",
-      "published": "2026-10-21T00:15:31+00:00"
-    },
-    {
       "title": "Did Google just dethrone OpenAI and Anthropic?",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
       "published": "2026-10-20T16:21:03+00:00"
     },
     {
-      "title": "My favorite new image editing tool",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=VVBszkWK0Io",
-      "published": "2026-10-20T04:19:39+00:00"
-    },
-    {
-      "title": "3 New Claude Prompts You Need To Try",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=aIrrq3CLSKM",
-      "published": "2026-10-19T12:43:39+00:00"
-    },
-    {
       "title": "Gemini 4 Argon Is Not What I Expected",
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
       "published": "2026-10-19T08:49:21+00:00"
-    },
-    {
-      "title": "Give Me 14 Mins and I'll Save You Millions of Claude Tokens",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=peZyP4UC88U",
-      "published": "2026-10-18T17:30:33+00:00"
-    },
-    {
-      "title": "I Turned Claude Code Into a Game Studio (free kit)",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=5D6UkmsPDPA",
-      "published": "2026-10-17T21:30:26+00:00"
     },
     {
       "title": "AI Safety Fact vs. Fiction | YC Paper Club",
@@ -55,13 +25,50 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "2026-10-16T19:24:49+00:00"
     },
     {
-      "title": "AI News: 6 New Models & A Nano Banana Killer",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=KGcuuhqmPhI",
-      "published": "2026-10-16T16:20:28+00:00"
+      "title": "The runtime wars are over... and Node won",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
+      "published": "2026-10-15T17:35:15+00:00"
+    },
+    {
+      "title": "Alexandr Wang on what matters in an age of abundant intelligence",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=Klcl8qEdMaw",
+      "published": "2026-10-14T18:44:27+00:00"
+    },
+    {
+      "title": "OpenAI’s lead engineer was secretly a spy...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+      "published": "2026-10-14T17:48:10+00:00"
+    },
+    {
+      "title": "Grok Bot just built me an autonomous business...",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=lmYLF3keVmw",
+      "published": "2026-10-13T22:07:49+00:00"
+    },
+    {
+      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "published": "2026-10-13T21:26:16+00:00"
+    },
+    {
+      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "published": "2026-10-13T08:56:12+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "DuncanRogoff",
+      "topic": "AI / ML",
+      "content": "Someone just built a complete Instagram agency and made it free. Claude Content Skills: 54 AI specialists, open source on GitHub. https://github.com/Ootto-AI/claude-content-skills",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2112710557711093806#m",
+      "published": "Wed, 21 Oct 2026 01:00:23 GMT"
+    },
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "🚨 OHIO! Early Voting, in-person, is UNDERWAY NOW in the Great State of Ohio. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Ohio, you can cast your early Vote, in-person, all the way through November 1st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/ohio/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645390369718527#m",
       "published": "Tue, 20 Oct 2026 20:41:26 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "AI / ML",
-      "content": "🚨 NORTH CAROLINA! Early Voting, in-person, is UNDERWAY NOW in the Great State of North Carolina. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In North Carolina, you can cast your early Vote, in-person, all the way through October 31st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/north-carolina/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645301043691816#m",
-      "published": "Tue, 20 Oct 2026 20:41:05 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 05:37 PM",
+  "lastUpdate": "10/20/2026, 06:09 PM",
   "news": [
     {
       "title": "Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
@@ -212,6 +212,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Tue, 20 Oct 2026 22:22:17 GMT"
     },
     {
+      "title": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
+      "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss",
+      "summary": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
+      "source": "Al Jazeera",
+      "published": "Tue, 20 Oct 2026 22:20:13 +0000"
+    },
+    {
       "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
       "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
       "summary": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
@@ -219,18 +226,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Tue, 20 Oct 2026 21:27:39 GMT"
     },
     {
-      "title": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-      "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
-      "source": "BBC World",
-      "published": "Tue, 20 Oct 2026 20:00:57 GMT"
-    },
-    {
-      "title": "Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
-      "url": "https://www.theglobeandmail.com/politics/article-carney-alberta-separation-referendum-results-immigration-constitution/",
-      "summary": "Carney hails Alberta’s rejection of separation, but other referendum questions muddy the waters",
-      "source": "Globe Politics",
-      "published": "Tue, 20 Oct 2026 19:51:26 +0000"
+      "title": "Trump commits more than $400m ahead of high-stakes midterm elections",
+      "url": "https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss",
+      "summary": "Trump commits more than $400m ahead of high-stakes midterm elections",
+      "source": "Al Jazeera",
+      "published": "Tue, 20 Oct 2026 21:27:38 +0000"
     }
   ],
   "vibes": "⚠ Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
@@ -239,25 +239,37 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "15",
+    "temp": "13",
     "condition": "Clear",
-    "feels_like": "14",
+    "feels_like": "12",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 05:37 PM"
+    "updated": "Oct 20, 06:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 157,
+      "tokens_used": 202,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "17:36",
-        "msg": "default/TUI: minimax/minimax-m3.1-flash:free · 63 msgs · 40 tools"
+        "time": "17:59",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 163 msgs · 92 tools"
+      },
+      {
+        "time": "17:44",
+        "msg": "default/TUI: minimax/minimax-m3.1-flash:free · 92 msgs · 57 tools"
+      },
+      {
+        "time": "17:44",
+        "msg": "default/TUI: minimax/minimax-m3.1-flash:free · 59 msgs · 41 tools"
+      },
+      {
+        "time": "17:44",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 26 msgs · 15 tools"
       },
       {
         "time": "15:24",
@@ -266,18 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "13:56",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 393 msgs · 233 tools"
-      },
-      {
-        "time": "13:37",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 96 msgs · 54 tools"
-      },
-      {
-        "time": "12:22",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 103 msgs · 51 tools"
-      },
-      {
-        "time": "20:01",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 224 msgs · 104 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792543033.949449,
+          "started_at": 1792544929.396224,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792543033.949449
+              "at": 1792544929.396224
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792543033.949449,
+          "ended_at": 1792543063.188319,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792543033.949449
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792543059.073712
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792543060.484038
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792543060.48644
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792543061.512637
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792543063.188319
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792543063.188319
+            }
+          ],
+          "duration_s": 29,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792541293.95619,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792535833.958151,
+          "started_at": 1792535851.5452,
           "ended_at": 1792535855.679146,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792535833.958151
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792535855.679146
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792534052.036292,
-          "ended_at": 1792534056.136355,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792534052.036292
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792534053.392953
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792534053.394937
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792534054.414763
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792534056.136355
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792534056.136355
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792543033.949449,
+        "started_at": 1792544929.396224,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792543033.949449
+            "at": 1792544929.396224
           }
         ],
         "duration_s": null,
@@ -531,10 +531,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1192,
+      "pid": 1193,
       "version": "0.22.2",
       "state": "running",
-      "uptime_seconds": 2766,
+      "uptime_seconds": 4638,
       "profiles": [
         "default",
         "atlas",
@@ -545,33 +545,29 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
-      "sessions": 64,
-      "input_tokens": 41074051,
-      "output_tokens": 1486823,
-      "tool_calls": 1562
+      "sessions": 66,
+      "input_tokens": 41328003,
+      "output_tokens": 1563408,
+      "tool_calls": 1673
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 1192"
+        "status": "running · v0.22.2 · pid 1193"
       },
       {
         "name": "Agent Profiles",
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "64 sessions · 42561k tokens · 1562 tool calls"
+        "status": "66 sessions · 42891k tokens · 1673 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 05:37 PM"
+    "lastUpdate": "Oct 20, 06:09 PM"
   },
   "hn_posts": [
     {
@@ -611,13 +607,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Facebook Pages require paid subscription to post more than two links per month",
-      "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
-      "published": "Tue, 20 Oct 2026 15:06:08 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "Ofcom concedes defeat in 4chan case",
       "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
@@ -643,6 +632,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "2026 is an exciting year for the Rust compiler (and me)",
       "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
       "published": "Tue, 20 Oct 2026 13:53:48 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "How I got over 300 Tor exit nodes removed",
+      "url": "https://kaba.cx/posts/20261020_Tor/",
+      "published": "Tue, 20 Oct 2026 13:39:24 +0000"
     }
   ],
   "verse": {
@@ -749,7 +745,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -757,7 +753,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -765,7 +761,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -773,7 +769,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -781,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -789,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -797,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -805,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.027Z",
+      "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -813,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-21T00:37:39.065Z",
+      "fetched_at": "2026-10-21T01:09:12.825Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
