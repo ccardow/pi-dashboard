@@ -63,74 +63,74 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
-      "user": "DuncanRogoff",
+      "user": "openclaw",
       "topic": "AI / ML",
-      "content": "Someone just built a complete Instagram agency and made it free. Claude Content Skills: 54 AI specialists, open source on GitHub. https://github.com/Ootto-AI/claude-content-skills",
-      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2112710557711093806#m",
-      "published": "Wed, 21 Oct 2026 01:00:23 GMT"
+      "content": "Come build OpenClaw along side our team! We're inviting people to join our Maintainers on our team server Come prompt along side us and work on things that will meaningfully improve OpenClaw! https://openclaw.ai/blog/openclaw-focus-weeks",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113024625311686852#m",
+      "published": "Wed, 21 Oct 2026 21:48:23 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
+      "user": "MatthewBerman",
       "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: We're halfway through the day, and this is still the easiest way to get hours of manual work off your plate. The AI Profit Boardroom gives you the automations to handle the repetitive stuff for you, so your time goes toward growing instead of grinding. 👉 https://www.skool.com/ai-profit-lab-7462/about",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112699293769634272#m",
-      "published": "Wed, 21 Oct 2026 00:15:38 GMT"
+      "content": "Could consciousness form in AI?",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113022839855153361#m",
+      "published": "Wed, 21 Oct 2026 21:41:17 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
+      "user": "elonmusk",
       "topic": "AI / ML",
-      "content": "⏰ 12 Hours Left: Halfway Through The Tuesday AI Workload Lift 🕛 We're halfway through the day, and this is still the easiest way to get hours of manual work off your plate. The AI Profit Boardroom gives you the automations to handle the repetitive stuff for you, so your time goes toward growing instead of grinding. 👉 https://www.skool.com/ai-profit-lab-7462/about 🕛 HALFWAY MARK: 12 HOURS LEFT ON THE TUESDAY AI WORKLOAD LIFT Twelve hours gone. Twelve hours left. If you've been reading these posts today and still haven't joined, this is the midpoint reminder: the clock doesn't pause, and this offer closes at the same time it started, 24 hours after it opened. 🆕 NEW HERE? HERE'S WHAT THE AI PROFIT BOARDROOM ACTUALLY IS It's a community built for people who want AI doing the repetitive work, so they can spend their time where it actually counts. Inside, you get: • Step-by-step training on setting up AI automations, beginner-friendly • Ready-made workflows for content, outreach, scheduling, support, and more • A space to ask questions and get real answers, fast • A system built around freeing up your time, not adding more to your plate This isn't about chasing a quick win. It's about building habits and systems that keep working after you log off. 👉 Join The AI Profit Boardroom here → https://www.skool.com/ai-profit-lab-7462/about 🎯 WHAT YOU GET INSIDE ✅ The AI Business Automation Stack Prebuilt workflows for outreach, content, and client delivery. Plug them in instead of building from scratch. ✅ AI Lead & Customer Flow Tools Automations that help new customers find you, so you're not stuck chasing people down manually. ✅ Daily Q&A Support Ask a question, get a real answer. No waiting days for a reply. ✅ 4 Live Coaching Calls Per Week Live sessions with a PhD scientist trained specifically in AI automation, who's helped thousands of people implement this stuff. ✅ Daily Livestreams With Julian Watch the automations get built in real time, then copy them for your own business. 👉 Get instant access → https://www.skool.com/ai-profit-lab-7462/about 🎁 TODAY-ONLY BONUS: The AI Automation Audit (worth $240) A guided walkthrough where you identify the three most time-consuming tasks in your week, and get a clear automation plan for each. Members use this to stop guessing what to automate first. 👉 Claim it before this hour ends → https://www.skool.com/ai-profit-lab-7462/about 📊 RUNNING TOTAL: $6,015 in bonuses unlocked today so far, on top of everything already inside The AI Profit Boardroom. 🙋 DAILY ACCOUNTABILITY GROUP (included free) Check in daily. Share what you're working on. Get support and stay consistent with the systems you build. This is the difference between automations you build and automations you actually use. 👉 Get access when you join → https://www.skool.com/ai-profit-lab-7462/about 🎁 BUY ONE, GIFT ONE FREE Join today and bring someone with you, free. A business partner, a teammate, anyone who could use fewer hours spent on manual work. You both get full access. One price. 👉 Claim your spot and gift one → https://www.skool.com/ai-profit-lab-7462/about 🚨 WANT MORE VALUE? UPGRADE TO ANNUAL Pay $399 for the year instead of 69/month(828/year), and save $429 automatically. On top of the savings, annual members unlock: • The full SOP Playbook (115+ documented automation systems) • The Annual Member Vault (100+ playbooks, templates, and swipe files) • A Commercial License to use templates and systems with your own clients • All future courses and features, free • A Lifetime Price Lock, so your rate never goes up Total annual bonus value: $112,755+ 👉 New members, start annual here → https://www.skool.com/ai-profit-lab-7462/about 👉 Already a member? Upgrade to annual here → https://docs.google.com/document/d/1uEflYhJLOgH1Cw_S2-gNXHEV0a8-5ZLVlnlH26w9zv8/edit?tab=t.0 📚 DON'T JUST TAKE MY WORD FOR IT 114 pages of real member results and feedback, right here: 👉 https://docs.google.com/document/d/1dpdMktIMiJTsOCf_Jb4kFLQfr3uMXX0RHUR9Bub0dU8/edit?tab=t.0 🛡️ DOUBLE GUARANTEE ✅ 7-Day No-Questions Refund ✅ 30-Day Time-Saved Guarantee: if these automations don't save you real time within 30 days, you get your money back You're covered either way. 👉 Join risk-free → https://www.skool.com/ai-profit-lab-7462/about ⏰ 12 hours left on The Tuesday AI Workload Lift. Halfway there. Less busywork from here on, or the same grind as yesterday. Your call. 👉 Get in now → https://www.skool.com/ai-profit-lab-7462/about",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112699212353904758#m",
-      "published": "Wed, 21 Oct 2026 00:15:18 GMT"
+      "content": "RT by @elonmusk: Elon Musk on Optimus: \"We've started early production. The growth of Optimus is an S curve, but the initial curve is a shallow slope. We have the vast majority of the 1 million unit/year line installed at Fremont. There's still some things we need to tweak about the design. There's still quite a lot of work to do with the AI in the robot. I would expect that the AI, the electromechanical design, reliability, usage life, expect these issues to be solved by the end of next year. I remain convinced Optimus will be the biggest product on Earth. I do want to temper expectations that we still have a lot to get through, it will take about a year to get through that.\"",
+      "url": "http://nitter.meowing.monster/SawyerMerritt/status/2113022539140087843#m",
+      "published": "Wed, 21 Oct 2026 21:40:06 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
+      "user": "MatthewBerman",
       "topic": "AI / ML",
-      "content": "I gave the same AI model the same job in two different tools, and I got two different apps. The model was DeepSeek V4.1 Flash, and the tools were Hermes Agent and Claude Code. The Hermes build came out noticeably better, and it cost a fraction of what Opus would have charged. Here's what's inside the article. I show you the side-by-side test that proves the harness changes the output. I explain why fast models like this stop Hermes from timing out on big builds. I share the simple routing rule I use to split work between a free model, DeepSeek and Opus 5.5. The full break drown is in the article below.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112695365837226033#m",
-      "published": "Wed, 21 Oct 2026 00:00:01 GMT"
+      "content": "Go check out my friend and former colleague Michael's new YC startup Spacesheep. After working on the Artifacts feature at Anthropic, he knew he wanted to build a better version.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113022367610085854#m",
+      "published": "Wed, 21 Oct 2026 21:39:25 GMT"
     },
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "As crazy as this sounds, $1T in SpaceX revenue in 2028 is no longer impossible",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2112666467712073815#m",
-      "published": "Tue, 20 Oct 2026 22:05:12 GMT"
+      "content": "Grok @Bot is like hiring a super smart and fun employee!",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113011511429902609#m",
+      "published": "Wed, 21 Oct 2026 20:56:16 GMT"
     },
     {
       "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: Elon Musk on a possible SpaceX–Tesla merger: \"Do I think it would be a good idea? Yes\" Both SpaceX and Tesla have formed special committees of independent directors to discuss the idea, at the request of shareholders Because he's a conflicted party, Elon can't take part in those discussions \"Some people out there assume that a SpaceX and Tesla merger is a certainty, and I think that would be overstating it\" \"The special committees have not reached agreement on the terms of any transaction. And obviously there's no guarantee that they will\" On the Tesla side, it would need a 50% vote of all shares, not just those who vote. That's a high hurdle So why does Elon support it? \"I do think there's a lot of merit to combining the companies as we are pretty much in the super intelligence singularity\" \"There's a lot to be gained from cooperating on developing super intelligence software, chip design, the Terafab, obviously robotics, mass to orbit with the Starmind constellation. Connectivity\" Next, the special committees of both companies have to agree on terms, and then it goes to a shareholder vote",
-      "url": "http://nitter.meowing.monster/XFreeze/status/2112660528409747769#m",
-      "published": "Tue, 20 Oct 2026 21:41:35 GMT"
+      "topic": "Tech Intel",
+      "content": "People are buying FSD with a car attached, not the other way around",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113011056847278486#m",
+      "published": "Wed, 21 Oct 2026 20:54:28 GMT"
     },
     {
-      "user": "elonmusk",
+      "user": "DuncanRogoff",
       "topic": "AI / ML",
-      "content": "RT by @elonmusk: Here’s full Elon Musk’s remarks at SpaceX Q3 2026 results: 0:00 - Inflection moment for SpaceX 0:50 - Starship Flight 14 to orbit 1:40 - Flight 15 catch both stages 2:50 - Louisiana spaceport announced 4:00 - Weekly then twice weekly flights 5:20 - Complete reusability like airplane 6:30 - Starlink 26 Tbps = 10 Falcon 9 7:50 - 100x bandwidth, 100k satellites 9:10 - 1000x demand from AI agents 10:20 - SI constraint: power & cooling 11:30 - Memphis 200k GB300s monthly 12:40 - Aiming 20 GW next year 13:20 - 440k Vera Rubin cluster Q2 14:00 - GrokBot fastest growth ever 14:35 - $500 B-$1T ARR by end 2027",
-      "url": "http://nitter.meowing.monster/cb_doge/status/2112653610953887818#m",
-      "published": "Tue, 20 Oct 2026 21:14:06 GMT"
-    },
-    {
-      "user": "sama",
-      "topic": "Security",
-      "content": "I am very grateful Aleksander accepted our request to come take this on; the safety and security challenges in front of us as we confront superintelligence are immense, and he has an excellent set of skills to work on this.",
-      "url": "http://nitter.meowing.monster/sama/status/2112652656602923366#m",
-      "published": "Tue, 20 Oct 2026 21:10:19 GMT"
+      "content": "There's a free Claude Code plugin called pstack that makes Claude reproduce your bug, fix it, and prove the change works before it says it's done. Forty-one skills, over three thousand stars. https://github.com/michael-denyer/pstack-claude Free guide: https://www.claudecodeclub.ai/free-resources/pstack-claude",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2112997423853289784#m",
+      "published": "Wed, 21 Oct 2026 20:00:18 GMT"
     },
     {
       "user": "AlexFinn",
       "topic": "AI / ML",
-      "content": "R to @AlexFinn: If you want to check out my autonomous business: https://agentusecases.ai/ 60% of views are from X. 40% are SEO and AEO",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2112646274264813913#m",
-      "published": "Tue, 20 Oct 2026 20:44:57 GMT"
+      "content": "The announcement we've been waiting for... Anthropic is about to drop their personal agent Duet (love the name) A direct competitor to Dots, Grok Bot, Hark, and Muse All powered by what I believe to be the best model on earth right now Opus 5.5 This is the one I'm anticipating the most. Claude more than any other AI has felt the BEST to talk to It feels truly human and collaborative This has been what's dearly missing from this new class of agent harnesses. None of them feel truly HUMAN I have no doubt this will be the warmest, most fun personal agent to use I truly believe this personal agent harness race is the most important race of them all. More important than the model race People are giving their personal agents access to EVERYTHING Their emails, calendars, text messages, finances, EVERYTHING This is unbelievably valuable data people are now willing to give away to any company that makes helpful assistants The winner of this harness race will have access to incredibly valuable data it can then use to train even better models Anthropic is officially coming for the crown",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2112990775202185437#m",
+      "published": "Wed, 21 Oct 2026 19:33:52 GMT"
     },
     {
-      "user": "realDonaldTrump",
+      "user": "openclaw",
       "topic": "AI / ML",
-      "content": "🚨 OHIO! Early Voting, in-person, is UNDERWAY NOW in the Great State of Ohio. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Ohio, you can cast your early Vote, in-person, all the way through November 1st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/ohio/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645390369718527#m",
-      "published": "Tue, 20 Oct 2026 20:41:26 GMT"
+      "content": "You're building in the terminal OpenClaw users are building in the timeline We are not the same Watch Roboclaw & @vincent_koc build here: https://team.openclaw.ai/chat/roboclaw/x-2112983910850363434-baseten-decision-models-e70fd350 Here is the PR Roboclaw created: https://github.com/openclaw/openclaw/pull/179819",
+      "url": "http://nitter.meowing.monster/openclaw/status/2112990698131849368#m",
+      "published": "Wed, 21 Oct 2026 19:33:34 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "NVIDIA RTX Spark: Local AI, Unlocked | The ClawCast Episode 14 https://x.com/i/broadcasts/1mGPaZoWBnnJN",
+      "url": "http://nitter.meowing.monster/openclaw/status/2112974517387800888#m",
+      "published": "Wed, 21 Oct 2026 18:29:16 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 06:09 PM",
+  "lastUpdate": "10/21/2026, 03:27 PM",
   "news": [
     {
       "title": "Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
@@ -285,18 +285,87 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792544929.396224,
+          "started_at": 1792621630.964258,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792544929.396224
+              "at": 1792621630.964258
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792546657.698573,
+          "ended_at": 1792621630.950074,
+          "outcome": "failed",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792546657.698573
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792621630.9497
+            },
+            {
+              "kind": "failed",
+              "text": "FAILED",
+              "at": 1792621630.950074
+            }
+          ],
+          "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
+          "duration_s": 74973,
+          "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
+        },
+        {
+          "started_at": 1792544929.396224,
+          "ended_at": 1792544956.864066,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792544929.396224
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792544952.834424
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792544954.118144
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792544954.12695
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792544955.211463
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792544956.864066
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792544956.864066
+            }
+          ],
+          "duration_s": 27,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792543033.949449,
@@ -387,15 +456,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792539493.958144,
+          "started_at": 1792539511.469752,
           "ended_at": 1792539515.508393,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792539493.958144
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -427,102 +491,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792539515.508393
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792537693.960346,
-          "ended_at": 1792537715.446852,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792537693.960346
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792537711.288319
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792537712.657558
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792537712.659809
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792537713.72487
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792537715.446852
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792537715.446852
-            }
-          ],
-          "duration_s": 21,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792535851.5452,
-          "ended_at": 1792535855.679146,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792535851.5452
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792535852.948298
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792535852.949996
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792535853.974116
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792535855.679146
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792535855.679146
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792544929.396224,
+        "started_at": 1792621630.964258,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792544929.396224
+            "at": 1792621630.964258
           }
         ],
         "duration_s": null,
@@ -567,7 +548,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "66 sessions · 42891k tokens · 1673 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 06:09 PM"
+    "lastUpdate": "Oct 21, 03:27 PM"
   },
   "hn_posts": [
     {
@@ -744,64 +725,64 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 10,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 1278
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "fetched_at": "2026-10-21T22:27:34.455Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 1278
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 1278
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 1278
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 1278
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-21T01:09:12.784Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 1278
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-21T01:09:12.784Z",
+      "fetched_at": "2026-10-21T22:27:34.455Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +790,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-21T01:09:12.825Z",
+      "fetched_at": "2026-10-21T22:27:34.490Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
