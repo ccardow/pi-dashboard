@@ -65,9 +65,16 @@
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: Get a FREE AI Course + Community + 1,000 AI Agents 👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about Free SEO Strategy Session 👉 https://go.juliangoldie.com/strategy-session",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112676267803947276#m",
-      "published": "Tue, 20 Oct 2026 22:44:08 GMT"
+      "content": "I gave the same AI model the same job in two different tools, and I got two different apps. The model was DeepSeek V4.1 Flash, and the tools were Hermes Agent and Claude Code. The Hermes build came out noticeably better, and it cost a fraction of what Opus would have charged. Here's what's inside the article. I show you the side-by-side test that proves the harness changes the output. I explain why fast models like this stop Hermes from timing out on big builds. I share the simple routing rule I use to split work between a free model, DeepSeek and Opus 5.5. The full break drown is in the article below.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112695365837226033#m",
+      "published": "Wed, 21 Oct 2026 00:00:01 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "Tech Intel",
+      "content": "Stop losing new members because you forgot to follow up. Perplexity Computer can run tasks when someone joins. Send a welcome message. Share your 30-day plan. Flag anyone who stays quiet for 3 days. All on autopilot. Want the SOP? DM me.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2112695360162566188#m",
+      "published": "Wed, 21 Oct 2026 00:00:00 GMT"
     },
     {
       "user": "elonmusk",
@@ -124,13 +131,6 @@
       "content": "🚨 MAINE! Early Voting, in-person, is UNDERWAY NOW in the Great State of Maine. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT! Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Maine, you can cast your early Vote, in-person, all the way through October 29th. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP Find your Voting Location here: https://swampthevoteusa.com/maine/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2112645220861120714#m",
       "published": "Tue, 20 Oct 2026 20:40:46 GMT"
-    },
-    {
-      "user": "AlexFinn",
-      "topic": "AI / ML",
-      "content": "Last week Grok Bot built me a completely autonomous business Since then it has: • Made $1,800 • Gotten almost 100,000 visitors • 200,000+ page views • 3,000 newsletter subscribers All I've had to do since launch is post about it You can do this too. It's so easy All you need to do is: 1. Choose an AI agent (I like Grok Bot) 2. Talk to your agent. Find challenges your audience has 3. Choose a challenge and ask your Grok Bot to build an autonomous business that solves that challenge 4. Ask it to build and maintain the site, optimize for SEO and AEO, and start a newsletter for it 5. Use Resend, Vercel, Stripe, and GitHub as plugins 6. Talk about your autonomous business on social media so you get distribution It's that simple EVERYONE should have an autonomous business",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2112640023803871268#m",
-      "published": "Tue, 20 Oct 2026 20:20:07 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@
       "published": "Mon, 05 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/20/2026, 04:38 PM",
+  "lastUpdate": "10/20/2026, 05:08 PM",
   "news": [
     {
       "title": "Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
@@ -203,6 +203,13 @@
       "summary": "Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
       "source": "Globe Politics",
       "published": "Tue, 20 Oct 2026 22:28:28 +0000"
+    },
+    {
+      "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+      "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+      "source": "BBC World",
+      "published": "Tue, 20 Oct 2026 22:22:17 GMT"
     },
     {
       "title": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
@@ -224,13 +231,6 @@
       "summary": "Trump commits more than $400m ahead of high-stakes midterm elections",
       "source": "Al Jazeera",
       "published": "Tue, 20 Oct 2026 21:27:38 +0000"
-    },
-    {
-      "title": "US food importer sues Trump over 50 percent tariffs on Canadian goods",
-      "url": "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
-      "summary": "US food importer sues Trump over 50 percent tariffs on Canadian goods",
-      "source": "Al Jazeera",
-      "published": "Tue, 20 Oct 2026 21:19:12 +0000"
     }
   ],
   "vibes": "⚠ Ottawa’s proposed labour code changes praised by industry, criticized by unions at C-39 hearings",
@@ -244,7 +244,7 @@
     "feels_like": "15",
     "hi": "17",
     "lo": "4",
-    "updated": "Oct 20, 04:38 PM"
+    "updated": "Oct 20, 05:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792539493.958144,
+          "started_at": 1792541293.95619,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792539493.958144
+              "at": 1792541293.95619
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792539493.958144,
+          "ended_at": 1792539515.508393,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792539493.958144
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792539511.469752
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792539512.812935
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792539512.815145
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792539513.867314
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792539515.508393
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792539515.508393
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792537693.960346,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792533739.751175,
+          "started_at": 1792533758.746361,
           "ended_at": 1792533763.668141,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792533739.751175
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792533763.668141
             }
           ],
-          "duration_s": 24,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792528666.125912,
-          "ended_at": 1792528670.450967,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792528666.125912
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792528667.351223
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792528667.353541
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792528668.426912
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792528670.450967
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792528670.450967
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792539493.958144,
+        "started_at": 1792541293.95619,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792539493.958144
+            "at": 1792541293.95619
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@
         "status": "63 sessions · 42401k tokens · 1522 tool calls"
       }
     ],
-    "lastUpdate": "Oct 20, 04:38 PM"
+    "lastUpdate": "Oct 20, 05:08 PM"
   },
   "hn_posts": [
     {
@@ -745,7 +745,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.422Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.423Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.423Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.423Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.423Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.423Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.423Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.423Z",
+      "fetched_at": "2026-10-21T00:08:31.054Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-20T23:38:31.462Z",
+      "fetched_at": "2026-10-21T00:08:31.093Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
