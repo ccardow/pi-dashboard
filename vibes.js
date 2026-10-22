@@ -21,6 +21,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "Talarico hates Texas",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113081289570127971#m",
+      "published": "Thu, 22 Oct 2026 01:33:33 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "RT by @elonmusk: In your own words …",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113078348075209056#m",
+      "published": "Thu, 22 Oct 2026 01:21:51 GMT"
+    },
+    {
       "user": "AlexFinn",
       "topic": "AI / ML",
       "content": "I've been using Claude Duet the last couple hours and I'll say this: It's EXCELLENT The multi tasking is probably the best in the space You get one simple thread you can talk to, and as you give it commands and prompts, it automatically spins up tasks on a list for you So instead of having to manage a ton of side chats that could get long or confusing, you have 1 chat, but it makes 'task' threads automatically that you can watch and monitor This allows you to just keep brain dumping ideas and tasks into the one thread, and not have to worry about the agent getting confused. The agent just will manage all the tasks for you Very similar to Claude Code's new 'projects' feature which was probably a beta test for this The coding was great. Built me a bunch of PRs quickly I was able to review. Proactivity was fantastic too. Came up with a bunch of tasks on its own and just asked me for the go ahead As expected it's also fantastic to talk to. Claude has long been the best model to converse with (outside Opus 5) and the carries over to Claude Duet Really pleased with the product, even in research preview. Very excited to see where it goes from here Definitely sign up for the wait list",
@@ -33,6 +47,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "This AI skill lets you scrape LinkedIn, YouTube, Instagram and X from Claude Code without paying for a single API key. It's called Agent Reach, free and open source, 98,000+ stars on GitHub. The one catch: connect a spare account, never your main one. Get it here: https://github.com/Panniantong/Agent-Reach The free guide: https://claudecodeclub.ai/free-resources/build-launch-ai-automation-business",
       "url": "http://nitter.meowing.monster/DuncanRogoff/status/2113072966682439727#m",
       "published": "Thu, 22 Oct 2026 01:00:28 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "RT by @MatthewBerman: 🚨 Sam Altman Says Anthropic’s Push to ‘Ascribe Personhood’ to Their Models is a ‘Dangerous Path’ “I hope we come to an understanding that this technology is not a person and is certainly not superior to people … Even the people building AI get confused about that.”",
+      "url": "http://nitter.meowing.monster/TheChiefNerd/status/2113068190079046002#m",
+      "published": "Thu, 22 Oct 2026 00:41:30 GMT"
     },
     {
       "user": "openclaw",
@@ -56,39 +77,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 21 Oct 2026 23:03:00 GMT"
     },
     {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: Elon Musk hilariously explains why Optimus has to learn like a toddler, by playing, making mistakes and getting better over time 😂 “In order for Optimus to get the training data we need, we actually need to make a lot of Optimi. So we need to make, I think, on the order of 10,000 or 20,000 bots and then have them do self-play. We're building up an Optimus academy where Optimus can practice doing a very wide range of tasks And then we can use that data in a flywheel to make it better and better at these various tasks, a big difference with Optimus versus the cars Is we don't have this vast fleet of cars from which we can gather training data. So with Optimus, we have to bootstrap it by making the robots and having them do self-play, which is really how a human learns to navigate the world You can see this when you have a toddler and they grow up and they initially are wobbly and they don't know how to do things, and eventually they, they learn to wipe their own ass, which is a big milestone, because anyone who's had kids knows And then they learn to read and do all sorts of things and be able to do these things. And they learn this by playing And we actually need Optimus to play at scale in order to have it be really good at tasks in the real world”",
+      "url": "http://nitter.meowing.monster/XFreeze/status/2113040815954301204#m",
+      "published": "Wed, 21 Oct 2026 22:52:43 GMT"
+    },
+    {
       "user": "openclaw",
       "topic": "AI / ML",
       "content": "Come build OpenClaw along side our team! We're inviting people to join our Maintainers on our team server Come prompt along side us and work on things that will meaningfully improve OpenClaw! https://openclaw.ai/blog/openclaw-focus-weeks",
       "url": "http://nitter.meowing.monster/openclaw/status/2113024625311686852#m",
       "published": "Wed, 21 Oct 2026 21:48:23 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "Could consciousness form in AI?",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113022839855153361#m",
-      "published": "Wed, 21 Oct 2026 21:41:17 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: If you are an ambitious young person I still believe joining @SpaceX is one of the best career decisions you can make The world is pivoting from bits to atoms and there is no better training ground for atoms than SpaceX It may feel late but it's early Also the mission! 🚀🌕",
-      "url": "http://nitter.meowing.monster/shaunmmaguire/status/2112998791125328306#m",
-      "published": "Wed, 21 Oct 2026 20:05:44 GMT"
-    },
-    {
-      "user": "DuncanRogoff",
-      "topic": "AI / ML",
-      "content": "There's a free Claude Code plugin called pstack that makes Claude reproduce your bug, fix it, and prove the change works before it says it's done. Forty-one skills, over three thousand stars. https://github.com/michael-denyer/pstack-claude Free guide: https://www.claudecodeclub.ai/free-resources/pstack-claude",
-      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2112997423853289784#m",
-      "published": "Wed, 21 Oct 2026 20:00:18 GMT"
-    },
-    {
-      "user": "AlexFinn",
-      "topic": "AI / ML",
-      "content": "The announcement we've been waiting for... Anthropic is about to drop their personal agent Duet (love the name) A direct competitor to Dots, Grok Bot, Hark, and Muse All powered by what I believe to be the best model on earth right now Opus 5.5 This is the one I'm anticipating the most. Claude more than any other AI has felt the BEST to talk to It feels truly human and collaborative This has been what's dearly missing from this new class of agent harnesses. None of them feel truly HUMAN I have no doubt this will be the warmest, most fun personal agent to use I truly believe this personal agent harness race is the most important race of them all. More important than the model race People are giving their personal agents access to EVERYTHING Their emails, calendars, text messages, finances, EVERYTHING This is unbelievably valuable data people are now willing to give away to any company that makes helpful assistants The winner of this harness race will have access to incredibly valuable data it can then use to train even better models Anthropic is officially coming for the crown",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2112990775202185437#m",
-      "published": "Wed, 21 Oct 2026 19:33:52 GMT"
     }
   ],
   "peter_x": [
@@ -153,7 +153,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 06:08 PM",
+  "lastUpdate": "10/21/2026, 06:43 PM",
   "news": [
     {
       "title": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
@@ -209,13 +209,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 159,
+      "tokens_used": 162,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "17:39",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 196 msgs · 101 tools"
+        "time": "18:09",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 202 msgs · 103 tools"
       },
       {
         "time": "17:59",
@@ -243,18 +243,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792631269.379247,
+          "started_at": 1792633380.74909,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792631269.379247
+              "at": 1792633380.74909
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792631269.379247,
+          "ended_at": 1792631291.119148,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792631269.379247
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792631286.979461
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792631288.271845
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792631288.274127
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792631289.3047
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792631291.119148
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792631291.119148
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792629529.381869,
@@ -389,15 +433,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792624129.382409,
+          "started_at": 1792624147.288453,
           "ended_at": 1792624155.313395,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792624129.382409
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792624155.313395
             }
           ],
-          "duration_s": 26,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792622296.754683,
-          "ended_at": 1792622303.183625,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792622296.754683
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792622299.552271
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792622299.554576
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792622301.4963
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792622303.183625
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792622303.183625
-            }
-          ],
-          "duration_s": 6,
+          "duration_s": 8,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792631269.379247,
+        "started_at": 1792633380.74909,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792631269.379247
+            "at": 1792633380.74909
           }
         ],
         "duration_s": null,
@@ -507,9 +507,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 42523898,
-      "output_tokens": 1812125,
-      "tool_calls": 1774
+      "input_tokens": 42683810,
+      "output_tokens": 1815412,
+      "tool_calls": 1776
     },
     "roadmap": [
       {
@@ -522,10 +522,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "67 sessions · 44336k tokens · 1774 tool calls"
+        "status": "67 sessions · 44499k tokens · 1776 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 06:08 PM"
+    "lastUpdate": "Oct 21, 06:43 PM"
   },
   "hn_posts": [
     {
@@ -702,64 +702,64 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 3,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 35
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "fetched_at": "2026-10-22T01:43:18.818Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 35
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 35
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 35
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 35
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 35
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "fetched_at": "2026-10-22T01:43:18.819Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -767,7 +767,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T01:08:06.970Z",
+      "fetched_at": "2026-10-22T01:43:18.855Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
