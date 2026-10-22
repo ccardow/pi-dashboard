@@ -63,6 +63,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "True",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113333198134354083#m",
+      "published": "Thu, 22 Oct 2026 18:14:32 GMT"
+    },
+    {
       "user": "openclaw",
       "topic": "AI / ML",
       "content": "The only industry that moved faster than AI this week was cyber security",
@@ -77,25 +84,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Thu, 22 Oct 2026 18:00:38 GMT"
     },
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "Try Grok @Bot",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113329537509449744#m",
+      "published": "Thu, 22 Oct 2026 18:00:00 GMT"
+    },
+    {
       "user": "openclaw",
       "topic": "AI / ML",
       "content": "COME SPEND OUR TOKENS OpenClaw focus weeks are an invitation to join our team server and build along side us You're using our agent and spending our tokens, with expert advice and help from our Maintainers Join us at the frontier https://openclaw.ai/blog/openclaw-focus-weeks",
       "url": "http://nitter.meowing.monster/openclaw/status/2113322783551959406#m",
       "published": "Thu, 22 Oct 2026 17:33:09 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "Talarico hates Texas and America",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113319277092642942#m",
-      "published": "Thu, 22 Oct 2026 17:19:13 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "RT by @elonmusk: Go vote!",
-      "url": "http://nitter.meowing.monster/KenPaxtonTX/status/2113315072563163174#m",
-      "published": "Thu, 22 Oct 2026 17:02:31 GMT"
     },
     {
       "user": "realDonaldTrump",
@@ -195,21 +195,28 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 11:08 AM",
+  "lastUpdate": "10/22/2026, 11:38 AM",
   "news": [
+    {
+      "title": "Meta shields Mark Zuckerberg from possible 'billionaires tax' hit",
+      "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
+      "summary": "Meta shields Mark Zuckerberg from possible 'billionaires tax' hit",
+      "source": "BBC World",
+      "published": "Thu, 22 Oct 2026 18:26:56 GMT"
+    },
+    {
+      "title": "Trump says NBA star LeBron James disrespected US national anthem",
+      "url": "https://www.aljazeera.com/sports/2026/10/22/trump-says-nba-star-lebron-james-disrespected-us-national-anthem?traffic_source=rss",
+      "summary": "Trump says NBA star LeBron James disrespected US national anthem",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 18:05:52 +0000"
+    },
     {
       "title": "Trump ordered to answer questions under oath in BBC lawsuit",
       "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
       "summary": "Trump ordered to answer questions under oath in BBC lawsuit",
       "source": "BBC World",
       "published": "Thu, 22 Oct 2026 17:14:04 GMT"
-    },
-    {
-      "title": "Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
-      "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
-      "summary": "Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
-      "source": "BBC World",
-      "published": "Thu, 22 Oct 2026 16:16:49 GMT"
     },
     {
       "title": "Italy and Spain lift border controls after months of tension over Ceuta",
@@ -224,37 +231,42 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
       "source": "Globe Politics",
       "published": "Thu, 22 Oct 2026 16:00:00 +0000"
-    },
-    {
-      "title": "Rising costs and tight budgets strain Americans ahead of midterm elections",
-      "url": "https://www.aljazeera.com/economy/2026/10/22/rising-costs-and-tight-budgets-strain-americans-ahead-of-midterm-elections?traffic_source=rss",
-      "summary": "Rising costs and tight budgets strain Americans ahead of midterm elections",
-      "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 15:07:38 +0000"
     }
   ],
-  "vibes": "⚠ Trump ordered to answer questions under oath in BBC lawsuit",
+  "vibes": "⚠ Meta shields Mark Zuckerberg from possible 'billionaires tax' hit",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "8",
+    "temp": "9",
     "condition": "Fog",
     "feels_like": "7",
-    "hi": "11",
+    "hi": "12",
     "lo": "5",
-    "updated": "Oct 22, 11:08 AM"
+    "updated": "Oct 22, 11:38 AM"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "Hermes Gateway · beam-free via opencode-go",
+    "activity": "Hermes Gateway · deepseek-v4.1-flash via opencode-go",
     "model": {
-      "name": "opencode-go/beam-free",
-      "tokens_used": 15,
+      "name": "opencode-go/deepseek-v4.1-flash",
+      "tokens_used": 23,
       "tokens_total": 256
     },
     "logs": [
+      {
+        "time": "11:35",
+        "msg": "default/LOCAL: deepseek-v4.1-flash · 6 msgs · 2 tools"
+      },
+      {
+        "time": "11:12",
+        "msg": "default/LOCAL: deepseek-v4.1-flash · 4 msgs · 0 tools"
+      },
+      {
+        "time": "11:09",
+        "msg": "default/LOCAL: beam-free · 2 msgs · 0 tools"
+      },
       {
         "time": "11:01",
         "msg": "default/LOCAL: beam-free · 2 msgs · 0 tools"
@@ -266,18 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "10:26",
         "msg": "default/LOCAL: beam-free · 2 msgs · 0 tools"
-      },
-      {
-        "time": "10:23",
-        "msg": "default/LOCAL: beam-free · 385 msgs · 181 tools"
-      },
-      {
-        "time": "10:20",
-        "msg": "default/ONESHOT: beam-free · 2 msgs · 0 tools"
-      },
-      {
-        "time": "10:07",
-        "msg": "default/LOCAL: glm-5.3-flash · 39 msgs · 24 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792692481.491704,
+          "started_at": 1792694283.879485,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792692481.491704
+              "at": 1792694283.879485
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792692481.491704,
+          "ended_at": 1792692504.60335,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792692481.491704
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792692498.458012
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792692500.543918
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792692500.545325
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792692501.662739
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792692504.60335
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792692504.60335
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792690671.072826,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792686836.506231,
+          "started_at": 1792686865.721616,
           "ended_at": 1792686871.590399,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792686836.506231
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792686871.590399
             }
           ],
-          "duration_s": 35,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792654709.353136,
-          "ended_at": 1792654713.661452,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792654709.353136
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792654710.756544
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792654710.760888
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792654711.865926
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792654713.661452
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792654713.661452
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 6,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792692481.491704,
+        "started_at": 1792694283.879485,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792692481.491704
+            "at": 1792694283.879485
           }
         ],
         "duration_s": null,
@@ -531,10 +531,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 3827907,
+      "pid": 3461826,
       "version": "0.22.4",
       "state": "running",
-      "uptime_seconds": 357422,
+      "uptime_seconds": 579997,
       "profiles": [
         "default",
         "atlas",
@@ -548,15 +548,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "active_agents": 0
     },
     "totals": {
-      "sessions": 122,
-      "input_tokens": 49377386,
-      "output_tokens": 2366014,
-      "tool_calls": 2165
+      "sessions": 125,
+      "input_tokens": 49427546,
+      "output_tokens": 2367235,
+      "tool_calls": 2167
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.4 · pid 3827907"
+        "status": "running · v0.22.4 · pid 3461826"
       },
       {
         "name": "Agent Profiles",
@@ -564,10 +564,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "122 sessions · 51743k tokens · 2165 tool calls"
+        "status": "125 sessions · 51795k tokens · 2167 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 11:08 AM"
+    "lastUpdate": "Oct 22, 11:38 AM"
   },
   "hn_posts": [
     {
@@ -607,13 +607,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
-      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-      "published": "Thu, 22 Oct 2026 11:12:37 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
       "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
@@ -639,6 +632,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "WorldTUI: I trained a 360M model to pretend to be a terminal",
       "url": "https://simedw.com/2026/10/21/world-model-terminal/",
       "published": "Thu, 22 Oct 2026 02:18:41 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "Security Disclosure",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "published": "Wed, 21 Oct 2026 21:58:03 +0000"
     }
   ],
   "verse": {
@@ -745,7 +745,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.416Z",
+      "fetched_at": "2026-10-22T18:38:20.959Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:08:18.449Z",
+      "fetched_at": "2026-10-22T18:38:20.994Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
