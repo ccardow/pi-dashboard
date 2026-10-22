@@ -7,12 +7,6 @@
       "published": "2026-10-20T16:21:03+00:00"
     },
     {
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "published": "2026-10-19T08:49:21+00:00"
-    },
-    {
       "title": "The runtime wars are over... and Node won",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
@@ -23,21 +17,16 @@
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
       "published": "2026-10-14T17:48:10+00:00"
-    },
-    {
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "published": "2026-10-13T08:56:12+00:00"
-    },
-    {
-      "title": "DeepSeek Solved AI’s Memory Problem",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-      "published": "2026-10-11T16:53:17+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "NVIDIA RTX Spark and the Case for Owning Your AI @NVIDIAAI’s Apoorv Chaudhary joins @hrudolph and @Pat_Erichsen to discuss local AI, privacy, hardware limits and where cloud models still fit. Watch or listen to Episode 14 of The ClawCast: https://openclaw.ai/podcast/episode-14",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113060682015162611#m",
+      "published": "Thu, 22 Oct 2026 00:11:40 GMT"
+    },
     {
       "user": "AlexFinn",
       "topic": "AI / ML",
@@ -93,13 +82,6 @@
       "content": "You're building in the terminal OpenClaw users are building in the timeline We are not the same Watch Roboclaw & @vincent_koc build here: https://team.openclaw.ai/chat/roboclaw/x-2112983910850363434-baseten-decision-models-e70fd350 Here is the PR Roboclaw created: https://github.com/openclaw/openclaw/pull/179819",
       "url": "http://nitter.meowing.monster/openclaw/status/2112990698131849368#m",
       "published": "Wed, 21 Oct 2026 19:33:34 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "NVIDIA RTX Spark: Local AI, Unlocked | The ClawCast Episode 14 https://x.com/i/broadcasts/1mGPaZoWBnnJN",
-      "url": "http://nitter.meowing.monster/openclaw/status/2112974517387800888#m",
-      "published": "Wed, 21 Oct 2026 18:29:16 GMT"
     },
     {
       "user": "danmartell",
@@ -171,7 +153,7 @@
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 05:08 PM",
+  "lastUpdate": "10/21/2026, 05:39 PM",
   "news": [
     {
       "title": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
@@ -179,6 +161,13 @@
       "summary": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
       "source": "Globe Politics",
       "published": "Wed, 21 Oct 2026 23:57:32 +0000"
+    },
+    {
+      "title": "US accuses Canada of election interference ahead of midterms",
+      "url": "https://www.aljazeera.com/news/2026/10/21/us-accuses-canada-of-election-interference-ahead-of-midterms?traffic_source=rss",
+      "summary": "US accuses Canada of election interference ahead of midterms",
+      "source": "Al Jazeera",
+      "published": "Wed, 21 Oct 2026 23:52:21 +0000"
     },
     {
       "title": "Tehran displays mock installation of Trump behind bars",
@@ -200,13 +189,6 @@
       "summary": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
       "source": "NPR News",
       "published": "Wed, 21 Oct 2026 16:56:07 -0400"
-    },
-    {
-      "title": "Canada-EU summit to seek ways to lessen dependence on United States",
-      "url": "https://www.theglobeandmail.com/politics/article-canada-eu-summit-carney-von-der-leyen-united-states-dependence/",
-      "summary": "Canada-EU summit to seek ways to lessen dependence on United States",
-      "source": "Globe Politics",
-      "published": "Wed, 21 Oct 2026 20:28:41 +0000"
     }
   ],
   "vibes": "⚠ Politics Insider: $9-billion for Canada’s ‘critical sectors’",
@@ -215,25 +197,25 @@
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "16",
+    "temp": "15",
     "condition": "Overcast",
-    "feels_like": "15",
+    "feels_like": "13",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 05:07 PM"
+    "updated": "Oct 21, 05:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 332,
+      "tokens_used": 148,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "16:50",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 342 msgs · 168 tools"
+        "time": "17:38",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 181 msgs · 93 tools"
       },
       {
         "time": "17:59",
@@ -261,18 +243,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792627669.406358,
+          "started_at": 1792629529.381869,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792627669.406358
+              "at": 1792629529.381869
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792627669.406358,
+          "ended_at": 1792627690.946364,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792627669.406358
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792627686.869334
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792627688.143024
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792627688.14522
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792627689.188526
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792627690.946364
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792627690.946364
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792625929.389198,
@@ -407,15 +433,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792621630.964258,
+          "started_at": 1792621654.496503,
           "ended_at": 1792621661.574725,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792621630.964258
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -447,39 +468,19 @@
               "at": 1792621661.574725
             }
           ],
-          "duration_s": 31,
+          "duration_s": 7,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792621630.9497,
-          "ended_at": 1792621630.950074,
-          "outcome": "failed",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792621630.9497
-            },
-            {
-              "kind": "failed",
-              "text": "FAILED",
-              "at": 1792621630.950074
-            }
-          ],
-          "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
-          "duration_s": 0,
-          "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
         }
       ],
       "last_run": {
-        "started_at": 1792627669.406358,
+        "started_at": 1792629529.381869,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792627669.406358
+            "at": 1792629529.381869
           }
         ],
         "duration_s": null,
@@ -502,13 +503,13 @@
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 41651977,
-      "output_tokens": 1736143,
-      "tool_calls": 1841
+      "input_tokens": 42520449,
+      "output_tokens": 1806193,
+      "tool_calls": 1766
     },
     "roadmap": [
       {
@@ -520,11 +521,15 @@
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "67 sessions · 43388k tokens · 1841 tool calls"
+        "status": "67 sessions · 44327k tokens · 1766 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 05:08 PM"
+    "lastUpdate": "Oct 21, 05:39 PM"
   },
   "hn_posts": [
     {
@@ -702,15 +707,15 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
-      "count": 6,
+      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "count": 3,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "fetched_at": "2026-10-22T00:39:12.788Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -718,7 +723,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "fetched_at": "2026-10-22T00:39:12.788Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -726,7 +731,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "fetched_at": "2026-10-22T00:39:12.788Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -734,7 +739,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "fetched_at": "2026-10-22T00:39:12.788Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -742,7 +747,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "fetched_at": "2026-10-22T00:39:12.788Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -750,7 +755,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "fetched_at": "2026-10-22T00:39:12.788Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -758,7 +763,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "fetched_at": "2026-10-22T00:39:12.788Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -766,7 +771,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:08:06.863Z",
+      "fetched_at": "2026-10-22T00:39:12.821Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
