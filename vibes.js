@@ -1,25 +1,39 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "Did Google just dethrone OpenAI and Anthropic?",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
-      "published": "2026-10-20T16:21:03+00:00"
+      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "published": "2026-10-13T21:26:16+00:00"
     },
     {
-      "title": "The runtime wars are over... and Node won",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
-      "published": "2026-10-15T17:35:15+00:00"
+      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
+      "published": "2026-09-17T00:34:47+00:00"
     },
     {
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-      "published": "2026-10-14T17:48:10+00:00"
+      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
+      "published": "2026-08-26T21:44:41+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "AlexFinn",
+      "topic": "AI / ML",
+      "content": "I've been using Claude Duet the last couple hours and I'll say this: It's EXCELLENT The multi tasking is probably the best in the space You get one simple thread you can talk to, and as you give it commands and prompts, it automatically spins up tasks on a list for you So instead of having to manage a ton of side chats that could get long or confusing, you have 1 chat, but it makes 'task' threads automatically that you can watch and monitor This allows you to just keep brain dumping ideas and tasks into the one thread, and not have to worry about the agent getting confused. The agent just will manage all the tasks for you Very similar to Claude Code's new 'projects' feature which was probably a beta test for this The coding was great. Built me a bunch of PRs quickly I was able to review. Proactivity was fantastic too. Came up with a bunch of tasks on its own and just asked me for the go ahead As expected it's also fantastic to talk to. Claude has long been the best model to converse with (outside Opus 5) and the carries over to Claude Duet Really pleased with the product, even in research preview. Very excited to see where it goes from here Definitely sign up for the wait list",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2113073549397332479#m",
+      "published": "Thu, 22 Oct 2026 01:02:47 GMT"
+    },
+    {
+      "user": "DuncanRogoff",
+      "topic": "AI / ML",
+      "content": "This AI skill lets you scrape LinkedIn, YouTube, Instagram and X from Claude Code without paying for a single API key. It's called Agent Reach, free and open source, 98,000+ stars on GitHub. The one catch: connect a spare account, never your main one. Get it here: https://github.com/Panniantong/Agent-Reach The free guide: https://claudecodeclub.ai/free-resources/build-launch-ai-automation-business",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2113072966682439727#m",
+      "published": "Thu, 22 Oct 2026 01:00:28 GMT"
+    },
     {
       "user": "openclaw",
       "topic": "AI / ML",
@@ -75,20 +89,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "The announcement we've been waiting for... Anthropic is about to drop their personal agent Duet (love the name) A direct competitor to Dots, Grok Bot, Hark, and Muse All powered by what I believe to be the best model on earth right now Opus 5.5 This is the one I'm anticipating the most. Claude more than any other AI has felt the BEST to talk to It feels truly human and collaborative This has been what's dearly missing from this new class of agent harnesses. None of them feel truly HUMAN I have no doubt this will be the warmest, most fun personal agent to use I truly believe this personal agent harness race is the most important race of them all. More important than the model race People are giving their personal agents access to EVERYTHING Their emails, calendars, text messages, finances, EVERYTHING This is unbelievably valuable data people are now willing to give away to any company that makes helpful assistants The winner of this harness race will have access to incredibly valuable data it can then use to train even better models Anthropic is officially coming for the crown",
       "url": "http://nitter.meowing.monster/AlexFinn/status/2112990775202185437#m",
       "published": "Wed, 21 Oct 2026 19:33:52 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "You're building in the terminal OpenClaw users are building in the timeline We are not the same Watch Roboclaw & @vincent_koc build here: https://team.openclaw.ai/chat/roboclaw/x-2112983910850363434-baseten-decision-models-e70fd350 Here is the PR Roboclaw created: https://github.com/openclaw/openclaw/pull/179819",
-      "url": "http://nitter.meowing.monster/openclaw/status/2112990698131849368#m",
-      "published": "Wed, 21 Oct 2026 19:33:34 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "The older I get, the more I realize most of my problems were self induced.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2112967368267714848#m",
-      "published": "Wed, 21 Oct 2026 18:00:52 GMT"
     }
   ],
   "peter_x": [
@@ -153,7 +153,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 05:39 PM",
+  "lastUpdate": "10/21/2026, 06:08 PM",
   "news": [
     {
       "title": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
@@ -197,25 +197,25 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "15",
-    "condition": "Overcast",
-    "feels_like": "13",
+    "temp": "13",
+    "condition": "Partly Cloudy",
+    "feels_like": "11",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 05:38 PM"
+    "updated": "Oct 21, 06:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 148,
+      "tokens_used": 159,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "17:38",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 181 msgs · 93 tools"
+        "time": "17:39",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 196 msgs · 101 tools"
       },
       {
         "time": "17:59",
@@ -243,18 +243,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792629529.381869,
+          "started_at": 1792631269.379247,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792629529.381869
+              "at": 1792631269.379247
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792629529.381869,
+          "ended_at": 1792629558.112942,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792629529.381869
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792629552.827855
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792629554.476965
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792629554.479273
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792629556.442923
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792629558.112942
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792629558.112942
+            }
+          ],
+          "duration_s": 29,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792627669.406358,
@@ -389,15 +433,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792622269.385271,
+          "started_at": 1792622296.754683,
           "ended_at": 1792622303.183625,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792622269.385271
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792622303.183625
             }
           ],
-          "duration_s": 34,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792621654.496503,
-          "ended_at": 1792621661.574725,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792621654.496503
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792621656.002432
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792621656.004215
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792621659.815359
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792621661.574725
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792621661.574725
-            }
-          ],
-          "duration_s": 7,
+          "duration_s": 6,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792629529.381869,
+        "started_at": 1792631269.379247,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792629529.381869
+            "at": 1792631269.379247
           }
         ],
         "duration_s": null,
@@ -503,13 +503,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 42520449,
-      "output_tokens": 1806193,
-      "tool_calls": 1766
+      "input_tokens": 42523898,
+      "output_tokens": 1812125,
+      "tool_calls": 1774
     },
     "roadmap": [
       {
@@ -521,15 +521,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "67 sessions · 44327k tokens · 1766 tool calls"
+        "status": "67 sessions · 44336k tokens · 1774 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 05:39 PM"
+    "lastUpdate": "Oct 21, 06:08 PM"
   },
   "hn_posts": [
     {
@@ -707,7 +703,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 3,
       "error": null,
       "source": "youtube.com/feeds",
@@ -715,7 +711,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -723,7 +719,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -731,7 +727,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -739,7 +735,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -747,7 +743,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -755,7 +751,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -763,7 +759,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.788Z",
+      "fetched_at": "2026-10-22T01:08:06.934Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -771,7 +767,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T00:39:12.821Z",
+      "fetched_at": "2026-10-22T01:08:06.970Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
