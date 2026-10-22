@@ -1,6 +1,24 @@
 {
   "youtube": [
     {
+      "title": "Claude Duet is For Real. What You Need to Know.",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
+      "published": "2026-10-22T15:45:07+00:00"
+    },
+    {
+      "title": "The last real programmers are dying out...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
+      "published": "2026-10-22T15:09:31+00:00"
+    },
+    {
+      "title": "Magic Patterns CEO Reviews Startup Websites",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=2tZT2-pS_pI",
+      "published": "2026-10-22T15:00:16+00:00"
+    },
+    {
       "title": "Personal Body Guard Robot - What could go wrong?",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=dyrNQV0F3Zs",
@@ -37,28 +55,10 @@
       "published": "2026-10-21T12:53:28+00:00"
     },
     {
-      "title": "I taught Claude how to edit videos and it's INSANE",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=REAOFI534lk",
-      "published": "2026-10-21T00:15:31+00:00"
-    },
-    {
       "title": "Did Google just dethrone OpenAI and Anthropic?",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
       "published": "2026-10-20T16:21:03+00:00"
-    },
-    {
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "published": "2026-10-19T08:49:21+00:00"
-    },
-    {
-      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
-      "published": "2026-10-17T14:00:30+00:00"
     }
   ],
   "x_posts": [
@@ -82,6 +82,13 @@
       "content": "TO THE GREAT PEOPLE OF COLORADO, GET OUT AND VOTE FOR:   – Jeff Hurd for U.S. Congress (CO-03) – Lauren Boebert for U.S. Congress (CO-04) – Jeff Crank for U.S. Congress (CO-05) – Gabe Evans for U.S. Congress (CO-08)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/colorado/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302710518693969#m",
       "published": "Thu, 22 Oct 2026 16:13:24 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "Sam Altman: OpenAI's advantage is their internal models are way ahead of public models. I asked how far ahead they are:",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113302574053134553#m",
+      "published": "Thu, 22 Oct 2026 16:12:51 GMT"
     },
     {
       "user": "DuncanRogoff",
@@ -124,13 +131,6 @@
       "content": "RT by @elonmusk: Grok Bot is now on X Chat",
       "url": "http://nitter.meowing.monster/techdevnotes/status/2113218324809269398#m",
       "published": "Thu, 22 Oct 2026 10:38:04 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "Tech Intel",
-      "content": "RT by @openclaw: FREE TOKENS IF YOU ENGINEER ON OPENCLAW TEAM SERVER",
-      "url": "http://nitter.meowing.monster/hrudolph/status/2113128104088723733#m",
-      "published": "Thu, 22 Oct 2026 04:39:34 GMT"
     }
   ],
   "peter_x": [
@@ -195,56 +195,56 @@
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 09:34 AM",
+  "lastUpdate": "10/22/2026, 09:38 AM",
   "news": [
     {
-      "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
-      "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts",
-      "summary": "North Korea says it will resume propaganda broadcasts across border into South Korea",
-      "source": "NPR News",
-      "published": "Thu, 22 Oct 2026 02:36:07 -0400"
-    },
-    {
-      "title": "‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
-      "url": "https://www.aljazeera.com/news/2026/10/22/stupid-talk-france-rejects-trumps-attempt-to-blame-unrest-on-migration?traffic_source=rss",
-      "summary": "‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
-      "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 05:58:52 +0000"
-    },
-    {
-      "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
-      "url": "https://www.aljazeera.com/news/2026/10/22/trump-administration-seeks-supreme-court-approval-to-build-big-bend-wall?traffic_source=rss",
-      "summary": "Trump administration seeks Supreme Court approval to build Big Bend wall",
-      "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 03:19:38 +0000"
-    },
-    {
-      "title": "US embassy accuses Canada of election meddling ahead of midterms",
-      "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
-      "summary": "US embassy accuses Canada of election meddling ahead of midterms",
+      "title": "Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
+      "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
+      "summary": "Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
       "source": "BBC World",
-      "published": "Thu, 22 Oct 2026 03:05:28 GMT"
+      "published": "Thu, 22 Oct 2026 16:16:49 GMT"
     },
     {
-      "title": "Can Trump deport Congresswoman Ilhan Omar?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/can-trump-deport-congresswoman-ilhan-omar?traffic_source=rss",
-      "summary": "Can Trump deport Congresswoman Ilhan Omar?",
+      "title": "Italy and Spain lift border controls after months of tension over Ceuta",
+      "url": "https://www.aljazeera.com/news/2026/10/22/italy-and-spain-lift-border-controls-after-months-of-tension-over-ceuta?traffic_source=rss",
+      "summary": "Italy and Spain lift border controls after months of tension over Ceuta",
       "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 02:34:46 +0000"
+      "published": "Thu, 22 Oct 2026 16:04:21 +0000"
+    },
+    {
+      "title": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
+      "url": "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/",
+      "summary": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
+      "source": "Globe Politics",
+      "published": "Thu, 22 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "title": "Rising costs and tight budgets strain Americans ahead of midterm elections",
+      "url": "https://www.aljazeera.com/economy/2026/10/22/rising-costs-and-tight-budgets-strain-americans-ahead-of-midterm-elections?traffic_source=rss",
+      "summary": "Rising costs and tight budgets strain Americans ahead of midterm elections",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 15:07:38 +0000"
+    },
+    {
+      "title": "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
+      "url": "https://www.aljazeera.com/news/2026/10/22/carney-and-erdogan-launch-strong-and-resilient-canada-turkiye-partnership?traffic_source=rss",
+      "summary": "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 15:00:37 +0000"
     }
   ],
-  "vibes": "⚠ North Korea says it will resume propaganda broadcasts across border into South Korea",
+  "vibes": "⚠ Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "7",
-    "condition": "Mostly Clear",
-    "feels_like": "5",
+    "temp": "8",
+    "condition": "Fog",
+    "feels_like": "6",
     "hi": "11",
-    "lo": "4",
-    "updated": "Oct 22, 12:38 AM"
+    "lo": "5",
+    "updated": "Oct 22, 09:38 AM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792686836.506231,
+          "started_at": 1792687079.25362,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792686836.506231
+              "at": 1792687079.25362
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792686836.506231,
+          "ended_at": 1792686871.590399,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792686836.506231
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792686865.721616
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792686867.222876
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792686867.225009
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792686868.33064
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792686871.590399
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792686871.590399
+            }
+          ],
+          "duration_s": 35,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792654691.899699,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792649251.777035,
+          "started_at": 1792649270.577846,
           "ended_at": 1792649274.91122,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792649251.777035
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792649274.91122
             }
           ],
-          "duration_s": 23,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792647505.201313,
-          "ended_at": 1792647509.361762,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792647505.201313
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792647506.473583
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792647506.487983
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792647507.587218
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792647509.361762
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792647509.361762
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792686836.506231,
+        "started_at": 1792687079.25362,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792686836.506231
+            "at": 1792687079.25362
           }
         ],
         "duration_s": null,
@@ -567,9 +567,44 @@
         "status": "117 sessions · 50933k tokens · 2133 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 09:34 AM"
+    "lastUpdate": "Oct 22, 09:38 AM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Quad9 (DNS Resolver) to Exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "published": "Thu, 22 Oct 2026 14:32:38 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "published": "Thu, 22 Oct 2026 13:33:39 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "published": "Thu, 22 Oct 2026 11:50:36 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "published": "Thu, 22 Oct 2026 11:12:37 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "published": "Thu, 22 Oct 2026 08:01:52 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -579,17 +614,10 @@
     },
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "mitmproxy adds --emudhra option",
-      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-      "published": "Wed, 21 Oct 2026 23:51:37 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "There isn't an easy exploit for this PHP vulnerability",
-      "url": "https://eliastaylor.com/noexploit/",
-      "published": "Wed, 21 Oct 2026 23:13:27 +0000"
+      "topic": "AI / ML",
+      "content": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "published": "Thu, 22 Oct 2026 02:18:41 +0000"
     },
     {
       "user": "Hacker News",
@@ -600,45 +628,17 @@
     },
     {
       "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Claude Duet",
+      "url": "https://claude.com/product/claude-duet",
+      "published": "Wed, 21 Oct 2026 19:14:01 +0000"
+    },
+    {
+      "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "Rust Style Guide",
       "url": "https://google.github.io/styleguide/rustguide.html",
       "published": "Wed, 21 Oct 2026 19:11:57 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Open Source",
-      "content": "GitLab critical patch release",
-      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-      "published": "Wed, 21 Oct 2026 19:01:12 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-      "published": "Wed, 21 Oct 2026 17:45:13 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "EA is shutting down BioWare",
-      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-      "published": "Wed, 21 Oct 2026 17:29:33 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "Today's PHP security release, and how we're strengthening security",
-      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-      "published": "Wed, 21 Oct 2026 15:48:56 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
-      "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
-      "published": "Wed, 21 Oct 2026 15:20:04 +0000"
     }
   ],
   "verse": {
@@ -744,64 +744,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 10,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 536
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:34:25.677Z",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 536
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 536
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 536
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 536
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 536
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:34:25.677Z",
+      "fetched_at": "2026-10-22T16:38:16.483Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:34:25.714Z",
+      "fetched_at": "2026-10-22T16:38:16.518Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
