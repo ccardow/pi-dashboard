@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 12:08 AM",
+  "lastUpdate": "10/22/2026, 12:38 AM",
   "news": [
     {
       "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
@@ -240,24 +240,32 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "7",
-    "condition": "Clear",
+    "condition": "Mostly Clear",
     "feels_like": "5",
     "hi": "11",
-    "lo": "5",
-    "updated": "Oct 22, 12:08 AM"
+    "lo": "4",
+    "updated": "Oct 22, 12:38 AM"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "Hermes Gateway · kimi-k3 via opencode-go",
+    "activity": "Hermes Gateway · deepseek-v4.1-flash via opencode-go",
     "model": {
-      "name": "opencode-go/kimi-k3",
-      "tokens_used": 61,
+      "name": "opencode-go/deepseek-v4.1-flash",
+      "tokens_used": 34,
       "tokens_total": 256
     },
     "logs": [
       {
-        "time": "00:08",
-        "msg": "default/LOCAL: kimi-k3 · 23 msgs · 9 tools"
+        "time": "00:38",
+        "msg": "default/LOCAL: deepseek-v4.1-flash · 47 msgs · 19 tools"
+      },
+      {
+        "time": "00:25",
+        "msg": "default/LOCAL: deepseek-v4.1-flash · 28 msgs · 15 tools"
+      },
+      {
+        "time": "00:23",
+        "msg": "default/LOCAL: deepseek-v4.1-flash · 58 msgs · 22 tools"
       },
       {
         "time": "00:00",
@@ -270,14 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "23:44",
         "msg": "default/ONESHOT: beam-free · 2 msgs · 0 tools"
-      },
-      {
-        "time": "23:43",
-        "msg": "default/ONESHOT: beam-free · 2 msgs · 0 tools"
-      },
-      {
-        "time": "23:40",
-        "msg": "default/ONESHOT: grok-4.7 · 2 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792652917.558492,
+          "started_at": 1792654691.899699,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792652917.558492
+              "at": 1792654691.899699
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792652917.558492,
+          "ended_at": 1792652939.082368,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792652917.558492
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792652934.68716
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792652936.183111
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792652936.187417
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792652937.308315
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792652939.082368
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792652939.082368
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792651057.55295,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792645729.385644,
+          "started_at": 1792645746.570465,
           "ended_at": 1792645750.604323,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792645729.385644
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,39 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792645750.604323
             }
           ],
-          "duration_s": 21,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792645043.653254,
-          "ended_at": 1792645043.817652,
-          "outcome": "failed",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792645043.653254
-            },
-            {
-              "kind": "failed",
-              "text": "FAILED",
-              "at": 1792645043.817652
-            }
-          ],
-          "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
-          "duration_s": 0,
-          "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
         }
       ],
       "last_run": {
-        "started_at": 1792652917.558492,
+        "started_at": 1792654691.899699,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792652917.558492
+            "at": 1792654691.899699
           }
         ],
         "duration_s": null,
@@ -529,10 +548,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "active_agents": 1
     },
     "totals": {
-      "sessions": 113,
-      "input_tokens": 47984247,
-      "output_tokens": 2304411,
-      "tool_calls": 2063
+      "sessions": 115,
+      "input_tokens": 48413569,
+      "output_tokens": 2333357,
+      "tool_calls": 2110
     },
     "roadmap": [
       {
@@ -549,12 +568,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "113 sessions · 50289k tokens · 2063 tool calls"
+        "status": "115 sessions · 50747k tokens · 2110 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 12:08 AM"
+    "lastUpdate": "Oct 22, 12:38 AM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+      "published": "Thu, 22 Oct 2026 02:30:52 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -617,13 +643,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
       "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
       "published": "Wed, 21 Oct 2026 15:20:04 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-      "published": "Wed, 21 Oct 2026 14:03:43 +0000"
     }
   ],
   "verse": {
@@ -641,7 +660,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Sienna",
         "id": "sienna",
         "role": "Brand director and visual identity lead",
-        "model": "minimax-m3.1-flash-free",
+        "model": "deepseek-v4.1-flash",
         "provider": "opencode-go",
         "sessions": 4,
         "messages": 111,
@@ -653,7 +672,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Montage",
         "id": "montage",
         "role": "Make churches look and sound amazing on every screen",
-        "model": "minimax-m3.1-flash-free",
+        "model": "deepseek-v4.1-flash",
         "provider": "opencode-go",
         "sessions": 4,
         "messages": 10,
@@ -665,7 +684,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Maya",
         "id": "maya",
         "role": "Build the things",
-        "model": "minimax-m3.1-flash-free",
+        "model": "deepseek-v4.1-flash",
         "provider": "opencode-go",
         "sessions": 3,
         "messages": 16,
@@ -677,7 +696,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Marcus",
         "id": "marcus",
         "role": "Lead strategist and orchestrator",
-        "model": "minimax-m3.1-flash-free",
+        "model": "deepseek-v4.1-flash",
         "provider": "opencode-go",
         "sessions": 4,
         "messages": 10,
@@ -689,7 +708,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Harper",
         "id": "harper",
         "role": "Write the words that connect churches to their communities",
-        "model": "minimax-m3.1-flash-free",
+        "model": "deepseek-v4.1-flash",
         "provider": "opencode-go",
         "sessions": 4,
         "messages": 10,
@@ -701,7 +720,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Grace",
         "id": "grace",
         "role": "Help churches use technology faithfully",
-        "model": "minimax-m3.1-flash-free",
+        "model": "deepseek-v4.1-flash",
         "provider": "opencode-go",
         "sessions": 5,
         "messages": 65,
@@ -713,7 +732,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Atlas",
         "id": "atlas",
         "role": "Quality gate",
-        "model": "minimax-m3.1-flash-free",
+        "model": "deepseek-v4.1-flash",
         "provider": "opencode-go",
         "sessions": 5,
         "messages": 345,
@@ -730,7 +749,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -738,7 +757,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -746,7 +765,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -754,7 +773,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -762,7 +781,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -770,7 +789,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -778,7 +797,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -786,7 +805,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.597Z",
+      "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -794,7 +813,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:08:54.671Z",
+      "fetched_at": "2026-10-22T07:38:29.337Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
