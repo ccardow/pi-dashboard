@@ -1,10 +1,22 @@
 {
   "youtube": [
     {
-      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
-      "published": "2026-10-21T20:15:02+00:00"
+      "title": "Personal Body Guard Robot - What could go wrong?",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=dyrNQV0F3Zs",
+      "published": "2026-10-22T03:06:41+00:00"
+    },
+    {
+      "title": "AI Breakthroughs Everyone Missed",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
+      "published": "2026-10-21T17:45:26+00:00"
+    },
+    {
+      "title": "5 Prompts With Google's ULTRA Powerful New Model",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=S2srfNCa50A",
+      "published": "2026-10-21T12:53:28+00:00"
     },
     {
       "title": "Did Google just dethrone OpenAI and Anthropic?",
@@ -31,12 +43,6 @@
       "published": "2026-10-14T17:48:10+00:00"
     },
     {
-      "title": "Grok Bot just built me an autonomous business...",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=lmYLF3keVmw",
-      "published": "2026-10-13T22:07:49+00:00"
-    },
-    {
       "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
       "channel": "Lex Fridman",
       "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
@@ -53,12 +59,6 @@
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
       "published": "2026-10-11T16:53:17+00:00"
-    },
-    {
-      "title": "Can a Mac Mini run local AI? (shocking)",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=dFTXOt0GBx4",
-      "published": "2026-10-10T13:30:14+00:00"
     }
   ],
   "x_posts": [
@@ -195,8 +195,15 @@
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 11:07 PM",
+  "lastUpdate": "10/21/2026, 11:37 PM",
   "news": [
+    {
+      "title": "‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
+      "url": "https://www.aljazeera.com/news/2026/10/22/stupid-talk-france-rejects-trumps-attempt-to-blame-unrest-on-migration?traffic_source=rss",
+      "summary": "‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 05:58:52 +0000"
+    },
     {
       "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
       "url": "https://www.aljazeera.com/news/2026/10/22/trump-administration-seeks-supreme-court-approval-to-build-big-bend-wall?traffic_source=rss",
@@ -224,60 +231,53 @@
       "summary": "Russia frees American Stephen Hubbard after 4 years behind bars",
       "source": "Al Jazeera",
       "published": "Thu, 22 Oct 2026 02:16:25 +0000"
-    },
-    {
-      "title": "Conservatives question whether Ottawa’s social media ban for children under 16 will work",
-      "url": "https://www.theglobeandmail.com/politics/article-conservatives-question-if-social-media-ban-children-will-work/",
-      "summary": "Conservatives question whether Ottawa’s social media ban for children under 16 will work",
-      "source": "Globe Politics",
-      "published": "Thu, 22 Oct 2026 01:34:29 +0000"
     }
   ],
-  "vibes": "⚠ Trump administration seeks Supreme Court approval to build Big Bend wall",
+  "vibes": "⚠ ‘Stupid talk’: France rejects Trump’s attempt to blame unrest on migration",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "8",
-    "condition": "Clear",
+    "temp": "7",
+    "condition": "Mostly Clear",
     "feels_like": "5",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 11:07 PM"
+    "updated": "Oct 21, 11:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax-m3.1-flash-free via opencode-go",
     "model": {
       "name": "opencode-go/minimax-m3.1-flash-free",
-      "tokens_used": 191,
+      "tokens_used": 47,
       "tokens_total": 256
     },
     "logs": [
       {
-        "time": "23:07",
-        "msg": "default/LOCAL: minimax-m3.1-flash-free · 341 msgs · 165 tools"
+        "time": "23:37",
+        "msg": "default/LOCAL: minimax-m3.1-flash-free · 67 msgs · 39 tools"
       },
       {
-        "time": "22:57",
-        "msg": "default/LOCAL: deepseek-v4.1-flash · 6 msgs · 0 tools"
+        "time": "23:37",
+        "msg": "default/ONESHOT: mimo-v2.6-flash · 2 msgs · 0 tools"
       },
       {
-        "time": "22:40",
+        "time": "23:36",
         "msg": "default/ONESHOT: kimi-k3 · 2 msgs · 0 tools"
       },
       {
-        "time": "22:16",
-        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
+        "time": "23:34",
+        "msg": "default/ONESHOT: glm-5.3-flash · 2 msgs · 0 tools"
       },
       {
-        "time": "22:15",
-        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
+        "time": "23:34",
+        "msg": "default/ONESHOT: deepseek-v4.1-flash · 2 msgs · 0 tools"
       },
       {
-        "time": "22:08",
-        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
+        "time": "23:28",
+        "msg": "default/ONESHOT: glm-5.3-flash · 2 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792649251.777035,
+          "started_at": 1792651057.55295,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792649251.777035
+              "at": 1792651057.55295
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792649251.777035,
+          "ended_at": 1792649274.91122,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792649251.777035
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792649270.577846
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792649272.109934
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792649272.124372
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792649273.263471
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792649274.91122
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792649274.91122
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792647488.143781,
@@ -412,15 +456,10 @@
           "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
         },
         {
-          "started_at": 1792642129.390783,
+          "started_at": 1792642151.489927,
           "ended_at": 1792642155.601293,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792642129.390783
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -452,58 +491,19 @@
               "at": 1792642155.601293
             }
           ],
-          "duration_s": 26,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792640287.370627,
-          "ended_at": 1792640291.194775,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792640287.370627
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792640288.506511
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792640288.50859
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792640289.527315
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792640291.194775
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792640291.194775
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792649251.777035,
+        "started_at": 1792651057.55295,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792649251.777035
+            "at": 1792651057.55295
           }
         ],
         "duration_s": null,
@@ -512,10 +512,10 @@
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1191,
+      "pid": 1349,
       "version": "0.22.4",
       "state": "running",
-      "uptime_seconds": 1468,
+      "uptime_seconds": 2574,
       "profiles": [
         "default",
         "atlas",
@@ -529,15 +529,15 @@
       "active_agents": 1
     },
     "totals": {
-      "sessions": 84,
-      "input_tokens": 47321006,
-      "output_tokens": 2191183,
-      "tool_calls": 1838
+      "sessions": 107,
+      "input_tokens": 47804104,
+      "output_tokens": 2265633,
+      "tool_calls": 1998
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.4 · pid 1191"
+        "status": "running · v0.22.4 · pid 1349"
       },
       {
         "name": "Agent Profiles",
@@ -549,10 +549,10 @@
       },
       {
         "name": "Session Ledger",
-        "status": "84 sessions · 49512k tokens · 1838 tool calls"
+        "status": "107 sessions · 50070k tokens · 1998 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 11:07 PM"
+    "lastUpdate": "Oct 21, 11:37 PM"
   },
   "hn_posts": [
     {
@@ -730,7 +730,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -738,7 +738,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -746,7 +746,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -754,7 +754,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -762,7 +762,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -770,7 +770,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -778,7 +778,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -786,7 +786,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.480Z",
+      "fetched_at": "2026-10-22T06:37:54.748Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -794,7 +794,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T06:07:50.564Z",
+      "fetched_at": "2026-10-22T06:37:54.821Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
