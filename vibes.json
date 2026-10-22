@@ -1,6 +1,12 @@
 {
   "youtube": [
     {
+      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
+      "published": "2026-10-21T20:15:02+00:00"
+    },
+    {
       "title": "AI Breakthroughs Everyone Missed",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
@@ -13,10 +19,46 @@
       "published": "2026-10-21T12:53:28+00:00"
     },
     {
+      "title": "Did Google just dethrone OpenAI and Anthropic?",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
+      "published": "2026-10-20T16:21:03+00:00"
+    },
+    {
       "title": "My favorite new image editing tool",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=VVBszkWK0Io",
       "published": "2026-10-20T04:19:39+00:00"
+    },
+    {
+      "title": "Gemini 4 Argon Is Not What I Expected",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "published": "2026-10-19T08:49:21+00:00"
+    },
+    {
+      "title": "The runtime wars are over... and Node won",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
+      "published": "2026-10-15T17:35:15+00:00"
+    },
+    {
+      "title": "OpenAI’s lead engineer was secretly a spy...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+      "published": "2026-10-14T17:48:10+00:00"
+    },
+    {
+      "title": "Grok Bot just built me an autonomous business...",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=lmYLF3keVmw",
+      "published": "2026-10-13T22:07:49+00:00"
+    },
+    {
+      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "published": "2026-10-13T21:26:16+00:00"
     }
   ],
   "x_posts": [
@@ -33,13 +75,6 @@
       "content": "Talarico hates Texas",
       "url": "http://nitter.meowing.monster/elonmusk/status/2113081289570127971#m",
       "published": "Thu, 22 Oct 2026 01:33:33 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "RT by @elonmusk: In your own words …",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113078348075209056#m",
-      "published": "Thu, 22 Oct 2026 01:21:51 GMT"
     },
     {
       "user": "AlexFinn",
@@ -89,72 +124,93 @@
       "content": "RT by @elonmusk: Elon Musk hilariously explains why Optimus has to learn like a toddler, by playing, making mistakes and getting better over time 😂 “In order for Optimus to get the training data we need, we actually need to make a lot of Optimi. So we need to make, I think, on the order of 10,000 or 20,000 bots and then have them do self-play. We're building up an Optimus academy where Optimus can practice doing a very wide range of tasks And then we can use that data in a flywheel to make it better and better at these various tasks, a big difference with Optimus versus the cars Is we don't have this vast fleet of cars from which we can gather training data. So with Optimus, we have to bootstrap it by making the robots and having them do self-play, which is really how a human learns to navigate the world You can see this when you have a toddler and they grow up and they initially are wobbly and they don't know how to do things, and eventually they, they learn to wipe their own ass, which is a big milestone, because anyone who's had kids knows And then they learn to read and do all sorts of things and be able to do these things. And they learn this by playing And we actually need Optimus to play at scale in order to have it be really good at tasks in the real world”",
       "url": "http://nitter.meowing.monster/XFreeze/status/2113040815954301204#m",
       "published": "Wed, 21 Oct 2026 22:52:43 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "Come build OpenClaw along side our team! We're inviting people to join our Maintainers on our team server Come prompt along side us and work on things that will meaningfully improve OpenClaw! https://openclaw.ai/blog/openclaw-focus-weeks",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113024625311686852#m",
+      "published": "Wed, 21 Oct 2026 21:48:23 GMT"
     }
   ],
   "peter_x": [
     {
-      "topic": "AI / ML",
-      "content": "OpenClaw, OpenAI and the future",
-      "url": "https://steipete.me/posts/2026/openclaw/",
-      "published": "Sun, 15 Feb 2026 00:00:00 GMT"
-    },
-    {
       "topic": "Tech Intel",
-      "content": "Shipping at Inference-Speed",
-      "url": "https://steipete.me/posts/2025/shipping-at-inference-speed/",
-      "published": "Sun, 28 Dec 2025 11:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "The Signature Flicker",
-      "url": "https://steipete.me/posts/2025/signature-flicker/",
-      "published": "Thu, 18 Dec 2025 00:00:00 GMT"
-    },
-    {
-      "topic": "Agents",
-      "content": "Just Talk To It - the no-bs Way of Agentic Engineering",
-      "url": "https://steipete.me/posts/just-talk-to-it/",
-      "published": "Tue, 14 Oct 2025 09:00:00 GMT"
+      "content": "How to digitally sign a PDF in C# (2026)",
+      "url": "https://www.nutrient.io/blog/how-to-digitally-sign-pdf-in-csharp/",
+      "published": "Wed, 21 Oct 2026 10:00:00 GMT"
     },
     {
       "topic": "AI / ML",
-      "content": "Claude Code Anonymous",
-      "url": "https://steipete.me/posts/2025/claude-code-anonymous/",
-      "published": "Tue, 09 Sep 2025 10:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Live Coding Session: Building Arena",
-      "url": "https://steipete.me/posts/2025/live-coding-session-building-arena/",
-      "published": "Sat, 06 Sep 2025 10:00:00 GMT"
+      "content": "Mailroom automation with an API: Split, classify, route",
+      "url": "https://www.nutrient.io/blog/mailroom-automation-api/",
+      "published": "Tue, 20 Oct 2026 12:00:00 GMT"
     },
     {
       "topic": "AI / ML",
-      "content": "My Current AI Dev Workflow",
-      "url": "https://steipete.me/posts/2025/optimal-ai-development-workflow/",
-      "published": "Mon, 25 Aug 2025 09:00:00 GMT"
-    },
-    {
-      "topic": "Agents",
-      "content": "Essential Reading for Agentic Engineers - August 2025",
-      "url": "https://steipete.me/posts/2025/essential-reading-august-2025/",
-      "published": "Fri, 22 Aug 2025 01:00:00 GMT"
+      "content": "Why we built a decision model for documents | Nutrient",
+      "url": "https://www.nutrient.io/blog/decision-model-for-documents/",
+      "published": "Mon, 19 Oct 2026 10:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "Just One More Prompt",
-      "url": "https://steipete.me/posts/just-one-more-prompt/",
-      "published": "Tue, 19 Aug 2025 08:00:00 GMT"
+      "content": "How BriefPoint chose the best .NET PDF library",
+      "url": "https://www.nutrient.io/blog/briefpoint-best-net-pdf-library-nutrient/",
+      "published": "Thu, 15 Oct 2026 10:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "Poltergeist: The Ghost That Keeps Your Builds Fresh",
-      "url": "https://steipete.me/posts/2025/poltergeist-ghost-keeps-builds-fresh/",
-      "published": "Tue, 05 Aug 2025 14:00:00 GMT"
+      "content": "How to convert PDF to JSON: Structured data extraction",
+      "url": "https://www.nutrient.io/blog/how-to-convert-pdf-to-json/",
+      "published": "Wed, 14 Oct 2026 10:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "pdfplumber in Python: Extract text and tables",
+      "url": "https://www.nutrient.io/blog/pdfplumber-python-guide/",
+      "published": "Tue, 13 Oct 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "PaddleOCR in Python: Setup, PDF input, and production use",
+      "url": "https://www.nutrient.io/blog/paddleocr-python-guide/",
+      "published": "Mon, 12 Oct 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "How to generate PDFs in C# (2026)",
+      "url": "https://www.nutrient.io/blog/how-to-generate-pdf-in-csharp/",
+      "published": "Fri, 09 Oct 2026 10:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Multipage PDF extraction: What citations reveal",
+      "url": "https://www.nutrient.io/blog/multipage-extraction-page-boundaries/",
+      "published": "Thu, 08 Oct 2026 09:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "How to add electronic signatures to PDFs with an API",
+      "url": "https://www.nutrient.io/blog/electronic-signature-api/",
+      "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 07:09 PM",
+  "lastUpdate": "10/21/2026, 07:38 PM",
   "news": [
+    {
+      "title": "Russia frees American Stephen Hubbard after 4 years behind bars",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-frees-american-stephen-hubbard-after-4-years-behind-bars?traffic_source=rss",
+      "summary": "Russia frees American Stephen Hubbard after 4 years behind bars",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 02:16:25 +0000"
+    },
+    {
+      "title": "Conservatives question whether Ottawa’s social media ban for children under 16 will work",
+      "url": "https://www.theglobeandmail.com/politics/article-conservatives-question-if-social-media-ban-children-will-work/",
+      "summary": "Conservatives question whether Ottawa’s social media ban for children under 16 will work",
+      "source": "Globe Politics",
+      "published": "Thu, 22 Oct 2026 01:34:29 +0000"
+    },
     {
       "title": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
       "url": "https://www.theglobeandmail.com/politics/article-politics-insider-9-billion-for-canadas-critical-sectors/",
@@ -175,47 +231,33 @@
       "summary": "Tehran displays mock installation of Trump behind bars",
       "source": "Al Jazeera",
       "published": "Wed, 21 Oct 2026 21:43:06 +0000"
-    },
-    {
-      "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
-      "url": "https://www.aljazeera.com/news/2026/10/21/trump-heads-to-south-carolina-to-boost-senator-darline-graham-in-race?traffic_source=rss",
-      "summary": "Trump heads to South Carolina to boost Senator Darline Graham in race",
-      "source": "Al Jazeera",
-      "published": "Wed, 21 Oct 2026 21:07:43 +0000"
-    },
-    {
-      "title": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
-      "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval",
-      "summary": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
-      "source": "NPR News",
-      "published": "Wed, 21 Oct 2026 16:56:07 -0400"
     }
   ],
-  "vibes": "⚠ Politics Insider: $9-billion for Canada’s ‘critical sectors’",
+  "vibes": "⚠ Russia frees American Stephen Hubbard after 4 years behind bars",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "13",
-    "condition": "Partly Cloudy",
-    "feels_like": "11",
+    "temp": "10",
+    "condition": "Overcast",
+    "feels_like": "9",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 06:07 PM"
+    "updated": "Oct 21, 07:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 290,
+      "tokens_used": 362,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "19:09",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 355 msgs · 181 tools"
+        "time": "19:35",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 471 msgs · 242 tools"
       },
       {
         "time": "17:59",
@@ -243,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792634929.38533,
+          "started_at": 1792636669.379383,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792634929.38533
+              "at": 1792636669.379383
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792634929.38533,
+          "ended_at": 1792634982.393582,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792634929.38533
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792634977.987082
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792634979.221057
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792634979.223221
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792634980.666935
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792634982.393582
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792634982.393582
+            }
+          ],
+          "duration_s": 53,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792633380.74909,
@@ -389,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792627669.406358,
+          "started_at": 1792627686.869334,
           "ended_at": 1792627690.946364,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792627669.406358
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +510,19 @@
               "at": 1792627690.946364
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792625946.782283,
-          "ended_at": 1792625950.862932,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792625946.782283
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792625948.072844
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792625948.074392
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792625949.106814
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792625950.862932
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792625950.862932
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792634929.38533,
+        "started_at": 1792636669.379383,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792634929.38533
+            "at": 1792636669.379383
           }
         ],
         "duration_s": null,
@@ -503,13 +545,13 @@
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 42892027,
-      "output_tokens": 1899294,
-      "tool_calls": 1854
+      "input_tokens": 43490174,
+      "output_tokens": 1941848,
+      "tool_calls": 1915
     },
     "roadmap": [
       {
@@ -521,21 +563,31 @@
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "67 sessions · 44791k tokens · 1854 tool calls"
+        "status": "67 sessions · 45432k tokens · 1915 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 07:09 PM"
+    "lastUpdate": "Oct 21, 07:38 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Railway Security Disclosure",
+      "topic": "Tech Intel",
+      "content": "mitmproxy adds --emudhra option",
+      "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+      "published": "Wed, 21 Oct 2026 23:51:37 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "There isn't an easy exploit for this PHP vulnerability",
+      "url": "https://eliastaylor.com/noexploit/",
+      "published": "Wed, 21 Oct 2026 23:13:27 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "Security Disclosure",
       "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
       "published": "Wed, 21 Oct 2026 21:58:03 +0000"
     },
@@ -549,7 +601,7 @@
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Google's Rust Style Guide",
+      "content": "Rust Style Guide",
       "url": "https://google.github.io/styleguide/rustguide.html",
       "published": "Wed, 21 Oct 2026 19:11:57 +0000"
     },
@@ -587,20 +639,6 @@
       "content": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
       "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
       "published": "Wed, 21 Oct 2026 15:20:04 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-      "published": "Wed, 21 Oct 2026 14:03:43 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
-      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-      "published": "Wed, 21 Oct 2026 14:01:22 +0000"
     }
   ],
   "verse": {
@@ -707,55 +745,55 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:09:37.945Z",
-      "count": 3,
+      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:09:37.945Z",
+      "fetched_at": "2026-10-22T02:38:06.228Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T02:38:06.228Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 62
+      "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:09:37.945Z",
+      "fetched_at": "2026-10-22T02:38:06.228Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
       "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T02:38:06.228Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 62
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T02:38:06.228Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 62
+      "age_min": 0
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:09:37.945Z",
+      "fetched_at": "2026-10-22T02:38:06.228Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -763,7 +801,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:09:37.945Z",
+      "fetched_at": "2026-10-22T02:38:06.228Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -771,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:09:37.980Z",
+      "fetched_at": "2026-10-22T02:38:06.266Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
