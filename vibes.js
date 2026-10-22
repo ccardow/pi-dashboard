@@ -39,13 +39,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "RT @runwayml: Runway MCP is now in Grok Bot. Bring state-of-the-art generation into your chat and create anything you can imagine, without…",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113127998157189281#m",
-      "published": "Thu, 22 Oct 2026 04:39:09 GMT"
-    },
-    {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
       "content": "AI just helped crack open a hole in the software behind ~70% of websites. It’s called PHP2Shell. 2 critical bugs inside PHP itself, rated 9.2/10. Attackers are already trying it. If your site runs on WordPress, check this today: → Log into your host, check your PHP version → Safe: 8.5.12, 8.4.27, 8.3.36, 8.2.35 → On 8.1 or older? Ask your host to update now Takes 5 minutes. ♻️ Repost to warn someone with a WordPress site 🔖 Bookmark for later",
@@ -58,6 +51,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "The greatest lie of the industrial age: \"You are what you produce.\" The truth of the AI age: You are what you create when survival is no longer the point. We're about to find out what humans actually are. And I think it's going to be beautiful.",
       "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2113085966311452766#m",
       "published": "Thu, 22 Oct 2026 01:52:08 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: Today I early voted in Texas. Straight Republican. Dems are not worth the risk to all the great builders and projects here. Can't stop, won't stop.",
+      "url": "http://nitter.meowing.monster/SERobinsonJr/status/2113084517674254688#m",
+      "published": "Thu, 22 Oct 2026 01:46:22 GMT"
     },
     {
       "user": "AlexFinn",
@@ -88,6 +88,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Thu, 22 Oct 2026 00:11:40 GMT"
     },
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "RT by @elonmusk: James Talarico supported the Biden Border Crisis, attacked law enforcement during the BLM riots, and wants to end run oil and gas in Texas. He is not moderate in the least. His vote for six years in the Senate would be a disaster for Texas and the USA.",
+      "url": "http://nitter.meowing.monster/chiproytx/status/2113045479197950325#m",
+      "published": "Wed, 21 Oct 2026 23:11:15 GMT"
+    },
+    {
       "user": "AlexFinn",
       "topic": "AI / ML",
       "content": "I got early access to Claude Duet. Let's test it live https://x.com/i/broadcasts/1dGYlaEkDaXKX",
@@ -100,13 +107,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "When people talk about the global market for GPUs, the thing that I think it misses is people are assuming that models are going to stay at the same capability and the same cost per task as today. For sufficiently high-quality intelligence at sufficiently low cost, I think it’s very hard to talk about an arbitrary market size there. I think it’s just gonna keep—people call us all sorts of things, Jevons paradox, whatever. I think it’s just gonna keep going up. I believe there will be some periods where, like with any new technology, there’s supply constraints and supply gluts.",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2113043402941927830#m",
       "published": "Wed, 21 Oct 2026 23:03:00 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "Open Source",
-      "content": "RT by @openclaw: 🦞I got guest access to the @openclaw team server for Focus Week. Roboclaw traced a stale plan-usage popover to its root cause and built the fix. I did the live proof on my own Gateway. Takeaway: working this close to the team and Roboclaw is great. 😇🙌 PR is up, rated 🦞: https://github.com/openclaw/openclaw/pull/179866",
-      "url": "http://nitter.meowing.monster/hgruenhagen/status/2113035141727563949#m",
-      "published": "Wed, 21 Oct 2026 22:30:10 GMT"
     }
   ],
   "peter_x": [
@@ -171,7 +171,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 10:09 PM",
+  "lastUpdate": "10/21/2026, 10:38 PM",
   "news": [
     {
       "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
@@ -215,25 +215,33 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "9",
-    "condition": "Mostly Clear",
-    "feels_like": "7",
+    "temp": "8",
+    "condition": "Partly Cloudy",
+    "feels_like": "5",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 10:08 PM"
+    "updated": "Oct 21, 10:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via opencode-go",
+    "activity": "Hermes Gateway · kimi-k3 via opencode-go",
     "model": {
-      "name": "opencode-go/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 147,
-      "tokens_total": 1000
+      "name": "opencode-go/kimi-k3",
+      "tokens_used": 237,
+      "tokens_total": 256
     },
     "logs": [
       {
-        "time": "22:08",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 177 msgs · 88 tools"
+        "time": "22:35",
+        "msg": "default/LOCAL: kimi-k3 · 295 msgs · 145 tools"
+      },
+      {
+        "time": "22:16",
+        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
+      },
+      {
+        "time": "22:15",
+        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
       },
       {
         "time": "22:08",
@@ -246,14 +254,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "22:03",
         "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
-      },
-      {
-        "time": "22:03",
-        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
-      },
-      {
-        "time": "22:02",
-        "msg": "default/ONESHOT: glm-5.3-flash · 2 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -261,18 +261,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792645729.385644,
+          "started_at": 1792647488.143781,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792645729.385644
+              "at": 1792647488.143781
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792645729.385644,
+          "ended_at": 1792645750.604323,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792645729.385644
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792645746.570465
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792645747.945271
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792645747.947239
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792645748.958039
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792645750.604323
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792645750.604323
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792643869.505168,
@@ -388,15 +432,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792638469.381575,
+          "started_at": 1792638494.34945,
           "ended_at": 1792638498.458162,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792638469.381575
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -428,58 +467,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792638498.458162
             }
           ],
-          "duration_s": 29,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792636686.27306,
-          "ended_at": 1792636690.179283,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792636686.27306
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792636687.495433
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792636687.497482
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792636688.509099
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792636690.179283
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792636690.179283
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792645729.385644,
+        "started_at": 1792647488.143781,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792645729.385644
+            "at": 1792647488.143781
           }
         ],
         "duration_s": null,
@@ -488,10 +488,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 190597,
-      "version": "0.22.2",
+      "pid": 1190,
+      "version": "0.22.4",
       "state": "running",
-      "uptime_seconds": 8074167,
+      "uptime_seconds": 1704,
       "profiles": [
         "default",
         "atlas",
@@ -502,33 +502,29 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
-      "sessions": 80,
-      "input_tokens": 46336222,
-      "output_tokens": 2128804,
-      "tool_calls": 1761
+      "sessions": 82,
+      "input_tokens": 46615594,
+      "output_tokens": 2176931,
+      "tool_calls": 1818
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.2 · pid 190597"
+        "status": "running · v0.22.4 · pid 1190"
       },
       {
         "name": "Agent Profiles",
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "80 sessions · 48465k tokens · 1761 tool calls"
+        "status": "82 sessions · 48793k tokens · 1818 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 10:09 PM"
+    "lastUpdate": "Oct 21, 10:38 PM"
   },
   "hn_posts": [
     {
@@ -575,13 +571,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "EA is shutting down BioWare",
-      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-      "published": "Wed, 21 Oct 2026 17:29:33 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "Security",
       "content": "Today's PHP security release, and how we're strengthening security",
       "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
@@ -600,6 +589,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
       "published": "Wed, 21 Oct 2026 14:03:43 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "published": "Wed, 21 Oct 2026 14:01:22 +0000"
     }
   ],
   "verse": {
@@ -617,71 +613,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Sienna",
         "id": "sienna",
         "role": "Brand director and visual identity lead",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 3,
-        "messages": 107,
-        "last_activity": 1792529032.4696815,
+        "model": "minimax-m3.1-flash-free",
+        "provider": "opencode-go",
+        "sessions": 4,
+        "messages": 111,
+        "last_activity": 1792646359.4954858,
         "skills": 36,
-        "cron": 4
-      },
-      {
-        "name": "Atlas",
-        "id": "atlas",
-        "role": "Quality gate",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 4,
-        "messages": 341,
-        "last_activity": 1792528236.6838048,
-        "skills": 27,
-        "cron": 4
-      },
-      {
-        "name": "Grace",
-        "id": "grace",
-        "role": "Help churches use technology faithfully",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 4,
-        "messages": 61,
-        "last_activity": 1792525750.7706118,
-        "skills": 29,
-        "cron": 4
-      },
-      {
-        "name": "Marcus",
-        "id": "marcus",
-        "role": "Lead strategist and orchestrator",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 3,
-        "messages": 6,
-        "last_activity": 1792525520.2951736,
-        "skills": 27,
-        "cron": 4
-      },
-      {
-        "name": "Harper",
-        "id": "harper",
-        "role": "Write the words that connect churches to their communities",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 3,
-        "messages": 6,
-        "last_activity": 1792525479.06808,
-        "skills": 27,
         "cron": 4
       },
       {
         "name": "Montage",
         "id": "montage",
         "role": "Make churches look and sound amazing on every screen",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 3,
-        "messages": 6,
-        "last_activity": 1792524297.9100888,
+        "model": "minimax-m3.1-flash-free",
+        "provider": "opencode-go",
+        "sessions": 4,
+        "messages": 10,
+        "last_activity": 1792646356.1497073,
         "skills": 27,
         "cron": 4
       },
@@ -689,19 +637,67 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "name": "Maya",
         "id": "maya",
         "role": "Build the things",
-        "model": "minimax/minimax-m3.1-flash:free",
-        "provider": "openrouter",
-        "sessions": 2,
-        "messages": 12,
-        "last_activity": 1792523928.6216724,
+        "model": "minimax-m3.1-flash-free",
+        "provider": "opencode-go",
+        "sessions": 3,
+        "messages": 16,
+        "last_activity": 1792646351.662611,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Marcus",
+        "id": "marcus",
+        "role": "Lead strategist and orchestrator",
+        "model": "minimax-m3.1-flash-free",
+        "provider": "opencode-go",
+        "sessions": 4,
+        "messages": 10,
+        "last_activity": 1792646345.9929116,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Harper",
+        "id": "harper",
+        "role": "Write the words that connect churches to their communities",
+        "model": "minimax-m3.1-flash-free",
+        "provider": "opencode-go",
+        "sessions": 4,
+        "messages": 10,
+        "last_activity": 1792646336.153135,
+        "skills": 27,
+        "cron": 4
+      },
+      {
+        "name": "Grace",
+        "id": "grace",
+        "role": "Help churches use technology faithfully",
+        "model": "minimax-m3.1-flash-free",
+        "provider": "opencode-go",
+        "sessions": 5,
+        "messages": 65,
+        "last_activity": 1792646330.1400287,
+        "skills": 29,
+        "cron": 4
+      },
+      {
+        "name": "Atlas",
+        "id": "atlas",
+        "role": "Quality gate",
+        "model": "minimax-m3.1-flash-free",
+        "provider": "opencode-go",
+        "sessions": 5,
+        "messages": 345,
+        "last_activity": 1792646300.4844286,
         "skills": 27,
         "cron": 4
       }
     ],
     "agent_count": 7,
-    "total_sessions": 22,
-    "total_messages": 539,
-    "last_activity": 1792529032.4696815
+    "total_sessions": 29,
+    "total_messages": 567,
+    "last_activity": 1792646359.4954858
   },
   "feed_health": {
     "youtube": {
@@ -710,11 +706,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "count": 6,
       "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 60
+      "age_min": 89
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.529Z",
+      "fetched_at": "2026-10-22T05:38:25.111Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -722,7 +718,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.529Z",
+      "fetched_at": "2026-10-22T05:38:25.111Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -730,7 +726,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.529Z",
+      "fetched_at": "2026-10-22T05:38:25.111Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -738,7 +734,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.529Z",
+      "fetched_at": "2026-10-22T05:38:25.111Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -746,7 +742,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.529Z",
+      "fetched_at": "2026-10-22T05:38:25.111Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -754,7 +750,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.529Z",
+      "fetched_at": "2026-10-22T05:38:25.111Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -762,7 +758,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.529Z",
+      "fetched_at": "2026-10-22T05:38:25.111Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -770,7 +766,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T05:09:06.564Z",
+      "fetched_at": "2026-10-22T05:38:25.187Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
