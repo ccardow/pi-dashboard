@@ -195,8 +195,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 12:08 PM",
+  "lastUpdate": "10/22/2026, 01:08 PM",
   "news": [
+    {
+      "title": "White evangelical support for Trump slips but still strong as midterms near",
+      "url": "https://www.aljazeera.com/news/2026/10/22/white-evangelical-support-for-trump-slips-but-still-strong-as-midterms-near?traffic_source=rss",
+      "summary": "White evangelical support for Trump slips but still strong as midterms near",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 19:31:47 +0000"
+    },
     {
       "title": "Trump says NBA star LeBron James disrespected US national anthem",
       "url": "https://www.aljazeera.com/sports/2026/10/22/trump-says-nba-star-lebron-james-disrespected-us-national-anthem?traffic_source=rss",
@@ -224,40 +231,33 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
       "source": "Globe Politics",
       "published": "Thu, 22 Oct 2026 16:00:00 +0000"
-    },
-    {
-      "title": "Rising costs and tight budgets strain Americans ahead of midterm elections",
-      "url": "https://www.aljazeera.com/economy/2026/10/22/rising-costs-and-tight-budgets-strain-americans-ahead-of-midterm-elections?traffic_source=rss",
-      "summary": "Rising costs and tight budgets strain Americans ahead of midterm elections",
-      "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 15:07:38 +0000"
     }
   ],
-  "vibes": "⚠ Trump says NBA star LeBron James disrespected US national anthem",
+  "vibes": "⚠ White evangelical support for Trump slips but still strong as midterms near",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "9",
+    "temp": "10",
     "condition": "Overcast",
-    "feels_like": "8",
+    "feels_like": "9",
     "hi": "12",
     "lo": "5",
-    "updated": "Oct 22, 12:08 PM"
+    "updated": "Oct 22, 01:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · kimi-k3 via opencode-go",
     "model": {
       "name": "opencode-go/kimi-k3",
-      "tokens_used": 83,
+      "tokens_used": 86,
       "tokens_total": 256
     },
     "logs": [
       {
-        "time": "12:08",
-        "msg": "default/LOCAL: kimi-k3 · 71 msgs · 37 tools"
+        "time": "12:28",
+        "msg": "default/LOCAL: kimi-k3 · 77 msgs · 40 tools"
       },
       {
         "time": "11:12",
@@ -285,18 +285,87 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792696090.20758,
+          "started_at": 1792699681.494393,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792696090.20758
+              "at": 1792699681.494393
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792697865.098571,
+          "ended_at": 1792698400.060347,
+          "outcome": "failed",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792697865.098571
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792698399.932844
+            },
+            {
+              "kind": "failed",
+              "text": "FAILED",
+              "at": 1792698400.060347
+            }
+          ],
+          "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
+          "duration_s": 535,
+          "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
+        },
+        {
+          "started_at": 1792696090.20758,
+          "ended_at": 1792696120.041662,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792696090.20758
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792696115.807718
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792696117.179417
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792696117.181358
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792696118.251478
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792696120.041662
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792696120.041662
+            }
+          ],
+          "duration_s": 30,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792694283.879485,
@@ -387,15 +456,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792690671.072826,
+          "started_at": 1792690688.304426,
           "ended_at": 1792690694.015111,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792690671.072826
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -427,102 +491,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792690694.015111
             }
           ],
-          "duration_s": 23,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792688881.505308,
-          "ended_at": 1792688912.24094,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792688881.505308
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792688906.31373
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792688907.744773
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792688907.754059
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792688908.834813
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792688912.24094
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792688912.24094
-            }
-          ],
-          "duration_s": 31,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792687096.525612,
-          "ended_at": 1792687101.917486,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792687096.525612
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792687097.913877
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792687097.916159
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792687098.995824
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792687101.917486
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792687101.917486
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 6,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792696090.20758,
+        "started_at": 1792699681.494393,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792696090.20758
+            "at": 1792699681.494393
           }
         ],
         "duration_s": null,
@@ -545,13 +526,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
       "sessions": 125,
-      "input_tokens": 49827322,
-      "output_tokens": 2411011,
-      "tool_calls": 2202
+      "input_tokens": 49831979,
+      "output_tokens": 2412980,
+      "tool_calls": 2205
     },
     "roadmap": [
       {
@@ -563,17 +544,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "125 sessions · 52238k tokens · 2202 tool calls"
+        "status": "125 sessions · 52245k tokens · 2205 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 12:08 PM"
+    "lastUpdate": "Oct 22, 01:08 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Arc browser is sunsetting on December 22, 2026",
+      "url": "https://arc.net/",
+      "published": "Thu, 22 Oct 2026 16:27:47 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -605,7 +589,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "What's Getting Pwned",
+      "content": "What’s getting pwned right now",
       "url": "https://pwn.watch/",
       "published": "Thu, 22 Oct 2026 14:08:12 +0000"
     },
@@ -615,13 +599,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "eMudhra to exit global SSL/TLS certificate business",
       "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
       "published": "Thu, 22 Oct 2026 13:33:39 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Crystal 1.22",
-      "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
-      "published": "Thu, 22 Oct 2026 13:20:13 +0000"
     },
     {
       "user": "Hacker News",
@@ -639,10 +616,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
-      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
-      "published": "Thu, 22 Oct 2026 02:30:52 +0000"
+      "topic": "AI / ML",
+      "content": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "published": "Thu, 22 Oct 2026 02:18:41 +0000"
     }
   ],
   "verse": {
@@ -749,7 +726,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -757,7 +734,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -765,7 +742,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -773,7 +750,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -781,7 +758,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -789,7 +766,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -797,7 +774,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -805,7 +782,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.760Z",
+      "fetched_at": "2026-10-22T20:08:18.611Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -813,7 +790,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T19:08:35.801Z",
+      "fetched_at": "2026-10-22T20:08:18.645Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
