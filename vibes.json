@@ -1,6 +1,12 @@
 {
   "youtube": [
     {
+      "title": "Did Claude Duet just kill Grok Bot?",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=jC26BnJseAw",
+      "published": "2026-10-22T20:11:53+00:00"
+    },
+    {
       "title": "Claude Duet is For Real. What You Need to Know.",
       "channel": "Duncan Rogoff",
       "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
@@ -53,12 +59,6 @@
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=S2srfNCa50A",
       "published": "2026-10-21T12:53:28+00:00"
-    },
-    {
-      "title": "Did Google just dethrone OpenAI and Anthropic?",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
-      "published": "2026-10-20T16:21:03+00:00"
     }
   ],
   "x_posts": [
@@ -195,7 +195,7 @@
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 01:08 PM",
+  "lastUpdate": "10/22/2026, 01:38 PM",
   "news": [
     {
       "title": "White evangelical support for Trump slips but still strong as midterms near",
@@ -219,18 +219,18 @@
       "published": "Thu, 22 Oct 2026 17:14:04 GMT"
     },
     {
-      "title": "Italy and Spain lift border controls after months of tension over Ceuta",
-      "url": "https://www.aljazeera.com/news/2026/10/22/italy-and-spain-lift-border-controls-after-months-of-tension-over-ceuta?traffic_source=rss",
-      "summary": "Italy and Spain lift border controls after months of tension over Ceuta",
-      "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 16:04:21 +0000"
-    },
-    {
       "title": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
       "url": "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/",
       "summary": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
       "source": "Globe Politics",
       "published": "Thu, 22 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "title": "Canada, Turkey announce strategic partnership to deepen energy, defence and trade ties",
+      "url": "https://www.theglobeandmail.com/canada/article-canada-turkey-carney-strategic-partnership-defence-energy-trade/",
+      "summary": "Canada, Turkey announce strategic partnership to deepen energy, defence and trade ties",
+      "source": "Globe Politics",
+      "published": "Thu, 22 Oct 2026 14:15:56 +0000"
     }
   ],
   "vibes": "⚠ White evangelical support for Trump slips but still strong as midterms near",
@@ -239,25 +239,25 @@
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "10",
+    "temp": "11",
     "condition": "Overcast",
-    "feels_like": "9",
+    "feels_like": "10",
     "hi": "12",
     "lo": "5",
-    "updated": "Oct 22, 01:08 PM"
+    "updated": "Oct 22, 01:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · kimi-k3 via opencode-go",
     "model": {
       "name": "opencode-go/kimi-k3",
-      "tokens_used": 86,
+      "tokens_used": null,
       "tokens_total": 256
     },
     "logs": [
       {
-        "time": "12:28",
-        "msg": "default/LOCAL: kimi-k3 · 77 msgs · 40 tools"
+        "time": "13:25",
+        "msg": "default/LOCAL: kimi-k3 · 76 msgs · 38 tools"
       },
       {
         "time": "11:12",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792699681.494393,
+          "started_at": 1792701496.412872,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792699681.494393
+              "at": 1792701496.412872
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792699681.494393,
+          "ended_at": 1792699704.53362,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792699681.494393
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792699698.650298
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792699700.456496
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792699700.45798
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792699702.311215
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792699704.53362
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792699704.53362
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792697865.098571,
@@ -412,15 +456,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792692481.491704,
+          "started_at": 1792692498.458012,
           "ended_at": 1792692504.60335,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792692481.491704
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -452,58 +491,19 @@
               "at": 1792692504.60335
             }
           ],
-          "duration_s": 23,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792690688.304426,
-          "ended_at": 1792690694.015111,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792690688.304426
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792690689.697673
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792690689.699829
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792690690.765023
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792690694.015111
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792690694.015111
-            }
-          ],
           "duration_s": 6,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792699681.494393,
+        "started_at": 1792701496.412872,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792699681.494393
+            "at": 1792701496.412872
           }
         ],
         "duration_s": null,
@@ -532,7 +532,7 @@
       "sessions": 125,
       "input_tokens": 49831979,
       "output_tokens": 2412980,
-      "tool_calls": 2205
+      "tool_calls": 2203
     },
     "roadmap": [
       {
@@ -545,25 +545,25 @@
       },
       {
         "name": "Session Ledger",
-        "status": "125 sessions · 52245k tokens · 2205 tool calls"
+        "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 01:08 PM"
+    "lastUpdate": "Oct 22, 01:38 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Arc browser is sunsetting on December 22, 2026",
-      "url": "https://arc.net/",
-      "published": "Thu, 22 Oct 2026 16:27:47 +0000"
+      "topic": "AI / ML",
+      "content": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "published": "Thu, 22 Oct 2026 17:44:06 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Google cleared 300 hectares of Finnish forest",
-      "url": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
-      "published": "Thu, 22 Oct 2026 15:32:46 +0000"
+      "content": "A farewell to Arc browser",
+      "url": "https://arc.net/",
+      "published": "Thu, 22 Oct 2026 16:27:47 +0000"
     },
     {
       "user": "Hacker News",
@@ -603,23 +603,23 @@
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
+      "content": "Woman faces six years in prison over Cash App account she never opened",
+      "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+      "published": "Thu, 22 Oct 2026 13:11:00 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+      "url": "https://news.ycombinator.com/item?id=50193416",
+      "published": "Thu, 22 Oct 2026 10:11:44 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
       "content": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
       "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
       "published": "Thu, 22 Oct 2026 09:31:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Jailbreaking the Switch 2",
-      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-      "published": "Thu, 22 Oct 2026 08:01:52 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "published": "Thu, 22 Oct 2026 02:18:41 +0000"
     }
   ],
   "verse": {
@@ -726,7 +726,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.182Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -734,7 +734,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.182Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -742,7 +742,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.183Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -750,7 +750,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.183Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -758,7 +758,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.183Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -766,7 +766,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.183Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -774,7 +774,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.183Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -782,7 +782,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.611Z",
+      "fetched_at": "2026-10-22T20:38:46.183Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -790,7 +790,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T20:08:18.645Z",
+      "fetched_at": "2026-10-22T20:38:46.217Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
