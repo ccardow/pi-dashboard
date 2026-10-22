@@ -1,64 +1,22 @@
 {
   "youtube": [
     {
-      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
-      "published": "2026-10-21T20:15:02+00:00"
-    },
-    {
-      "title": "AI Breakthroughs Everyone Missed",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
-      "published": "2026-10-21T17:45:26+00:00"
-    },
-    {
-      "title": "5 Prompts With Google's ULTRA Powerful New Model",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=S2srfNCa50A",
-      "published": "2026-10-21T12:53:28+00:00"
-    },
-    {
-      "title": "Did Google just dethrone OpenAI and Anthropic?",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
-      "published": "2026-10-20T16:21:03+00:00"
-    },
-    {
-      "title": "My favorite new image editing tool",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=VVBszkWK0Io",
-      "published": "2026-10-20T04:19:39+00:00"
-    },
-    {
       "title": "Gemini 4 Argon Is Not What I Expected",
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
       "published": "2026-10-19T08:49:21+00:00"
     },
     {
-      "title": "The runtime wars are over... and Node won",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
-      "published": "2026-10-15T17:35:15+00:00"
+      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "published": "2026-10-13T08:56:12+00:00"
     },
     {
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-      "published": "2026-10-14T17:48:10+00:00"
-    },
-    {
-      "title": "Grok Bot just built me an autonomous business...",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=lmYLF3keVmw",
-      "published": "2026-10-13T22:07:49+00:00"
-    },
-    {
-      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
-      "published": "2026-10-13T21:26:16+00:00"
+      "title": "DeepSeek Solved AI’s Memory Problem",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "published": "2026-10-11T16:53:17+00:00"
     }
   ],
   "x_posts": [
@@ -195,8 +153,15 @@
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 07:38 PM",
+  "lastUpdate": "10/21/2026, 08:08 PM",
   "news": [
+    {
+      "title": "Can Trump deport Congresswoman Ilhan Omar?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/can-trump-deport-congresswoman-ilhan-omar?traffic_source=rss",
+      "summary": "Can Trump deport Congresswoman Ilhan Omar?",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 02:34:46 +0000"
+    },
     {
       "title": "Russia frees American Stephen Hubbard after 4 years behind bars",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/russia-frees-american-stephen-hubbard-after-4-years-behind-bars?traffic_source=rss",
@@ -224,16 +189,9 @@
       "summary": "US accuses Canada of election interference ahead of midterms",
       "source": "Al Jazeera",
       "published": "Wed, 21 Oct 2026 23:52:21 +0000"
-    },
-    {
-      "title": "Tehran displays mock installation of Trump behind bars",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss",
-      "summary": "Tehran displays mock installation of Trump behind bars",
-      "source": "Al Jazeera",
-      "published": "Wed, 21 Oct 2026 21:43:06 +0000"
     }
   ],
-  "vibes": "⚠ Russia frees American Stephen Hubbard after 4 years behind bars",
+  "vibes": "⚠ Can Trump deport Congresswoman Ilhan Omar?",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
@@ -241,23 +199,23 @@
     "timezone": "America/Vancouver",
     "temp": "10",
     "condition": "Overcast",
-    "feels_like": "9",
+    "feels_like": "8",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 07:37 PM"
+    "updated": "Oct 21, 08:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 362,
+      "tokens_used": 133,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "19:35",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 471 msgs · 242 tools"
+        "time": "20:07",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 173 msgs · 90 tools"
       },
       {
         "time": "17:59",
@@ -285,18 +243,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792636669.379383,
+          "started_at": 1792638469.381575,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792636669.379383
+              "at": 1792638469.381575
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792636669.379383,
+          "ended_at": 1792636690.179283,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792636669.379383
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792636686.27306
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792636687.495433
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792636687.497482
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792636688.509099
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792636690.179283
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792636690.179283
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792634929.38533,
@@ -431,15 +433,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792629529.381869,
+          "started_at": 1792629552.827855,
           "ended_at": 1792629558.112942,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792629529.381869
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +468,19 @@
               "at": 1792629558.112942
             }
           ],
-          "duration_s": 29,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792627686.869334,
-          "ended_at": 1792627690.946364,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792627686.869334
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792627688.143024
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792627688.14522
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792627689.188526
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792627690.946364
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792627690.946364
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792636669.379383,
+        "started_at": 1792638469.381575,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792636669.379383
+            "at": 1792638469.381575
           }
         ],
         "duration_s": null,
@@ -545,13 +503,13 @@
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 43490174,
-      "output_tokens": 1941848,
-      "tool_calls": 1915
+      "input_tokens": 44307748,
+      "output_tokens": 1983274,
+      "tool_calls": 1763
     },
     "roadmap": [
       {
@@ -563,11 +521,15 @@
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "67 sessions · 45432k tokens · 1915 tool calls"
+        "status": "67 sessions · 46291k tokens · 1763 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 07:38 PM"
+    "lastUpdate": "Oct 21, 08:08 PM"
   },
   "hn_posts": [
     {
@@ -590,13 +552,6 @@
       "content": "Security Disclosure",
       "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
       "published": "Wed, 21 Oct 2026 21:58:03 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Claude Duet",
-      "url": "https://claude.com/product/claude-duet",
-      "published": "Wed, 21 Oct 2026 19:14:01 +0000"
     },
     {
       "user": "Hacker News",
@@ -639,6 +594,13 @@
       "content": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
       "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
       "published": "Wed, 21 Oct 2026 15:20:04 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "published": "Wed, 21 Oct 2026 14:03:43 +0000"
     }
   ],
   "verse": {
@@ -745,15 +707,15 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
-      "count": 10,
+      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "count": 3,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +723,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +731,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +739,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +747,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +755,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +763,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.228Z",
+      "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +771,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T02:38:06.266Z",
+      "fetched_at": "2026-10-22T03:08:14.343Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
