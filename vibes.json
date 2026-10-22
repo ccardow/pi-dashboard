@@ -1,40 +1,16 @@
 {
   "youtube": [
     {
-      "title": "Everything Claude Launched This Month (in 13 minutes)",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=imkKVWoIzVM",
-      "published": "2026-10-21T19:30:34+00:00"
-    },
-    {
-      "title": "I Taught Claude How to Edit Videos, and It's Insane",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=LcjhtVm8DvU",
-      "published": "2026-10-21T16:21:34+00:00"
-    },
-    {
-      "title": "I taught Claude how to edit videos and it's INSANE",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=REAOFI534lk",
-      "published": "2026-10-21T00:15:31+00:00"
-    },
-    {
       "title": "Did Google just dethrone OpenAI and Anthropic?",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
       "published": "2026-10-20T16:21:03+00:00"
     },
     {
-      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
-      "published": "2026-10-17T14:00:30+00:00"
-    },
-    {
-      "title": "Demis Hassabis: Put your life force into a problem that matters",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=LbmiPYnFj48",
-      "published": "2026-10-16T19:24:49+00:00"
+      "title": "Gemini 4 Argon Is Not What I Expected",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "published": "2026-10-19T08:49:21+00:00"
     },
     {
       "title": "The runtime wars are over... and Node won",
@@ -43,22 +19,22 @@
       "published": "2026-10-15T17:35:15+00:00"
     },
     {
-      "title": "Alexandr Wang on what matters in an age of abundant intelligence",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=Klcl8qEdMaw",
-      "published": "2026-10-14T18:44:27+00:00"
-    },
-    {
       "title": "OpenAI’s lead engineer was secretly a spy...",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
       "published": "2026-10-14T17:48:10+00:00"
     },
     {
-      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
-      "published": "2026-10-13T21:26:16+00:00"
+      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "published": "2026-10-13T08:56:12+00:00"
+    },
+    {
+      "title": "DeepSeek Solved AI’s Memory Problem",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "published": "2026-10-11T16:53:17+00:00"
     }
   ],
   "x_posts": [
@@ -195,8 +171,15 @@
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 04:39 PM",
+  "lastUpdate": "10/21/2026, 05:08 PM",
   "news": [
+    {
+      "title": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
+      "url": "https://www.theglobeandmail.com/politics/article-politics-insider-9-billion-for-canadas-critical-sectors/",
+      "summary": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
+      "source": "Globe Politics",
+      "published": "Wed, 21 Oct 2026 23:57:32 +0000"
+    },
     {
       "title": "Tehran displays mock installation of Trump behind bars",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss",
@@ -224,40 +207,33 @@
       "summary": "Canada-EU summit to seek ways to lessen dependence on United States",
       "source": "Globe Politics",
       "published": "Wed, 21 Oct 2026 20:28:41 +0000"
-    },
-    {
-      "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
-      "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump",
-      "summary": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
-      "source": "NPR News",
-      "published": "Wed, 21 Oct 2026 15:47:18 -0400"
     }
   ],
-  "vibes": "⚠ Tehran displays mock installation of Trump behind bars",
+  "vibes": "⚠ Politics Insider: $9-billion for Canada’s ‘critical sectors’",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "17",
-    "condition": "Partly Cloudy",
-    "feels_like": "16",
+    "temp": "16",
+    "condition": "Overcast",
+    "feels_like": "15",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 04:38 PM"
+    "updated": "Oct 21, 05:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 259,
+      "tokens_used": 332,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "16:38",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 268 msgs · 132 tools"
+        "time": "16:50",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 342 msgs · 168 tools"
       },
       {
         "time": "17:59",
@@ -285,18 +261,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792625929.389198,
+          "started_at": 1792627669.406358,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792625929.389198
+              "at": 1792627669.406358
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792625929.389198,
+          "ended_at": 1792625950.862932,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792625929.389198
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792625946.782283
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792625948.072844
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792625948.074392
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792625949.106814
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792625950.862932
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792625950.862932
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792624129.382409,
@@ -431,15 +451,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792546657.698573,
+          "started_at": 1792621630.9497,
           "ended_at": 1792621630.950074,
           "outcome": "failed",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792546657.698573
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -452,58 +467,19 @@
             }
           ],
           "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
-          "duration_s": 74973,
+          "duration_s": 0,
           "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
-        },
-        {
-          "started_at": 1792544952.834424,
-          "ended_at": 1792544956.864066,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792544952.834424
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792544954.118144
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792544954.12695
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792544955.211463
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792544956.864066
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792544956.864066
-            }
-          ],
-          "duration_s": 4,
-          "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792625929.389198,
+        "started_at": 1792627669.406358,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792625929.389198
+            "at": 1792627669.406358
           }
         ],
         "duration_s": null,
@@ -526,13 +502,13 @@
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 41632768,
-      "output_tokens": 1681186,
-      "tool_calls": 1805
+      "input_tokens": 41651977,
+      "output_tokens": 1736143,
+      "tool_calls": 1841
     },
     "roadmap": [
       {
@@ -544,15 +520,11 @@
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "67 sessions · 43314k tokens · 1805 tool calls"
+        "status": "67 sessions · 43388k tokens · 1841 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 04:39 PM"
+    "lastUpdate": "Oct 21, 05:08 PM"
   },
   "hn_posts": [
     {
@@ -730,15 +702,15 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
-      "count": 10,
+      "fetched_at": "2026-10-22T00:08:06.827Z",
+      "count": 6,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
+      "fetched_at": "2026-10-22T00:08:06.827Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -746,7 +718,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
+      "fetched_at": "2026-10-22T00:08:06.827Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -754,7 +726,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
+      "fetched_at": "2026-10-22T00:08:06.827Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -762,7 +734,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
+      "fetched_at": "2026-10-22T00:08:06.827Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -770,7 +742,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
+      "fetched_at": "2026-10-22T00:08:06.827Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -778,7 +750,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
+      "fetched_at": "2026-10-22T00:08:06.827Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -786,7 +758,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.741Z",
+      "fetched_at": "2026-10-22T00:08:06.827Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -794,7 +766,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-21T23:39:06.776Z",
+      "fetched_at": "2026-10-22T00:08:06.863Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
