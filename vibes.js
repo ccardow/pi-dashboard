@@ -63,6 +63,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "MatthewBerman",
+      "topic": "Tech Intel",
+      "content": "Alex told me he ditched Davinci/Premiere entirely. I didn't believe it could work. Here's how he did it:",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113397309254094982#m",
+      "published": "Thu, 22 Oct 2026 22:29:18 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "Tech Intel",
+      "content": "What makes Sam Altman so formidable? Turns out you just need to keep scaling up to harder challenges. Each one makes the next one seem more possible.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113396655546683832#m",
+      "published": "Thu, 22 Oct 2026 22:26:42 GMT"
+    },
+    {
       "user": "openclaw",
       "topic": "AI / ML",
       "content": "OpenClaw v2026.10.6 patch release is out 🦞 🔧 Install, update + startup fixes 🪟 Windows setup fixes 💬 Discord command repairs 🎙 iPhone Talk fixes 🛠 Security + reliability fixes 149 contributors. Thank you! https://docs.openclaw.ai/releases/2026.10.6",
@@ -117,20 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "TO THE GREAT PEOPLE OF SOUTH CAROLINA, GET OUT AND VOTE FOR:   – Darline Graham for U.S. Senate – Alan Wilson for Governor – Cody Simpson for Agriculture Commissioner – Jenny Costa Honeycutt for U.S. Congress (SC-01) – Joe Wilson for U.S. Congress (SC-02) – Sheri Biggs for U.S. Congress (SC-03) – William Timmons for U.S. Congress (SC-04) – Wes Climer for U.S. Congress (SC-05) – Russell Fry for U.S. Congress (SC-07)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/south-carolina/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302827682381858#m",
       "published": "Thu, 22 Oct 2026 16:13:52 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "AI / ML",
-      "content": "TO THE GREAT PEOPLE OF GEORGIA, GET OUT AND VOTE FOR:   – Mike Collins for U.S. Senate – Rick Jackson for Governor – Greg Dolezal for Lieutenant Governor – Brian Strickland for Attorney General – Tim Fleming for Secretary of State – Jim Kingston for U.S. Congress (GA-01) – Brian Jack for U.S. Congress (GA-03) – Rich McCormick for U.S. Congress (GA-07) – Austin Scott for U.S. Congress (GA-08) – Andrew Clyde for U.S. Congress (GA-09) – Houston Gaines for U.S. Congress (GA-10) – John Cowan for U.S. Congress (GA-11) – Rick Allen for U.S. Congress (GA-12) – Clay Fuller for U.S. Congress (GA-14)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/georgia/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302770296017050#m",
-      "published": "Thu, 22 Oct 2026 16:13:38 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "Geopolitics",
-      "content": "TO THE GREAT PEOPLE OF COLORADO, GET OUT AND VOTE FOR:   – Jeff Hurd for U.S. Congress (CO-03) – Lauren Boebert for U.S. Congress (CO-04) – Jeff Crank for U.S. Congress (CO-05) – Gabe Evans for U.S. Congress (CO-08)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/colorado/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302710518693969#m",
-      "published": "Thu, 22 Oct 2026 16:13:24 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 03:07 PM",
+  "lastUpdate": "10/22/2026, 04:03 PM",
   "news": [
     {
       "title": "What is the history behind Trump’s LeBron blast over US national anthem?",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792706852.513157,
+          "started_at": 1792710179.564731,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792706852.513157
+              "at": 1792710179.564731
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792706852.513157,
+          "ended_at": 1792706873.944224,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792706852.513157
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792706869.749111
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792706871.040904
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792706871.043116
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792706872.111449
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792706873.944224
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792706873.944224
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792705141.494525,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792699681.494393,
+          "started_at": 1792699698.650298,
           "ended_at": 1792699704.53362,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792699681.494393
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,39 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792699704.53362
             }
           ],
-          "duration_s": 23,
+          "duration_s": 6,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792698399.932844,
-          "ended_at": 1792698400.060347,
-          "outcome": "failed",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792698399.932844
-            },
-            {
-              "kind": "failed",
-              "text": "FAILED",
-              "at": 1792698400.060347
-            }
-          ],
-          "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
-          "duration_s": 0,
-          "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
         }
       ],
       "last_run": {
-        "started_at": 1792706852.513157,
+        "started_at": 1792710179.564731,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792706852.513157
+            "at": 1792710179.564731
           }
         ],
         "duration_s": null,
@@ -548,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 03:07 PM"
+    "lastUpdate": "Oct 22, 04:03 PM"
   },
   "hn_posts": [
     {
@@ -725,64 +744,64 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 10,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 55
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "fetched_at": "2026-10-22T23:03:19.395Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 55
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 55
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 55
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 55
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 55
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "fetched_at": "2026-10-22T23:03:19.395Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -790,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T22:07:49.743Z",
+      "fetched_at": "2026-10-22T23:03:19.429Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
