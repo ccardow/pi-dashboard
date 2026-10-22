@@ -63,74 +63,74 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "AI just helped crack open a hole in the software behind ~70% of websites. It’s called PHP2Shell. 2 critical bugs inside PHP itself, rated 9.2/10. Attackers are already trying it. If your site runs on WordPress, check this today: → Log into your host, check your PHP version → Safe: 8.5.12, 8.4.27, 8.3.36, 8.2.35 → On 8.1 or older? Ask your host to update now Takes 5 minutes. ♻️ Repost to warn someone with a WordPress site 🔖 Bookmark for later",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2113125235025400050#m",
-      "published": "Thu, 22 Oct 2026 04:28:10 GMT"
+      "user": "realDonaldTrump",
+      "topic": "Geopolitics",
+      "content": "TO THE GREAT PEOPLE OF SOUTH CAROLINA, GET OUT AND VOTE FOR:   – Darline Graham for U.S. Senate – Alan Wilson for Governor – Cody Simpson for Agriculture Commissioner – Jenny Costa Honeycutt for U.S. Congress (SC-01) – Joe Wilson for U.S. Congress (SC-02) – Sheri Biggs for U.S. Congress (SC-03) – William Timmons for U.S. Congress (SC-04) – Wes Climer for U.S. Congress (SC-05) – Russell Fry for U.S. Congress (SC-07)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/south-carolina/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302827682381858#m",
+      "published": "Thu, 22 Oct 2026 16:13:52 GMT"
     },
     {
-      "user": "JuliaEMcCoy",
+      "user": "realDonaldTrump",
       "topic": "AI / ML",
-      "content": "The greatest lie of the industrial age: \"You are what you produce.\" The truth of the AI age: You are what you create when survival is no longer the point. We're about to find out what humans actually are. And I think it's going to be beautiful.",
-      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2113085966311452766#m",
-      "published": "Thu, 22 Oct 2026 01:52:08 GMT"
+      "content": "TO THE GREAT PEOPLE OF GEORGIA, GET OUT AND VOTE FOR:   – Mike Collins for U.S. Senate – Rick Jackson for Governor – Greg Dolezal for Lieutenant Governor – Brian Strickland for Attorney General – Tim Fleming for Secretary of State – Jim Kingston for U.S. Congress (GA-01) – Brian Jack for U.S. Congress (GA-03) – Rich McCormick for U.S. Congress (GA-07) – Austin Scott for U.S. Congress (GA-08) – Andrew Clyde for U.S. Congress (GA-09) – Houston Gaines for U.S. Congress (GA-10) – John Cowan for U.S. Congress (GA-11) – Rick Allen for U.S. Congress (GA-12) – Clay Fuller for U.S. Congress (GA-14)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/georgia/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302770296017050#m",
+      "published": "Thu, 22 Oct 2026 16:13:38 GMT"
     },
     {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: Today I early voted in Texas. Straight Republican. Dems are not worth the risk to all the great builders and projects here. Can't stop, won't stop.",
-      "url": "http://nitter.meowing.monster/SERobinsonJr/status/2113084517674254688#m",
-      "published": "Thu, 22 Oct 2026 01:46:22 GMT"
-    },
-    {
-      "user": "AlexFinn",
-      "topic": "AI / ML",
-      "content": "I've been using Claude Duet the last couple hours and I'll say this: It's EXCELLENT The multi tasking is probably the best in the space You get one simple thread you can talk to, and as you give it commands and prompts, it automatically spins up tasks on a list for you So instead of having to manage a ton of side chats that could get long or confusing, you have 1 chat, but it makes 'task' threads automatically that you can watch and monitor This allows you to just keep brain dumping ideas and tasks into the one thread, and not have to worry about the agent getting confused. The agent just will manage all the tasks for you Very similar to Claude Code's new 'projects' feature which was probably a beta test for this The coding was great. Built me a bunch of PRs quickly I was able to review. Proactivity was fantastic too. Came up with a bunch of tasks on its own and just asked me for the go ahead As expected it's also fantastic to talk to. Claude has long been the best model to converse with (outside Opus 5) and the carries over to Claude Duet Really pleased with the product, even in research preview. Very excited to see where it goes from here Definitely sign up for the wait list",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2113073549397332479#m",
-      "published": "Thu, 22 Oct 2026 01:02:47 GMT"
+      "user": "realDonaldTrump",
+      "topic": "Geopolitics",
+      "content": "TO THE GREAT PEOPLE OF COLORADO, GET OUT AND VOTE FOR:   – Jeff Hurd for U.S. Congress (CO-03) – Lauren Boebert for U.S. Congress (CO-04) – Jeff Crank for U.S. Congress (CO-05) – Gabe Evans for U.S. Congress (CO-08)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/colorado/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302710518693969#m",
+      "published": "Thu, 22 Oct 2026 16:13:24 GMT"
     },
     {
       "user": "DuncanRogoff",
       "topic": "AI / ML",
-      "content": "This AI skill lets you scrape LinkedIn, YouTube, Instagram and X from Claude Code without paying for a single API key. It's called Agent Reach, free and open source, 98,000+ stars on GitHub. The one catch: connect a spare account, never your main one. Get it here: https://github.com/Panniantong/Agent-Reach The free guide: https://claudecodeclub.ai/free-resources/build-launch-ai-automation-business",
-      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2113072966682439727#m",
-      "published": "Thu, 22 Oct 2026 01:00:28 GMT"
+      "content": "Claude can now make an animated video from one prompt. No video generator, no fake footage. It writes code that animates your own words and numbers, so every part stays editable. 🔗 in replies",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2113297144337535390#m",
+      "published": "Thu, 22 Oct 2026 15:51:17 GMT"
+    },
+    {
+      "user": "DuncanRogoff",
+      "topic": "AI / ML",
+      "content": "R to @DuncanRogoff: https://www.youtube.com/watch?v=imkKVWoIzVM All 10 Claude updates from this month, what each one is, and which ones are worth your time.",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2113297146476703930#m",
+      "published": "Thu, 22 Oct 2026 15:51:17 GMT"
     },
     {
       "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "RT by @MatthewBerman: 🚨 Sam Altman Says Anthropic’s Push to ‘Ascribe Personhood’ to Their Models is a ‘Dangerous Path’ “I hope we come to an understanding that this technology is not a person and is certainly not superior to people … Even the people building AI get confused about that.”",
-      "url": "http://nitter.meowing.monster/TheChiefNerd/status/2113068190079046002#m",
-      "published": "Thu, 22 Oct 2026 00:41:30 GMT"
+      "topic": "Tech Intel",
+      "content": "Specifically, screw @jamestalarico I get 5 texts per day for him. You know I don't live in Texas right?? If you live in Texas, do not vote for this man.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113291592195031424#m",
+      "published": "Thu, 22 Oct 2026 15:29:13 GMT"
     },
     {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "NVIDIA RTX Spark and the Case for Owning Your AI @NVIDIAAI’s Apoorv Chaudhary joins @hrudolph and @Pat_Erichsen to discuss local AI, privacy, hardware limits and where cloud models still fit. Watch or listen to Episode 14 of The ClawCast: https://openclaw.ai/podcast/episode-14",
-      "url": "http://nitter.meowing.monster/openclaw/status/2113060682015162611#m",
-      "published": "Thu, 22 Oct 2026 00:11:40 GMT"
+      "user": "MatthewBerman",
+      "topic": "Tech Intel",
+      "content": "How is phone call and text spam worse than ever? How is this not a solved problem? Shame on the FCC.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113284962896290276#m",
+      "published": "Thu, 22 Oct 2026 15:02:52 GMT"
+    },
+    {
+      "user": "danmartell",
+      "topic": "Tech Intel",
+      "content": "The world isn’t run by geniuses. It’s run by C- students, fired employees and people no smarter than you. You’re more qualified than you think.",
+      "url": "http://nitter.meowing.monster/danmartell/status/2113269222688120971#m",
+      "published": "Thu, 22 Oct 2026 14:00:19 GMT"
     },
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "RT by @elonmusk: James Talarico supported the Biden Border Crisis, attacked law enforcement during the BLM riots, and wants to end run oil and gas in Texas. He is not moderate in the least. His vote for six years in the Senate would be a disaster for Texas and the USA.",
-      "url": "http://nitter.meowing.monster/chiproytx/status/2113045479197950325#m",
-      "published": "Wed, 21 Oct 2026 23:11:15 GMT"
+      "content": "RT by @elonmusk: Grok Bot is now on X Chat",
+      "url": "http://nitter.meowing.monster/techdevnotes/status/2113218324809269398#m",
+      "published": "Thu, 22 Oct 2026 10:38:04 GMT"
     },
     {
-      "user": "AlexFinn",
-      "topic": "AI / ML",
-      "content": "I got early access to Claude Duet. Let's test it live https://x.com/i/broadcasts/1dGYlaEkDaXKX",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2113043643531710829#m",
-      "published": "Wed, 21 Oct 2026 23:03:57 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "When people talk about the global market for GPUs, the thing that I think it misses is people are assuming that models are going to stay at the same capability and the same cost per task as today. For sufficiently high-quality intelligence at sufficiently low cost, I think it’s very hard to talk about an arbitrary market size there. I think it’s just gonna keep—people call us all sorts of things, Jevons paradox, whatever. I think it’s just gonna keep going up. I believe there will be some periods where, like with any new technology, there’s supply constraints and supply gluts.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113043402941927830#m",
-      "published": "Wed, 21 Oct 2026 23:03:00 GMT"
+      "user": "openclaw",
+      "topic": "Tech Intel",
+      "content": "RT by @openclaw: FREE TOKENS IF YOU ENGINEER ON OPENCLAW TEAM SERVER",
+      "url": "http://nitter.meowing.monster/hrudolph/status/2113128104088723733#m",
+      "published": "Thu, 22 Oct 2026 04:39:34 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 12:38 AM",
+  "lastUpdate": "10/22/2026, 09:34 AM",
   "news": [
     {
       "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
@@ -251,13 +251,21 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "activity": "Hermes Gateway · deepseek-v4.1-flash via opencode-go",
     "model": {
       "name": "opencode-go/deepseek-v4.1-flash",
-      "tokens_used": 34,
+      "tokens_used": 31,
       "tokens_total": 256
     },
     "logs": [
       {
-        "time": "00:38",
-        "msg": "default/LOCAL: deepseek-v4.1-flash · 47 msgs · 19 tools"
+        "time": "00:45",
+        "msg": "default/LOCAL: deepseek-v4.1-flash · 19 msgs · 8 tools"
+      },
+      {
+        "time": "00:42",
+        "msg": "default/LOCAL: deepseek-v4.1-flash · 80 msgs · 34 tools"
+      },
+      {
+        "time": "00:39",
+        "msg": "default/ONESHOT: deepseek-v4.1-flash · 2 msgs · 0 tools"
       },
       {
         "time": "00:25",
@@ -270,14 +278,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       {
         "time": "00:00",
         "msg": "default/LOCAL: kimi-k3 · 168 msgs · 95 tools"
-      },
-      {
-        "time": "23:51",
-        "msg": "default/ONESHOT: deepseek/deepseek-v4.1-flash · 2 msgs · 0 tools"
-      },
-      {
-        "time": "23:44",
-        "msg": "default/ONESHOT: beam-free · 2 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792654691.899699,
+          "started_at": 1792686836.506231,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792654691.899699
+              "at": 1792686836.506231
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792654691.899699,
+          "ended_at": 1792654713.661452,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792654691.899699
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792654709.353136
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792654710.756544
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792654710.760888
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792654711.865926
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792654713.661452
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792654713.661452
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792652917.558492,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792647488.143781,
+          "started_at": 1792647505.201313,
           "ended_at": 1792647509.361762,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792647488.143781
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792647509.361762
             }
           ],
-          "duration_s": 21,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792645746.570465,
-          "ended_at": 1792645750.604323,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792645746.570465
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792645747.945271
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792645747.947239
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792645748.958039
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792645750.604323
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792645750.604323
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792654691.899699,
+        "started_at": 1792686836.506231,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792654691.899699
+            "at": 1792686836.506231
           }
         ],
         "duration_s": null,
@@ -545,13 +545,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
-      "sessions": 115,
-      "input_tokens": 48413569,
-      "output_tokens": 2333357,
-      "tool_calls": 2110
+      "sessions": 117,
+      "input_tokens": 48589665,
+      "output_tokens": 2343786,
+      "tool_calls": 2133
     },
     "roadmap": [
       {
@@ -563,15 +563,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "115 sessions · 50747k tokens · 2110 tool calls"
+        "status": "117 sessions · 50933k tokens · 2133 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 12:38 AM"
+    "lastUpdate": "Oct 22, 09:34 AM"
   },
   "hn_posts": [
     {
@@ -748,64 +744,64 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 10,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 536
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "fetched_at": "2026-10-22T16:34:25.677Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 536
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 536
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 536
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 536
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T07:38:29.267Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 536
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:38:29.267Z",
+      "fetched_at": "2026-10-22T16:34:25.677Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -813,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T07:38:29.337Z",
+      "fetched_at": "2026-10-22T16:34:25.714Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
