@@ -1,25 +1,32 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
-      "published": "2026-10-13T21:26:16+00:00"
+      "title": "AI Breakthroughs Everyone Missed",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
+      "published": "2026-10-21T17:45:26+00:00"
     },
     {
-      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
-      "published": "2026-09-17T00:34:47+00:00"
+      "title": "5 Prompts With Google's ULTRA Powerful New Model",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=S2srfNCa50A",
+      "published": "2026-10-21T12:53:28+00:00"
     },
     {
-      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
-      "published": "2026-08-26T21:44:41+00:00"
+      "title": "My favorite new image editing tool",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=VVBszkWK0Io",
+      "published": "2026-10-20T04:19:39+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "JuliaEMcCoy",
+      "topic": "AI / ML",
+      "content": "The greatest lie of the industrial age: \"You are what you produce.\" The truth of the AI age: You are what you create when survival is no longer the point. We're about to find out what humans actually are. And I think it's going to be beautiful.",
+      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2113085966311452766#m",
+      "published": "Thu, 22 Oct 2026 01:52:08 GMT"
+    },
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
@@ -82,78 +89,71 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "RT by @elonmusk: Elon Musk hilariously explains why Optimus has to learn like a toddler, by playing, making mistakes and getting better over time 😂 “In order for Optimus to get the training data we need, we actually need to make a lot of Optimi. So we need to make, I think, on the order of 10,000 or 20,000 bots and then have them do self-play. We're building up an Optimus academy where Optimus can practice doing a very wide range of tasks And then we can use that data in a flywheel to make it better and better at these various tasks, a big difference with Optimus versus the cars Is we don't have this vast fleet of cars from which we can gather training data. So with Optimus, we have to bootstrap it by making the robots and having them do self-play, which is really how a human learns to navigate the world You can see this when you have a toddler and they grow up and they initially are wobbly and they don't know how to do things, and eventually they, they learn to wipe their own ass, which is a big milestone, because anyone who's had kids knows And then they learn to read and do all sorts of things and be able to do these things. And they learn this by playing And we actually need Optimus to play at scale in order to have it be really good at tasks in the real world”",
       "url": "http://nitter.meowing.monster/XFreeze/status/2113040815954301204#m",
       "published": "Wed, 21 Oct 2026 22:52:43 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "Come build OpenClaw along side our team! We're inviting people to join our Maintainers on our team server Come prompt along side us and work on things that will meaningfully improve OpenClaw! https://openclaw.ai/blog/openclaw-focus-weeks",
-      "url": "http://nitter.meowing.monster/openclaw/status/2113024625311686852#m",
-      "published": "Wed, 21 Oct 2026 21:48:23 GMT"
     }
   ],
   "peter_x": [
     {
+      "topic": "AI / ML",
+      "content": "OpenClaw, OpenAI and the future",
+      "url": "https://steipete.me/posts/2026/openclaw/",
+      "published": "Sun, 15 Feb 2026 00:00:00 GMT"
+    },
+    {
       "topic": "Tech Intel",
-      "content": "How to digitally sign a PDF in C# (2026)",
-      "url": "https://www.nutrient.io/blog/how-to-digitally-sign-pdf-in-csharp/",
-      "published": "Wed, 21 Oct 2026 10:00:00 GMT"
+      "content": "Shipping at Inference-Speed",
+      "url": "https://steipete.me/posts/2025/shipping-at-inference-speed/",
+      "published": "Sun, 28 Dec 2025 11:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "The Signature Flicker",
+      "url": "https://steipete.me/posts/2025/signature-flicker/",
+      "published": "Thu, 18 Dec 2025 00:00:00 GMT"
+    },
+    {
+      "topic": "Agents",
+      "content": "Just Talk To It - the no-bs Way of Agentic Engineering",
+      "url": "https://steipete.me/posts/just-talk-to-it/",
+      "published": "Tue, 14 Oct 2025 09:00:00 GMT"
     },
     {
       "topic": "AI / ML",
-      "content": "Mailroom automation with an API: Split, classify, route",
-      "url": "https://www.nutrient.io/blog/mailroom-automation-api/",
-      "published": "Tue, 20 Oct 2026 12:00:00 GMT"
+      "content": "Claude Code Anonymous",
+      "url": "https://steipete.me/posts/2025/claude-code-anonymous/",
+      "published": "Tue, 09 Sep 2025 10:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Live Coding Session: Building Arena",
+      "url": "https://steipete.me/posts/2025/live-coding-session-building-arena/",
+      "published": "Sat, 06 Sep 2025 10:00:00 GMT"
     },
     {
       "topic": "AI / ML",
-      "content": "Why we built a decision model for documents | Nutrient",
-      "url": "https://www.nutrient.io/blog/decision-model-for-documents/",
-      "published": "Mon, 19 Oct 2026 10:00:00 GMT"
+      "content": "My Current AI Dev Workflow",
+      "url": "https://steipete.me/posts/2025/optimal-ai-development-workflow/",
+      "published": "Mon, 25 Aug 2025 09:00:00 GMT"
+    },
+    {
+      "topic": "Agents",
+      "content": "Essential Reading for Agentic Engineers - August 2025",
+      "url": "https://steipete.me/posts/2025/essential-reading-august-2025/",
+      "published": "Fri, 22 Aug 2025 01:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "How BriefPoint chose the best .NET PDF library",
-      "url": "https://www.nutrient.io/blog/briefpoint-best-net-pdf-library-nutrient/",
-      "published": "Thu, 15 Oct 2026 10:00:00 GMT"
+      "content": "Just One More Prompt",
+      "url": "https://steipete.me/posts/just-one-more-prompt/",
+      "published": "Tue, 19 Aug 2025 08:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "How to convert PDF to JSON: Structured data extraction",
-      "url": "https://www.nutrient.io/blog/how-to-convert-pdf-to-json/",
-      "published": "Wed, 14 Oct 2026 10:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "pdfplumber in Python: Extract text and tables",
-      "url": "https://www.nutrient.io/blog/pdfplumber-python-guide/",
-      "published": "Tue, 13 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "PaddleOCR in Python: Setup, PDF input, and production use",
-      "url": "https://www.nutrient.io/blog/paddleocr-python-guide/",
-      "published": "Mon, 12 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "How to generate PDFs in C# (2026)",
-      "url": "https://www.nutrient.io/blog/how-to-generate-pdf-in-csharp/",
-      "published": "Fri, 09 Oct 2026 10:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Multipage PDF extraction: What citations reveal",
-      "url": "https://www.nutrient.io/blog/multipage-extraction-page-boundaries/",
-      "published": "Thu, 08 Oct 2026 09:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "How to add electronic signatures to PDFs with an API",
-      "url": "https://www.nutrient.io/blog/electronic-signature-api/",
-      "published": "Wed, 07 Oct 2026 10:00:00 GMT"
+      "content": "Poltergeist: The Ghost That Keeps Your Builds Fresh",
+      "url": "https://steipete.me/posts/2025/poltergeist-ghost-keeps-builds-fresh/",
+      "published": "Tue, 05 Aug 2025 14:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 06:43 PM",
+  "lastUpdate": "10/21/2026, 07:09 PM",
   "news": [
     {
       "title": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
@@ -209,13 +209,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 162,
+      "tokens_used": 290,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "18:09",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 202 msgs · 103 tools"
+        "time": "19:09",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 355 msgs · 181 tools"
       },
       {
         "time": "17:59",
@@ -243,18 +243,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792633380.74909,
+          "started_at": 1792634929.38533,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792633380.74909
+              "at": 1792634929.38533
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792633380.74909,
+          "ended_at": 1792633402.780169,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792633380.74909
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792633398.861243
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792633400.087214
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792633400.089385
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792633401.102478
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792633402.780169
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792633402.780169
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792631269.379247,
@@ -389,15 +433,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792625929.389198,
+          "started_at": 1792625946.782283,
           "ended_at": 1792625950.862932,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792625929.389198
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792625950.862932
             }
           ],
-          "duration_s": 21,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792624147.288453,
-          "ended_at": 1792624155.313395,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792624147.288453
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792624148.526485
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792624148.528606
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792624153.53169
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792624155.313395
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792624155.313395
-            }
-          ],
-          "duration_s": 8,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792633380.74909,
+        "started_at": 1792634929.38533,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792633380.74909
+            "at": 1792634929.38533
           }
         ],
         "duration_s": null,
@@ -503,13 +503,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 42683810,
-      "output_tokens": 1815412,
-      "tool_calls": 1776
+      "input_tokens": 42892027,
+      "output_tokens": 1899294,
+      "tool_calls": 1854
     },
     "roadmap": [
       {
@@ -521,11 +521,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "67 sessions · 44499k tokens · 1776 tool calls"
+        "status": "67 sessions · 44791k tokens · 1854 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 06:43 PM"
+    "lastUpdate": "Oct 21, 07:09 PM"
   },
   "hn_posts": [
     {
@@ -702,16 +706,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T02:09:37.945Z",
       "count": 3,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 35
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T01:43:18.818Z",
+      "fetched_at": "2026-10-22T02:09:37.945Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -723,15 +727,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "count": 10,
       "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 35
+      "age_min": 62
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T02:09:37.945Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 35
+      "age_min": 0
     },
     "news": {
       "status": "stale",
@@ -739,7 +743,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "count": 5,
       "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 35
+      "age_min": 62
     },
     "weather": {
       "status": "stale",
@@ -747,19 +751,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "count": 1,
       "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 35
+      "age_min": 62
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T01:08:06.934Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T02:09:37.945Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 35
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T01:43:18.819Z",
+      "fetched_at": "2026-10-22T02:09:37.945Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -767,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T01:43:18.855Z",
+      "fetched_at": "2026-10-22T02:09:37.980Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
