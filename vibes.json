@@ -63,6 +63,20 @@
   ],
   "x_posts": [
     {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "COME SPEND OUR TOKENS OpenClaw focus weeks are an invitation to join our team server and build along side us You're using our agent and spending our tokens, with expert advice and help from our Maintainers Join us at the frontier https://openclaw.ai/blog/openclaw-focus-weeks",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113322783551959406#m",
+      "published": "Thu, 22 Oct 2026 17:33:09 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "Important to vote",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113316775291142572#m",
+      "published": "Thu, 22 Oct 2026 17:09:17 GMT"
+    },
+    {
       "user": "elonmusk",
       "topic": "Tech Intel",
       "content": "Grok @Bot",
@@ -117,20 +131,6 @@
       "content": "Specifically, screw @jamestalarico I get 5 texts per day for him. You know I don't live in Texas right?? If you live in Texas, do not vote for this man.",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2113291592195031424#m",
       "published": "Thu, 22 Oct 2026 15:29:13 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: Grok is attracting a higher share of new users than every other major SI website In September 2026 alone, 40.91% of https://Grok.com traffic came from new users…..the highest share among ChatGPT, Gemini, Claude and DeepSeek",
-      "url": "http://nitter.meowing.monster/XFreeze/status/2113289921104613728#m",
-      "published": "Thu, 22 Oct 2026 15:22:34 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Tech Intel",
-      "content": "How is phone call and text spam worse than ever? How is this not a solved problem? Shame on the FCC.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113284962896290276#m",
-      "published": "Thu, 22 Oct 2026 15:02:52 GMT"
     }
   ],
   "peter_x": [
@@ -195,14 +195,14 @@
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 10:08 AM",
+  "lastUpdate": "10/22/2026, 10:38 AM",
   "news": [
     {
       "title": "Trump ordered to answer questions under oath in BBC lawsuit",
       "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
       "summary": "Trump ordered to answer questions under oath in BBC lawsuit",
       "source": "BBC World",
-      "published": "Thu, 22 Oct 2026 17:02:33 GMT"
+      "published": "Thu, 22 Oct 2026 17:14:04 GMT"
     },
     {
       "title": "Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
@@ -244,17 +244,33 @@
     "feels_like": "7",
     "hi": "11",
     "lo": "5",
-    "updated": "Oct 22, 10:08 AM"
+    "updated": "Oct 22, 10:37 AM"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "Hermes Gateway · glm-5.3-flash via opencode-go",
+    "activity": "Hermes Gateway · beam-free via opencode-go",
     "model": {
-      "name": "opencode-go/glm-5.3-flash",
-      "tokens_used": 69,
+      "name": "opencode-go/beam-free",
+      "tokens_used": 16,
       "tokens_total": 256
     },
     "logs": [
+      {
+        "time": "10:32",
+        "msg": "default/LOCAL: beam-free · 4 msgs · 1 tools"
+      },
+      {
+        "time": "10:26",
+        "msg": "default/LOCAL: beam-free · 2 msgs · 0 tools"
+      },
+      {
+        "time": "10:23",
+        "msg": "default/LOCAL: beam-free · 385 msgs · 181 tools"
+      },
+      {
+        "time": "10:20",
+        "msg": "default/ONESHOT: beam-free · 2 msgs · 0 tools"
+      },
       {
         "time": "10:07",
         "msg": "default/LOCAL: glm-5.3-flash · 39 msgs · 24 tools"
@@ -262,22 +278,6 @@
       {
         "time": "00:45",
         "msg": "default/LOCAL: deepseek-v4.1-flash · 19 msgs · 8 tools"
-      },
-      {
-        "time": "00:42",
-        "msg": "default/LOCAL: deepseek-v4.1-flash · 80 msgs · 34 tools"
-      },
-      {
-        "time": "00:39",
-        "msg": "default/ONESHOT: deepseek-v4.1-flash · 2 msgs · 0 tools"
-      },
-      {
-        "time": "00:25",
-        "msg": "default/LOCAL: deepseek-v4.1-flash · 28 msgs · 15 tools"
-      },
-      {
-        "time": "00:23",
-        "msg": "default/LOCAL: deepseek-v4.1-flash · 58 msgs · 22 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792688881.505308,
+          "started_at": 1792690671.072826,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792688881.505308
+              "at": 1792690671.072826
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792688881.505308,
+          "ended_at": 1792688912.24094,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792688881.505308
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792688906.31373
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792688907.744773
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792688907.754059
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792688908.834813
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792688912.24094
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792688912.24094
+            }
+          ],
+          "duration_s": 31,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792687079.25362,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792652917.558492,
+          "started_at": 1792652934.68716,
           "ended_at": 1792652939.082368,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792652917.558492
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792652939.082368
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792651074.834887,
-          "ended_at": 1792651079.070057,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792651074.834887
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792651076.295043
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792651076.300026
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792651077.389575
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792651079.070057
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792651079.070057
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792688881.505308,
+        "started_at": 1792690671.072826,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792688881.505308
+            "at": 1792690671.072826
           }
         ],
         "duration_s": null,
@@ -548,10 +548,10 @@
       "active_agents": 0
     },
     "totals": {
-      "sessions": 118,
-      "input_tokens": 48763940,
-      "output_tokens": 2354511,
-      "tool_calls": 2157
+      "sessions": 121,
+      "input_tokens": 49361896,
+      "output_tokens": 2365909,
+      "tool_calls": 2165
     },
     "roadmap": [
       {
@@ -564,10 +564,10 @@
       },
       {
         "name": "Session Ledger",
-        "status": "118 sessions · 51118k tokens · 2157 tool calls"
+        "status": "121 sessions · 51728k tokens · 2165 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 10:08 AM"
+    "lastUpdate": "Oct 22, 10:38 AM"
   },
   "hn_posts": [
     {
@@ -745,7 +745,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.271Z",
+      "fetched_at": "2026-10-22T17:38:08.259Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T17:08:26.307Z",
+      "fetched_at": "2026-10-22T17:38:08.298Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
