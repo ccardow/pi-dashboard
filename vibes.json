@@ -63,6 +63,13 @@
   ],
   "x_posts": [
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "Grok @Bot",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113304960326652163#m",
+      "published": "Thu, 22 Oct 2026 16:22:20 GMT"
+    },
+    {
       "user": "realDonaldTrump",
       "topic": "Geopolitics",
       "content": "TO THE GREAT PEOPLE OF SOUTH CAROLINA, GET OUT AND VOTE FOR:   – Darline Graham for U.S. Senate – Alan Wilson for Governor – Cody Simpson for Agriculture Commissioner – Jenny Costa Honeycutt for U.S. Congress (SC-01) – Joe Wilson for U.S. Congress (SC-02) – Sheri Biggs for U.S. Congress (SC-03) – William Timmons for U.S. Congress (SC-04) – Wes Climer for U.S. Congress (SC-05) – Russell Fry for U.S. Congress (SC-07)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/south-carolina/",
@@ -112,25 +119,18 @@
       "published": "Thu, 22 Oct 2026 15:29:13 GMT"
     },
     {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: Grok is attracting a higher share of new users than every other major SI website In September 2026 alone, 40.91% of https://Grok.com traffic came from new users…..the highest share among ChatGPT, Gemini, Claude and DeepSeek",
+      "url": "http://nitter.meowing.monster/XFreeze/status/2113289921104613728#m",
+      "published": "Thu, 22 Oct 2026 15:22:34 GMT"
+    },
+    {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
       "content": "How is phone call and text spam worse than ever? How is this not a solved problem? Shame on the FCC.",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2113284962896290276#m",
       "published": "Thu, 22 Oct 2026 15:02:52 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "The world isn’t run by geniuses. It’s run by C- students, fired employees and people no smarter than you. You’re more qualified than you think.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2113269222688120971#m",
-      "published": "Thu, 22 Oct 2026 14:00:19 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "RT by @elonmusk: Grok Bot is now on X Chat",
-      "url": "http://nitter.meowing.monster/techdevnotes/status/2113218324809269398#m",
-      "published": "Thu, 22 Oct 2026 10:38:04 GMT"
     }
   ],
   "peter_x": [
@@ -195,8 +195,15 @@
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 09:38 AM",
+  "lastUpdate": "10/22/2026, 10:08 AM",
   "news": [
+    {
+      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump ordered to answer questions under oath in BBC lawsuit",
+      "source": "BBC World",
+      "published": "Thu, 22 Oct 2026 17:02:33 GMT"
+    },
     {
       "title": "Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
       "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
@@ -224,16 +231,9 @@
       "summary": "Rising costs and tight budgets strain Americans ahead of midterm elections",
       "source": "Al Jazeera",
       "published": "Thu, 22 Oct 2026 15:07:38 +0000"
-    },
-    {
-      "title": "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
-      "url": "https://www.aljazeera.com/news/2026/10/22/carney-and-erdogan-launch-strong-and-resilient-canada-turkiye-partnership?traffic_source=rss",
-      "summary": "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
-      "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 15:00:37 +0000"
     }
   ],
-  "vibes": "⚠ Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax",
+  "vibes": "⚠ Trump ordered to answer questions under oath in BBC lawsuit",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
@@ -241,20 +241,24 @@
     "timezone": "America/Vancouver",
     "temp": "8",
     "condition": "Fog",
-    "feels_like": "6",
+    "feels_like": "7",
     "hi": "11",
     "lo": "5",
-    "updated": "Oct 22, 09:38 AM"
+    "updated": "Oct 22, 10:08 AM"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "Hermes Gateway · deepseek-v4.1-flash via opencode-go",
+    "activity": "Hermes Gateway · glm-5.3-flash via opencode-go",
     "model": {
-      "name": "opencode-go/deepseek-v4.1-flash",
-      "tokens_used": 31,
+      "name": "opencode-go/glm-5.3-flash",
+      "tokens_used": 69,
       "tokens_total": 256
     },
     "logs": [
+      {
+        "time": "10:07",
+        "msg": "default/LOCAL: glm-5.3-flash · 39 msgs · 24 tools"
+      },
       {
         "time": "00:45",
         "msg": "default/LOCAL: deepseek-v4.1-flash · 19 msgs · 8 tools"
@@ -274,10 +278,6 @@
       {
         "time": "00:23",
         "msg": "default/LOCAL: deepseek-v4.1-flash · 58 msgs · 22 tools"
-      },
-      {
-        "time": "00:00",
-        "msg": "default/LOCAL: kimi-k3 · 168 msgs · 95 tools"
       }
     ],
     "refresh": {
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792687079.25362,
+          "started_at": 1792688881.505308,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792687079.25362
+              "at": 1792688881.505308
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792687079.25362,
+          "ended_at": 1792687101.917486,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792687079.25362
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792687096.525612
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792687097.913877
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792687097.916159
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792687098.995824
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792687101.917486
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792687101.917486
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792686836.506231,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792651057.55295,
+          "started_at": 1792651074.834887,
           "ended_at": 1792651079.070057,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792651057.55295
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792651079.070057
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792649270.577846,
-          "ended_at": 1792649274.91122,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792649270.577846
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792649272.109934
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792649272.124372
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792649273.263471
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792649274.91122
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792649274.91122
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792687079.25362,
+        "started_at": 1792688881.505308,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792687079.25362
+            "at": 1792688881.505308
           }
         ],
         "duration_s": null,
@@ -531,10 +531,10 @@
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1349,
+      "pid": 1192,
       "version": "0.22.4",
       "state": "running",
-      "uptime_seconds": 2574,
+      "uptime_seconds": 6839,
       "profiles": [
         "default",
         "atlas",
@@ -548,15 +548,15 @@
       "active_agents": 0
     },
     "totals": {
-      "sessions": 117,
-      "input_tokens": 48589665,
-      "output_tokens": 2343786,
-      "tool_calls": 2133
+      "sessions": 118,
+      "input_tokens": 48763940,
+      "output_tokens": 2354511,
+      "tool_calls": 2157
     },
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.4 · pid 1349"
+        "status": "running · v0.22.4 · pid 1192"
       },
       {
         "name": "Agent Profiles",
@@ -564,10 +564,10 @@
       },
       {
         "name": "Session Ledger",
-        "status": "117 sessions · 50933k tokens · 2133 tool calls"
+        "status": "118 sessions · 51118k tokens · 2157 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 09:38 AM"
+    "lastUpdate": "Oct 22, 10:08 AM"
   },
   "hn_posts": [
     {
@@ -576,6 +576,13 @@
       "content": "Quad9 (DNS Resolver) to Exit France",
       "url": "https://quad9.net/news/blog/au-revoir-france/",
       "published": "Thu, 22 Oct 2026 14:32:38 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "What's Getting Pwned",
+      "url": "https://pwn.watch/",
+      "published": "Thu, 22 Oct 2026 14:08:12 +0000"
     },
     {
       "user": "Hacker News",
@@ -597,6 +604,13 @@
       "content": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
       "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
       "published": "Thu, 22 Oct 2026 11:12:37 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+      "published": "Thu, 22 Oct 2026 09:31:18 +0000"
     },
     {
       "user": "Hacker News",
@@ -625,20 +639,6 @@
       "content": "Security Disclosure",
       "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
       "published": "Wed, 21 Oct 2026 21:58:03 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Claude Duet",
-      "url": "https://claude.com/product/claude-duet",
-      "published": "Wed, 21 Oct 2026 19:14:01 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Rust Style Guide",
-      "url": "https://google.github.io/styleguide/rustguide.html",
-      "published": "Wed, 21 Oct 2026 19:11:57 +0000"
     }
   ],
   "verse": {
@@ -745,7 +745,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.483Z",
+      "fetched_at": "2026-10-22T17:08:26.271Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T16:38:16.518Z",
+      "fetched_at": "2026-10-22T17:08:26.307Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
