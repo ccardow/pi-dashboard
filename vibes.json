@@ -1,58 +1,16 @@
 {
   "youtube": [
     {
-      "title": "Did Claude Duet just kill Grok Bot?",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=jC26BnJseAw",
-      "published": "2026-10-22T20:11:53+00:00"
-    },
-    {
-      "title": "Claude Duet is For Real. What You Need to Know.",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
-      "published": "2026-10-22T15:45:07+00:00"
-    },
-    {
-      "title": "The last real programmers are dying out...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
-      "published": "2026-10-22T15:09:31+00:00"
-    },
-    {
-      "title": "How To Stand Out In A World Of AI Designs",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=2tZT2-pS_pI",
-      "published": "2026-10-22T15:00:16+00:00"
-    },
-    {
       "title": "Personal Body Guard Robot - What could go wrong?",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=dyrNQV0F3Zs",
       "published": "2026-10-22T03:06:41+00:00"
     },
     {
-      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
-      "published": "2026-10-21T20:15:02+00:00"
-    },
-    {
-      "title": "Claude Just Changed: The 10 Big Updates You Need to Know",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=imkKVWoIzVM",
-      "published": "2026-10-21T19:30:34+00:00"
-    },
-    {
       "title": "AI Breakthroughs Everyone Missed",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
       "published": "2026-10-21T17:45:26+00:00"
-    },
-    {
-      "title": "I Taught Claude How to Edit Videos, and It's Insane",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=LcjhtVm8DvU",
-      "published": "2026-10-21T16:21:34+00:00"
     },
     {
       "title": "5 Prompts With Google's ULTRA Powerful New Model",
@@ -62,6 +20,34 @@
     }
   ],
   "x_posts": [
+    {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "DeepSeek V4.1 Flash from @deepseek_ai is now available in OpenClaw. Already using it with your agents? Let us know how it's working for you.",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113414141327380480#m",
+      "published": "Thu, 22 Oct 2026 23:36:11 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "Geopolitics",
+      "content": "R to @realDonaldTrump: TO THE GREAT PEOPLE OF WEST VIRGINIA, GET OUT AND VOTE FOR:   – Shelley Moore Capito for U.S. Senate – Carol Miller for U.S. Congress (WV-01) – Riley Moore for U.S. Congress (WV-02)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/west-virginia/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113409330326409529#m",
+      "published": "Thu, 22 Oct 2026 23:17:04 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "AI / ML",
+      "content": "🚨 WEST VIRGINIA!   Early Voting, in-person, is UNDERWAY NOW in the Great State of West Virginia. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!   Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In West Virginia, you can cast your early Vote, in-person, all the way through October 31st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP   Find your Voting Location here: https://swampthevoteusa.com/west-virginia/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113409322692841646#m",
+      "published": "Thu, 22 Oct 2026 23:17:02 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "AI / ML",
+      "content": "🚨 WISCONSIN!   Early Voting, in-person, is UNDERWAY NOW in the Great State of Wisconsin. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!   Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Wisconsin, you can cast your early Vote, in-person, all the way through November 1st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP   Find your Voting Location here: https://swampthevoteusa.com/wisconsin/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113408811923026368#m",
+      "published": "Thu, 22 Oct 2026 23:15:00 GMT"
+    },
     {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
@@ -98,39 +84,11 @@
       "published": "Thu, 22 Oct 2026 18:14:32 GMT"
     },
     {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "The only industry that moved faster than AI this week was cyber security",
-      "url": "http://nitter.meowing.monster/openclaw/status/2113330445714878939#m",
-      "published": "Thu, 22 Oct 2026 18:03:36 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "Being lazy is a slap in the face to everyone who believes in you.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2113329699766063297#m",
-      "published": "Thu, 22 Oct 2026 18:00:38 GMT"
-    },
-    {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "Try Grok @Bot",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113329537509449744#m",
-      "published": "Thu, 22 Oct 2026 18:00:00 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "COME SPEND OUR TOKENS OpenClaw focus weeks are an invitation to join our team server and build along side us You're using our agent and spending our tokens, with expert advice and help from our Maintainers Join us at the frontier https://openclaw.ai/blog/openclaw-focus-weeks",
-      "url": "http://nitter.meowing.monster/openclaw/status/2113322783551959406#m",
-      "published": "Thu, 22 Oct 2026 17:33:09 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "Geopolitics",
-      "content": "TO THE GREAT PEOPLE OF SOUTH CAROLINA, GET OUT AND VOTE FOR:   – Darline Graham for U.S. Senate – Alan Wilson for Governor – Cody Simpson for Agriculture Commissioner – Jenny Costa Honeycutt for U.S. Congress (SC-01) – Joe Wilson for U.S. Congress (SC-02) – Sheri Biggs for U.S. Congress (SC-03) – William Timmons for U.S. Congress (SC-04) – Wes Climer for U.S. Congress (SC-05) – Russell Fry for U.S. Congress (SC-07)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/south-carolina/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113302827682381858#m",
-      "published": "Thu, 22 Oct 2026 16:13:52 GMT"
+      "content": "RT by @elonmusk: Grok Bot can now use your 1Password account. Approve the logins you want to share, and your Bot signs in for you. This new integration is rolling out to users over the next few days.",
+      "url": "http://nitter.meowing.monster/bot/status/2113332983226831339#m",
+      "published": "Thu, 22 Oct 2026 18:13:41 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +153,7 @@
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 04:08 PM",
+  "lastUpdate": "10/22/2026, 04:37 PM",
   "news": [
     {
       "title": "What is the history behind Trump’s LeBron blast over US national anthem?",
@@ -244,7 +202,7 @@
     "feels_like": "10",
     "hi": "12",
     "lo": "5",
-    "updated": "Oct 22, 04:07 PM"
+    "updated": "Oct 22, 04:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +243,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792710477.89424,
+          "started_at": 1792712261.754512,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792710477.89424
+              "at": 1792712261.754512
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792710477.89424,
+          "ended_at": 1792710501.378861,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792710477.89424
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792710497.007992
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792710498.510056
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792710498.512108
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792710499.528491
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792710501.378861
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792710501.378861
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792710179.564731,
@@ -431,15 +433,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792703238.022548,
+          "started_at": 1792703256.21813,
           "ended_at": 1792703260.730548,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792703238.022548
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +468,19 @@
               "at": 1792703260.730548
             }
           ],
-          "duration_s": 23,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792701526.223503,
-          "ended_at": 1792701530.447917,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792701526.223503
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792701527.54705
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792701527.549224
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792701528.565747
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792701530.447917
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792701530.447917
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792710477.89424,
+        "started_at": 1792712261.754512,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792710477.89424
+            "at": 1792712261.754512
           }
         ],
         "duration_s": null,
@@ -567,9 +525,16 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 04:08 PM"
+    "lastUpdate": "Oct 22, 04:37 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
+      "url": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
+      "published": "Thu, 22 Oct 2026 21:24:41 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
@@ -632,13 +597,6 @@
       "content": "Woman faces six years in prison over Cash App account she never opened",
       "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
       "published": "Thu, 22 Oct 2026 13:11:00 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
-      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
-      "published": "Thu, 22 Oct 2026 11:42:03 +0000"
     }
   ],
   "verse": {
@@ -745,15 +703,15 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
-      "count": 10,
+      "fetched_at": "2026-10-22T23:37:58.570Z",
+      "count": 3,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
+      "fetched_at": "2026-10-22T23:37:58.570Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +719,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
+      "fetched_at": "2026-10-22T23:37:58.570Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +727,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
+      "fetched_at": "2026-10-22T23:37:58.570Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +735,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
+      "fetched_at": "2026-10-22T23:37:58.570Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +743,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
+      "fetched_at": "2026-10-22T23:37:58.570Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +751,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
+      "fetched_at": "2026-10-22T23:37:58.570Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +759,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:16.962Z",
+      "fetched_at": "2026-10-22T23:37:58.570Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +767,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:08:17.002Z",
+      "fetched_at": "2026-10-22T23:37:58.608Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
