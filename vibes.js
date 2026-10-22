@@ -1,22 +1,40 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "published": "2026-10-19T08:49:21+00:00"
+      "title": "Personal Body Guard Robot - What could go wrong?",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=dyrNQV0F3Zs",
+      "published": "2026-10-22T03:06:41+00:00"
     },
     {
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "published": "2026-10-13T08:56:12+00:00"
+      "title": "AI Breakthroughs Everyone Missed",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=umGZrkyTRtw",
+      "published": "2026-10-21T17:45:26+00:00"
     },
     {
-      "title": "DeepSeek Solved AI’s Memory Problem",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-      "published": "2026-10-11T16:53:17+00:00"
+      "title": "5 Prompts With Google's ULTRA Powerful New Model",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=S2srfNCa50A",
+      "published": "2026-10-21T12:53:28+00:00"
+    },
+    {
+      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "published": "2026-10-13T21:26:16+00:00"
+    },
+    {
+      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
+      "published": "2026-09-17T00:34:47+00:00"
+    },
+    {
+      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
+      "published": "2026-08-26T21:44:41+00:00"
     }
   ],
   "x_posts": [
@@ -153,7 +171,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 08:38 PM",
+  "lastUpdate": "10/21/2026, 09:09 PM",
   "news": [
     {
       "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
@@ -197,45 +215,45 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "10",
-    "condition": "Mostly Clear",
+    "temp": "9",
+    "condition": "Clear",
     "feels_like": "7",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 08:37 PM"
+    "updated": "Oct 21, 09:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 181,
+      "tokens_used": 275,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "20:27",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 248 msgs · 128 tools"
+        "time": "21:08",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 362 msgs · 185 tools"
+      },
+      {
+        "time": "20:48",
+        "msg": "default/ONESHOT: qwen3.8-flash · 2 msgs · 0 tools"
+      },
+      {
+        "time": "20:48",
+        "msg": "default/ONESHOT: glm-5.3-flash · 2 msgs · 0 tools"
+      },
+      {
+        "time": "20:48",
+        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
+      },
+      {
+        "time": "20:48",
+        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
       },
       {
         "time": "17:59",
         "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 163 msgs · 92 tools"
-      },
-      {
-        "time": "17:44",
-        "msg": "default/TUI: minimax/minimax-m3.1-flash:free · 92 msgs · 57 tools"
-      },
-      {
-        "time": "17:44",
-        "msg": "default/TUI: minimax/minimax-m3.1-flash:free · 59 msgs · 41 tools"
-      },
-      {
-        "time": "17:44",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 26 msgs · 15 tools"
-      },
-      {
-        "time": "15:24",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 128 msgs · 80 tools"
       }
     ],
     "refresh": {
@@ -243,18 +261,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792640269.37926,
+          "started_at": 1792642129.390783,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792640269.37926
+              "at": 1792642129.390783
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792640269.37926,
+          "ended_at": 1792640291.194775,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792640269.37926
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792640287.370627
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792640288.506511
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792640288.50859
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792640289.527315
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792640291.194775
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792640291.194775
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792638469.381575,
@@ -389,15 +451,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792633380.74909,
+          "started_at": 1792633398.861243,
           "ended_at": 1792633402.780169,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792633380.74909
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +486,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792633402.780169
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792631286.979461,
-          "ended_at": 1792631291.119148,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792631286.979461
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792631288.271845
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792631288.274127
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792631289.3047
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792631291.119148
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792631291.119148
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792640269.37926,
+        "started_at": 1792642129.390783,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792640269.37926
+            "at": 1792642129.390783
           }
         ],
         "duration_s": null,
@@ -503,13 +521,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
-      "sessions": 67,
-      "input_tokens": 44498181,
-      "output_tokens": 2013413,
-      "tool_calls": 1801
+      "sessions": 71,
+      "input_tokens": 45152498,
+      "output_tokens": 2064743,
+      "tool_calls": 1858
     },
     "roadmap": [
       {
@@ -521,11 +539,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "67 sessions · 46512k tokens · 1801 tool calls"
+        "status": "71 sessions · 47217k tokens · 1858 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 08:38 PM"
+    "lastUpdate": "Oct 21, 09:09 PM"
   },
   "hn_posts": [
     {
@@ -559,7 +581,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Open Source",
-      "content": "GitLab Critical Patch Release",
+      "content": "GitLab critical patch release",
       "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
       "published": "Wed, 21 Oct 2026 19:01:12 +0000"
     },
@@ -702,16 +724,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
-      "count": 3,
-      "error": "fetch returned no items",
+      "status": "live",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "count": 6,
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 30
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.327Z",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -719,7 +741,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.327Z",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -727,7 +749,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.327Z",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -735,7 +757,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.327Z",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -743,7 +765,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.327Z",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -751,7 +773,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.327Z",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -759,7 +781,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.327Z",
+      "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -767,7 +789,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:38:07.364Z",
+      "fetched_at": "2026-10-22T04:09:11.481Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
