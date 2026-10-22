@@ -63,18 +63,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "OpenClaw v2026.10.6 patch release is out 🦞 🔧 Install, update + startup fixes 🪟 Windows setup fixes 💬 Discord command repairs 🎙 iPhone Talk fixes 🛠 Security + reliability fixes 149 contributors. Thank you! https://docs.openclaw.ai/releases/2026.10.6",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113385659918639399#m",
+      "published": "Thu, 22 Oct 2026 21:43:00 GMT"
+    },
+    {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
       "content": "Nobody told you this about AI. It’s not just replacing your job. It’s returning something stolen from you. Your mornings. Your body. Your actual life. The industrial system needed you sick, tired, and dependent. Fluorescent lights. Processed food. Screen addiction. No sunlight. A compliant worker drone is easier to control than a thriving human. AI is dismantling the ENTIRE EFFING MACHINE. For the first time, a single human with vision and a laptop can build what used to take a corporation. But here’s what most will miss: Freedom from work enslavement means nothing if your biology is still enslaved. Get outside. Let the sun hit your skin. Ground your feet in the earth. Drink real water. The future belongs to the humans who pair the most powerful AI tools in history with the oldest truths on the planet. Wake up. The cage door has been open for a while now. It’s the brave who will escape first.",
       "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2113378857420263849#m",
       "published": "Thu, 22 Oct 2026 21:15:58 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "OpenClaw v2026.10.6 patch release is out 🦞🔧 Install, update + startup fixes🪟 Windows setup fixes💬 Discord command repairs🎙 iPhone Talk fixes🛠 Security + reliability fixes149 contributors. Thank you!https://docs.openclaw.ai/releases/2026.10.6",
-      "url": "http://nitter.meowing.monster/openclaw/status/2113378446479098319#m",
-      "published": "Thu, 22 Oct 2026 21:14:20 GMT"
     },
     {
       "user": "elonmusk",
@@ -195,8 +195,29 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 02:39 PM",
+  "lastUpdate": "10/22/2026, 03:07 PM",
   "news": [
+    {
+      "title": "What is the history behind Trump’s LeBron blast over US national anthem?",
+      "url": "https://www.aljazeera.com/sports/2026/10/22/what-led-to-the-trump-lebron-feud-over-us-national-anthem?traffic_source=rss",
+      "summary": "What is the history behind Trump’s LeBron blast over US national anthem?",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 21:51:41 +0000"
+    },
+    {
+      "title": "Trump says Musk has restored Ukraine's access after Starlink row",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump says Musk has restored Ukraine's access after Starlink row",
+      "source": "BBC World",
+      "published": "Thu, 22 Oct 2026 21:42:39 GMT"
+    },
+    {
+      "title": "Trump ordered to sit for deposition in BBC defamation lawsuit",
+      "url": "https://www.aljazeera.com/news/2026/10/22/trump-ordered-to-sit-for-deposition-in-bbc-defamation-lawsuit?traffic_source=rss",
+      "summary": "Trump ordered to sit for deposition in BBC defamation lawsuit",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 21:20:32 +0000"
+    },
     {
       "title": "Why measles outbreak in Pennsylvania poses risks beyond US borders",
       "url": "https://www.aljazeera.com/news/2026/10/22/why-measles-outbreak-in-pennsylvania-poses-risks-beyond-us-borders?traffic_source=rss",
@@ -210,30 +231,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "White evangelical support for Trump slips but still strong as midterms near",
       "source": "Al Jazeera",
       "published": "Thu, 22 Oct 2026 19:31:47 +0000"
-    },
-    {
-      "title": "Trump says NBA star LeBron James disrespected US national anthem",
-      "url": "https://www.aljazeera.com/sports/2026/10/22/trump-says-nba-star-lebron-james-disrespected-us-national-anthem?traffic_source=rss",
-      "summary": "Trump says NBA star LeBron James disrespected US national anthem",
-      "source": "Al Jazeera",
-      "published": "Thu, 22 Oct 2026 18:05:52 +0000"
-    },
-    {
-      "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump ordered to answer questions under oath in BBC lawsuit",
-      "source": "BBC World",
-      "published": "Thu, 22 Oct 2026 17:14:04 GMT"
-    },
-    {
-      "title": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
-      "url": "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/",
-      "summary": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
-      "source": "Globe Politics",
-      "published": "Thu, 22 Oct 2026 16:00:00 +0000"
     }
   ],
-  "vibes": "⚠ Why measles outbreak in Pennsylvania poses risks beyond US borders",
+  "vibes": "⚠ What is the history behind Trump’s LeBron blast over US national anthem?",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
@@ -244,7 +244,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "10",
     "hi": "12",
     "lo": "5",
-    "updated": "Oct 22, 02:39 PM"
+    "updated": "Oct 22, 03:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792705141.494525,
+          "started_at": 1792706852.513157,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792705141.494525
+              "at": 1792706852.513157
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792705141.494525,
+          "ended_at": 1792705163.630396,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792705141.494525
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792705158.846707
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792705160.764319
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792705160.76615
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792705161.8002
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792705163.630396
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792705163.630396
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792703238.022548,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792697865.098571,
+          "started_at": 1792698399.932844,
           "ended_at": 1792698400.060347,
           "outcome": "failed",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792697865.098571
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -452,58 +491,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
             }
           ],
           "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
-          "duration_s": 535,
+          "duration_s": 0,
           "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
-        },
-        {
-          "started_at": 1792696115.807718,
-          "ended_at": 1792696120.041662,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792696115.807718
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792696117.179417
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792696117.181358
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792696118.251478
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792696120.041662
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792696120.041662
-            }
-          ],
-          "duration_s": 4,
-          "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792705141.494525,
+        "started_at": 1792706852.513157,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792705141.494525
+            "at": 1792706852.513157
           }
         ],
         "duration_s": null,
@@ -548,7 +548,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 02:39 PM"
+    "lastUpdate": "Oct 22, 03:07 PM"
   },
   "hn_posts": [
     {
@@ -567,6 +567,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Getting ready to operate GNU Taler in Germany",
+      "url": "https://www.taler.net/en/news/2026-13.html",
+      "published": "Thu, 22 Oct 2026 16:14:31 +0000"
+    },
+    {
+      "user": "Hacker News",
       "topic": "Apple / iOS",
       "content": "Show HN: Run full iOS 16.5 firmware on Android Devices",
       "url": "https://github.com/oosexgang/hackios-xnu-kernel",
@@ -578,13 +585,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Quad9 (DNS Resolver) to Exit France",
       "url": "https://quad9.net/news/blog/au-revoir-france/",
       "published": "Thu, 22 Oct 2026 14:32:38 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Geopolitics",
-      "content": "MPs moving to restrict gambling ads in Canada",
-      "url": "https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888",
-      "published": "Thu, 22 Oct 2026 14:26:40 +0000"
     },
     {
       "user": "Hacker News",
@@ -726,7 +726,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.805Z",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -734,23 +734,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.805Z",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T21:07:36.176Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 32
+      "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.805Z",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -758,7 +758,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.805Z",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -766,7 +766,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.805Z",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -774,7 +774,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.805Z",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -782,7 +782,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.805Z",
+      "fetched_at": "2026-10-22T22:07:49.702Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -790,7 +790,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T21:39:18.841Z",
+      "fetched_at": "2026-10-22T22:07:49.743Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
