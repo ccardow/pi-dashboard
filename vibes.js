@@ -39,18 +39,25 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "RT @runwayml: Runway MCP is now in Grok Bot. Bring state-of-the-art generation into your chat and create anything you can imagine, without…",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113127998157189281#m",
+      "published": "Thu, 22 Oct 2026 04:39:09 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "AI just helped crack open a hole in the software behind ~70% of websites. It’s called PHP2Shell. 2 critical bugs inside PHP itself, rated 9.2/10. Attackers are already trying it. If your site runs on WordPress, check this today: → Log into your host, check your PHP version → Safe: 8.5.12, 8.4.27, 8.3.36, 8.2.35 → On 8.1 or older? Ask your host to update now Takes 5 minutes. ♻️ Repost to warn someone with a WordPress site 🔖 Bookmark for later",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2113125235025400050#m",
+      "published": "Thu, 22 Oct 2026 04:28:10 GMT"
+    },
+    {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
       "content": "The greatest lie of the industrial age: \"You are what you produce.\" The truth of the AI age: You are what you create when survival is no longer the point. We're about to find out what humans actually are. And I think it's going to be beautiful.",
       "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2113085966311452766#m",
       "published": "Thu, 22 Oct 2026 01:52:08 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "Talarico hates Texas",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113081289570127971#m",
-      "published": "Thu, 22 Oct 2026 01:33:33 GMT"
     },
     {
       "user": "AlexFinn",
@@ -93,13 +100,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "When people talk about the global market for GPUs, the thing that I think it misses is people are assuming that models are going to stay at the same capability and the same cost per task as today. For sufficiently high-quality intelligence at sufficiently low cost, I think it’s very hard to talk about an arbitrary market size there. I think it’s just gonna keep—people call us all sorts of things, Jevons paradox, whatever. I think it’s just gonna keep going up. I believe there will be some periods where, like with any new technology, there’s supply constraints and supply gluts.",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2113043402941927830#m",
       "published": "Wed, 21 Oct 2026 23:03:00 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: Elon Musk hilariously explains why Optimus has to learn like a toddler, by playing, making mistakes and getting better over time 😂 “In order for Optimus to get the training data we need, we actually need to make a lot of Optimi. So we need to make, I think, on the order of 10,000 or 20,000 bots and then have them do self-play. We're building up an Optimus academy where Optimus can practice doing a very wide range of tasks And then we can use that data in a flywheel to make it better and better at these various tasks, a big difference with Optimus versus the cars Is we don't have this vast fleet of cars from which we can gather training data. So with Optimus, we have to bootstrap it by making the robots and having them do self-play, which is really how a human learns to navigate the world You can see this when you have a toddler and they grow up and they initially are wobbly and they don't know how to do things, and eventually they, they learn to wipe their own ass, which is a big milestone, because anyone who's had kids knows And then they learn to read and do all sorts of things and be able to do these things. And they learn this by playing And we actually need Optimus to play at scale in order to have it be really good at tasks in the real world”",
-      "url": "http://nitter.meowing.monster/XFreeze/status/2113040815954301204#m",
-      "published": "Wed, 21 Oct 2026 22:52:43 GMT"
     },
     {
       "user": "openclaw",
@@ -171,7 +171,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 09:09 PM",
+  "lastUpdate": "10/21/2026, 10:09 PM",
   "news": [
     {
       "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
@@ -179,6 +179,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Trump administration seeks Supreme Court approval to build Big Bend wall",
       "source": "Al Jazeera",
       "published": "Thu, 22 Oct 2026 03:19:38 +0000"
+    },
+    {
+      "title": "US embassy accuses Canada of election meddling ahead of midterms",
+      "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
+      "summary": "US embassy accuses Canada of election meddling ahead of midterms",
+      "source": "BBC World",
+      "published": "Thu, 22 Oct 2026 03:05:28 GMT"
     },
     {
       "title": "Can Trump deport Congresswoman Ilhan Omar?",
@@ -200,13 +207,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Conservatives question whether Ottawa’s social media ban for children under 16 will work",
       "source": "Globe Politics",
       "published": "Thu, 22 Oct 2026 01:34:29 +0000"
-    },
-    {
-      "title": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
-      "url": "https://www.theglobeandmail.com/politics/article-politics-insider-9-billion-for-canadas-critical-sectors/",
-      "summary": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
-      "source": "Globe Politics",
-      "published": "Wed, 21 Oct 2026 23:57:32 +0000"
     }
   ],
   "vibes": "⚠ Trump administration seeks Supreme Court approval to build Big Bend wall",
@@ -216,44 +216,44 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "9",
-    "condition": "Clear",
+    "condition": "Mostly Clear",
     "feels_like": "7",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 09:08 PM"
+    "updated": "Oct 21, 10:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
+    "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via opencode-go",
     "model": {
-      "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 275,
+      "name": "opencode-go/minimax/minimax-m3.1-flash:free",
+      "tokens_used": 147,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "21:08",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 362 msgs · 185 tools"
+        "time": "22:08",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 177 msgs · 88 tools"
       },
       {
-        "time": "20:48",
-        "msg": "default/ONESHOT: qwen3.8-flash · 2 msgs · 0 tools"
+        "time": "22:08",
+        "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
       },
       {
-        "time": "20:48",
+        "time": "22:03",
         "msg": "default/ONESHOT: glm-5.3-flash · 2 msgs · 0 tools"
       },
       {
-        "time": "20:48",
+        "time": "22:03",
         "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
       },
       {
-        "time": "20:48",
+        "time": "22:03",
         "msg": "default/ONESHOT: minimax-m3.1-flash-free · 2 msgs · 0 tools"
       },
       {
-        "time": "17:59",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 163 msgs · 92 tools"
+        "time": "22:02",
+        "msg": "default/ONESHOT: glm-5.3-flash · 2 msgs · 0 tools"
       }
     ],
     "refresh": {
@@ -261,18 +261,87 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792642129.390783,
+          "started_at": 1792645729.385644,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792642129.390783
+              "at": 1792645729.385644
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792643869.505168,
+          "ended_at": 1792645043.817652,
+          "outcome": "failed",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792643869.505168
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792645043.653254
+            },
+            {
+              "kind": "failed",
+              "text": "FAILED",
+              "at": 1792645043.817652
+            }
+          ],
+          "error": "push-to-gist.js failed — is the token valid and gist-scoped?",
+          "duration_s": 1174,
+          "summary": "FAILED: push-to-gist.js failed — is the token valid and gist-scoped?"
+        },
+        {
+          "started_at": 1792642129.390783,
+          "ended_at": 1792642155.601293,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792642129.390783
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792642151.489927
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792642152.817084
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792642152.819073
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792642153.846744
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792642155.601293
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792642155.601293
+            }
+          ],
+          "duration_s": 26,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792640269.37926,
@@ -363,15 +432,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792636669.379383,
+          "started_at": 1792636686.27306,
           "ended_at": 1792636690.179283,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792636669.379383
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -403,102 +467,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792636690.179283
             }
           ],
-          "duration_s": 21,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792634929.38533,
-          "ended_at": 1792634982.393582,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792634929.38533
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792634977.987082
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792634979.221057
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792634979.223221
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792634980.666935
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792634982.393582
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792634982.393582
-            }
-          ],
-          "duration_s": 53,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792633398.861243,
-          "ended_at": 1792633402.780169,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792633398.861243
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792633400.087214
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792633400.089385
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792633401.102478
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792633402.780169
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792633402.780169
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792642129.390783,
+        "started_at": 1792645729.385644,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792642129.390783
+            "at": 1792645729.385644
           }
         ],
         "duration_s": null,
@@ -524,10 +505,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "active_agents": 1
     },
     "totals": {
-      "sessions": 71,
-      "input_tokens": 45152498,
-      "output_tokens": 2064743,
-      "tool_calls": 1858
+      "sessions": 80,
+      "input_tokens": 46336222,
+      "output_tokens": 2128804,
+      "tool_calls": 1761
     },
     "roadmap": [
       {
@@ -544,10 +525,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       },
       {
         "name": "Session Ledger",
-        "status": "71 sessions · 47217k tokens · 1858 tool calls"
+        "status": "80 sessions · 48465k tokens · 1761 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 09:09 PM"
+    "lastUpdate": "Oct 21, 10:09 PM"
   },
   "hn_posts": [
     {
@@ -724,16 +705,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T04:09:11.447Z",
       "count": 6,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 60
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "fetched_at": "2026-10-22T05:09:06.529Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -741,7 +722,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "fetched_at": "2026-10-22T05:09:06.529Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -749,7 +730,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "fetched_at": "2026-10-22T05:09:06.529Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -757,7 +738,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "fetched_at": "2026-10-22T05:09:06.529Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -765,7 +746,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "fetched_at": "2026-10-22T05:09:06.529Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -773,7 +754,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "fetched_at": "2026-10-22T05:09:06.529Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -781,7 +762,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.447Z",
+      "fetched_at": "2026-10-22T05:09:06.529Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -789,7 +770,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T04:09:11.481Z",
+      "fetched_at": "2026-10-22T05:09:06.564Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
