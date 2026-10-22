@@ -19,7 +19,7 @@
       "published": "2026-10-22T15:09:31+00:00"
     },
     {
-      "title": "Magic Patterns CEO Reviews Startup Websites",
+      "title": "How To Stand Out In A World Of AI Designs",
       "channel": "Y Combinator",
       "url": "https://www.youtube.com/watch?v=2tZT2-pS_pI",
       "published": "2026-10-22T15:00:16+00:00"
@@ -195,7 +195,7 @@
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 04:03 PM",
+  "lastUpdate": "10/22/2026, 04:08 PM",
   "news": [
     {
       "title": "What is the history behind Trump’s LeBron blast over US national anthem?",
@@ -205,9 +205,9 @@
       "published": "Thu, 22 Oct 2026 21:51:41 +0000"
     },
     {
-      "title": "Trump says Musk has restored Ukraine's access after Starlink row",
+      "title": "Trump says Musk has restored access to Ukraine's Starlink network",
       "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump says Musk has restored Ukraine's access after Starlink row",
+      "summary": "Trump says Musk has restored access to Ukraine's Starlink network",
       "source": "BBC World",
       "published": "Thu, 22 Oct 2026 21:42:39 GMT"
     },
@@ -244,7 +244,7 @@
     "feels_like": "10",
     "hi": "12",
     "lo": "5",
-    "updated": "Oct 22, 03:07 PM"
+    "updated": "Oct 22, 04:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792710179.564731,
+          "started_at": 1792710477.89424,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792710179.564731
+              "at": 1792710477.89424
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792710179.564731,
+          "ended_at": 1792710203.75333,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792710179.564731
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792710199.433949
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792710200.868212
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792710200.870395
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792710201.959193
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792710203.75333
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792710203.75333
+            }
+          ],
+          "duration_s": 24,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792706852.513157,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792701496.412872,
+          "started_at": 1792701526.223503,
           "ended_at": 1792701530.447917,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792701496.412872
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792701530.447917
             }
           ],
-          "duration_s": 34,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792699698.650298,
-          "ended_at": 1792699704.53362,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792699698.650298
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792699700.456496
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792699700.45798
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792699702.311215
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792699704.53362
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792699704.53362
-            }
-          ],
-          "duration_s": 6,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792710179.564731,
+        "started_at": 1792710477.89424,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792710179.564731
+            "at": 1792710477.89424
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 04:03 PM"
+    "lastUpdate": "Oct 22, 04:08 PM"
   },
   "hn_posts": [
     {
@@ -593,8 +593,15 @@
     },
     {
       "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "published": "Thu, 22 Oct 2026 16:08:00 +0000"
+    },
+    {
+      "user": "Hacker News",
       "topic": "Apple / iOS",
-      "content": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "content": "Run full iOS 16.5 firmware on Android Devices",
       "url": "https://github.com/oosexgang/hackios-xnu-kernel",
       "published": "Thu, 22 Oct 2026 15:26:22 +0000"
     },
@@ -629,16 +636,9 @@
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
-      "url": "https://news.ycombinator.com/item?id=50193416",
-      "published": "Thu, 22 Oct 2026 10:11:44 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
-      "url": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
-      "published": "Thu, 22 Oct 2026 09:31:18 +0000"
+      "content": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "published": "Thu, 22 Oct 2026 11:42:03 +0000"
     }
   ],
   "verse": {
@@ -744,64 +744,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 10,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 55
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:03:19.395Z",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 55
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 55
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 55
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 55
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-22T22:07:49.702Z",
+      "status": "live",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 55
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:03:19.395Z",
+      "fetched_at": "2026-10-22T23:08:16.962Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T23:03:19.429Z",
+      "fetched_at": "2026-10-22T23:08:17.002Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
