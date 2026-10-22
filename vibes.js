@@ -85,10 +85,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "Come build OpenClaw along side our team! We're inviting people to join our Maintainers on our team server Come prompt along side us and work on things that will meaningfully improve OpenClaw! https://openclaw.ai/blog/openclaw-focus-weeks",
-      "url": "http://nitter.meowing.monster/openclaw/status/2113024625311686852#m",
-      "published": "Wed, 21 Oct 2026 21:48:23 GMT"
+      "topic": "Open Source",
+      "content": "RT by @openclaw: 🦞I got guest access to the @openclaw team server for Focus Week. Roboclaw traced a stale plan-usage popover to its root cause and built the fix. I did the live proof on my own Gateway. Takeaway: working this close to the team and Roboclaw is great. 😇🙌 PR is up, rated 🦞: https://github.com/openclaw/openclaw/pull/179866",
+      "url": "http://nitter.meowing.monster/hgruenhagen/status/2113035141727563949#m",
+      "published": "Wed, 21 Oct 2026 22:30:10 GMT"
     }
   ],
   "peter_x": [
@@ -153,8 +153,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Wed, 07 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/21/2026, 08:08 PM",
+  "lastUpdate": "10/21/2026, 08:38 PM",
   "news": [
+    {
+      "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
+      "url": "https://www.aljazeera.com/news/2026/10/22/trump-administration-seeks-supreme-court-approval-to-build-big-bend-wall?traffic_source=rss",
+      "summary": "Trump administration seeks Supreme Court approval to build Big Bend wall",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 03:19:38 +0000"
+    },
     {
       "title": "Can Trump deport Congresswoman Ilhan Omar?",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/can-trump-deport-congresswoman-ilhan-omar?traffic_source=rss",
@@ -182,40 +189,33 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "Politics Insider: $9-billion for Canada’s ‘critical sectors’",
       "source": "Globe Politics",
       "published": "Wed, 21 Oct 2026 23:57:32 +0000"
-    },
-    {
-      "title": "US accuses Canada of election interference ahead of midterms",
-      "url": "https://www.aljazeera.com/news/2026/10/21/us-accuses-canada-of-election-interference-ahead-of-midterms?traffic_source=rss",
-      "summary": "US accuses Canada of election interference ahead of midterms",
-      "source": "Al Jazeera",
-      "published": "Wed, 21 Oct 2026 23:52:21 +0000"
     }
   ],
-  "vibes": "⚠ Can Trump deport Congresswoman Ilhan Omar?",
+  "vibes": "⚠ Trump administration seeks Supreme Court approval to build Big Bend wall",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "10",
-    "condition": "Overcast",
-    "feels_like": "8",
+    "condition": "Mostly Clear",
+    "feels_like": "7",
     "hi": "18",
     "lo": "6",
-    "updated": "Oct 21, 08:07 PM"
+    "updated": "Oct 21, 08:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
     "activity": "Hermes Gateway · minimax/minimax-m3.1-flash:free via openrouter",
     "model": {
       "name": "openrouter/minimax/minimax-m3.1-flash:free",
-      "tokens_used": 133,
+      "tokens_used": 181,
       "tokens_total": 1000
     },
     "logs": [
       {
-        "time": "20:07",
-        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 173 msgs · 90 tools"
+        "time": "20:27",
+        "msg": "default/LOCAL: minimax/minimax-m3.1-flash:free · 248 msgs · 128 tools"
       },
       {
         "time": "17:59",
@@ -243,18 +243,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792638469.381575,
+          "started_at": 1792640269.37926,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792638469.381575
+              "at": 1792640269.37926
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792638469.381575,
+          "ended_at": 1792638498.458162,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792638469.381575
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792638494.34945
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792638495.737159
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792638495.738915
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792638496.843313
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792638498.458162
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792638498.458162
+            }
+          ],
+          "duration_s": 29,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792636669.379383,
@@ -389,15 +433,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792631269.379247,
+          "started_at": 1792631286.979461,
           "ended_at": 1792631291.119148,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792631269.379247
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792631291.119148
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792629552.827855,
-          "ended_at": 1792629558.112942,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792629552.827855
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792629554.476965
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792629554.479273
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792629556.442923
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792629558.112942
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792629558.112942
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792638469.381575,
+        "started_at": 1792640269.37926,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792638469.381575
+            "at": 1792640269.37926
           }
         ],
         "duration_s": null,
@@ -503,13 +503,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "montage",
         "sienna"
       ],
-      "active_agents": 1
+      "active_agents": 0
     },
     "totals": {
       "sessions": 67,
-      "input_tokens": 44307748,
-      "output_tokens": 1983274,
-      "tool_calls": 1763
+      "input_tokens": 44498181,
+      "output_tokens": 2013413,
+      "tool_calls": 1801
     },
     "roadmap": [
       {
@@ -521,15 +521,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
-        "name": "Active Agents",
-        "status": "1"
-      },
-      {
         "name": "Session Ledger",
-        "status": "67 sessions · 46291k tokens · 1763 tool calls"
+        "status": "67 sessions · 46512k tokens · 1801 tool calls"
       }
     ],
-    "lastUpdate": "Oct 21, 08:08 PM"
+    "lastUpdate": "Oct 21, 08:38 PM"
   },
   "hn_posts": [
     {
@@ -706,16 +702,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-22T03:08:14.309Z",
       "count": 3,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 30
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "fetched_at": "2026-10-22T03:38:07.327Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -723,7 +719,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "fetched_at": "2026-10-22T03:38:07.327Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -731,7 +727,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "fetched_at": "2026-10-22T03:38:07.327Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -739,7 +735,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "fetched_at": "2026-10-22T03:38:07.327Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -747,7 +743,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "fetched_at": "2026-10-22T03:38:07.327Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -755,7 +751,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "fetched_at": "2026-10-22T03:38:07.327Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -763,7 +759,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.309Z",
+      "fetched_at": "2026-10-22T03:38:07.327Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -771,7 +767,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T03:08:14.343Z",
+      "fetched_at": "2026-10-22T03:38:07.364Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
