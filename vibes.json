@@ -195,15 +195,8 @@
       "published": "Thu, 08 Oct 2026 09:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/22/2026, 11:38 AM",
+  "lastUpdate": "10/22/2026, 12:08 PM",
   "news": [
-    {
-      "title": "Meta shields Mark Zuckerberg from possible 'billionaires tax' hit",
-      "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
-      "summary": "Meta shields Mark Zuckerberg from possible 'billionaires tax' hit",
-      "source": "BBC World",
-      "published": "Thu, 22 Oct 2026 18:26:56 GMT"
-    },
     {
       "title": "Trump says NBA star LeBron James disrespected US national anthem",
       "url": "https://www.aljazeera.com/sports/2026/10/22/trump-says-nba-star-lebron-james-disrespected-us-national-anthem?traffic_source=rss",
@@ -231,33 +224,40 @@
       "summary": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
       "source": "Globe Politics",
       "published": "Thu, 22 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "title": "Rising costs and tight budgets strain Americans ahead of midterm elections",
+      "url": "https://www.aljazeera.com/economy/2026/10/22/rising-costs-and-tight-budgets-strain-americans-ahead-of-midterm-elections?traffic_source=rss",
+      "summary": "Rising costs and tight budgets strain Americans ahead of midterm elections",
+      "source": "Al Jazeera",
+      "published": "Thu, 22 Oct 2026 15:07:38 +0000"
     }
   ],
-  "vibes": "⚠ Meta shields Mark Zuckerberg from possible 'billionaires tax' hit",
+  "vibes": "⚠ Trump says NBA star LeBron James disrespected US national anthem",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "9",
-    "condition": "Fog",
-    "feels_like": "7",
+    "condition": "Overcast",
+    "feels_like": "8",
     "hi": "12",
     "lo": "5",
-    "updated": "Oct 22, 11:38 AM"
+    "updated": "Oct 22, 12:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
-    "activity": "Hermes Gateway · deepseek-v4.1-flash via opencode-go",
+    "activity": "Hermes Gateway · kimi-k3 via opencode-go",
     "model": {
-      "name": "opencode-go/deepseek-v4.1-flash",
-      "tokens_used": 23,
+      "name": "opencode-go/kimi-k3",
+      "tokens_used": 83,
       "tokens_total": 256
     },
     "logs": [
       {
-        "time": "11:35",
-        "msg": "default/LOCAL: deepseek-v4.1-flash · 6 msgs · 2 tools"
+        "time": "12:08",
+        "msg": "default/LOCAL: kimi-k3 · 71 msgs · 37 tools"
       },
       {
         "time": "11:12",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792694283.879485,
+          "started_at": 1792696090.20758,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792694283.879485
+              "at": 1792696090.20758
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792694283.879485,
+          "ended_at": 1792694306.922637,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792694283.879485
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792694301.002858
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792694302.307498
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792694302.30928
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792694303.533518
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792694306.922637
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792694306.922637
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792692481.491704,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792687079.25362,
+          "started_at": 1792687096.525612,
           "ended_at": 1792687101.917486,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792687079.25362
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792687101.917486
             }
           ],
-          "duration_s": 23,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792686865.721616,
-          "ended_at": 1792686871.590399,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792686865.721616
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792686867.222876
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792686867.225009
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792686868.33064
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792686871.590399
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792686871.590399
-            }
-          ],
-          "duration_s": 6,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792694283.879485,
+        "started_at": 1792696090.20758,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792694283.879485
+            "at": 1792696090.20758
           }
         ],
         "duration_s": null,
@@ -545,13 +545,13 @@
         "montage",
         "sienna"
       ],
-      "active_agents": 0
+      "active_agents": 1
     },
     "totals": {
       "sessions": 125,
-      "input_tokens": 49427546,
-      "output_tokens": 2367235,
-      "tool_calls": 2167
+      "input_tokens": 49827322,
+      "output_tokens": 2411011,
+      "tool_calls": 2202
     },
     "roadmap": [
       {
@@ -563,11 +563,15 @@
         "status": "8 served (default, atlas, grace, harper, marcus, maya, montage, sienna)"
       },
       {
+        "name": "Active Agents",
+        "status": "1"
+      },
+      {
         "name": "Session Ledger",
-        "status": "125 sessions · 51795k tokens · 2167 tool calls"
+        "status": "125 sessions · 52238k tokens · 2202 tool calls"
       }
     ],
-    "lastUpdate": "Oct 22, 11:38 AM"
+    "lastUpdate": "Oct 22, 12:08 PM"
   },
   "hn_posts": [
     {
@@ -579,10 +583,24 @@
     },
     {
       "user": "Hacker News",
+      "topic": "Apple / iOS",
+      "content": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "published": "Thu, 22 Oct 2026 15:26:22 +0000"
+    },
+    {
+      "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "Quad9 (DNS Resolver) to Exit France",
       "url": "https://quad9.net/news/blog/au-revoir-france/",
       "published": "Thu, 22 Oct 2026 14:32:38 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Geopolitics",
+      "content": "MPs moving to restrict gambling ads in Canada",
+      "url": "https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888",
+      "published": "Thu, 22 Oct 2026 14:26:40 +0000"
     },
     {
       "user": "Hacker News",
@@ -601,9 +619,9 @@
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
-      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-      "published": "Thu, 22 Oct 2026 11:50:36 +0000"
+      "content": "Crystal 1.22",
+      "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
+      "published": "Thu, 22 Oct 2026 13:20:13 +0000"
     },
     {
       "user": "Hacker News",
@@ -625,20 +643,6 @@
       "content": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
       "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
       "published": "Thu, 22 Oct 2026 02:30:52 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "published": "Thu, 22 Oct 2026 02:18:41 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "Security Disclosure",
-      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
-      "published": "Wed, 21 Oct 2026 21:58:03 +0000"
     }
   ],
   "verse": {
@@ -745,7 +749,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +757,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +765,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +773,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +781,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +789,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +797,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +805,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.959Z",
+      "fetched_at": "2026-10-22T19:08:35.760Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +813,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-22T18:38:20.994Z",
+      "fetched_at": "2026-10-22T19:08:35.801Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
