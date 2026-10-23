@@ -63,6 +63,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "MatthewBerman",
+      "topic": "Tech Intel",
+      "content": "Dario...is that you?",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113773359351935390#m",
+      "published": "Fri, 23 Oct 2026 23:23:35 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "straight from the Meta playbook distribution distribution distribution",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113772300852171111#m",
+      "published": "Fri, 23 Oct 2026 23:19:23 GMT"
+    },
+    {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
       "content": "This week, I was invited to a big stage. I chose my patio instead. Slow mornings. Bare feet on warm ground. A long conversation with a friend who has walked this road before me, and who sat with me while I walked a little further. And while I rested, the work kept bearing fruit. My AI clone reached over 100,000 people on YouTube in under two days. Nearly six figures in income came in our business. But I didn't push or burn out to make any of it happen. That's what a tree planted by the river looks like. It doesn't strain. It stays planted, and the fruit comes in season. This is the week I stopped healing toward something and started living from it. Here's what I know now. I'm whole. The weather still moves through me some days, and underneath the weather, I always was. I'm in season. Roots don't rush. Neither do I. I let myself be held. Forests share through their roots, rivers are fed by many streams, and a woman who is healing can let other people carry some of the weight. The storms I walked through weren't wasted. They cleared the ground. The desert blooms after the rain, and so do I. I release every label that was ever handed to me as a life sentence. I don't own those. I own my mornings, my breath, my choices, and the quiet knowing that I am being made new. I live as if the healing is already complete. My body is catching up, day by day, and I speak to it with gentleness. Julia 3.0 starts now. Steady. Open. Renewed. The woman who climbed up out of the wreckage is standing in the garden now, and she's turning around to take your hand. If you're in your own storm, read this again as yours. Say it out loud. Every \"I\" in it belongs to you too. You're not behind. You're in season. Hold this with me.",
@@ -105,13 +119,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 23 Oct 2026 21:29:00 GMT"
     },
     {
-      "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "AI was supposed to automate jobs...right? Everyone I know is busier than ever.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113727676548796923#m",
-      "published": "Fri, 23 Oct 2026 20:22:03 GMT"
-    },
-    {
       "user": "elonmusk",
       "topic": "AI / ML",
       "content": "RT by @elonmusk: James Talarico is a 2021 woke remnant who must lose. When he opposed a transgender athletes bill that year he told the Texas House that God is nonbinary and cited Hebrew grammar for “spirit” in Genesis. At the same committee hearing, he claimed modern science recognizes 6 biological sexes before reversing to 2 after Fox pressed him during the campaign. On Rogan in 2025, he argued the Bible supports abortion rights because God asked Mary’s consent before the incarnation. A seminary trained Democrat who spent years pushing those claims has no place winning statewide.",
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "The iPhone Duo is the greatest way to manage Grok Bots ever",
       "url": "http://nitter.meowing.monster/AlexFinn/status/2113701510735663170#m",
       "published": "Fri, 23 Oct 2026 18:38:05 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "Whatever you’re getting good at, find the best who ever did it and study them.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2113692007835017241#m",
-      "published": "Fri, 23 Oct 2026 18:00:19 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 04:08 PM",
+  "lastUpdate": "10/23/2026, 04:38 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -244,7 +244,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "12",
     "hi": "15",
     "lo": "4",
-    "updated": "Oct 23, 04:08 PM"
+    "updated": "Oct 23, 04:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792796881.491797,
+          "started_at": 1792798662.961853,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792796881.491797
+              "at": 1792798662.961853
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792796881.491797,
+          "ended_at": 1792796904.518928,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792796881.491797
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792796898.835825
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792796900.44165
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792796900.443377
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792796901.703868
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792796904.518928
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792796904.518928
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792795141.492223,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792789681.492109,
+          "started_at": 1792789706.531155,
           "ended_at": 1792789710.873855,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792789681.492109
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792789710.873855
             }
           ],
-          "duration_s": 29,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792788943.392822,
-          "ended_at": 1792788947.708903,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792788943.392822
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792788944.826144
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792788944.827516
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792788945.90784
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792788947.708903
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792788947.708903
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792796881.491797,
+        "started_at": 1792798662.961853,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792796881.491797
+            "at": 1792798662.961853
           }
         ],
         "duration_s": null,
@@ -567,58 +567,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 04:08 PM"
+    "lastUpdate": "Oct 23, 04:38 PM"
   },
   "hn_posts": [
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Google will pay people to use less electricity so its data centers can use more",
-      "url": "https://www.computerworld.com/article/4239858/google-will-pay-people-to-use-less-electricity-so-its-data-centers-can-use-more.html",
-      "published": "Fri, 23 Oct 2026 22:03:40 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "CVE Tracker",
-      "url": "https://cve.0xosprey.com/",
-      "published": "Fri, 23 Oct 2026 21:21:47 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "No Source Code? No Problem",
-      "url": "https://queue.acm.org/doi/10.1145/945131.945155",
-      "published": "Fri, 23 Oct 2026 20:38:06 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "A whirlwind tour of systemd-nspawn containers",
-      "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
-      "published": "Fri, 23 Oct 2026 20:37:12 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Agents",
-      "content": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-      "url": "https://corgi.computer/",
-      "published": "Fri, 23 Oct 2026 19:46:38 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
-      "url": "https://rune.build/blog/rune-1-3-release",
-      "published": "Fri, 23 Oct 2026 19:42:01 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "We are all living inside of an obscure sci-fi film from 1970",
-      "url": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
-      "published": "Fri, 23 Oct 2026 19:41:59 +0000"
-    },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
@@ -636,9 +587,44 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "DNS: A Replacement for Finger",
-      "url": "https://altchan.org/sh/42",
-      "published": "Fri, 23 Oct 2026 19:00:04 +0000"
+      "content": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "published": "Fri, 23 Oct 2026 16:59:08 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "published": "Fri, 23 Oct 2026 16:21:50 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Apple / iOS",
+      "content": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "published": "Fri, 23 Oct 2026 12:28:47 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "published": "Thu, 22 Oct 2026 23:01:18 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Canadians are running out of time to oppose Bill C-22",
+      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+      "published": "Thu, 22 Oct 2026 22:43:19 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "The Real Kevin Bacon",
+      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "published": "Tue, 20 Oct 2026 17:10:05 +0000"
     }
   ],
   "verse": {
@@ -745,7 +731,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "fetched_at": "2026-10-23T23:38:06.140Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +739,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "fetched_at": "2026-10-23T23:38:06.140Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,15 +747,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
-      "count": 10,
+      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "count": 8,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "fetched_at": "2026-10-23T23:38:06.140Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "fetched_at": "2026-10-23T23:38:06.140Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "fetched_at": "2026-10-23T23:38:06.140Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "fetched_at": "2026-10-23T23:38:06.140Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +787,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "fetched_at": "2026-10-23T23:38:06.140Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +795,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:08:18.830Z",
+      "fetched_at": "2026-10-23T23:38:06.181Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
