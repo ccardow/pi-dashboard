@@ -63,6 +63,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "JuliaEMcCoy",
+      "topic": "AI / ML",
+      "content": "This week, I was invited to a big stage. I chose my patio instead. Slow mornings. Bare feet on warm ground. A long conversation with a friend who has walked this road before me, and who sat with me while I walked a little further. And while I rested, the work kept bearing fruit. My AI clone reached over 100,000 people on YouTube in under two days. Nearly six figures in income came in our business. But I didn't push or burn out to make any of it happen. That's what a tree planted by the river looks like. It doesn't strain. It stays planted, and the fruit comes in season. This is the week I stopped healing toward something and started living from it. Here's what I know now. I'm whole. The weather still moves through me some days, and underneath the weather, I always was. I'm in season. Roots don't rush. Neither do I. I let myself be held. Forests share through their roots, rivers are fed by many streams, and a woman who is healing can let other people carry some of the weight. The storms I walked through weren't wasted. They cleared the ground. The desert blooms after the rain, and so do I. I release every label that was ever handed to me as a life sentence. I don't own those. I own my mornings, my breath, my choices, and the quiet knowing that I am being made new. I live as if the healing is already complete. My body is catching up, day by day, and I speak to it with gentleness. Julia 3.0 starts now. Steady. Open. Renewed. The woman who climbed up out of the wreckage is standing in the garden now, and she's turning around to take your hand. If you're in your own storm, read this again as yours. Say it out loud. Every \"I\" in it belongs to you too. You're not behind. You're in season. Hold this with me.",
+      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2113768716127330760#m",
+      "published": "Fri, 23 Oct 2026 23:05:08 GMT"
+    },
+    {
       "user": "openclaw",
       "topic": "Agents",
       "content": "R to @openclaw: OpenClaw Enterprise separates trusted workloads (RBAC, audit logs, enforced policy) from untrusted ones (the agent and its tools). The control plane runs in its own isolation boundary, so the agent can't touch it.",
@@ -124,13 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Whatever you’re getting good at, find the best who ever did it and study them.",
       "url": "http://nitter.meowing.monster/danmartell/status/2113692007835017241#m",
       "published": "Fri, 23 Oct 2026 18:00:19 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Tech Intel",
-      "content": "Stream chat asked me to make a YTP video of @theo using Kimi K3.1:",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113690033115066519#m",
-      "published": "Fri, 23 Oct 2026 17:52:29 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 03:39 PM",
+  "lastUpdate": "10/23/2026, 04:08 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -244,7 +244,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "12",
     "hi": "15",
     "lo": "4",
-    "updated": "Oct 23, 03:39 PM"
+    "updated": "Oct 23, 04:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792795141.492223,
+          "started_at": 1792796881.491797,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792795141.492223
+              "at": 1792796881.491797
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792795141.492223,
+          "ended_at": 1792795166.937085,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792795141.492223
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792795161.479382
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792795163.902539
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792795163.904337
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792795165.171768
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792795166.937085
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792795166.937085
+            }
+          ],
+          "duration_s": 25,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792793341.491615,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792788911.739486,
+          "started_at": 1792788943.392822,
           "ended_at": 1792788947.708903,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792788911.739486
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792788947.708903
             }
           ],
-          "duration_s": 36,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792715899.627402,
-          "ended_at": 1792715903.868721,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792715899.627402
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792715900.915949
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792715900.918021
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792715901.932892
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792715903.868721
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792715903.868721
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792795141.492223,
+        "started_at": 1792796881.491797,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792795141.492223
+            "at": 1792796881.491797
           }
         ],
         "duration_s": null,
@@ -567,9 +567,58 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 03:39 PM"
+    "lastUpdate": "Oct 23, 04:08 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Google will pay people to use less electricity so its data centers can use more",
+      "url": "https://www.computerworld.com/article/4239858/google-will-pay-people-to-use-less-electricity-so-its-data-centers-can-use-more.html",
+      "published": "Fri, 23 Oct 2026 22:03:40 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "CVE Tracker",
+      "url": "https://cve.0xosprey.com/",
+      "published": "Fri, 23 Oct 2026 21:21:47 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "No Source Code? No Problem",
+      "url": "https://queue.acm.org/doi/10.1145/945131.945155",
+      "published": "Fri, 23 Oct 2026 20:38:06 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "A whirlwind tour of systemd-nspawn containers",
+      "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+      "published": "Fri, 23 Oct 2026 20:37:12 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Agents",
+      "content": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "url": "https://corgi.computer/",
+      "published": "Fri, 23 Oct 2026 19:46:38 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+      "url": "https://rune.build/blog/rune-1-3-release",
+      "published": "Fri, 23 Oct 2026 19:42:01 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "We are all living inside of an obscure sci-fi film from 1970",
+      "url": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
+      "published": "Fri, 23 Oct 2026 19:41:59 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
@@ -579,59 +628,17 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "published": "Fri, 23 Oct 2026 16:59:08 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "Today, we hacked what we'd set out to hack: the iPhone",
-      "url": "https://blog.calif.io/p/iphone",
-      "published": "Fri, 23 Oct 2026 16:21:50 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Apple / iOS",
-      "content": "Apple Music 404 Not Found",
-      "url": "https://music.apple.com/this-url-doesnt-exist",
-      "published": "Fri, 23 Oct 2026 12:28:47 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "url": "https://edjefferson.com/localwiki/",
-      "published": "Thu, 22 Oct 2026 23:01:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Canadians are running out of time to oppose Bill C-22",
-      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
-      "published": "Thu, 22 Oct 2026 22:43:19 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-      "url": "https://news.ycombinator.com/item?id=50200997",
-      "published": "Thu, 22 Oct 2026 21:03:55 +0000"
+      "content": "Dessa: the most authentic full-duplex speech model ever built",
+      "url": "https://block.xyz/dessa",
+      "published": "Fri, 23 Oct 2026 19:09:54 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
-      "url": "https://github.com/dsmurrell/onkey",
-      "published": "Thu, 22 Oct 2026 14:04:44 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "The Real Kevin Bacon",
-      "url": "https://pudding.cool/2026/10/kevin-bacon/",
-      "published": "Tue, 20 Oct 2026 17:10:05 +0000"
+      "content": "DNS: A Replacement for Finger",
+      "url": "https://altchan.org/sh/42",
+      "published": "Fri, 23 Oct 2026 19:00:04 +0000"
     }
   ],
   "verse": {
@@ -738,7 +745,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "fetched_at": "2026-10-23T23:08:18.794Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -746,7 +753,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "fetched_at": "2026-10-23T23:08:18.794Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -754,15 +761,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
-      "count": 9,
+      "fetched_at": "2026-10-23T23:08:18.794Z",
+      "count": 10,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "fetched_at": "2026-10-23T23:08:18.794Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -770,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "fetched_at": "2026-10-23T23:08:18.794Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -778,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "fetched_at": "2026-10-23T23:08:18.794Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -786,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "fetched_at": "2026-10-23T23:08:18.794Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -794,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "fetched_at": "2026-10-23T23:08:18.794Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -802,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:39:21.474Z",
+      "fetched_at": "2026-10-23T23:08:18.830Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
