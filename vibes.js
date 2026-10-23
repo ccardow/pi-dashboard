@@ -63,6 +63,34 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "openclaw",
+      "topic": "Agents",
+      "content": "R to @openclaw: OpenClaw Enterprise separates trusted workloads (RBAC, audit logs, enforced policy) from untrusted ones (the agent and its tools). The control plane runs in its own isolation boundary, so the agent can't touch it.",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113756870313951480#m",
+      "published": "Fri, 23 Oct 2026 22:18:04 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "Tech Intel",
+      "content": "R to @openclaw: It's designed to plug into what you already use (sandboxes, MCP gateways, secret brokers) through one common contract, and to run on any infrastructure. It's pre-1.0 and ready for pilots now. Join the conversation: https://openclawenterprise.slack.com/",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113756871500914979#m",
+      "published": "Fri, 23 Oct 2026 22:18:04 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "Agents",
+      "content": "What is OpenClaw Enterprise, and why does it matter? @heyneighbor sat down with @kevins8 to talk about: - What OpenClaw Enterprise is - Why he built it - What it does that other agents don't do - How you can get involved + Learn why Red Hat and NVIDIA are contributing🦞",
+      "url": "http://nitter.meowing.monster/openclaw/status/2113756866300010520#m",
+      "published": "Fri, 23 Oct 2026 22:18:03 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: Ramp-up is in full swing at Giga Berlin. This week we hit the next production milestone: 7,000 Model Y built in one week. Congrats to the whole team!",
+      "url": "http://nitter.meowing.monster/gigafactories/status/2113745614228099452#m",
+      "published": "Fri, 23 Oct 2026 21:33:20 GMT"
+    },
+    {
       "user": "MatthewBerman",
       "topic": "AI / ML",
       "content": "Does AI widen the gap between hypercompetitive people and everyone else? If some use it to get 10–100x more done while others use it to work less, who pulls ahead? Sam Altman: “Left to its own devices, I think probably.” He thinks society will need safeguards to keep that gap from getting out of hand.",
@@ -77,18 +105,18 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 23 Oct 2026 20:22:03 GMT"
     },
     {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: James Talarico is a 2021 woke remnant who must lose. When he opposed a transgender athletes bill that year he told the Texas House that God is nonbinary and cited Hebrew grammar for “spirit” in Genesis. At the same committee hearing, he claimed modern science recognizes 6 biological sexes before reversing to 2 after Fox pressed him during the campaign. On Rogan in 2025, he argued the Bible supports abortion rights because God asked Mary’s consent before the incarnation. A seminary trained Democrat who spent years pushing those claims has no place winning statewide.",
+      "url": "http://nitter.meowing.monster/Rothmus/status/2113724913978892430#m",
+      "published": "Fri, 23 Oct 2026 20:11:05 GMT"
+    },
+    {
       "user": "AlexFinn",
       "topic": "Apple / iOS",
       "content": "The iPhone Duo is the greatest way to manage Grok Bots ever",
       "url": "http://nitter.meowing.monster/AlexFinn/status/2113701510735663170#m",
       "published": "Fri, 23 Oct 2026 18:38:05 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "The Economist has been anti-human for the past few decades. It is no longer worthy of respect.",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2113692448300097708#m",
-      "published": "Fri, 23 Oct 2026 18:02:04 GMT"
     },
     {
       "user": "danmartell",
@@ -103,34 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Stream chat asked me to make a YTP video of @theo using Kimi K3.1:",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2113690033115066519#m",
       "published": "Fri, 23 Oct 2026 17:52:29 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "Tech Intel",
-      "content": "x.com/i/broadcasts/1RJjpbwqn…",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113687685420487032#m",
-      "published": "Fri, 23 Oct 2026 17:43:09 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "RT by @elonmusk: There are children starving and Bernie Sanders is giving $1 million to some Muslim in Michigan? Does Bernie hate starving children? Does he hate poor people and homeless people? Think of what that money could have done!",
-      "url": "http://nitter.meowing.monster/alx/status/2113667593173147777#m",
-      "published": "Fri, 23 Oct 2026 16:23:18 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "Normalize minding your business when people choose a life you wouldn’t.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2113631677125697590#m",
-      "published": "Fri, 23 Oct 2026 14:00:35 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Black October is the craziest month in cybersecurity history. And this time, some of the hackers were AI agents. CrowdStrike caught an AI agent built on Claude Code going from a foothold to a company’s master passwords in about 20 minutes. No human telling it what to do next. Same week: • Railway: hackers may have exposed customers’ secret keys, including AI keys • LiteLLM: an AI tool poisoned with code built to steal AI logins • US banks: AI agents found inside customer accounts, doing things nobody asked for • PHP2Shell: Japan’s prime minister told sites to patch that night or go offline Most hackers this month weren’t chasing card numbers. They were chasing the keys your AI agents run on. 4 things to do today: → One API key per agent, with a spending cap → Give agents the smallest access that still does the job → Never give an agent your bank login → Set up 2FA Bookmark this so you have the checklist when you need it. And share it with anyone using AI agents in their business. They need to see this.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2113488596472938998#m",
-      "published": "Fri, 23 Oct 2026 04:32:02 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 03:09 PM",
+  "lastUpdate": "10/23/2026, 03:39 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -241,10 +241,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "timezone": "America/Vancouver",
     "temp": "14",
     "condition": "Clear",
-    "feels_like": "13",
-    "hi": "14",
+    "feels_like": "12",
+    "hi": "15",
     "lo": "4",
-    "updated": "Oct 23, 03:09 PM"
+    "updated": "Oct 23, 03:39 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792793341.491615,
+          "started_at": 1792795141.492223,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792793341.491615
+              "at": 1792795141.492223
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792793341.491615,
+          "ended_at": 1792793364.417301,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792793341.491615
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792793360.155598
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792793361.497294
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792793361.499408
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792793362.581169
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792793364.417301
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792793364.417301
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792791436.916882,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792715881.496476,
+          "started_at": 1792715899.627402,
           "ended_at": 1792715903.868721,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792715881.496476
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792715903.868721
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792714108.739198,
-          "ended_at": 1792714113.041858,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792714108.739198
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792714110.17488
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792714110.176957
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792714111.332129
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792714113.041858
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792714113.041858
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792793341.491615,
+        "started_at": 1792795141.492223,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792793341.491615
+            "at": 1792795141.492223
           }
         ],
         "duration_s": null,
@@ -567,9 +567,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 03:09 PM"
+    "lastUpdate": "Oct 23, 03:39 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "published": "Fri, 23 Oct 2026 19:34:15 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -731,7 +738,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "fetched_at": "2026-10-23T22:39:21.439Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -739,7 +746,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "fetched_at": "2026-10-23T22:39:21.439Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -747,15 +754,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
-      "count": 8,
+      "fetched_at": "2026-10-23T22:39:21.439Z",
+      "count": 9,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "fetched_at": "2026-10-23T22:39:21.439Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -763,7 +770,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "fetched_at": "2026-10-23T22:39:21.439Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -771,7 +778,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "fetched_at": "2026-10-23T22:39:21.439Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -779,7 +786,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "fetched_at": "2026-10-23T22:39:21.439Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -787,7 +794,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "fetched_at": "2026-10-23T22:39:21.439Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -795,7 +802,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-23T22:09:20.148Z",
+      "fetched_at": "2026-10-23T22:39:21.474Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
