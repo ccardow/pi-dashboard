@@ -195,7 +195,7 @@
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 02:37 PM",
+  "lastUpdate": "10/23/2026, 03:09 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -244,7 +244,7 @@
     "feels_like": "13",
     "hi": "14",
     "lo": "4",
-    "updated": "Oct 23, 02:37 PM"
+    "updated": "Oct 23, 03:09 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792791436.916882,
+          "started_at": 1792793341.491615,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792791436.916882
+              "at": 1792793341.491615
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792791436.916882,
+          "ended_at": 1792791464.694013,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792791436.916882
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792791460.082475
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792791461.68046
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792791461.682529
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792791462.839226
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792791464.694013
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792791464.694013
+            }
+          ],
+          "duration_s": 28,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792789681.492109,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792714081.489792,
+          "started_at": 1792714108.739198,
           "ended_at": 1792714113.041858,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792714081.489792
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792714113.041858
             }
           ],
-          "duration_s": 32,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792712278.613973,
-          "ended_at": 1792712283.709052,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792712278.613973
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792712279.949052
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792712279.951279
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792712281.990578
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792712283.709052
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792712283.709052
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792791436.916882,
+        "started_at": 1792793341.491615,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792791436.916882
+            "at": 1792793341.491615
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 02:37 PM"
+    "lastUpdate": "Oct 23, 03:09 PM"
   },
   "hn_posts": [
     {
@@ -618,13 +618,6 @@
       "content": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
       "url": "https://github.com/dsmurrell/onkey",
       "published": "Thu, 22 Oct 2026 14:04:44 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "The alien space of science: Coherent but cognitively unavailable directions",
-      "url": "https://arxiv.org/abs/2603.01092",
-      "published": "Thu, 22 Oct 2026 13:25:01 +0000"
     },
     {
       "user": "Hacker News",
@@ -738,7 +731,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "fetched_at": "2026-10-23T22:09:20.111Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -746,7 +739,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "fetched_at": "2026-10-23T22:09:20.111Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -754,15 +747,15 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
-      "count": 9,
+      "fetched_at": "2026-10-23T22:09:20.111Z",
+      "count": 8,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "fetched_at": "2026-10-23T22:09:20.111Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -770,7 +763,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "fetched_at": "2026-10-23T22:09:20.111Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -778,7 +771,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "fetched_at": "2026-10-23T22:09:20.111Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -786,7 +779,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "fetched_at": "2026-10-23T22:09:20.111Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -794,7 +787,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "fetched_at": "2026-10-23T22:09:20.111Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -802,7 +795,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:37:40.076Z",
+      "fetched_at": "2026-10-23T22:09:20.148Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
