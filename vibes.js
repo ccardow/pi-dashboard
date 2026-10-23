@@ -1,6 +1,12 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
+      "title": "3 ChatGPT Agent Prompts To Level Up Your Life",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=WSHEBdmahHY",
+      "published": "2026-10-23T21:15:47+00:00"
+    },
+    {
       "title": "The iPhone Duo is the greatest way to manage AI agents ever #iphoneduo #ai #aiagents",
       "channel": "Alex Finn",
       "url": "https://www.youtube.com/watch?v=m82OHMtl6FA",
@@ -53,15 +59,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=dyrNQV0F3Zs",
       "published": "2026-10-22T03:06:41+00:00"
-    },
-    {
-      "title": "The greatest AI engineering workflow of all time revealed (Herdr)",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=cmvF7nfEJLo",
-      "published": "2026-10-21T20:15:02+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "Does AI widen the gap between hypercompetitive people and everyone else? If some use it to get 10–100x more done while others use it to work less, who pulls ahead? Sam Altman: “Left to its own devices, I think probably.” He thinks society will need safeguards to keep that gap from getting out of hand.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113744522303705550#m",
+      "published": "Fri, 23 Oct 2026 21:29:00 GMT"
+    },
     {
       "user": "MatthewBerman",
       "topic": "AI / ML",
@@ -103,13 +110,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "x.com/i/broadcasts/1RJjpbwqn…",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113687685420487032#m",
       "published": "Fri, 23 Oct 2026 17:43:09 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Tech Intel",
-      "content": "Team AMA (and Kimi K3.1!!) https://x.com/i/broadcasts/1mGPaZoYePjJN",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2113677166634537319#m",
-      "published": "Fri, 23 Oct 2026 17:01:21 GMT"
     },
     {
       "user": "elonmusk",
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 02:08 PM",
+  "lastUpdate": "10/23/2026, 02:37 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -241,10 +241,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "timezone": "America/Vancouver",
     "temp": "14",
     "condition": "Clear",
-    "feels_like": "12",
+    "feels_like": "13",
     "hi": "14",
     "lo": "4",
-    "updated": "Oct 23, 02:08 PM"
+    "updated": "Oct 23, 02:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792789681.492109,
+          "started_at": 1792791436.916882,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792789681.492109
+              "at": 1792791436.916882
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792789681.492109,
+          "ended_at": 1792789710.873855,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792789681.492109
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792789706.531155
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792789708.02173
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792789708.023806
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792789709.072384
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792789710.873855
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792789710.873855
+            }
+          ],
+          "duration_s": 29,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792788911.739486,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792712261.754512,
+          "started_at": 1792712278.613973,
           "ended_at": 1792712283.709052,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792712261.754512
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792712283.709052
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792710497.007992,
-          "ended_at": 1792710501.378861,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792710497.007992
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792710498.510056
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792710498.512108
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792710499.528491
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792710501.378861
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792710501.378861
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792789681.492109,
+        "started_at": 1792791436.916882,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792789681.492109
+            "at": 1792791436.916882
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 02:08 PM"
+    "lastUpdate": "Oct 23, 02:37 PM"
   },
   "hn_posts": [
     {
@@ -594,13 +594,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Job loss and cortisone mania",
-      "url": "https://tilschuenemann.de/job-loss-cortisone-mania",
-      "published": "Fri, 23 Oct 2026 10:31:24 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
       "content": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
       "url": "https://edjefferson.com/localwiki/",
       "published": "Thu, 22 Oct 2026 23:01:18 +0000"
@@ -611,13 +604,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Canadians are running out of time to oppose Bill C-22",
       "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
       "published": "Thu, 22 Oct 2026 22:43:19 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "How does Fable 5.1 hide messages in images?",
-      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
-      "published": "Thu, 22 Oct 2026 21:41:13 +0000"
     },
     {
       "user": "Hacker News",
@@ -639,6 +625,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "The alien space of science: Coherent but cognitively unavailable directions",
       "url": "https://arxiv.org/abs/2603.01092",
       "published": "Thu, 22 Oct 2026 13:25:01 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "The Real Kevin Bacon",
+      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "published": "Tue, 20 Oct 2026 17:10:05 +0000"
     }
   ],
   "verse": {
@@ -745,7 +738,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
+      "fetched_at": "2026-10-23T21:37:40.036Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +746,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
+      "fetched_at": "2026-10-23T21:37:40.036Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,15 +754,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
-      "count": 10,
+      "fetched_at": "2026-10-23T21:37:40.036Z",
+      "count": 9,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
+      "fetched_at": "2026-10-23T21:37:40.036Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +770,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
+      "fetched_at": "2026-10-23T21:37:40.036Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +778,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
+      "fetched_at": "2026-10-23T21:37:40.036Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +786,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
+      "fetched_at": "2026-10-23T21:37:40.036Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +794,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.489Z",
+      "fetched_at": "2026-10-23T21:37:40.036Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +802,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-23T21:08:26.524Z",
+      "fetched_at": "2026-10-23T21:37:40.076Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
