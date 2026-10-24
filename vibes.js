@@ -79,9 +79,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "Exactly",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2114074712041197969#m",
-      "published": "Sat, 24 Oct 2026 19:21:03 GMT"
+      "content": "RT by @elonmusk: Talarico is damaged goods. Something wrong with him.",
+      "url": "http://nitter.meowing.monster/kevinnbass/status/2114079102970016137#m",
+      "published": "Sat, 24 Oct 2026 19:38:30 GMT"
     },
     {
       "user": "elonmusk",
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 03:38 PM",
+  "lastUpdate": "10/24/2026, 04:08 PM",
   "news": [
     {
       "title": "Trade tariffs cause whiplash at Port Milwaukee",
@@ -239,12 +239,12 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "8",
+    "temp": "7",
     "condition": "Drizzle",
-    "feels_like": "6",
+    "feels_like": "5",
     "hi": "8",
     "lo": "3",
-    "updated": "Oct 24, 03:38 PM"
+    "updated": "Oct 24, 04:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792881481.497897,
+          "started_at": 1792883281.49022,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792881481.497897
+              "at": 1792883281.49022
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792881481.497897,
+          "ended_at": 1792881504.208998,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792881481.497897
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792881499.763664
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792881501.028318
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792881501.030511
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792881502.439232
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792881504.208998
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792881504.208998
+            }
+          ],
+          "duration_s": 23,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792879681.491729,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792874341.494889,
+          "started_at": 1792874361.823305,
           "ended_at": 1792874365.955527,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792874341.494889
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792874365.955527
             }
           ],
-          "duration_s": 24,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792872452.427543,
-          "ended_at": 1792872456.719882,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792872452.427543
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792872453.798826
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792872453.800664
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792872454.830309
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792872456.719882
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792872456.719882
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792881481.497897,
+        "started_at": 1792883281.49022,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792881481.497897
+            "at": 1792883281.49022
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 03:38 PM"
+    "lastUpdate": "Oct 24, 04:08 PM"
   },
   "hn_posts": [
     {
@@ -583,6 +583,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "No signs of AI payoff outside the tech sector",
       "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
       "published": "Sat, 24 Oct 2026 19:47:19 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose/",
+      "published": "Sat, 24 Oct 2026 19:06:55 +0000"
     },
     {
       "user": "Hacker News",
@@ -622,23 +629,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "How close can pure functional programming get to C?",
-      "url": "https://rtfeldman.com/fp-vs-c",
-      "published": "Sat, 24 Oct 2026 03:43:54 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
       "content": "Twelve years of distributed SQLite",
       "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
       "published": "Sat, 24 Oct 2026 01:16:58 +0000"
     },
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Dessa: Conversation Model trained only on speech",
-      "url": "https://block.xyz/dessa",
-      "published": "Fri, 23 Oct 2026 19:09:54 +0000"
+      "topic": "Tech Intel",
+      "content": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "published": "Thu, 22 Oct 2026 23:01:18 +0000"
     }
   ],
   "verse": {
@@ -745,7 +745,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.718Z",
+      "fetched_at": "2026-10-24T23:08:24.097Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:38:19.756Z",
+      "fetched_at": "2026-10-24T23:08:24.133Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
