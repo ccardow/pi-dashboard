@@ -195,7 +195,7 @@
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 01:39 PM",
+  "lastUpdate": "10/24/2026, 02:08 PM",
   "news": [
     {
       "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
@@ -244,7 +244,7 @@
     "feels_like": "6",
     "hi": "8",
     "lo": "3",
-    "updated": "Oct 24, 01:39 PM"
+    "updated": "Oct 24, 02:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792874341.494889,
+          "started_at": 1792876081.488899,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792874341.494889
+              "at": 1792876081.488899
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792874341.494889,
+          "ended_at": 1792874365.955527,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792874341.494889
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792874361.823305
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792874363.171639
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792874363.173821
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792874364.291529
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792874365.955527
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792874365.955527
+            }
+          ],
+          "duration_s": 24,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792872432.895329,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792863541.492936,
+          "started_at": 1792863570.225063,
           "ended_at": 1792863574.326154,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792863541.492936
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792863574.326154
             }
           ],
-          "duration_s": 33,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792861758.307094,
-          "ended_at": 1792861762.36201,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792861758.307094
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792861759.579014
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792861759.580855
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792861760.630088
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792861762.36201
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792861762.36201
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792874341.494889,
+        "started_at": 1792876081.488899,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792874341.494889
+            "at": 1792876081.488899
           }
         ],
         "duration_s": null,
@@ -567,9 +567,16 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 01:39 PM"
+    "lastUpdate": "Oct 24, 02:08 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "No Signs of AI Payoff Outside the Tech Sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "published": "Sat, 24 Oct 2026 19:47:19 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Open Source",
@@ -632,13 +639,6 @@
       "content": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
       "url": "https://edjefferson.com/localwiki/",
       "published": "Thu, 22 Oct 2026 23:01:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Physicists trap a single antimatter particle for a month",
-      "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
-      "published": "Wed, 21 Oct 2026 19:40:01 +0000"
     }
   ],
   "verse": {
@@ -745,7 +745,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.784Z",
+      "fetched_at": "2026-10-24T21:08:19.175Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T20:39:21.817Z",
+      "fetched_at": "2026-10-24T21:08:19.211Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
