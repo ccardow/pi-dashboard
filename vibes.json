@@ -1,6 +1,12 @@
 {
   "youtube": [
     {
+      "title": "Claude on the iPhone Duo is SO beautifully designed #ai #aiagents #iphoneduo",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=G6_i4wqh8r4",
+      "published": "2026-10-24T21:19:47+00:00"
+    },
+    {
       "title": "Open-Source AI Models Caught Up! (Kimi K3.1 Pro)",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=u3WV4nf8Jdo",
@@ -53,15 +59,16 @@
       "channel": "Alex Finn",
       "url": "https://www.youtube.com/watch?v=jC26BnJseAw",
       "published": "2026-10-22T20:11:53+00:00"
-    },
-    {
-      "title": "Claude Duet is For Real. What You Need to Know.",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
-      "published": "2026-10-22T15:45:07+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "AlexFinn",
+      "topic": "AI / ML",
+      "content": "Claude on the iPhone Duo is SO beautifully designed",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2114103128622846419#m",
+      "published": "Sat, 24 Oct 2026 21:13:58 GMT"
+    },
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
@@ -124,13 +131,6 @@
       "content": "R to @realDonaldTrump: TO THE GREAT PEOPLE OF NEW JERSEY, GET OUT AND VOTE FOR:   – Jeff Van Drew for U.S. Congress (NJ-02) – Chris Smith for U.S. Congress (NJ-04) – Tom Kean for U.S. Congress (NJ-07)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/new-jersey/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113995904898228240#m",
       "published": "Sat, 24 Oct 2026 14:07:54 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "AI / ML",
-      "content": "🚨 MICHIGAN! Early Voting, in-person, is UNDERWAY NOW in the Great State of Michigan. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!   Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Michigan, you can cast your early Vote, in-person, all the way through November 1st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP   Find your Voting Location here: https://swampthevoteusa.com/michigan/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113995728611598401#m",
-      "published": "Sat, 24 Oct 2026 14:07:12 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 02:08 PM",
+  "lastUpdate": "10/24/2026, 02:38 PM",
   "news": [
     {
       "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
@@ -239,12 +239,12 @@
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "7",
+    "temp": "8",
     "condition": "Drizzle",
     "feels_like": "6",
     "hi": "8",
     "lo": "3",
-    "updated": "Oct 24, 02:08 PM"
+    "updated": "Oct 24, 02:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792876081.488899,
+          "started_at": 1792877881.494735,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792876081.488899
+              "at": 1792877881.494735
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792876081.488899,
+          "ended_at": 1792876103.22432,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792876081.488899
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792876099.216945
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792876100.407517
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792876100.408982
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792876101.4015
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792876103.22432
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792876103.22432
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792874341.494889,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792869951.565333,
+          "started_at": 1792869978.563224,
           "ended_at": 1792869982.717563,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792869951.565333
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1792869982.717563
             }
           ],
-          "duration_s": 31,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792863570.225063,
-          "ended_at": 1792863574.326154,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792863570.225063
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792863571.577142
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792863571.57925
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792863572.579716
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792863574.326154
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792863574.326154
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792876081.488899,
+        "started_at": 1792877881.494735,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792876081.488899
+            "at": 1792877881.494735
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 02:08 PM"
+    "lastUpdate": "Oct 24, 02:38 PM"
   },
   "hn_posts": [
     {
@@ -628,17 +628,17 @@
     },
     {
       "user": "Hacker News",
-      "topic": "Apple / iOS",
-      "content": "Apple Music 404 Not Found",
-      "url": "https://music.apple.com/this-url-doesnt-exist",
-      "published": "Fri, 23 Oct 2026 12:28:47 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
       "url": "https://edjefferson.com/localwiki/",
       "published": "Thu, 22 Oct 2026 23:01:18 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Physicists trap a single antimatter particle for a month",
+      "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+      "published": "Wed, 21 Oct 2026 19:40:01 +0000"
     }
   ],
   "verse": {
@@ -745,7 +745,7 @@
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.175Z",
+      "fetched_at": "2026-10-24T21:38:21.285Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T21:08:19.211Z",
+      "fetched_at": "2026-10-24T21:38:21.321Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
