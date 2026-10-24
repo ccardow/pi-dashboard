@@ -1,6 +1,12 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
+      "title": "Open-Source AI Models Caught Up! (Kimi K3.1 Pro)",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=u3WV4nf8Jdo",
+      "published": "2026-10-24T18:44:59+00:00"
+    },
+    {
       "title": "I Tested Claude Motion vs. Claude Code for Motion Design",
       "channel": "Duncan Rogoff",
       "url": "https://www.youtube.com/watch?v=Cft-TBQv_Y4",
@@ -37,12 +43,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "2026-10-23T18:19:58+00:00"
     },
     {
-      "title": "AI News: 24 Things You Need To Know This Week",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=TVRCcMlvR10",
-      "published": "2026-10-23T17:40:19+00:00"
-    },
-    {
       "title": "This Is How You Should Actually Make Launch Videos",
       "channel": "Y Combinator",
       "url": "https://www.youtube.com/watch?v=v12aSIZIXUs",
@@ -65,6 +65,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
+      "content": "Exactly",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2114074712041197969#m",
+      "published": "Sat, 24 Oct 2026 19:21:03 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
       "content": "Starlink in Bolivia! ❤️🇧🇴",
       "url": "http://nitter.meowing.monster/elonmusk/status/2114065201939034225#m",
       "published": "Sat, 24 Oct 2026 18:43:16 GMT"
@@ -75,13 +82,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Politics is incredibly tribal. Most of those in one tribe can see nothing their tribe does wrong or anything good done by another political tribe.",
       "url": "http://nitter.meowing.monster/elonmusk/status/2114064620411666919#m",
       "published": "Sat, 24 Oct 2026 18:40:57 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "Correct. Using Starlink, a civilian commercial service, for offensive drone strikes to kill people has never been allowed, nor should it be. Starshield, a different system, is controlled by the US government. What they decide to do is up to them. Ukraine military violated Starlink terms of service and used it for offensive drone strikes to kill people. That loophole was closed last week. Starlink remains critical to the defense of Ukraine, as it is the only system that cannot be jammed or blown up, at least for now. Were Starlink to be turned off, the Ukrainian front line would collapse immediately. This is NOT a threat, it is simply a statement of fact. Starlink was also crucial to preventing Russia from overrunning Ukraine in the early days of the war, as all other means of communication were destroyed or jammed by Russia. SpaceX has done more to defend Ukraine than any private company on Earth BY FAR. That said, I have nothing but UTTER CONTEMPT for the virtue-signaling evil warmongers who push for endless slaughter and offer no realistic solution to the conflict. May you burn in hell. End of story.",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2114063986744275011#m",
-      "published": "Sat, 24 Oct 2026 18:38:26 GMT"
     },
     {
       "user": "danmartell",
@@ -195,28 +195,21 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 12:26 PM",
+  "lastUpdate": "10/24/2026, 12:38 PM",
   "news": [
+    {
+      "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+      "summary": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+      "source": "BBC World",
+      "published": "Sat, 24 Oct 2026 19:12:51 GMT"
+    },
     {
       "title": "Trump says he may move White House press corps to new location",
       "url": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
       "summary": "Trump says he may move White House press corps to new location",
       "source": "Al Jazeera",
       "published": "Sat, 24 Oct 2026 17:01:34 +0000"
-    },
-    {
-      "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
-      "summary": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
-      "source": "BBC World",
-      "published": "Sat, 24 Oct 2026 14:45:30 GMT"
-    },
-    {
-      "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
-      "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
-      "summary": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
-      "source": "Al Jazeera",
-      "published": "Sat, 24 Oct 2026 13:06:03 +0000"
     },
     {
       "title": "Carney’s drive to make Canada a European cousin encounters a messy reality",
@@ -231,20 +224,27 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "source": "BBC World",
       "published": "Sat, 24 Oct 2026 07:17:44 GMT"
+    },
+    {
+      "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+      "summary": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+      "source": "BBC World",
+      "published": "Sat, 24 Oct 2026 05:31:01 GMT"
     }
   ],
-  "vibes": "⚠ Trump says he may move White House press corps to new location",
+  "vibes": "⚠ Vanessa Trump says she is cancer-free six months after revealing diagnosis",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "8",
-    "condition": "Overcast",
-    "feels_like": "6",
-    "hi": "9",
+    "condition": "Drizzle",
+    "feels_like": "5",
+    "hi": "8",
     "lo": "3",
-    "updated": "Oct 24, 10:39 AM"
+    "updated": "Oct 24, 12:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792869951.565333,
+          "started_at": 1792870717.594707,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792869951.565333
+              "at": 1792870717.594707
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792869951.565333,
+          "ended_at": 1792869982.717563,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792869951.565333
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792869978.563224
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792869979.952447
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792869979.954015
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792869981.034976
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792869982.717563
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792869982.717563
+            }
+          ],
+          "duration_s": 31,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792863541.492936,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792804141.491747,
+          "started_at": 1792804167.299516,
           "ended_at": 1792804171.694568,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792804141.491747
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792804171.694568
             }
           ],
-          "duration_s": 30,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792802302.824461,
-          "ended_at": 1792802307.294577,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792802302.824461
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792802304.268184
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792802304.27006
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792802305.289223
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792802307.294577
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792802307.294577
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792869951.565333,
+        "started_at": 1792870717.594707,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792869951.565333
+            "at": 1792870717.594707
           }
         ],
         "duration_s": null,
@@ -567,9 +567,23 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 12:26 PM"
+    "lastUpdate": "Oct 24, 12:38 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Open Source",
+      "content": "Roku developer repositories moved from GitHub to GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "published": "Sat, 24 Oct 2026 16:06:26 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "FreeDNS",
+      "url": "https://freedns.afraid.org/",
+      "published": "Sat, 24 Oct 2026 15:20:01 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
@@ -583,13 +597,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
       "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
       "published": "Sat, 24 Oct 2026 08:06:39 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Root shell on Samsung TV",
-      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
-      "published": "Sat, 24 Oct 2026 05:49:57 +0000"
     },
     {
       "user": "Hacker News",
@@ -614,13 +621,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Around a dozen banking apps began specifically permitting GrapheneOS",
-      "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
-      "published": "Sat, 24 Oct 2026 01:15:14 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "AI / ML",
       "content": "Dessa: Conversation Model trained only on speech",
       "url": "https://block.xyz/dessa",
@@ -628,17 +628,17 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "published": "Fri, 23 Oct 2026 16:59:08 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "Security",
       "content": "Today, we hacked what we'd set out to hack: the iPhone",
       "url": "https://blog.calif.io/p/iphone",
       "published": "Fri, 23 Oct 2026 16:21:50 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Apple / iOS",
+      "content": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "published": "Fri, 23 Oct 2026 12:28:47 +0000"
     }
   ],
   "verse": {
@@ -744,64 +744,64 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T17:39:30.182Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 10,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 107
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:26:18.520Z",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T17:39:30.183Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 107
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T17:39:30.183Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 107
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T17:39:30.183Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 107
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T17:39:30.183Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 107
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T17:39:30.183Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 107
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:26:18.520Z",
+      "fetched_at": "2026-10-24T19:38:57.842Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:26:18.556Z",
+      "fetched_at": "2026-10-24T19:38:57.879Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
