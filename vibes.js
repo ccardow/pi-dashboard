@@ -63,25 +63,39 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "Starlink in Bolivia! ❤️🇧🇴",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2114065201939034225#m",
+      "published": "Sat, 24 Oct 2026 18:43:16 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Geopolitics",
+      "content": "Politics is incredibly tribal. Most of those in one tribe can see nothing their tribe does wrong or anything good done by another political tribe.",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2114064620411666919#m",
+      "published": "Sat, 24 Oct 2026 18:40:57 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "Correct. Using Starlink, a civilian commercial service, for offensive drone strikes to kill people has never been allowed, nor should it be. Starshield, a different system, is controlled by the US government. What they decide to do is up to them. Ukraine military violated Starlink terms of service and used it for offensive drone strikes to kill people. That loophole was closed last week. Starlink remains critical to the defense of Ukraine, as it is the only system that cannot be jammed or blown up, at least for now. Were Starlink to be turned off, the Ukrainian front line would collapse immediately. This is NOT a threat, it is simply a statement of fact. Starlink was also crucial to preventing Russia from overrunning Ukraine in the early days of the war, as all other means of communication were destroyed or jammed by Russia. SpaceX has done more to defend Ukraine than any private company on Earth BY FAR. That said, I have nothing but UTTER CONTEMPT for the virtue-signaling evil warmongers who push for endless slaughter and offer no realistic solution to the conflict. May you burn in hell. End of story.",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2114063986744275011#m",
+      "published": "Sat, 24 Oct 2026 18:38:26 GMT"
+    },
+    {
+      "user": "danmartell",
+      "topic": "Tech Intel",
+      "content": "Find people with big goals. They’ll never make you feel stupid for trying.",
+      "url": "http://nitter.meowing.monster/danmartell/status/2114054799112991109#m",
+      "published": "Sat, 24 Oct 2026 18:01:56 GMT"
+    },
+    {
       "user": "MatthewBerman",
       "topic": "AI / ML",
       "content": "Kimi K3.1 smells like Claude",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2114035962489851904#m",
       "published": "Sat, 24 Oct 2026 16:47:05 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "Talarico is lunatic left",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2114026169813414022#m",
-      "published": "Sat, 24 Oct 2026 16:08:10 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Security",
-      "content": "RT by @elonmusk: James Talarico now wants Texans to believe he supports “a lock on the door.” Talarico's Texas House record: ❌ $1.8 billion for border security (2021) ❌ The Texas Border Protection Unit (2023) ❌ Arrest powers for Border Patrol (2023) ❌ Funding for the border wall, twice (2023) ❌ Tougher human smuggling penalties (2023) ❌ Making illegal entry a state crime, twice (2023) ❌ Requiring sheriffs to work with ICE (2025) Millions crossed the border under Biden. Nine chances to lock the door. Nine NO votes. Don't send Talarico to Washington to open Texas's border. Early voting ends Oct. 30. Election Day is Nov. 3.",
-      "url": "http://nitter.meowing.monster/KanekoaTheGreat/status/2114022681263956038#m",
-      "published": "Sat, 24 Oct 2026 15:54:18 GMT"
     },
     {
       "user": "DuncanRogoff",
@@ -117,20 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "🚨 MICHIGAN! Early Voting, in-person, is UNDERWAY NOW in the Great State of Michigan. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!   Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Michigan, you can cast your early Vote, in-person, all the way through November 1st. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP   Find your Voting Location here: https://swampthevoteusa.com/michigan/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2113995728611598401#m",
       "published": "Sat, 24 Oct 2026 14:07:12 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: 7/8 The only 2 things to actually do this week: → Got a website? Check your PHP version and update it. → Running agents? One API key per agent, with a spending cap. Everything else is optional. Share this with anyone who can't keep up with AI right now.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2113994867592528072#m",
-      "published": "Sat, 24 Oct 2026 14:03:47 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "R to @JulianGoldieSEO: 8/8 Full breakdown with every video and guide: https://aiprofitboardroom.com/members/anti-overwhelm-2026-10-24/",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2113994869664620914#m",
-      "published": "Sat, 24 Oct 2026 14:03:47 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 10:39 AM",
+  "lastUpdate": "10/24/2026, 12:26 PM",
   "news": [
     {
       "title": "Trump says he may move White House press corps to new location",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792863541.492936,
+          "started_at": 1792869951.565333,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792863541.492936
+              "at": 1792869951.565333
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792863541.492936,
+          "ended_at": 1792863574.326154,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792863541.492936
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792863570.225063
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792863571.577142
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792863571.57925
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792863572.579716
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792863574.326154
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792863574.326154
+            }
+          ],
+          "duration_s": 33,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792861741.491196,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792802281.493227,
+          "started_at": 1792802302.824461,
           "ended_at": 1792802307.294577,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792802281.493227
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792802307.294577
             }
           ],
-          "duration_s": 26,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792800559.124771,
-          "ended_at": 1792800563.269242,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792800559.124771
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792800560.346543
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792800560.348536
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792800561.458897
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792800563.269242
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792800563.269242
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792863541.492936,
+        "started_at": 1792869951.565333,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792863541.492936
+            "at": 1792869951.565333
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 10:39 AM"
+    "lastUpdate": "Oct 24, 12:26 PM"
   },
   "hn_posts": [
     {
@@ -744,64 +744,64 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-24T17:39:30.182Z",
       "count": 10,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 107
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:39:30.183Z",
+      "fetched_at": "2026-10-24T19:26:18.520Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 107
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 107
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 107
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 107
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 107
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:39:30.183Z",
+      "fetched_at": "2026-10-24T19:26:18.520Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:39:30.218Z",
+      "fetched_at": "2026-10-24T19:26:18.556Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
