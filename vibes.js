@@ -1,12 +1,6 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "Claude on the iPhone Duo is SO beautifully designed #ai #aiagents #iphoneduo",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=G6_i4wqh8r4",
-      "published": "2026-10-24T21:19:47+00:00"
-    },
-    {
       "title": "Open-Source AI Models Caught Up! (Kimi K3.1 Pro)",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=u3WV4nf8Jdo",
@@ -59,15 +53,28 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "channel": "Alex Finn",
       "url": "https://www.youtube.com/watch?v=jC26BnJseAw",
       "published": "2026-10-22T20:11:53+00:00"
+    },
+    {
+      "title": "Claude Duet is For Real. What You Need to Know.",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
+      "published": "2026-10-22T15:45:07+00:00"
     }
   ],
   "x_posts": [
     {
-      "user": "AlexFinn",
+      "user": "realDonaldTrump",
+      "topic": "Tech Intel",
+      "content": "x.com/i/broadcasts/1qKVmyjwo…",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2114119209546342910#m",
+      "published": "Sat, 24 Oct 2026 22:17:52 GMT"
+    },
+    {
+      "user": "elonmusk",
       "topic": "AI / ML",
-      "content": "Claude on the iPhone Duo is SO beautifully designed",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2114103128622846419#m",
-      "published": "Sat, 24 Oct 2026 21:13:58 GMT"
+      "content": "RT by @elonmusk: He’s wrong for the USA, and especially for Texas. If we get a D POTUS in ‘29, it will fall to the US Senate to block: stacking the court, cheating again on 2030 census, expropriating, and breaking our republic for a generation. Make sure you vote, and tell friends - it matters!",
+      "url": "http://nitter.meowing.monster/JTLonsdale/status/2114094128996696425#m",
+      "published": "Sat, 24 Oct 2026 20:38:12 GMT"
     },
     {
       "user": "elonmusk",
@@ -79,16 +86,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "Starlink in Bolivia! ❤️🇧🇴",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2114065201939034225#m",
-      "published": "Sat, 24 Oct 2026 18:43:16 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "Geopolitics",
-      "content": "Politics is incredibly tribal. Most of those in one tribe can see nothing their tribe does wrong or anything good done by another political tribe.",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2114064620411666919#m",
-      "published": "Sat, 24 Oct 2026 18:40:57 GMT"
+      "content": "RT by @elonmusk: The best thing I ever did was making an X account when Elon bought the platform tbh",
+      "url": "http://nitter.meowing.monster/anabology/status/2114070875213537474#m",
+      "published": "Sat, 24 Oct 2026 19:05:48 GMT"
     },
     {
       "user": "danmartell",
@@ -195,8 +195,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 03:08 PM",
+  "lastUpdate": "10/24/2026, 03:38 PM",
   "news": [
+    {
+      "title": "Trade tariffs cause whiplash at Port Milwaukee",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6011193/trade-tariffs-cause-whiplash-at-port-milwaukee",
+      "summary": "Trade tariffs cause whiplash at Port Milwaukee",
+      "source": "NPR News",
+      "published": "Sat, 24 Oct 2026 17:20:55 -0400"
+    },
     {
       "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
       "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
@@ -224,16 +231,9 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "source": "BBC World",
       "published": "Sat, 24 Oct 2026 07:17:44 GMT"
-    },
-    {
-      "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
-      "summary": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
-      "source": "BBC World",
-      "published": "Sat, 24 Oct 2026 05:31:01 GMT"
     }
   ],
-  "vibes": "⚠ Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+  "vibes": "⚠ Trade tariffs cause whiplash at Port Milwaukee",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
@@ -244,7 +244,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "feels_like": "6",
     "hi": "8",
     "lo": "3",
-    "updated": "Oct 24, 03:08 PM"
+    "updated": "Oct 24, 03:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792879681.491729,
+          "started_at": 1792881481.497897,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792879681.491729
+              "at": 1792881481.497897
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792879681.491729,
+          "ended_at": 1792879712.575116,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792879681.491729
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792879708.402912
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792879709.88717
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792879709.888784
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792879710.881903
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792879712.575116
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792879712.575116
+            }
+          ],
+          "duration_s": 31,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792877881.494735,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792872432.895329,
+          "started_at": 1792872452.427543,
           "ended_at": 1792872456.719882,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792872432.895329
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792872456.719882
             }
           ],
-          "duration_s": 24,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792870737.885604,
-          "ended_at": 1792870742.065577,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792870737.885604
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792870739.320513
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792870739.322147
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792870740.325818
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792870742.065577
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792870742.065577
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792879681.491729,
+        "started_at": 1792881481.497897,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792879681.491729
+            "at": 1792881481.497897
           }
         ],
         "duration_s": null,
@@ -567,29 +567,22 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 03:08 PM"
+    "lastUpdate": "Oct 24, 03:38 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Steal My Bitcoin",
+      "content": "Show HN: Steal My Bitcoin",
       "url": "https://stealmybitcoin.com/",
       "published": "Sat, 24 Oct 2026 20:30:31 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "No Signs of AI Payoff Outside the Tech Sector",
+      "content": "No signs of AI payoff outside the tech sector",
       "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
       "published": "Sat, 24 Oct 2026 19:47:19 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Danish Government silently drops plan to dump MS Office",
-      "url": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
-      "published": "Sat, 24 Oct 2026 18:31:48 +0000"
     },
     {
       "user": "Hacker News",
@@ -608,6 +601,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
+      "content": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "published": "Sat, 24 Oct 2026 09:58:27 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
       "content": "I don't understand quantum physics (2018)",
       "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
       "published": "Sat, 24 Oct 2026 09:53:26 +0000"
@@ -622,13 +622,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "OBS Studio 33",
-      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
-      "published": "Sat, 24 Oct 2026 04:49:58 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
       "content": "How close can pure functional programming get to C?",
       "url": "https://rtfeldman.com/fp-vs-c",
       "published": "Sat, 24 Oct 2026 03:43:54 +0000"
@@ -639,6 +632,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Twelve years of distributed SQLite",
       "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
       "published": "Sat, 24 Oct 2026 01:16:58 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Dessa: Conversation Model trained only on speech",
+      "url": "https://block.xyz/dessa",
+      "published": "Fri, 23 Oct 2026 19:09:54 +0000"
     }
   ],
   "verse": {
@@ -745,7 +745,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.361Z",
+      "fetched_at": "2026-10-24T22:38:19.718Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T22:08:28.397Z",
+      "fetched_at": "2026-10-24T22:38:19.756Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
