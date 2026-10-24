@@ -1,16 +1,16 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "3 ChatGPT Agent Prompts To Level Up Your Life",
+      "title": "Old Phones Are Becoming Robots?!?",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=FiyUagHO37Y",
+      "published": "2026-10-24T00:23:07+00:00"
+    },
+    {
+      "title": "These ChatGPT Prompts Are Game-Changers!",
       "channel": "Matt Wolfe",
       "url": "https://www.youtube.com/watch?v=WSHEBdmahHY",
       "published": "2026-10-23T21:15:47+00:00"
-    },
-    {
-      "title": "The iPhone Duo is the greatest way to manage AI agents ever #iphoneduo #ai #aiagents",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=m82OHMtl6FA",
-      "published": "2026-10-23T18:56:57+00:00"
     },
     {
       "title": "The most vulnerable week in internet history...",
@@ -31,18 +31,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "2026-10-23T15:00:24+00:00"
     },
     {
-      "title": "Did Claude Duet just kill Grok Bot?",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=jC26BnJseAw",
-      "published": "2026-10-22T20:11:53+00:00"
-    },
-    {
-      "title": "Claude Duet is For Real. What You Need to Know.",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
-      "published": "2026-10-22T15:45:07+00:00"
-    },
-    {
       "title": "The last real programmers are dying out...",
       "channel": "Fireship",
       "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
@@ -55,10 +43,22 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "2026-10-22T15:00:16+00:00"
     },
     {
-      "title": "Personal Body Guard Robot - What could go wrong?",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=dyrNQV0F3Zs",
-      "published": "2026-10-22T03:06:41+00:00"
+      "title": "Did Google just dethrone OpenAI and Anthropic?",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
+      "published": "2026-10-20T16:21:03+00:00"
+    },
+    {
+      "title": "Gemini 4 Argon Is Not What I Expected",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "published": "2026-10-19T08:49:21+00:00"
+    },
+    {
+      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
+      "published": "2026-10-17T14:00:30+00:00"
     }
   ],
   "x_posts": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 05:09 PM",
+  "lastUpdate": "10/23/2026, 05:38 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -239,12 +239,12 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "13",
+    "temp": "12",
     "condition": "Clear",
-    "feels_like": "10",
+    "feels_like": "9",
     "hi": "15",
     "lo": "4",
-    "updated": "Oct 23, 05:09 PM"
+    "updated": "Oct 23, 05:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792800541.494223,
+          "started_at": 1792802281.493227,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792800541.494223
+              "at": 1792802281.493227
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792800541.494223,
+          "ended_at": 1792800563.269242,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792800541.494223
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792800559.124771
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792800560.346543
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792800560.348536
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792800561.458897
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792800563.269242
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792800563.269242
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792798662.961853,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792793341.491615,
+          "started_at": 1792793360.155598,
           "ended_at": 1792793364.417301,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792793341.491615
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792793364.417301
             }
           ],
-          "duration_s": 23,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792791460.082475,
-          "ended_at": 1792791464.694013,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792791460.082475
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792791461.68046
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792791461.682529
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792791462.839226
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792791464.694013
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792791464.694013
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792800541.494223,
+        "started_at": 1792802281.493227,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792800541.494223
+            "at": 1792802281.493227
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 05:09 PM"
+    "lastUpdate": "Oct 23, 05:38 PM"
   },
   "hn_posts": [
     {
@@ -731,7 +731,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -739,7 +739,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -747,7 +747,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 8,
       "error": null,
       "source": "hnrss.org",
@@ -755,7 +755,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -763,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -771,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -779,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -787,7 +787,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.083Z",
+      "fetched_at": "2026-10-24T00:38:22.777Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -795,7 +795,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:09:19.119Z",
+      "fetched_at": "2026-10-24T00:38:22.816Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
