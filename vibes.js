@@ -195,8 +195,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 10:09 AM",
+  "lastUpdate": "10/24/2026, 10:39 AM",
   "news": [
+    {
+      "title": "Trump says he may move White House press corps to new location",
+      "url": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
+      "summary": "Trump says he may move White House press corps to new location",
+      "source": "Al Jazeera",
+      "published": "Sat, 24 Oct 2026 17:01:34 +0000"
+    },
     {
       "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
       "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
@@ -224,27 +231,20 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "summary": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "source": "BBC World",
       "published": "Sat, 24 Oct 2026 07:17:44 GMT"
-    },
-    {
-      "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
-      "summary": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
-      "source": "BBC World",
-      "published": "Sat, 24 Oct 2026 05:31:01 GMT"
     }
   ],
-  "vibes": "⚠ Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+  "vibes": "⚠ Trump says he may move White House press corps to new location",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "7",
+    "temp": "8",
     "condition": "Overcast",
-    "feels_like": "5",
-    "hi": "8",
+    "feels_like": "6",
+    "hi": "9",
     "lo": "3",
-    "updated": "Oct 24, 10:09 AM"
+    "updated": "Oct 24, 10:39 AM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792861741.491196,
+          "started_at": 1792863541.492936,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792861741.491196
+              "at": 1792863541.492936
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792861741.491196,
+          "ended_at": 1792861762.36201,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792861741.491196
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792861758.307094
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792861759.579014
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792861759.580855
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792861760.630088
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792861762.36201
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792861762.36201
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792860238.57877,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792800541.494223,
+          "started_at": 1792800559.124771,
           "ended_at": 1792800563.269242,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792800541.494223
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792800563.269242
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792798686.189075,
-          "ended_at": 1792798690.167245,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792798686.189075
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792798687.474995
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792798687.477203
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792798688.484329
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792798690.167245
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792798690.167245
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792861741.491196,
+        "started_at": 1792863541.492936,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792861741.491196
+            "at": 1792863541.492936
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 10:09 AM"
+    "lastUpdate": "Oct 24, 10:39 AM"
   },
   "hn_posts": [
     {
@@ -745,7 +745,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.182Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "fetched_at": "2026-10-24T17:39:30.183Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T17:09:18.301Z",
+      "fetched_at": "2026-10-24T17:39:30.218Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
