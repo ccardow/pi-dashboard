@@ -1,43 +1,74 @@
 {
   "youtube": [
     {
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "published": "2026-10-19T08:49:21+00:00"
+      "title": "I Tested Claude Motion vs. Claude Code for Motion Design",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=Cft-TBQv_Y4",
+      "published": "2026-10-24T16:00:22+00:00"
     },
     {
-      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
-      "published": "2026-10-13T21:26:16+00:00"
+      "title": "Why Inference Matters 12x More Than Training | YC Paper Club",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=mHNKuH-9OxU",
+      "published": "2026-10-24T14:00:08+00:00"
     },
     {
-      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
-      "published": "2026-10-13T08:56:12+00:00"
+      "title": "Old Phones Are Becoming Robots?!?",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=FiyUagHO37Y",
+      "published": "2026-10-24T00:23:07+00:00"
     },
     {
-      "title": "DeepSeek Solved AI’s Memory Problem",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
-      "published": "2026-10-11T16:53:17+00:00"
+      "title": "These ChatGPT Prompts Are Game-Changers!",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=WSHEBdmahHY",
+      "published": "2026-10-23T21:15:47+00:00"
     },
     {
-      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
-      "published": "2026-09-17T00:34:47+00:00"
+      "title": "The iPhone Duo is the greatest way to manage AI agents ever #iphoneduo #ai #aiagents",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=m82OHMtl6FA",
+      "published": "2026-10-23T18:56:57+00:00"
     },
     {
-      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
-      "published": "2026-08-26T21:44:41+00:00"
+      "title": "The most vulnerable week in internet history...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
+      "published": "2026-10-23T18:19:58+00:00"
+    },
+    {
+      "title": "AI News: 24 Things You Need To Know This Week",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=TVRCcMlvR10",
+      "published": "2026-10-23T17:40:19+00:00"
+    },
+    {
+      "title": "This Is How You Should Actually Make Launch Videos",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=v12aSIZIXUs",
+      "published": "2026-10-23T15:00:24+00:00"
+    },
+    {
+      "title": "If you use AI, download Claude Duet immediately",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=jC26BnJseAw",
+      "published": "2026-10-22T20:11:53+00:00"
+    },
+    {
+      "title": "Claude Duet is For Real. What You Need to Know.",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
+      "published": "2026-10-22T15:45:07+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "Kimi K3.1 smells like Claude",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2114035962489851904#m",
+      "published": "Sat, 24 Oct 2026 16:47:05 GMT"
+    },
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
@@ -100,13 +131,6 @@
       "content": "R to @JulianGoldieSEO: 8/8 Full breakdown with every video and guide: https://aiprofitboardroom.com/members/anti-overwhelm-2026-10-24/",
       "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2113994869664620914#m",
       "published": "Sat, 24 Oct 2026 14:03:47 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "1/8 This was the craziest week in AI this year. Jack Dorsey's Block just built an AI voice that sounds scary human. It never read a single word. It laughs mid-sentence, hears when you're upset, and runs on a MacBook Pro. Plus an open model that nearly matches Claude, and AI agents breaking into real companies. The rest, craziest first 🧵",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2113994848403378592#m",
-      "published": "Sat, 24 Oct 2026 14:03:42 GMT"
     }
   ],
   "peter_x": [
@@ -171,56 +195,56 @@
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 09:44 AM",
+  "lastUpdate": "10/24/2026, 10:09 AM",
   "news": [
     {
-      "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
-      "url": "https://www.aljazeera.com/economy/2026/10/23/fcc-democrat-warns-broadcasters-to-resist-trumps-media-pressure-tactics?traffic_source=rss",
-      "summary": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
-      "source": "Al Jazeera",
-      "published": "Fri, 23 Oct 2026 20:44:14 +0000"
+      "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+      "summary": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+      "source": "BBC World",
+      "published": "Sat, 24 Oct 2026 14:45:30 GMT"
     },
     {
-      "title": "Politics Insider: Trump to drop some tariffs",
-      "url": "https://www.theglobeandmail.com/politics/article-politics-insider-trump-to-drop-some-tariffs/",
-      "summary": "Politics Insider: Trump to drop some tariffs",
+      "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
+      "summary": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
+      "source": "Al Jazeera",
+      "published": "Sat, 24 Oct 2026 13:06:03 +0000"
+    },
+    {
+      "title": "Carney’s drive to make Canada a European cousin encounters a messy reality",
+      "url": "https://www.theglobeandmail.com/politics/opinion/article-carneys-drive-to-make-canada-a-european-cousin-encounters-a-messy/",
+      "summary": "Carney’s drive to make Canada a European cousin encounters a messy reality",
       "source": "Globe Politics",
-      "published": "Fri, 23 Oct 2026 20:39:36 +0000"
+      "published": "Sat, 24 Oct 2026 09:30:00 +0000"
     },
     {
-      "title": "Why is Trump questioning Ilhan Omar’s name?",
-      "url": "https://www.aljazeera.com/news/2026/10/23/why-is-trump-questioning-ilhan-omars-name?traffic_source=rss",
-      "summary": "Why is Trump questioning Ilhan Omar’s name?",
-      "source": "Al Jazeera",
-      "published": "Fri, 23 Oct 2026 20:37:19 +0000"
+      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+      "summary": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "source": "BBC World",
+      "published": "Sat, 24 Oct 2026 07:17:44 GMT"
     },
     {
-      "title": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
-      "summary": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
-      "source": "Al Jazeera",
-      "published": "Fri, 23 Oct 2026 20:02:21 +0000"
-    },
-    {
-      "title": "Trump’s broken promises: economy, war and ICE",
-      "url": "https://www.aljazeera.com/video/head-to-head/2026/10/23/trumps-broken-promises-economy-war-and-ice?traffic_source=rss",
-      "summary": "Trump’s broken promises: economy, war and ICE",
-      "source": "Al Jazeera",
-      "published": "Fri, 23 Oct 2026 20:01:21 +0000"
+      "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+      "summary": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+      "source": "BBC World",
+      "published": "Sat, 24 Oct 2026 05:31:01 GMT"
     }
   ],
-  "vibes": "⚠ FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
+  "vibes": "⚠ Vanessa Trump says she is cancer-free six months after revealing diagnosis",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "11",
-    "condition": "Clear",
-    "feels_like": "8",
-    "hi": "15",
-    "lo": "4",
-    "updated": "Oct 23, 06:09 PM"
+    "temp": "7",
+    "condition": "Overcast",
+    "feels_like": "5",
+    "hi": "8",
+    "lo": "3",
+    "updated": "Oct 24, 10:09 AM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -261,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792860238.57877,
+          "started_at": 1792861741.491196,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792860238.57877
+              "at": 1792861741.491196
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792860238.57877,
+          "ended_at": 1792860268.370103,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792860238.57877
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792860263.909976
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792860265.529065
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792860265.531229
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792860266.627861
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792860268.370103
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792860268.370103
+            }
+          ],
+          "duration_s": 30,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792804141.491747,
@@ -407,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792798662.961853,
+          "started_at": 1792798686.189075,
           "ended_at": 1792798690.167245,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792798662.961853
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -447,58 +510,19 @@
               "at": 1792798690.167245
             }
           ],
-          "duration_s": 27,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792796898.835825,
-          "ended_at": 1792796904.518928,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792796898.835825
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792796900.44165
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792796900.443377
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792796901.703868
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792796904.518928
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792796904.518928
-            }
-          ],
-          "duration_s": 6,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792860238.57877,
+        "started_at": 1792861741.491196,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792860238.57877
+            "at": 1792861741.491196
           }
         ],
         "duration_s": null,
@@ -543,20 +567,62 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 09:44 AM"
+    "lastUpdate": "Oct 24, 10:09 AM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-      "published": "Fri, 23 Oct 2026 19:34:15 +0000"
+      "topic": "Tech Intel",
+      "content": "I Don't Understand Quantum Physics (2018)",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "published": "Sat, 24 Oct 2026 09:53:26 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "published": "Sat, 24 Oct 2026 08:06:39 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Root shell on Samsung TV",
+      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+      "published": "Sat, 24 Oct 2026 05:49:57 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "published": "Sat, 24 Oct 2026 04:49:58 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "How close can pure functional programming get to C?",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "published": "Sat, 24 Oct 2026 03:43:54 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "published": "Sat, 24 Oct 2026 01:16:58 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "published": "Sat, 24 Oct 2026 01:15:14 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Dessa: the most authentic full-duplex speech model ever built",
+      "content": "Dessa: Conversation Model trained only on speech",
       "url": "https://block.xyz/dessa",
       "published": "Fri, 23 Oct 2026 19:09:54 +0000"
     },
@@ -573,42 +639,14 @@
       "content": "Today, we hacked what we'd set out to hack: the iPhone",
       "url": "https://blog.calif.io/p/iphone",
       "published": "Fri, 23 Oct 2026 16:21:50 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Apple / iOS",
-      "content": "Apple Music 404 Not Found",
-      "url": "https://music.apple.com/this-url-doesnt-exist",
-      "published": "Fri, 23 Oct 2026 12:28:47 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "url": "https://edjefferson.com/localwiki/",
-      "published": "Thu, 22 Oct 2026 23:01:18 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Canadians are running out of time to oppose Bill C-22",
-      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
-      "published": "Thu, 22 Oct 2026 22:43:19 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "The Real Kevin Bacon",
-      "url": "https://pudding.cool/2026/10/kevin-bacon/",
-      "published": "Tue, 20 Oct 2026 17:10:05 +0000"
     }
   ],
   "verse": {
-    "text": "Commit your works to the Lord and your plans will be achieved.",
-    "reference": "Proverbs 16:3",
+    "text": "For the choirmaster. A Psalm of David. The heavens declare the glory of God; the skies proclaim the work of His hands.",
+    "reference": "Psalm 19:1",
     "translation": "BSB",
     "version": "Berean Standard Bible",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "attribution": "Public Domain",
     "source": "youversion"
   },
@@ -706,64 +744,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T01:09:27.257Z",
-      "count": 6,
-      "error": "fetch returned no items",
+      "status": "live",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "count": 10,
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 935
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T16:44:23.873Z",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T01:09:27.257Z",
-      "count": 8,
-      "error": "hnrss.org unreachable",
+      "status": "live",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
+      "count": 10,
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 935
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T01:09:27.257Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 935
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T01:09:27.258Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 935
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T01:09:27.258Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 935
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T01:09:27.258Z",
+      "status": "live",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 935
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T16:44:23.873Z",
+      "fetched_at": "2026-10-24T17:09:18.266Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -771,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T16:44:23.905Z",
+      "fetched_at": "2026-10-24T17:09:18.301Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
