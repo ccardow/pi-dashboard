@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 04:38 PM",
+  "lastUpdate": "10/23/2026, 05:09 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -239,12 +239,12 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "14",
+    "temp": "13",
     "condition": "Clear",
-    "feels_like": "12",
+    "feels_like": "10",
     "hi": "15",
     "lo": "4",
-    "updated": "Oct 23, 04:37 PM"
+    "updated": "Oct 23, 05:09 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792798662.961853,
+          "started_at": 1792800541.494223,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792798662.961853
+              "at": 1792800541.494223
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792798662.961853,
+          "ended_at": 1792798690.167245,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792798662.961853
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792798686.189075
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792798687.474995
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792798687.477203
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792798688.484329
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792798690.167245
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792798690.167245
+            }
+          ],
+          "duration_s": 27,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792796881.491797,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792791436.916882,
+          "started_at": 1792791460.082475,
           "ended_at": 1792791464.694013,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792791436.916882
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792791464.694013
             }
           ],
-          "duration_s": 28,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792789706.531155,
-          "ended_at": 1792789710.873855,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792789706.531155
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792789708.02173
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792789708.023806
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792789709.072384
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792789710.873855
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792789710.873855
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792798662.961853,
+        "started_at": 1792800541.494223,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792798662.961853
+            "at": 1792800541.494223
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 04:38 PM"
+    "lastUpdate": "Oct 23, 05:09 PM"
   },
   "hn_posts": [
     {
@@ -731,7 +731,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -739,7 +739,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -747,7 +747,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 8,
       "error": null,
       "source": "hnrss.org",
@@ -755,7 +755,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -763,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -771,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -779,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -787,7 +787,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.140Z",
+      "fetched_at": "2026-10-24T00:09:19.083Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -795,7 +795,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-23T23:38:06.181Z",
+      "fetched_at": "2026-10-24T00:09:19.119Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
