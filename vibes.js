@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/24/2026, 12:38 PM",
+  "lastUpdate": "10/24/2026, 01:07 PM",
   "news": [
     {
       "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
@@ -241,10 +241,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "timezone": "America/Vancouver",
     "temp": "8",
     "condition": "Drizzle",
-    "feels_like": "5",
+    "feels_like": "6",
     "hi": "8",
     "lo": "3",
-    "updated": "Oct 24, 12:38 PM"
+    "updated": "Oct 24, 01:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792870717.594707,
+          "started_at": 1792872432.895329,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792870717.594707
+              "at": 1792872432.895329
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792870717.594707,
+          "ended_at": 1792870742.065577,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792870717.594707
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792870737.885604
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792870739.320513
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792870739.322147
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792870740.325818
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792870742.065577
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792870742.065577
+            }
+          ],
+          "duration_s": 24,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792869951.565333,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792860238.57877,
+          "started_at": 1792860263.909976,
           "ended_at": 1792860268.370103,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792860238.57877
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792860268.370103
             }
           ],
-          "duration_s": 30,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792804167.299516,
-          "ended_at": 1792804171.694568,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792804167.299516
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792804168.867169
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792804168.86903
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792804169.870878
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792804171.694568
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792804171.694568
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792870717.594707,
+        "started_at": 1792872432.895329,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792870717.594707
+            "at": 1792872432.895329
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 24, 12:38 PM"
+    "lastUpdate": "Oct 24, 01:07 PM"
   },
   "hn_posts": [
     {
@@ -587,7 +587,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "I Don't Understand Quantum Physics (2018)",
+      "content": "I don't understand quantum physics (2018)",
       "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
       "published": "Sat, 24 Oct 2026 09:53:26 +0000"
     },
@@ -745,7 +745,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -753,7 +753,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.842Z",
+      "fetched_at": "2026-10-24T20:07:32.379Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T19:38:57.879Z",
+      "fetched_at": "2026-10-24T20:07:32.419Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
