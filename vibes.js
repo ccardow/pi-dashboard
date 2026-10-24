@@ -1,67 +1,50 @@
 window.__DASHBOARD_DATA_CALLBACK__({
   "youtube": [
     {
-      "title": "Old Phones Are Becoming Robots?!?",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=FiyUagHO37Y",
-      "published": "2026-10-24T00:23:07+00:00"
-    },
-    {
-      "title": "These ChatGPT Prompts Are Game-Changers!",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=WSHEBdmahHY",
-      "published": "2026-10-23T21:15:47+00:00"
-    },
-    {
-      "title": "The most vulnerable week in internet history...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
-      "published": "2026-10-23T18:19:58+00:00"
-    },
-    {
-      "title": "AI News: 24 Things You Need To Know This Week",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=TVRCcMlvR10",
-      "published": "2026-10-23T17:40:19+00:00"
-    },
-    {
-      "title": "This Is How You Should Actually Make Launch Videos",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=v12aSIZIXUs",
-      "published": "2026-10-23T15:00:24+00:00"
-    },
-    {
-      "title": "The last real programmers are dying out...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
-      "published": "2026-10-22T15:09:31+00:00"
-    },
-    {
-      "title": "How To Stand Out In A World Of AI Designs",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=2tZT2-pS_pI",
-      "published": "2026-10-22T15:00:16+00:00"
-    },
-    {
-      "title": "Did Google just dethrone OpenAI and Anthropic?",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
-      "published": "2026-10-20T16:21:03+00:00"
-    },
-    {
       "title": "Gemini 4 Argon Is Not What I Expected",
       "channel": "Two Minute Papers",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
       "published": "2026-10-19T08:49:21+00:00"
     },
     {
-      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=X7oI4Umt3DU",
-      "published": "2026-10-17T14:00:30+00:00"
+      "title": "Visiting Taiwan w/ Jensen Huang | Lex Fridman",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "published": "2026-10-13T21:26:16+00:00"
+    },
+    {
+      "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
+      "published": "2026-10-13T08:56:12+00:00"
+    },
+    {
+      "title": "DeepSeek Solved AI’s Memory Problem",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "published": "2026-10-11T16:53:17+00:00"
+    },
+    {
+      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
+      "published": "2026-09-17T00:34:47+00:00"
+    },
+    {
+      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
+      "published": "2026-08-26T21:44:41+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "Grok @Bot saves sensitive info in a vault",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2113796183688982771#m",
+      "published": "Sat, 24 Oct 2026 00:54:17 GMT"
+    },
     {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
@@ -103,13 +86,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "What is OpenClaw Enterprise, and why does it matter? @heyneighbor sat down with @kevins8 to talk about: - What OpenClaw Enterprise is - Why he built it - What it does that other agents don't do - How you can get involved + Learn why Red Hat and NVIDIA are contributing🦞",
       "url": "http://nitter.meowing.monster/openclaw/status/2113756866300010520#m",
       "published": "Fri, 23 Oct 2026 22:18:03 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: Ramp-up is in full swing at Giga Berlin. This week we hit the next production milestone: 7,000 Model Y built in one week. Congrats to the whole team!",
-      "url": "http://nitter.meowing.monster/gigafactories/status/2113745614228099452#m",
-      "published": "Fri, 23 Oct 2026 21:33:20 GMT"
     },
     {
       "user": "MatthewBerman",
@@ -195,7 +171,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/23/2026, 05:38 PM",
+  "lastUpdate": "10/23/2026, 06:09 PM",
   "news": [
     {
       "title": "FCC Democrat warns broadcasters to resist Trump’s media pressure tactics",
@@ -239,12 +215,12 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "12",
+    "temp": "11",
     "condition": "Clear",
-    "feels_like": "9",
+    "feels_like": "8",
     "hi": "15",
     "lo": "4",
-    "updated": "Oct 23, 05:38 PM"
+    "updated": "Oct 23, 06:09 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +261,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792802281.493227,
+          "started_at": 1792804141.491747,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792802281.493227
+              "at": 1792804141.491747
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792802281.493227,
+          "ended_at": 1792802307.294577,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792802281.493227
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792802302.824461
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792802304.268184
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792802304.27006
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792802305.289223
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792802307.294577
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792802307.294577
+            }
+          ],
+          "duration_s": 26,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792800541.494223,
@@ -431,15 +451,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792795141.492223,
+          "started_at": 1792795161.479382,
           "ended_at": 1792795166.937085,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792795141.492223
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +486,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792795166.937085
             }
           ],
-          "duration_s": 25,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792793360.155598,
-          "ended_at": 1792793364.417301,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792793360.155598
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792793361.497294
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792793361.499408
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792793362.581169
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792793364.417301
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792793364.417301
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792802281.493227,
+        "started_at": 1792804141.491747,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792802281.493227
+            "at": 1792804141.491747
           }
         ],
         "duration_s": null,
@@ -567,7 +543,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 23, 05:38 PM"
+    "lastUpdate": "Oct 23, 06:09 PM"
   },
   "hn_posts": [
     {
@@ -731,15 +707,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
-      "count": 10,
+      "fetched_at": "2026-10-24T01:09:27.257Z",
+      "count": 6,
       "error": null,
       "source": "youtube.com/feeds",
       "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
+      "fetched_at": "2026-10-24T01:09:27.257Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -747,7 +723,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
+      "fetched_at": "2026-10-24T01:09:27.257Z",
       "count": 8,
       "error": null,
       "source": "hnrss.org",
@@ -755,7 +731,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
+      "fetched_at": "2026-10-24T01:09:27.257Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -763,7 +739,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
+      "fetched_at": "2026-10-24T01:09:27.258Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -771,7 +747,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
+      "fetched_at": "2026-10-24T01:09:27.258Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -779,7 +755,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
+      "fetched_at": "2026-10-24T01:09:27.258Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -787,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.777Z",
+      "fetched_at": "2026-10-24T01:09:27.258Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -795,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-24T00:38:22.816Z",
+      "fetched_at": "2026-10-24T01:09:27.293Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
