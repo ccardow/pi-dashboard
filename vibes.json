@@ -21,6 +21,13 @@
   ],
   "x_posts": [
     {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "OpenClaw v2026.10.7 🦞 🔧 Earlier update checks 🧠 Claude CLI context fixes 🎙️ macOS Talk reply fixes 🐰 Bun startup fixes 61 PRs · 54 contributors More in the full notes 👇 https://docs.openclaw.ai/releases/2026.10.7",
+      "url": "http://nitter.meowing.monster/openclaw/status/2114590330276442521#m",
+      "published": "Mon, 26 Oct 2026 05:29:56 GMT"
+    },
+    {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
       "content": ".@bryan_johnson seething right now",
@@ -82,13 +89,6 @@
       "content": "I ran a 100 person writing agency. 5,000 clients. Real ROI, real trust, real sales. I sold it in 2021 for seven figures. And I almost regretted it. AI back then was hot garbage. Then 2023 hit. The models caught up to my skills. My AI written content pulled 9,000% more reach than anything my human team ever made. Two months ago, a clone that looks exactly like you, straight from text to video, was impossible. Today it's done. The future of content is video. A huge piece of that video will be avatars. I bet everything on this once. I'm doing it again. What are you betting on?",
       "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2114403505951875085#m",
       "published": "Sun, 25 Oct 2026 17:07:34 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "Grok Bot is f*cking insane. It just did my whole marketing team's job before I'd even opened my laptop. 5 bots. Every single day: → Lead bot finds 10 businesses at 7am and writes each a personal email → Reply bot drafts a reply to every new lead within a minute → Video bot researches, scripts and makes faceless videos → Carousel bot turns one idea into an Instagram carousel → SEO bot writes a new blog post every day I just approve. If you're still doing all of this by hand, you're working for your business. Not on it. Share this with a business owner who's drowning in marketing.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2114380463393423544#m",
-      "published": "Sun, 25 Oct 2026 15:36:00 GMT"
     }
   ],
   "peter_x": [
@@ -153,7 +153,7 @@
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/25/2026, 10:08 PM",
+  "lastUpdate": "10/25/2026, 10:38 PM",
   "news": [
     {
       "title": "US appeals court sceptical of Trump’s lawsuit over California voter rolls",
@@ -163,9 +163,9 @@
       "published": "Mon, 26 Oct 2026 04:32:48 +0000"
     },
     {
-      "title": "Trump dials up Islamophobia at Michigan Senate rally against Abdul El-Sayed",
+      "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
       "url": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss",
-      "summary": "Trump dials up Islamophobia at Michigan Senate rally against Abdul El-Sayed",
+      "summary": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
       "source": "Al Jazeera",
       "published": "Mon, 26 Oct 2026 04:03:28 +0000"
     },
@@ -198,11 +198,11 @@
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "9",
-    "condition": "Mostly Clear",
-    "feels_like": "7",
+    "condition": "Partly Cloudy",
+    "feels_like": "6",
     "hi": "12",
     "lo": "7",
-    "updated": "Oct 25, 10:08 PM"
+    "updated": "Oct 25, 10:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -243,18 +243,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792991310.015562,
+          "started_at": 1792993110.018442,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792991310.015562
+              "at": 1792993110.018442
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792991310.015562,
+          "ended_at": 1792991331.594589,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792991310.015562
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792991327.343119
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792991328.679103
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792991328.68314
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792991329.786853
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792991331.594589
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792991331.594589
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792990104.416755,
@@ -389,15 +433,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792879681.491729,
+          "started_at": 1792879708.402912,
           "ended_at": 1792879712.575116,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792879681.491729
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@
               "at": 1792879712.575116
             }
           ],
-          "duration_s": 31,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792877901.327084,
-          "ended_at": 1792877905.611763,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792877901.327084
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792877902.706749
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792877902.708744
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792877903.91802
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792877905.611763
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792877905.611763
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792991310.015562,
+        "started_at": 1792993110.018442,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792991310.015562
+            "at": 1792993110.018442
           }
         ],
         "duration_s": null,
@@ -525,7 +525,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 25, 10:08 PM"
+    "lastUpdate": "Oct 25, 10:38 PM"
   },
   "hn_posts": [
     {
@@ -555,13 +555,6 @@
       "content": "Dolly Parton's Imagination Library",
       "url": "https://imaginationlibrary.com/",
       "published": "Sun, 25 Oct 2026 18:23:54 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-      "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
-      "published": "Sun, 25 Oct 2026 18:04:11 +0000"
     },
     {
       "user": "Hacker News",
@@ -688,16 +681,16 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 3,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 30
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -705,15 +698,15 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
-      "count": 8,
+      "fetched_at": "2026-10-26T05:38:47.137Z",
+      "count": 7,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -721,7 +714,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -729,7 +722,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -737,7 +730,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -745,7 +738,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -753,7 +746,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:08:47.329Z",
+      "fetched_at": "2026-10-26T05:38:47.214Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
