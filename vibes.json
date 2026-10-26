@@ -1,64 +1,22 @@
 {
   "youtube": [
     {
-      "title": "Open-Source AI Models Caught Up! (Kimi K3.1 Pro)",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=u3WV4nf8Jdo",
-      "published": "2026-10-24T18:44:59+00:00"
+      "title": "My First Time in Taiwan w/ Jensen Huang | Lex Fridman",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+      "published": "2026-10-13T21:26:16+00:00"
     },
     {
-      "title": "I Tested Claude Motion vs. Claude Code for Motion Design",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=Cft-TBQv_Y4",
-      "published": "2026-10-24T16:00:22+00:00"
+      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
+      "published": "2026-09-17T00:34:47+00:00"
     },
     {
-      "title": "Why Inference Matters 12x More Than Training | YC Paper Club",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=mHNKuH-9OxU",
-      "published": "2026-10-24T14:00:08+00:00"
-    },
-    {
-      "title": "Old Phones Are Becoming Robots?!?",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=FiyUagHO37Y",
-      "published": "2026-10-24T00:23:07+00:00"
-    },
-    {
-      "title": "These ChatGPT Prompts Are Game-Changers!",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=WSHEBdmahHY",
-      "published": "2026-10-23T21:15:47+00:00"
-    },
-    {
-      "title": "The iPhone Duo is the greatest way to manage AI agents ever #iphoneduo #ai #aiagents",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=m82OHMtl6FA",
-      "published": "2026-10-23T18:56:57+00:00"
-    },
-    {
-      "title": "The most vulnerable week in internet history...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
-      "published": "2026-10-23T18:19:58+00:00"
-    },
-    {
-      "title": "This Is How You Should Actually Make Launch Videos",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=v12aSIZIXUs",
-      "published": "2026-10-23T15:00:24+00:00"
-    },
-    {
-      "title": "If you use AI, download Claude Duet immediately",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=jC26BnJseAw",
-      "published": "2026-10-22T20:11:53+00:00"
-    },
-    {
-      "title": "Claude Duet is For Real. What You Need to Know.",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=5uLiXwrEirc",
-      "published": "2026-10-22T15:45:07+00:00"
+      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
+      "published": "2026-08-26T21:44:41+00:00"
     }
   ],
   "x_posts": [
@@ -195,8 +153,15 @@
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/25/2026, 09:48 PM",
+  "lastUpdate": "10/25/2026, 10:08 PM",
   "news": [
+    {
+      "title": "US appeals court sceptical of Trump’s lawsuit over California voter rolls",
+      "url": "https://www.aljazeera.com/news/2026/10/26/us-appeals-court-sceptical-of-trumps-lawsuit-over-california-voter-rolls?traffic_source=rss",
+      "summary": "US appeals court sceptical of Trump’s lawsuit over California voter rolls",
+      "source": "Al Jazeera",
+      "published": "Mon, 26 Oct 2026 04:32:48 +0000"
+    },
     {
       "title": "Trump dials up Islamophobia at Michigan Senate rally against Abdul El-Sayed",
       "url": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss",
@@ -219,13 +184,6 @@
       "published": "Mon, 26 Oct 2026 00:02:55 +0000"
     },
     {
-      "title": "Iran war live: Trump rules out strikes ‘today’; missile downed near Riyadh",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss",
-      "summary": "Iran war live: Trump rules out strikes ‘today’; missile downed near Riyadh",
-      "source": "Al Jazeera",
-      "published": "Mon, 26 Oct 2026 00:00:00 +0000"
-    },
-    {
       "title": "Premiers’ meeting, federal budget will test Carney’s commitment to First Nations, AFN National Chief says",
       "url": "https://www.theglobeandmail.com/politics/article-premiers-meeting-budget-test-carney-first-nations-afn-national-chief/",
       "summary": "Premiers’ meeting, federal budget will test Carney’s commitment to First Nations, AFN National Chief says",
@@ -233,18 +191,18 @@
       "published": "Sun, 25 Oct 2026 23:52:57 +0000"
     }
   ],
-  "vibes": "⚠ Trump dials up Islamophobia at Michigan Senate rally against Abdul El-Sayed",
+  "vibes": "⚠ US appeals court sceptical of Trump’s lawsuit over California voter rolls",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "9",
-    "condition": "Clear",
-    "feels_like": "6",
+    "condition": "Mostly Clear",
+    "feels_like": "7",
     "hi": "12",
     "lo": "7",
-    "updated": "Oct 25, 09:48 PM"
+    "updated": "Oct 25, 10:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +243,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792990104.416755,
+          "started_at": 1792991310.015562,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792990104.416755
+              "at": 1792991310.015562
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792990104.416755,
+          "ended_at": 1792990126.439129,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792990104.416755
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792990121.899492
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792990123.489418
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792990123.504404
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792990124.611366
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792990126.439129
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792990126.439129
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792883281.49022,
@@ -431,15 +433,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792877881.494735,
+          "started_at": 1792877901.327084,
           "ended_at": 1792877905.611763,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792877881.494735
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +468,19 @@
               "at": 1792877905.611763
             }
           ],
-          "duration_s": 24,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792876099.216945,
-          "ended_at": 1792876103.22432,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792876099.216945
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792876100.407517
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792876100.408982
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792876101.4015
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792876103.22432
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792876103.22432
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792990104.416755,
+        "started_at": 1792991310.015562,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792990104.416755
+            "at": 1792991310.015562
           }
         ],
         "duration_s": null,
@@ -567,9 +525,16 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 25, 09:48 PM"
+    "lastUpdate": "Oct 25, 10:08 PM"
   },
   "hn_posts": [
+    {
+      "user": "Hacker News",
+      "topic": "Geopolitics",
+      "content": "Lula wins election after final votes tallied",
+      "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
+      "published": "Mon, 26 Oct 2026 00:31:07 +0000"
+    },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
@@ -597,13 +562,6 @@
       "content": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
       "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
       "published": "Sun, 25 Oct 2026 18:04:11 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
-      "url": "https://talkweb.eu/openweb/4558/",
-      "published": "Sun, 25 Oct 2026 17:30:55 +0000"
     },
     {
       "user": "Hacker News",
@@ -730,16 +688,16 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-24T23:08:24.097Z",
-      "count": 10,
-      "error": "fetch returned no items",
+      "status": "live",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "count": 3,
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 1780
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.816Z",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -747,7 +705,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.816Z",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 8,
       "error": null,
       "source": "hnrss.org",
@@ -755,7 +713,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.816Z",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -763,7 +721,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.816Z",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -771,7 +729,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.816Z",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -779,7 +737,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.816Z",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -787,7 +745,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.816Z",
+      "fetched_at": "2026-10-26T05:08:47.259Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -795,7 +753,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-26T04:48:41.888Z",
+      "fetched_at": "2026-10-26T05:08:47.329Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
