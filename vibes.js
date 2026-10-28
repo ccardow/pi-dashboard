@@ -21,74 +21,74 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
-      "user": "realDonaldTrump",
-      "topic": "Tech Intel",
-      "content": "Video",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115266669379494311#m",
-      "published": "Wed, 28 Oct 2026 02:17:28 GMT"
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "Building Together with AI Agents | ClawCast Community Roundtable https://x.com/i/broadcasts/1qKVmydgyYXxB",
+      "url": "http://nitter.meowing.monster/openclaw/status/2115511317520122085#m",
+      "published": "Wed, 28 Oct 2026 18:29:37 GMT"
     },
     {
-      "user": "MatthewBerman",
+      "user": "danmartell",
       "topic": "Tech Intel",
-      "content": "Immediately installed",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115252244979536381#m",
-      "published": "Wed, 28 Oct 2026 01:20:09 GMT"
+      "content": "Side effect of building your own thing: you become completely unemployable.",
+      "url": "http://nitter.meowing.monster/danmartell/status/2115504093380624467#m",
+      "published": "Wed, 28 Oct 2026 18:00:54 GMT"
     },
     {
       "user": "elonmusk",
-      "topic": "Geopolitics",
-      "content": "RT by @elonmusk: What the Democrats are willing to do with power is terrifying. We saw it during Covid, when parents were investigated under the Patriot Act for showing up to schools board meetings and Catholics were spied upon for going to traditional Latin mass. If you bought a MAGA hat you went on a list. Now, Democrats are calling for Show Trials. When you go to the polls next week—remember Democrats want complete control with no room for dissent.",
-      "url": "http://nitter.meowing.monster/Eric_Schmitt/status/2115244242301792497#m",
-      "published": "Wed, 28 Oct 2026 00:48:21 GMT"
+      "topic": "Tech Intel",
+      "content": "Impressive",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2115503730368061688#m",
+      "published": "Wed, 28 Oct 2026 17:59:28 GMT"
     },
     {
       "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "Annndddd Google is in the lead.... Absurd gains from Argon to Carbon.",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115503276108194165#m",
+      "published": "Wed, 28 Oct 2026 17:57:39 GMT"
+    },
+    {
+      "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "Sam on why mathematicians are angry",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115232981602406564#m",
-      "published": "Wed, 28 Oct 2026 00:03:36 GMT"
+      "content": "🇺🇸 Robotaxi Houston 🇺🇸",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2115501119296463056#m",
+      "published": "Wed, 28 Oct 2026 17:49:05 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "Tech Intel",
+      "content": "x.com/i/broadcasts/1qKVmydgy…",
+      "url": "http://nitter.meowing.monster/openclaw/status/2115497165216780298#m",
+      "published": "Wed, 28 Oct 2026 17:33:22 GMT"
+    },
+    {
+      "user": "DuncanRogoff",
+      "topic": "AI / ML",
+      "content": "I gave GPT-6.1 Terra and Sonnet 5.5 the same 10 jobs. Same prompts, same effort, no skills. The scoreboard was lopsided, and so was the bill. 🔗 in replies",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2115473155149947327#m",
+      "published": "Wed, 28 Oct 2026 15:57:58 GMT"
+    },
+    {
+      "user": "DuncanRogoff",
+      "topic": "Tech Intel",
+      "content": "R to @DuncanRogoff: https://www.youtube.com/watch?v=812dIgIrbUg Ten head-to-head tests with cost, time and quality tracked for each one.",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2115473157456806212#m",
+      "published": "Wed, 28 Oct 2026 15:57:58 GMT"
     },
     {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
-      "content": "I asked Claude what it sees when humans build lifelike things. It said: \"I can't point to a single thought of mine that doesn't trace back to a human somewhere.\" The machine knows where it came from. Do we?",
-      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2115229322000974134#m",
-      "published": "Tue, 27 Oct 2026 23:49:04 GMT"
+      "content": "The greatest lie of the industrial age: \"You are what you produce.\" The truth of the AI age:  You are what you create when survival is no longer the point. We're about to find out what humans actually are. And I think it's going to be beautiful.",
+      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2115463722089205852#m",
+      "published": "Wed, 28 Oct 2026 15:20:29 GMT"
     },
     {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "The OpenClaw v2026.10.8 patch is out 🦞 🔧 Fixes for installs and updates 💬 Fixes for stuck chats and missing replies 📱 More fixes across apps, channels and providers Thanks to all 163 contributors! Full notes https://docs.openclaw.ai/releases/2026.10.8",
-      "url": "http://nitter.meowing.monster/openclaw/status/2115203893747720640#m",
-      "published": "Tue, 27 Oct 2026 22:08:01 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "Does anyone have a connection to someone at Deepseek?",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115194260127621214#m",
-      "published": "Tue, 27 Oct 2026 21:29:44 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
+      "user": "danmartell",
       "topic": "Tech Intel",
-      "content": "x.com/i/broadcasts/1MJgNbRVO…",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115166627268337801#m",
-      "published": "Tue, 27 Oct 2026 19:39:56 GMT"
-    },
-    {
-      "user": "AlexFinn",
-      "topic": "AI / ML",
-      "content": "R to @AlexFinn: Quick update: It seems since I filmed this video last week they added a virtual computer for Duet It's now doing work on it's own computer when I give it prompts So one of my biggest complaints in the video no longer stands",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2115154424096313613#m",
-      "published": "Tue, 27 Oct 2026 18:51:27 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "AI / ML",
-      "content": "🚨 KANSAS!   Early Voting, in-person, is UNDERWAY NOW in the Great State of Kansas. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!   Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Kansas, you can cast your early Vote, in-person, all the way through November 2nd. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP   Find your Voting Location here: https://swampthevoteusa.com/kansas/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115150032986931656#m",
-      "published": "Tue, 27 Oct 2026 18:34:00 GMT"
+      "content": "Major cheat code for life: get addicted to execution, not information.",
+      "url": "http://nitter.meowing.monster/danmartell/status/2115443673332601115#m",
+      "published": "Wed, 28 Oct 2026 14:00:49 GMT"
     }
   ],
   "peter_x": [
@@ -153,7 +153,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/27/2026, 08:08 PM",
+  "lastUpdate": "10/28/2026, 12:55 PM",
   "news": [
     {
       "title": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
@@ -243,18 +243,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793156895.327799,
+          "started_at": 1793217304.564012,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793156895.327799
+              "at": 1793217304.564012
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793156895.327799,
+          "ended_at": 1793156916.810399,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793156895.327799
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793156912.440818
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793156913.904658
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793156913.906986
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793156914.926597
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793156916.810399
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793156916.810399
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793155090.170187,
@@ -389,15 +433,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792991310.015562,
+          "started_at": 1792991327.343119,
           "ended_at": 1792991331.594589,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792991310.015562
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792991331.594589
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792990121.899492,
-          "ended_at": 1792990126.439129,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792990121.899492
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792990123.489418
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792990123.504404
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792990124.611366
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792990126.439129
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792990126.439129
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793156895.327799,
+        "started_at": 1793217304.564012,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793156895.327799
+            "at": 1793217304.564012
           }
         ],
         "duration_s": null,
@@ -525,7 +525,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 27, 08:08 PM"
+    "lastUpdate": "Oct 28, 12:55 PM"
   },
   "hn_posts": [
     {
@@ -700,59 +700,59 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "count": 3,
       "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 30
+      "age_min": 1037
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-28T03:08:32.396Z",
+      "fetched_at": "2026-10-28T19:55:40.071Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 9,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 1007
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 1007
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 1007
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 1007
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 1007
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-28T03:08:32.396Z",
+      "fetched_at": "2026-10-28T19:55:40.071Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -760,7 +760,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-28T03:08:32.435Z",
+      "fetched_at": "2026-10-28T19:55:40.103Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
