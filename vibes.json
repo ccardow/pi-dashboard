@@ -1,25 +1,32 @@
 {
   "youtube": [
     {
-      "title": "My First Time in Taiwan w/ Jensen Huang | Lex Fridman",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
-      "published": "2026-10-13T21:26:16+00:00"
+      "title": "China just dropped a new frontier model... and nobody can explain how",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=G_em1hHPnXY",
+      "published": "2026-10-26T18:55:29+00:00"
     },
     {
-      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
-      "published": "2026-09-17T00:34:47+00:00"
+      "title": "The most vulnerable week in internet history...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
+      "published": "2026-10-23T18:19:58+00:00"
     },
     {
-      "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
-      "channel": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
-      "published": "2026-08-26T21:44:41+00:00"
+      "title": "The last real programmers are dying out...",
+      "channel": "Fireship",
+      "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
+      "published": "2026-10-22T15:09:31+00:00"
     }
   ],
   "x_posts": [
+    {
+      "user": "realDonaldTrump",
+      "topic": "Tech Intel",
+      "content": "Video",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115266669379494311#m",
+      "published": "Wed, 28 Oct 2026 02:17:28 GMT"
+    },
     {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
@@ -82,127 +89,120 @@
       "content": "🚨 KANSAS!   Early Voting, in-person, is UNDERWAY NOW in the Great State of Kansas. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!   Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Kansas, you can cast your early Vote, in-person, all the way through November 2nd. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP   Find your Voting Location here: https://swampthevoteusa.com/kansas/",
       "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115150032986931656#m",
       "published": "Tue, 27 Oct 2026 18:34:00 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
-      "topic": "Geopolitics",
-      "content": "R to @realDonaldTrump: TO THE GREAT PEOPLE OF KANSAS, MAKE A PLAN TO VOTE FOR:   – Roger Marshall for U.S. Senate – Ty Masterson for Governor – Tracey Mann for U.S. Congress (KS-01) – Derek Schmidt for U.S. Congress (KS-02) – Ron Estes for U.S. Congress (KS-04)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/kansas/",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115150036556501397#m",
-      "published": "Tue, 27 Oct 2026 18:34:00 GMT"
     }
   ],
   "peter_x": [
     {
-      "topic": "Tech Intel",
-      "content": "EasyOCR vs. Tesseract: Choosing an OCR engine in Python",
-      "url": "https://www.nutrient.io/blog/easyocr-vs-tesseract-python/",
-      "published": "Fri, 23 Oct 2026 09:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "How to catch hallucinated values in document extraction",
-      "url": "https://www.nutrient.io/blog/extraction-hallucination-detection/",
-      "published": "Thu, 22 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "How to digitally sign a PDF in C# (2026)",
-      "url": "https://www.nutrient.io/blog/how-to-digitally-sign-pdf-in-csharp/",
-      "published": "Wed, 21 Oct 2026 10:00:00 GMT"
-    },
-    {
       "topic": "AI / ML",
-      "content": "Mailroom automation with an API: Split, classify, route",
-      "url": "https://www.nutrient.io/blog/mailroom-automation-api/",
-      "published": "Tue, 20 Oct 2026 12:00:00 GMT"
-    },
-    {
-      "topic": "AI / ML",
-      "content": "Why we built a decision model for documents | Nutrient",
-      "url": "https://www.nutrient.io/blog/decision-model-for-documents/",
-      "published": "Mon, 19 Oct 2026 10:00:00 GMT"
+      "content": "Excel to Markdown for LLMs without losing structure",
+      "url": "https://www.nutrient.io/blog/excel-to-markdown-for-llms/",
+      "published": "Tue, 27 Oct 2026 08:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "How BriefPoint chose the best .NET PDF library",
-      "url": "https://www.nutrient.io/blog/briefpoint-best-net-pdf-library-nutrient/",
-      "published": "Thu, 15 Oct 2026 10:00:00 GMT"
+      "content": "Mortgage document extraction: Closing Disclosure, 1003, RMA",
+      "url": "https://www.nutrient.io/blog/mortgage-document-processing/",
+      "published": "Mon, 26 Oct 2026 12:30:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "How to convert PDF to JSON: Structured data extraction",
-      "url": "https://www.nutrient.io/blog/how-to-convert-pdf-to-json/",
-      "published": "Wed, 14 Oct 2026 10:00:00 GMT"
+      "content": "Best Adobe PDF Embed API alternatives (2026)",
+      "url": "https://www.nutrient.io/blog/adobe-pdf-embed-api-alternatives/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "pdfplumber in Python: Extract text and tables",
-      "url": "https://www.nutrient.io/blog/pdfplumber-python-guide/",
-      "published": "Tue, 13 Oct 2026 08:00:00 GMT"
+      "content": "Best Adobe PDF Services API alternatives (2026)",
+      "url": "https://www.nutrient.io/blog/adobe-pdf-services-api-alternatives/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "PaddleOCR in Python: Setup, PDF input, and production use",
-      "url": "https://www.nutrient.io/blog/paddleocr-python-guide/",
-      "published": "Mon, 12 Oct 2026 08:00:00 GMT"
+      "content": "Best invoice data extraction APIs (2026)",
+      "url": "https://www.nutrient.io/blog/best-invoice-data-extraction-apis/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     },
     {
       "topic": "Tech Intel",
-      "content": "How to generate PDFs in C# (2026)",
-      "url": "https://www.nutrient.io/blog/how-to-generate-pdf-in-csharp/",
-      "published": "Fri, 09 Oct 2026 10:00:00 GMT"
+      "content": "Best PDF accessibility APIs for PDF/UA auto-tagging and remediation (2026)",
+      "url": "https://www.nutrient.io/blog/best-pdf-accessibility-apis/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Best PDF processing APIs (2026): convert, merge, OCR, watermark, and redact in the cloud",
+      "url": "https://www.nutrient.io/blog/best-pdf-processing-apis/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Best PDF viewer APIs (2026): hosted document viewing without running your own servers",
+      "url": "https://www.nutrient.io/blog/best-pdf-viewer-apis/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Best Vue PDF viewer libraries (2026): options compared",
+      "url": "https://www.nutrient.io/blog/best-vue-pdf-viewers/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Best tools to extract tables from complex PDFs (2026)",
+      "url": "https://www.nutrient.io/blog/extract-tables-from-complex-pdfs/",
+      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/27/2026, 07:32 PM",
+  "lastUpdate": "10/27/2026, 07:38 PM",
   "news": [
     {
-      "title": "US appeals court sceptical of Trump’s lawsuit over California voter rolls",
-      "url": "https://www.aljazeera.com/news/2026/10/26/us-appeals-court-sceptical-of-trumps-lawsuit-over-california-voter-rolls?traffic_source=rss",
-      "summary": "US appeals court sceptical of Trump’s lawsuit over California voter rolls",
+      "title": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
+      "url": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
+      "summary": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
       "source": "Al Jazeera",
-      "published": "Mon, 26 Oct 2026 04:32:48 +0000"
+      "published": "Tue, 27 Oct 2026 21:28:33 +0000"
     },
     {
-      "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
-      "url": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss",
-      "summary": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
-      "source": "Al Jazeera",
-      "published": "Mon, 26 Oct 2026 04:03:28 +0000"
-    },
-    {
-      "title": "Britain won’t join Canada’s defence bank, plans to pursue separate procurement entity",
-      "url": "https://www.theglobeandmail.com/politics/article-britain-canada-defence-security-and-resilience-bank/",
-      "summary": "Britain won’t join Canada’s defence bank, plans to pursue separate procurement entity",
+      "title": "Carney agrees to extradition treaty talks with UAE as he deepens ties with Gulf state",
+      "url": "https://www.theglobeandmail.com/politics/article-uae-extradition-treaty-canada/",
+      "summary": "Carney agrees to extradition treaty talks with UAE as he deepens ties with Gulf state",
       "source": "Globe Politics",
-      "published": "Mon, 26 Oct 2026 01:06:05 +0000"
+      "published": "Tue, 27 Oct 2026 21:03:02 +0000"
     },
     {
-      "title": "Trump escalates anti-Muslim rhetoric in fierce attack on El-Sayed",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-escalates-anti-muslim-rhetoric-in-fierce-attack-on-el-sayed?traffic_source=rss",
-      "summary": "Trump escalates anti-Muslim rhetoric in fierce attack on El-Sayed",
-      "source": "Al Jazeera",
-      "published": "Mon, 26 Oct 2026 00:02:55 +0000"
+      "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
+      "summary": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "source": "BBC World",
+      "published": "Tue, 27 Oct 2026 20:42:38 GMT"
     },
     {
-      "title": "Premiers’ meeting, federal budget will test Carney’s commitment to First Nations, AFN National Chief says",
-      "url": "https://www.theglobeandmail.com/politics/article-premiers-meeting-budget-test-carney-first-nations-afn-national-chief/",
-      "summary": "Premiers’ meeting, federal budget will test Carney’s commitment to First Nations, AFN National Chief says",
+      "title": "Politics Insider: Ottawa tables bill to ban MAID for mental illness alone",
+      "url": "https://www.theglobeandmail.com/politics/article-politics-insider-ottawa-tables-bill-to-ban-maid-for-mental-illness/",
+      "summary": "Politics Insider: Ottawa tables bill to ban MAID for mental illness alone",
       "source": "Globe Politics",
-      "published": "Sun, 25 Oct 2026 23:52:57 +0000"
+      "published": "Tue, 27 Oct 2026 20:37:39 +0000"
+    },
+    {
+      "title": "The Ebola outbreak is breaking records -- and just marked a grim milestone",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150136/ebola-outbreak-milestone-democratic-republic-congo-vaccine",
+      "summary": "The Ebola outbreak is breaking records -- and just marked a grim milestone",
+      "source": "NPR News",
+      "published": "Tue, 27 Oct 2026 15:53:12 -0400"
     }
   ],
-  "vibes": "⚠ US appeals court sceptical of Trump’s lawsuit over California voter rolls",
+  "vibes": "⚠ Trump touts Venezuelan oil at Texas rally ahead of US midterms",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "9",
-    "condition": "Partly Cloudy",
+    "temp": "8",
+    "condition": "Overcast",
     "feels_like": "6",
-    "hi": "12",
+    "hi": "10",
     "lo": "7",
-    "updated": "Oct 25, 10:38 PM"
+    "updated": "Oct 27, 07:38 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -243,18 +243,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793154705.751226,
+          "started_at": 1793155090.170187,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793154705.751226
+              "at": 1793155090.170187
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793154705.751226,
+          "ended_at": 1793154729.798486,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793154705.751226
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793154724.898829
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793154726.534884
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793154726.539256
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793154727.802087
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793154729.798486
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793154729.798486
+            }
+          ],
+          "duration_s": 24,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792993110.018442,
@@ -389,15 +433,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792883281.49022,
+          "started_at": 1792883304.140544,
           "ended_at": 1792883308.021498,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792883281.49022
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@
               "at": 1792883308.021498
             }
           ],
-          "duration_s": 27,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792881499.763664,
-          "ended_at": 1792881504.208998,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792881499.763664
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792881501.028318
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792881501.030511
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792881502.439232
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792881504.208998
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792881504.208998
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793154705.751226,
+        "started_at": 1793155090.170187,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793154705.751226
+            "at": 1793155090.170187
           }
         ],
         "duration_s": null,
@@ -489,10 +489,10 @@
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1238,
+      "pid": 1257,
       "version": "0.22.4",
       "state": "running",
-      "uptime_seconds": 2722,
+      "uptime_seconds": 1799,
       "profiles": [
         "default",
         "atlas",
@@ -514,7 +514,7 @@
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.4 · pid 1238"
+        "status": "running · v0.22.4 · pid 1257"
       },
       {
         "name": "Agent Profiles",
@@ -525,65 +525,86 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 27, 07:32 PM"
+    "lastUpdate": "Oct 27, 07:38 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
-      "topic": "Geopolitics",
-      "content": "Lula wins election after final votes tallied",
-      "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
-      "published": "Mon, 26 Oct 2026 00:31:07 +0000"
+      "topic": "AI / ML",
+      "content": "Tailscale SSH: Investigation and remediation update",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "published": "Tue, 27 Oct 2026 19:55:21 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "url": "https://minimaxir.com/2026/10/cheap-llms/",
-      "published": "Sun, 25 Oct 2026 21:11:31 +0000"
+      "content": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "published": "Tue, 27 Oct 2026 19:55:06 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Why I Am a Programmer",
-      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
-      "published": "Sun, 25 Oct 2026 19:11:31 +0000"
+      "content": "Discord will soon let anyone find public server messages through Google",
+      "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+      "published": "Tue, 27 Oct 2026 18:44:17 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Dolly Parton's Imagination Library",
-      "url": "https://imaginationlibrary.com/",
-      "published": "Sun, 25 Oct 2026 18:23:54 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "url": "https://lynchlab.net/llm-skin-cancer",
-      "published": "Sun, 25 Oct 2026 17:15:38 +0000"
+      "content": "Ghostty 1.4",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "published": "Tue, 27 Oct 2026 16:51:22 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
-      "published": "Sat, 24 Oct 2026 21:47:31 +0000"
+      "content": "Classification of Finite Simple Groups Formalized in Lean",
+      "url": "https://cfsg.axiommath.ai/",
+      "published": "Tue, 27 Oct 2026 16:29:02 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Overgrown, when plants invade your abandoned tabs",
-      "url": "https://charliegerard.dev/blog/overgrown-extension/",
-      "published": "Thu, 22 Oct 2026 15:52:21 +0000"
+      "content": "New 14‑inch MacBook Pro with M6",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "published": "Tue, 27 Oct 2026 16:08:32 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "published": "Tue, 27 Oct 2026 16:06:01 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "published": "Tue, 27 Oct 2026 14:06:42 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "New iMac with M6",
+      "url": "https://www.apple.com/imac/",
+      "published": "Tue, 27 Oct 2026 13:02:02 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Python's experimental JIT to be removed",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "published": "Tue, 27 Oct 2026 11:17:57 +0000"
     }
   ],
   "verse": {
-    "text": "Do nothing out of selfish ambition or empty pride, but in humility consider others more important than yourselves.",
-    "reference": "Philippians 2:3",
+    "text": "Blessed is the man who perseveres under trial, because when he has stood the test, he will receive the crown of life that God has promised to those who love Him.",
+    "reference": "James 1:12",
     "translation": "BSB",
     "version": "Berean Standard Bible",
-    "date": "2026-10-25",
+    "date": "2026-10-27",
     "attribution": "Public Domain",
     "source": "youversion"
   },
@@ -681,64 +702,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-26T05:08:47.259Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 3,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 2723
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:32:04.807Z",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-26T05:38:47.137Z",
-      "count": 7,
-      "error": "hnrss.org unreachable",
+      "status": "live",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
+      "count": 10,
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 2693
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-26T05:38:47.137Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 2693
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-26T05:38:47.137Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 2693
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-26T05:38:47.137Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 2693
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-26T05:38:47.137Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 2693
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:32:04.807Z",
+      "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -746,7 +767,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:32:04.888Z",
+      "fetched_at": "2026-10-28T02:38:28.531Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
