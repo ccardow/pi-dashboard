@@ -153,7 +153,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/27/2026, 07:38 PM",
+  "lastUpdate": "10/27/2026, 08:08 PM",
   "news": [
     {
       "title": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
@@ -197,12 +197,12 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "8",
+    "temp": "7",
     "condition": "Overcast",
     "feels_like": "6",
     "hi": "10",
     "lo": "7",
-    "updated": "Oct 27, 07:38 PM"
+    "updated": "Oct 27, 08:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -243,18 +243,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793155090.170187,
+          "started_at": 1793156895.327799,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793155090.170187
+              "at": 1793156895.327799
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793155090.170187,
+          "ended_at": 1793155122.918386,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793155090.170187
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793155108.537665
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793155119.909481
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793155119.918708
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793155121.008588
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793155122.918386
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793155122.918386
+            }
+          ],
+          "duration_s": 33,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793154705.751226,
@@ -389,15 +433,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792990104.416755,
+          "started_at": 1792990121.899492,
           "ended_at": 1792990126.439129,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792990104.416755
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1792990126.439129
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792883304.140544,
-          "ended_at": 1792883308.021498,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792883304.140544
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792883305.369566
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792883305.371875
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792883306.3722
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792883308.021498
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792883308.021498
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793155090.170187,
+        "started_at": 1793156895.327799,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793155090.170187
+            "at": 1793156895.327799
           }
         ],
         "duration_s": null,
@@ -525,7 +525,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 27, 07:38 PM"
+    "lastUpdate": "Oct 27, 08:08 PM"
   },
   "hn_posts": [
     {
@@ -541,13 +541,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "url": "https://www.brangus.io/survival-llm",
       "published": "Tue, 27 Oct 2026 19:55:06 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Discord will soon let anyone find public server messages through Google",
-      "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
-      "published": "Tue, 27 Oct 2026 18:44:17 +0000"
     },
     {
       "user": "Hacker News",
@@ -702,16 +695,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-28T02:38:28.491Z",
       "count": 3,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 30
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
+      "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -719,15 +712,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
-      "count": 10,
+      "fetched_at": "2026-10-28T03:08:32.396Z",
+      "count": 9,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
+      "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -735,7 +728,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
+      "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -743,7 +736,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
+      "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -751,7 +744,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
+      "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -759,7 +752,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
+      "fetched_at": "2026-10-28T03:08:32.396Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -767,7 +760,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-28T02:38:28.531Z",
+      "fetched_at": "2026-10-28T03:08:32.435Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
