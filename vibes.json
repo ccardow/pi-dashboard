@@ -1,22 +1,64 @@
 {
   "youtube": [
     {
-      "title": "China just dropped a new frontier model... and nobody can explain how",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=G_em1hHPnXY",
-      "published": "2026-10-26T18:55:29+00:00"
+      "title": "He Put Hormozi, Bezos & Buffett Inside Claude",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=AtjFk9f44HE",
+      "published": "2026-10-28T19:25:38+00:00"
     },
     {
-      "title": "The most vulnerable week in internet history...",
-      "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
-      "published": "2026-10-23T18:19:58+00:00"
+      "title": "Grok Bot just released a MASSIVE update",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=Nk242TnA7-8",
+      "published": "2026-10-28T19:22:42+00:00"
     },
     {
-      "title": "The last real programmers are dying out...",
+      "title": "Insane Interactive World Creator (Genie 4)",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=DZbCL56oz3M",
+      "published": "2026-10-28T18:25:36+00:00"
+    },
+    {
+      "title": "Deepseek's New AI Has A Secret",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
+      "published": "2026-10-28T17:32:40+00:00"
+    },
+    {
+      "title": "Plaid for Government Benefits",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=3CDvfm9DYjw",
+      "published": "2026-10-28T15:47:55+00:00"
+    },
+    {
+      "title": "I Tested GPT-6.1 Terra vs. Sonnet 5.5 on 10 Real Use Cases",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=812dIgIrbUg",
+      "published": "2026-10-28T14:45:19+00:00"
+    },
+    {
+      "title": "Did the AI bubble just pop?",
       "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
-      "published": "2026-10-22T15:09:31+00:00"
+      "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
+      "published": "2026-10-28T13:31:29+00:00"
+    },
+    {
+      "title": "Data Center Supply Chain",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=9EJM4LNMK0I",
+      "published": "2026-10-28T05:25:32+00:00"
+    },
+    {
+      "title": "The $15-an-Hour Expert",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=vaKVoWc3TtY",
+      "published": "2026-10-27T23:18:56+00:00"
+    },
+    {
+      "title": "Deepseek 4.1 Flash on 2 DGX Sparks changed my life",
+      "channel": "Alex Finn",
+      "url": "https://www.youtube.com/watch?v=o1e0QjQRdWQ",
+      "published": "2026-10-27T17:57:55+00:00"
     }
   ],
   "x_posts": [
@@ -153,56 +195,56 @@
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/28/2026, 12:55 PM",
+  "lastUpdate": "10/28/2026, 01:09 PM",
   "news": [
     {
-      "title": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
-      "url": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
-      "summary": "Trump touts Venezuelan oil at Texas rally ahead of US midterms",
+      "title": "US jury convicts Rwandan American of lying about role in genocide",
+      "url": "https://www.aljazeera.com/news/2026/10/28/us-jury-convicts-rwandan-american-of-lying-about-role-in-genocide?traffic_source=rss",
+      "summary": "US jury convicts Rwandan American of lying about role in genocide",
       "source": "Al Jazeera",
-      "published": "Tue, 27 Oct 2026 21:28:33 +0000"
+      "published": "Wed, 28 Oct 2026 19:02:38 +0000"
     },
     {
-      "title": "Carney agrees to extradition treaty talks with UAE as he deepens ties with Gulf state",
-      "url": "https://www.theglobeandmail.com/politics/article-uae-extradition-treaty-canada/",
-      "summary": "Carney agrees to extradition treaty talks with UAE as he deepens ties with Gulf state",
+      "title": "EU drops ‘associate member’ designation for Canada as parties seek closer ties, sources say",
+      "url": "https://www.theglobeandmail.com/politics/article-canada-eu-summit-associate-member-status-october-28/",
+      "summary": "EU drops ‘associate member’ designation for Canada as parties seek closer ties, sources say",
       "source": "Globe Politics",
-      "published": "Tue, 27 Oct 2026 21:03:02 +0000"
+      "published": "Wed, 28 Oct 2026 17:36:39 +0000"
     },
     {
-      "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-      "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
-      "summary": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-      "source": "BBC World",
-      "published": "Tue, 27 Oct 2026 20:42:38 GMT"
+      "title": "Canada-EU summit: What do both sides want, and what’s at stake?",
+      "url": "https://www.aljazeera.com/economy/2026/10/28/canada-eu-summit-what-do-both-sides-want-and-whats-at-stake?traffic_source=rss",
+      "summary": "Canada-EU summit: What do both sides want, and what’s at stake?",
+      "source": "Al Jazeera",
+      "published": "Wed, 28 Oct 2026 16:54:51 +0000"
     },
     {
-      "title": "Politics Insider: Ottawa tables bill to ban MAID for mental illness alone",
-      "url": "https://www.theglobeandmail.com/politics/article-politics-insider-ottawa-tables-bill-to-ban-maid-for-mental-illness/",
-      "summary": "Politics Insider: Ottawa tables bill to ban MAID for mental illness alone",
+      "title": "Bank of Canada raises interest rates for the first time in three years",
+      "url": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss",
+      "summary": "Bank of Canada raises interest rates for the first time in three years",
+      "source": "Al Jazeera",
+      "published": "Wed, 28 Oct 2026 16:44:44 +0000"
+    },
+    {
+      "title": "Ontario to match Ottawa’s ‘mega’ tax deduction",
+      "url": "https://www.theglobeandmail.com/politics/article-ontario-to-match-ottawa-mega-productivity-tax-deduction/",
+      "summary": "Ontario to match Ottawa’s ‘mega’ tax deduction",
       "source": "Globe Politics",
-      "published": "Tue, 27 Oct 2026 20:37:39 +0000"
-    },
-    {
-      "title": "The Ebola outbreak is breaking records -- and just marked a grim milestone",
-      "url": "https://www.npr.org/2026/10/27/g-s1-150136/ebola-outbreak-milestone-democratic-republic-congo-vaccine",
-      "summary": "The Ebola outbreak is breaking records -- and just marked a grim milestone",
-      "source": "NPR News",
-      "published": "Tue, 27 Oct 2026 15:53:12 -0400"
+      "published": "Wed, 28 Oct 2026 16:17:10 +0000"
     }
   ],
-  "vibes": "⚠ Trump touts Venezuelan oil at Texas rally ahead of US midterms",
+  "vibes": "⚠ US jury convicts Rwandan American of lying about role in genocide",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "7",
-    "condition": "Overcast",
-    "feels_like": "6",
-    "hi": "10",
-    "lo": "7",
-    "updated": "Oct 27, 08:08 PM"
+    "temp": "9",
+    "condition": "Partly Cloudy",
+    "feels_like": "7",
+    "hi": "9",
+    "lo": "4",
+    "updated": "Oct 28, 01:08 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -243,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793217304.564012,
+          "started_at": 1793218095.334537,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793217304.564012
+              "at": 1793218095.334537
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793217304.564012,
+          "ended_at": 1793217344.59292,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793217304.564012
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793217340.107753
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793217341.631655
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793217341.633914
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793217342.691434
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793217344.59292
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793217344.59292
+            }
+          ],
+          "duration_s": 40,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793156895.327799,
@@ -389,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792993110.018442,
+          "started_at": 1792993127.230975,
           "ended_at": 1792993131.529389,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792993110.018442
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +510,19 @@
               "at": 1792993131.529389
             }
           ],
-          "duration_s": 22,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792991327.343119,
-          "ended_at": 1792991331.594589,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792991327.343119
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792991328.679103
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792991328.68314
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792991329.786853
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792991331.594589
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792991331.594589
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793217304.564012,
+        "started_at": 1793218095.334537,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793217304.564012
+            "at": 1793218095.334537
           }
         ],
         "duration_s": null,
@@ -525,79 +567,86 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 28, 12:55 PM"
+    "lastUpdate": "Oct 28, 01:09 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Why Is This Fingerprinting Script Creating Bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "published": "Wed, 28 Oct 2026 17:13:29 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "MacBook Pro with PROLED XDR Display and Touch",
+      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+      "published": "Wed, 28 Oct 2026 17:10:37 +0000"
+    },
+    {
+      "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Tailscale SSH: Investigation and remediation update",
-      "url": "https://tailscale.com/ssh-investigation-update",
-      "published": "Tue, 27 Oct 2026 19:55:21 +0000"
+      "content": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "published": "Wed, 28 Oct 2026 17:01:23 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "CNC Stone Carving",
+      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "published": "Wed, 28 Oct 2026 14:38:22 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "url": "https://www.brangus.io/survival-llm",
-      "published": "Tue, 27 Oct 2026 19:55:06 +0000"
+      "content": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "published": "Wed, 28 Oct 2026 13:41:30 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Ghostty 1.4",
-      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "published": "Tue, 27 Oct 2026 16:51:22 +0000"
+      "content": "Emacs Turns 50",
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "published": "Wed, 28 Oct 2026 13:25:11 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Classification of Finite Simple Groups Formalized in Lean",
-      "url": "https://cfsg.axiommath.ai/",
-      "published": "Tue, 27 Oct 2026 16:29:02 +0000"
+      "content": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+      "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
+      "published": "Wed, 28 Oct 2026 11:54:23 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Apple / iOS",
+      "content": "Apple's git still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "published": "Wed, 28 Oct 2026 11:03:40 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "New 14‑inch MacBook Pro with M6",
-      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-      "published": "Tue, 27 Oct 2026 16:08:32 +0000"
+      "content": "Git for the US Code",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "published": "Wed, 28 Oct 2026 01:47:50 +0000"
     },
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Genie 4",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "published": "Tue, 27 Oct 2026 16:06:01 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "US Government is hiding a secret court ruling about how it spies on Americans",
-      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "published": "Tue, 27 Oct 2026 14:06:42 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "New iMac with M6",
-      "url": "https://www.apple.com/imac/",
-      "published": "Tue, 27 Oct 2026 13:02:02 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Python's experimental JIT to be removed",
-      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
-      "published": "Tue, 27 Oct 2026 11:17:57 +0000"
+      "topic": "AI / ML",
+      "content": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "published": "Tue, 27 Oct 2026 20:50:42 +0000"
     }
   ],
   "verse": {
-    "text": "Blessed is the man who perseveres under trial, because when he has stood the test, he will receive the crown of life that God has promised to those who love Him.",
-    "reference": "James 1:12",
+    "text": "Pray in the Spirit at all times, with every kind of prayer and petition. To this end, stay alert with all perseverance in your prayers for all the saints.",
+    "reference": "Ephesians 6:18",
     "translation": "BSB",
     "version": "Berean Standard Bible",
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "attribution": "Public Domain",
     "source": "youversion"
   },
@@ -695,64 +744,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-28T02:38:28.491Z",
-      "count": 3,
-      "error": "fetch returned no items",
+      "status": "live",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "count": 10,
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 1037
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-28T19:55:40.071Z",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-10-28T03:08:32.396Z",
-      "count": 9,
-      "error": "hnrss.org unreachable",
+      "status": "live",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "count": 10,
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 1007
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-10-28T03:08:32.396Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 1007
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-10-28T03:08:32.396Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 1007
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-10-28T03:08:32.396Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 1007
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-10-28T03:08:32.396Z",
+      "status": "live",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 1007
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-28T19:55:40.071Z",
+      "fetched_at": "2026-10-28T20:09:00.094Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -760,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-28T19:55:40.103Z",
+      "fetched_at": "2026-10-28T20:09:00.134Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
