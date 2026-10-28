@@ -21,74 +21,74 @@
   ],
   "x_posts": [
     {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "OpenClaw v2026.10.7 🦞 🔧 Earlier update checks 🧠 Claude CLI context fixes 🎙️ macOS Talk reply fixes 🐰 Bun startup fixes 61 PRs · 54 contributors More in the full notes 👇 https://docs.openclaw.ai/releases/2026.10.7",
-      "url": "http://nitter.meowing.monster/openclaw/status/2114590330276442521#m",
-      "published": "Mon, 26 Oct 2026 05:29:56 GMT"
-    },
-    {
       "user": "MatthewBerman",
       "topic": "Tech Intel",
-      "content": ".@bryan_johnson seething right now",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2114577881846477250#m",
-      "published": "Mon, 26 Oct 2026 04:40:28 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "What's the best way to get notified when an awesome (non mainstream) open source model gets released? (Video, image, voice etc)",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2114562905639354523#m",
-      "published": "Mon, 26 Oct 2026 03:40:58 GMT"
-    },
-    {
-      "user": "AlexFinn",
-      "topic": "AI / ML",
-      "content": "EVERY AI app on the iPhone Duo reviewed Grok Bot really good, but the only major AI app not yet optimized for the Duo ChatGPT and Claude both GREAT to use But Meta Muse is something completely different (10 out of 10). All 4 reviews below",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2114551758433480875#m",
-      "published": "Mon, 26 Oct 2026 02:56:40 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Agents",
-      "content": "I think I'm becoming T3-pilled. Having all my subs in one place, accessible from anywhere across multiple machines, and each agent being able to talk with the others is incredible.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2114548318550495520#m",
-      "published": "Mon, 26 Oct 2026 02:43:00 GMT"
+      "content": "Immediately installed",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115252244979536381#m",
+      "published": "Wed, 28 Oct 2026 01:20:09 GMT"
     },
     {
       "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "RT by @elonmusk: A judge loyal to Lula ordered voting extended - an result like this in Brazil is unprecedented",
-      "url": "http://nitter.meowing.monster/JackPosobiec/status/2114529225956823457#m",
-      "published": "Mon, 26 Oct 2026 01:27:08 GMT"
+      "topic": "Geopolitics",
+      "content": "RT by @elonmusk: What the Democrats are willing to do with power is terrifying. We saw it during Covid, when parents were investigated under the Patriot Act for showing up to schools board meetings and Catholics were spied upon for going to traditional Latin mass. If you bought a MAGA hat you went on a list. Now, Democrats are calling for Show Trials. When you go to the polls next week—remember Democrats want complete control with no room for dissent.",
+      "url": "http://nitter.meowing.monster/Eric_Schmitt/status/2115244242301792497#m",
+      "published": "Wed, 28 Oct 2026 00:48:21 GMT"
     },
     {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: Democrats will make sure they remain in power in perpetuity That’s not how our constitutional system is supposed to work But make no mistake—that is their plan",
-      "url": "http://nitter.meowing.monster/BasedMikeLee/status/2114513863337181671#m",
-      "published": "Mon, 26 Oct 2026 00:26:05 GMT"
-    },
-    {
-      "user": "realDonaldTrump",
+      "user": "MatthewBerman",
       "topic": "Tech Intel",
-      "content": "x.com/i/broadcasts/1dGYlaqVg…",
-      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2114439942000828644#m",
-      "published": "Sun, 25 Oct 2026 19:32:21 GMT"
-    },
-    {
-      "user": "danmartell",
-      "topic": "Tech Intel",
-      "content": "Find out what keeps rich people up at night. That’s where the money is.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2114416803472433193#m",
-      "published": "Sun, 25 Oct 2026 18:00:24 GMT"
+      "content": "Sam on why mathematicians are angry",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115232981602406564#m",
+      "published": "Wed, 28 Oct 2026 00:03:36 GMT"
     },
     {
       "user": "JuliaEMcCoy",
       "topic": "AI / ML",
-      "content": "I ran a 100 person writing agency. 5,000 clients. Real ROI, real trust, real sales. I sold it in 2021 for seven figures. And I almost regretted it. AI back then was hot garbage. Then 2023 hit. The models caught up to my skills. My AI written content pulled 9,000% more reach than anything my human team ever made. Two months ago, a clone that looks exactly like you, straight from text to video, was impossible. Today it's done. The future of content is video. A huge piece of that video will be avatars. I bet everything on this once. I'm doing it again. What are you betting on?",
-      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2114403505951875085#m",
-      "published": "Sun, 25 Oct 2026 17:07:34 GMT"
+      "content": "I asked Claude what it sees when humans build lifelike things. It said: \"I can't point to a single thought of mine that doesn't trace back to a human somewhere.\" The machine knows where it came from. Do we?",
+      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2115229322000974134#m",
+      "published": "Tue, 27 Oct 2026 23:49:04 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "The OpenClaw v2026.10.8 patch is out 🦞 🔧 Fixes for installs and updates 💬 Fixes for stuck chats and missing replies 📱 More fixes across apps, channels and providers Thanks to all 163 contributors! Full notes https://docs.openclaw.ai/releases/2026.10.8",
+      "url": "http://nitter.meowing.monster/openclaw/status/2115203893747720640#m",
+      "published": "Tue, 27 Oct 2026 22:08:01 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "Does anyone have a connection to someone at Deepseek?",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115194260127621214#m",
+      "published": "Tue, 27 Oct 2026 21:29:44 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "Tech Intel",
+      "content": "x.com/i/broadcasts/1MJgNbRVO…",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115166627268337801#m",
+      "published": "Tue, 27 Oct 2026 19:39:56 GMT"
+    },
+    {
+      "user": "AlexFinn",
+      "topic": "AI / ML",
+      "content": "R to @AlexFinn: Quick update: It seems since I filmed this video last week they added a virtual computer for Duet It's now doing work on it's own computer when I give it prompts So one of my biggest complaints in the video no longer stands",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2115154424096313613#m",
+      "published": "Tue, 27 Oct 2026 18:51:27 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "AI / ML",
+      "content": "🚨 KANSAS!   Early Voting, in-person, is UNDERWAY NOW in the Great State of Kansas. If you have a mail-in ballot, return it immediately and, if not, GO VOTE at the Polls RIGHT NOW, and get everyone you know to VOTE FOR THE REPUBLICAN IN EVERY RACE, UP AND DOWN THE BALLOT!   Whether you VOTE early, absentee, by mail, or in-person, Republicans must SWAMP the Radical Left Dumocrats with massive turnout! In Kansas, you can cast your early Vote, in-person, all the way through November 2nd. SO IMPORTANT — PLEASE GET OUT AND VOTE. MAGA! President DONALD J. TRUMP   Find your Voting Location here: https://swampthevoteusa.com/kansas/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115150032986931656#m",
+      "published": "Tue, 27 Oct 2026 18:34:00 GMT"
+    },
+    {
+      "user": "realDonaldTrump",
+      "topic": "Geopolitics",
+      "content": "R to @realDonaldTrump: TO THE GREAT PEOPLE OF KANSAS, MAKE A PLAN TO VOTE FOR:   – Roger Marshall for U.S. Senate – Ty Masterson for Governor – Tracey Mann for U.S. Congress (KS-01) – Derek Schmidt for U.S. Congress (KS-02) – Ron Estes for U.S. Congress (KS-04)   These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP https://swampthevoteusa.com/kansas/",
+      "url": "http://nitter.meowing.monster/realDonaldTrump/status/2115150036556501397#m",
+      "published": "Tue, 27 Oct 2026 18:34:00 GMT"
     }
   ],
   "peter_x": [
@@ -153,7 +153,7 @@
       "published": "Fri, 09 Oct 2026 10:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/25/2026, 10:38 PM",
+  "lastUpdate": "10/27/2026, 07:32 PM",
   "news": [
     {
       "title": "US appeals court sceptical of Trump’s lawsuit over California voter rolls",
@@ -243,18 +243,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1792993110.018442,
+          "started_at": 1793154705.751226,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1792993110.018442
+              "at": 1793154705.751226
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1792993110.018442,
+          "ended_at": 1792993131.529389,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1792993110.018442
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1792993127.230975
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1792993128.637424
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1792993128.642114
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1792993129.778795
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1792993131.529389
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1792993131.529389
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1792991310.015562,
@@ -389,15 +433,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1792881481.497897,
+          "started_at": 1792881499.763664,
           "ended_at": 1792881504.208998,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1792881481.497897
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -429,58 +468,19 @@
               "at": 1792881504.208998
             }
           ],
-          "duration_s": 23,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792879708.402912,
-          "ended_at": 1792879712.575116,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792879708.402912
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792879709.88717
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792879709.888784
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792879710.881903
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792879712.575116
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792879712.575116
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1792993110.018442,
+        "started_at": 1793154705.751226,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1792993110.018442
+            "at": 1793154705.751226
           }
         ],
         "duration_s": null,
@@ -525,7 +525,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 25, 10:38 PM"
+    "lastUpdate": "Oct 27, 07:32 PM"
   },
   "hn_posts": [
     {
@@ -686,59 +686,59 @@
       "count": 3,
       "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 30
+      "age_min": 2723
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:38:47.137Z",
+      "fetched_at": "2026-10-28T02:32:04.807Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 7,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 2693
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 2693
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 2693
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 2693
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-26T05:38:47.137Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 2693
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:38:47.137Z",
+      "fetched_at": "2026-10-28T02:32:04.807Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -746,7 +746,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-26T05:38:47.214Z",
+      "fetched_at": "2026-10-28T02:32:04.888Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
