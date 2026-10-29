@@ -195,8 +195,15 @@
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/28/2026, 10:21 PM",
+  "lastUpdate": "10/28/2026, 10:38 PM",
   "news": [
+    {
+      "title": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+      "url": "https://www.aljazeera.com/news/2026/10/29/judge-rejects-trump-effort-to-block-california-noncitizen-ballots?traffic_source=rss",
+      "summary": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+      "source": "Al Jazeera",
+      "published": "Thu, 29 Oct 2026 05:06:23 +0000"
+    },
     {
       "title": "Obama mocks Trump team’s Cheesecake Factory response",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/obama-mocks-trump-teams-cheesecake-factory-response?traffic_source=rss",
@@ -224,16 +231,9 @@
       "summary": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
       "source": "Al Jazeera",
       "published": "Thu, 29 Oct 2026 02:48:38 +0000"
-    },
-    {
-      "title": "Iran war live: Trump says he approved Vance outreach over medical supplies",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
-      "summary": "Iran war live: Trump says he approved Vance outreach over medical supplies",
-      "source": "Al Jazeera",
-      "published": "Thu, 29 Oct 2026 00:00:00 +0000"
     }
   ],
-  "vibes": "⚠ Obama mocks Trump team’s Cheesecake Factory response",
+  "vibes": "⚠ Judge rejects Trump effort to block California ‘noncitizen’ ballots",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
@@ -244,7 +244,7 @@
     "feels_like": "2",
     "hi": "9",
     "lo": "4",
-    "updated": "Oct 28, 10:20 PM"
+    "updated": "Oct 28, 10:37 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793251256.04945,
+          "started_at": 1793252276.049606,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793251256.04945
+              "at": 1793252276.049606
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793251256.04945,
+          "ended_at": 1793251280.543144,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793251256.04945
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793251275.687817
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793251277.394154
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793251277.411833
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793251278.580716
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793251280.543144
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793251280.543144
+            }
+          ],
+          "duration_s": 24,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793218095.334537,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1793155090.170187,
+          "started_at": 1793155108.537665,
           "ended_at": 1793155122.918386,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793155090.170187
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@
               "at": 1793155122.918386
             }
           ],
-          "duration_s": 33,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1793154724.898829,
-          "ended_at": 1793154729.798486,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1793154724.898829
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1793154726.534884
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1793154726.539256
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1793154727.802087
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1793154729.798486
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1793154729.798486
-            }
-          ],
-          "duration_s": 5,
+          "duration_s": 14,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793251256.04945,
+        "started_at": 1793252276.049606,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793251256.04945
+            "at": 1793252276.049606
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 28, 10:21 PM"
+    "lastUpdate": "Oct 28, 10:38 PM"
   },
   "hn_posts": [
     {
@@ -749,11 +749,11 @@
       "count": 10,
       "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 552
+      "age_min": 569
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.603Z",
+      "fetched_at": "2026-10-29T05:38:21.168Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.603Z",
+      "fetched_at": "2026-10-29T05:38:21.168Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.603Z",
+      "fetched_at": "2026-10-29T05:38:21.168Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.603Z",
+      "fetched_at": "2026-10-29T05:38:21.168Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.603Z",
+      "fetched_at": "2026-10-29T05:38:21.168Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.603Z",
+      "fetched_at": "2026-10-29T05:38:21.168Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.603Z",
+      "fetched_at": "2026-10-29T05:38:21.168Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:21:15.676Z",
+      "fetched_at": "2026-10-29T05:38:21.249Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
