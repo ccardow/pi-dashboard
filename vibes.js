@@ -63,77 +63,83 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
-      "user": "openclaw",
-      "topic": "AI / ML",
-      "content": "Building Together with AI Agents | ClawCast Community Roundtable https://x.com/i/broadcasts/1qKVmydgyYXxB",
-      "url": "http://nitter.meowing.monster/openclaw/status/2115511317520122085#m",
-      "published": "Wed, 28 Oct 2026 18:29:37 GMT"
-    },
-    {
-      "user": "danmartell",
+      "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "Side effect of building your own thing: you become completely unemployable.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2115504093380624467#m",
-      "published": "Wed, 28 Oct 2026 18:00:54 GMT"
+      "content": "True",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2115664319278973255#m",
+      "published": "Thu, 29 Oct 2026 04:37:35 GMT"
     },
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "Impressive",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2115503730368061688#m",
-      "published": "Wed, 28 Oct 2026 17:59:28 GMT"
+      "content": "RT by @elonmusk: Elon on why Starlink matters most when disaster hits Fires, floods and storms knock out fiber and cell towers. Starlink keeps people connected. @elonmusk",
+      "url": "http://nitter.meowing.monster/teslaownersSV/status/2115641073150333229#m",
+      "published": "Thu, 29 Oct 2026 03:05:13 GMT"
     },
     {
-      "user": "MatthewBerman",
+      "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "Annndddd Google is in the lead.... Absurd gains from Argon to Carbon.",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2115503276108194165#m",
-      "published": "Wed, 28 Oct 2026 17:57:39 GMT"
+      "content": "Google just dropped Gemini 4 Carbon. #1 on the new Artificial Analysis Intelligence Index (59 vs Claude Opus 5.5 at 58). → runs long jobs for days → up to 1M tokens → finds + fixes security bugs → about half the unsupported claims Not public yet. Here's how to get ready today 👇",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2115640297824931898#m",
+      "published": "Thu, 29 Oct 2026 03:02:08 GMT"
     },
     {
-      "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "🇺🇸 Robotaxi Houston 🇺🇸",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2115501119296463056#m",
-      "published": "Wed, 28 Oct 2026 17:49:05 GMT"
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "Give me 2 minutes, and I'll make your AI agents smarter than 90% of people's. Make them all share one brain: 1. Install Obsidian (free). This is the memory. 2. Point Hermes at the vault. 3. Point Claude Code at the same vault. 4. Same for Codex and OpenClaw. 5. Turn on daily logs. Every agent writes what it did. 6. Now what one agent learns, the others know. One prompt connects all of it. Guide below👇",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2115640012658143693#m",
+      "published": "Thu, 29 Oct 2026 03:01:00 GMT"
     },
     {
       "user": "openclaw",
       "topic": "Tech Intel",
-      "content": "x.com/i/broadcasts/1qKVmydgy…",
-      "url": "http://nitter.meowing.monster/openclaw/status/2115497165216780298#m",
-      "published": "Wed, 28 Oct 2026 17:33:22 GMT"
+      "content": "Four OpenClaw developers made @linuxfoundation’s Top 100 contributors list: #1 @steipete #7 @vincent_koc #33 @obviyus #57 @dallinfinite 569,649 contributions in a year. 13.8% of the Top 100 total. Thank you, open-source community. https://insights.linuxfoundation.org/leaderboards/contributors",
+      "url": "http://nitter.meowing.monster/openclaw/status/2115636811594915985#m",
+      "published": "Thu, 29 Oct 2026 02:48:17 GMT"
     },
     {
-      "user": "DuncanRogoff",
-      "topic": "AI / ML",
-      "content": "I gave GPT-6.1 Terra and Sonnet 5.5 the same 10 jobs. Same prompts, same effort, no skills. The scoreboard was lopsided, and so was the bill. 🔗 in replies",
-      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2115473155149947327#m",
-      "published": "Wed, 28 Oct 2026 15:57:58 GMT"
-    },
-    {
-      "user": "DuncanRogoff",
+      "user": "AlexFinn",
       "topic": "Tech Intel",
-      "content": "R to @DuncanRogoff: https://www.youtube.com/watch?v=812dIgIrbUg Ten head-to-head tests with cost, time and quality tracked for each one.",
-      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2115473157456806212#m",
-      "published": "Wed, 28 Oct 2026 15:57:58 GMT"
+      "content": "R to @AlexFinn: If you give this post to your bot it’ll watch the video and build all the dashboards itself automatically btw",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2115633933232837086#m",
+      "published": "Thu, 29 Oct 2026 02:36:50 GMT"
     },
     {
-      "user": "JuliaEMcCoy",
+      "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "The greatest lie of the industrial age: \"You are what you produce.\" The truth of the AI age:  You are what you create when survival is no longer the point. We're about to find out what humans actually are. And I think it's going to be beautiful.",
-      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2115463722089205852#m",
-      "published": "Wed, 28 Oct 2026 15:20:29 GMT"
+      "content": "No biggie. Google just casually shipped a model that beats Claude Opus 5.5. Two weeks after the last one. Agents that work on a task for days without getting stuck. That's the part people are missing.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2115629442370621849#m",
+      "published": "Thu, 29 Oct 2026 02:19:00 GMT"
     },
     {
-      "user": "danmartell",
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "One Agent, Many Sessions @hrudolph is joined by @jjjhenriksen and @TheAngryPit to discuss sharing an OpenClaw agent, when separate agents make sense, and using them for work and everyday life. Episode 15 of The ClawCast https://openclaw.ai/podcast/episode-15",
+      "url": "http://nitter.meowing.monster/openclaw/status/2115606508587360269#m",
+      "published": "Thu, 29 Oct 2026 00:47:52 GMT"
+    },
+    {
+      "user": "AlexFinn",
       "topic": "Tech Intel",
-      "content": "Major cheat code for life: get addicted to execution, not information.",
-      "url": "http://nitter.meowing.monster/danmartell/status/2115443673332601115#m",
-      "published": "Wed, 28 Oct 2026 14:00:49 GMT"
+      "content": "Grok Bot just had its biggest update yet It introduces pages and dashboards, 2 things that solve Grok's BIGGEST problem In this video I cover how I made 5 dashboards that make Grok Bot SO much nicer to use, including one that has saved me a TON of usage:",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2115596225793921048#m",
+      "published": "Thu, 29 Oct 2026 00:07:00 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "Tech Intel",
+      "content": "RT by @openclaw: @roboclawbot Looks like we need a new OpenClaw provider for this, get to work!",
+      "url": "http://nitter.meowing.monster/jlehman_/status/2115595592772804688#m",
+      "published": "Thu, 29 Oct 2026 00:04:29 GMT"
     }
   ],
   "peter_x": [
+    {
+      "topic": "AI / ML",
+      "content": "Private document AI: Local processing with Nutrient",
+      "url": "https://www.nutrient.io/blog/keep-document-ai-private/",
+      "published": "Wed, 28 Oct 2026 09:00:00 GMT"
+    },
     {
       "topic": "AI / ML",
       "content": "Excel to Markdown for LLMs without losing structure",
@@ -187,64 +193,58 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Best Vue PDF viewer libraries (2026): options compared",
       "url": "https://www.nutrient.io/blog/best-vue-pdf-viewers/",
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best tools to extract tables from complex PDFs (2026)",
-      "url": "https://www.nutrient.io/blog/extract-tables-from-complex-pdfs/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/28/2026, 01:09 PM",
+  "lastUpdate": "10/28/2026, 10:21 PM",
   "news": [
     {
-      "title": "US jury convicts Rwandan American of lying about role in genocide",
-      "url": "https://www.aljazeera.com/news/2026/10/28/us-jury-convicts-rwandan-american-of-lying-about-role-in-genocide?traffic_source=rss",
-      "summary": "US jury convicts Rwandan American of lying about role in genocide",
+      "title": "Obama mocks Trump team’s Cheesecake Factory response",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/obama-mocks-trump-teams-cheesecake-factory-response?traffic_source=rss",
+      "summary": "Obama mocks Trump team’s Cheesecake Factory response",
       "source": "Al Jazeera",
-      "published": "Wed, 28 Oct 2026 19:02:38 +0000"
+      "published": "Thu, 29 Oct 2026 04:30:04 +0000"
     },
     {
-      "title": "EU drops ‘associate member’ designation for Canada as parties seek closer ties, sources say",
-      "url": "https://www.theglobeandmail.com/politics/article-canada-eu-summit-associate-member-status-october-28/",
-      "summary": "EU drops ‘associate member’ designation for Canada as parties seek closer ties, sources say",
+      "title": "30-year sentence in Minnesota fraud that drew Trump backlash",
+      "url": "https://www.aljazeera.com/news/2026/10/29/30-year-sentence-in-minnesota-fraud-that-drew-trump-backlash?traffic_source=rss",
+      "summary": "30-year sentence in Minnesota fraud that drew Trump backlash",
+      "source": "Al Jazeera",
+      "published": "Thu, 29 Oct 2026 03:00:57 +0000"
+    },
+    {
+      "title": "Jewish community in Canada facing unprecedented threats, security officials warn",
+      "url": "https://www.theglobeandmail.com/politics/article-jewish-community-in-canada-facing-unprecedented-threats-security/",
+      "summary": "Jewish community in Canada facing unprecedented threats, security officials warn",
       "source": "Globe Politics",
-      "published": "Wed, 28 Oct 2026 17:36:39 +0000"
+      "published": "Thu, 29 Oct 2026 02:51:25 +0000"
     },
     {
-      "title": "Canada-EU summit: What do both sides want, and what’s at stake?",
-      "url": "https://www.aljazeera.com/economy/2026/10/28/canada-eu-summit-what-do-both-sides-want-and-whats-at-stake?traffic_source=rss",
-      "summary": "Canada-EU summit: What do both sides want, and what’s at stake?",
+      "title": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
+      "url": "https://www.aljazeera.com/news/2026/10/29/strikes-on-darfur-market-in-sudan-kill-more-than-100-rights-group-says?traffic_source=rss",
+      "summary": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
       "source": "Al Jazeera",
-      "published": "Wed, 28 Oct 2026 16:54:51 +0000"
+      "published": "Thu, 29 Oct 2026 02:48:38 +0000"
     },
     {
-      "title": "Bank of Canada raises interest rates for the first time in three years",
-      "url": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss",
-      "summary": "Bank of Canada raises interest rates for the first time in three years",
+      "title": "Iran war live: Trump says he approved Vance outreach over medical supplies",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
+      "summary": "Iran war live: Trump says he approved Vance outreach over medical supplies",
       "source": "Al Jazeera",
-      "published": "Wed, 28 Oct 2026 16:44:44 +0000"
-    },
-    {
-      "title": "Ontario to match Ottawa’s ‘mega’ tax deduction",
-      "url": "https://www.theglobeandmail.com/politics/article-ontario-to-match-ottawa-mega-productivity-tax-deduction/",
-      "summary": "Ontario to match Ottawa’s ‘mega’ tax deduction",
-      "source": "Globe Politics",
-      "published": "Wed, 28 Oct 2026 16:17:10 +0000"
+      "published": "Thu, 29 Oct 2026 00:00:00 +0000"
     }
   ],
-  "vibes": "⚠ US jury convicts Rwandan American of lying about role in genocide",
+  "vibes": "⚠ Obama mocks Trump team’s Cheesecake Factory response",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "9",
-    "condition": "Partly Cloudy",
-    "feels_like": "7",
+    "temp": "5",
+    "condition": "Clear",
+    "feels_like": "2",
     "hi": "9",
     "lo": "4",
-    "updated": "Oct 28, 01:08 PM"
+    "updated": "Oct 28, 10:20 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793218095.334537,
+          "started_at": 1793251256.04945,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793218095.334537
+              "at": 1793251256.04945
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793218095.334537,
+          "ended_at": 1793218144.397238,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793218095.334537
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793218140.139109
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793218141.498244
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793218141.500178
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793218142.507484
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793218144.397238
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793218144.397238
+            }
+          ],
+          "duration_s": 49,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793217304.564012,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1793154705.751226,
+          "started_at": 1793154724.898829,
           "ended_at": 1793154729.798486,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793154705.751226
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1793154729.798486
             }
           ],
-          "duration_s": 24,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1792993127.230975,
-          "ended_at": 1792993131.529389,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1792993127.230975
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1792993128.637424
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1792993128.642114
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1792993129.778795
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1792993131.529389
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1792993131.529389
-            }
-          ],
-          "duration_s": 4,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793218095.334537,
+        "started_at": 1793251256.04945,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793218095.334537
+            "at": 1793251256.04945
           }
         ],
         "duration_s": null,
@@ -531,10 +531,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1257,
+      "pid": 1212,
       "version": "0.22.4",
       "state": "running",
-      "uptime_seconds": 1799,
+      "uptime_seconds": 1427,
       "profiles": [
         "default",
         "atlas",
@@ -556,7 +556,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.4 · pid 1257"
+        "status": "running · v0.22.4 · pid 1212"
       },
       {
         "name": "Agent Profiles",
@@ -567,13 +567,41 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 28, 01:09 PM"
+    "lastUpdate": "Oct 28, 10:21 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Why Is This Fingerprinting Script Creating Bioweapons?",
+      "content": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "url": "https://divagr.com/blog/qwenputer",
+      "published": "Thu, 29 Oct 2026 00:25:45 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "StackOverflow now gets fewer than 1000 questions a month",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "published": "Wed, 28 Oct 2026 23:35:02 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Formlabs Studio 1 $699 Resin Printer",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "published": "Wed, 28 Oct 2026 21:19:30 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "A Health Update",
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "published": "Wed, 28 Oct 2026 21:13:21 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Why is this fingerprinting script creating bioweapons?",
       "url": "https://nullpt.rs/fingerprinting-bioweapons",
       "published": "Wed, 28 Oct 2026 17:13:29 +0000"
     },
@@ -593,6 +621,13 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
+      "topic": "AI / ML",
+      "content": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "published": "Wed, 28 Oct 2026 15:46:30 +0000"
+    },
+    {
+      "user": "Hacker News",
       "topic": "Tech Intel",
       "content": "CNC Stone Carving",
       "url": "https://carmelitegothic.com/cnc-stone-carving/",
@@ -600,45 +635,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     {
       "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Kentucky man becomes the first humanist granted religious exemption from AI",
-      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-      "published": "Wed, 28 Oct 2026 13:41:30 +0000"
-    },
-    {
-      "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "Emacs Turns 50",
-      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
-      "published": "Wed, 28 Oct 2026 13:25:11 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-      "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
-      "published": "Wed, 28 Oct 2026 11:54:23 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Apple / iOS",
-      "content": "Apple's git still trusts the compromised eMudhra certificates",
-      "url": "https://emudhra.we-have-a-problem.com/apple.html",
-      "published": "Wed, 28 Oct 2026 11:03:40 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Git for the US Code",
-      "url": "https://lexifina.com/blog/git-for-the-us-code",
-      "published": "Wed, 28 Oct 2026 01:47:50 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Early progress on accelerating drug development with Claude",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "published": "Tue, 27 Oct 2026 20:50:42 +0000"
+      "content": "AlpineBSD",
+      "url": "https://wiki.alpinebsd.org",
+      "published": "Wed, 28 Oct 2026 14:30:26 +0000"
     }
   ],
   "verse": {
@@ -744,16 +744,16 @@ window.__DASHBOARD_DATA_CALLBACK__({
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-10-28T20:09:00.094Z",
       "count": 10,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 552
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "fetched_at": "2026-10-29T05:21:15.603Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +761,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "fetched_at": "2026-10-29T05:21:15.603Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +769,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "fetched_at": "2026-10-29T05:21:15.603Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +777,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "fetched_at": "2026-10-29T05:21:15.603Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +785,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "fetched_at": "2026-10-29T05:21:15.603Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +793,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "fetched_at": "2026-10-29T05:21:15.603Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +801,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "fetched_at": "2026-10-29T05:21:15.603Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +809,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-28T20:09:00.134Z",
+      "fetched_at": "2026-10-29T05:21:15.676Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
