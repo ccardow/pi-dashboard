@@ -195,7 +195,7 @@
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "11/05/2026, 09:00 PM",
+  "lastUpdate": "11/05/2026, 09:07 PM",
   "news": [
     {
       "title": "Trump signs order preventing future presidents from changing Oval Office",
@@ -240,11 +240,11 @@
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "9",
-    "condition": "Clear",
+    "condition": "Overcast",
     "feels_like": "7",
     "hi": "12",
     "lo": "7",
-    "updated": "Nov 5, 08:59 PM"
+    "updated": "Nov 5, 09:07 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793941182.390478,
+          "started_at": 1793941633.841442,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793941182.390478
+              "at": 1793941633.841442
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793941182.390478,
+          "ended_at": 1793941204.847688,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793941182.390478
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793941200.197047
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793941201.646278
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793941201.661568
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793941202.880698
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793941204.847688
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793941204.847688
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793388958.761202,
@@ -443,56 +487,17 @@
           ],
           "duration_s": 49,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1793217340.107753,
-          "ended_at": 1793217344.59292,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1793217340.107753
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1793217341.631655
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1793217341.633914
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1793217342.691434
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1793217344.59292
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1793217344.59292
-            }
-          ],
-          "duration_s": 4,
-          "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793941182.390478,
+        "started_at": 1793941633.841442,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793941182.390478
+            "at": 1793941633.841442
           }
         ],
         "duration_s": null,
@@ -537,7 +542,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Nov 5, 09:00 PM"
+    "lastUpdate": "Nov 5, 09:07 PM"
   },
   "hn_posts": [
     {
@@ -719,11 +724,11 @@
       "count": 10,
       "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 12051
+      "age_min": 12059
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.106Z",
+      "fetched_at": "2026-11-06T05:07:30.883Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -731,7 +736,7 @@
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.106Z",
+      "fetched_at": "2026-11-06T05:07:30.883Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -739,7 +744,7 @@
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.106Z",
+      "fetched_at": "2026-11-06T05:07:30.883Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -747,7 +752,7 @@
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.106Z",
+      "fetched_at": "2026-11-06T05:07:30.883Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -755,7 +760,7 @@
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.106Z",
+      "fetched_at": "2026-11-06T05:07:30.883Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -763,7 +768,7 @@
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.106Z",
+      "fetched_at": "2026-11-06T05:07:30.883Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -771,7 +776,7 @@
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.106Z",
+      "fetched_at": "2026-11-06T05:07:30.883Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -779,7 +784,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:00:00.183Z",
+      "fetched_at": "2026-11-06T05:07:30.952Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
