@@ -1,64 +1,64 @@
 {
   "youtube": [
     {
-      "title": "He Put Hormozi, Bezos & Buffett Inside Claude",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=AtjFk9f44HE",
-      "published": "2026-10-28T19:25:38+00:00"
-    },
-    {
-      "title": "Grok Bot just released a MASSIVE update",
-      "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=Nk242TnA7-8",
-      "published": "2026-10-28T19:22:42+00:00"
-    },
-    {
-      "title": "Insane Interactive World Creator (Genie 4)",
-      "channel": "Matt Wolfe",
-      "url": "https://www.youtube.com/watch?v=DZbCL56oz3M",
-      "published": "2026-10-28T18:25:36+00:00"
-    },
-    {
-      "title": "Deepseek's New AI Has A Secret",
-      "channel": "Two Minute Papers",
-      "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
-      "published": "2026-10-28T17:32:40+00:00"
-    },
-    {
-      "title": "Plaid for Government Benefits",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=3CDvfm9DYjw",
-      "published": "2026-10-28T15:47:55+00:00"
-    },
-    {
-      "title": "I Tested GPT-6.1 Terra vs. Sonnet 5.5 on 10 Real Use Cases",
-      "channel": "Duncan Rogoff",
-      "url": "https://www.youtube.com/watch?v=812dIgIrbUg",
-      "published": "2026-10-28T14:45:19+00:00"
-    },
-    {
-      "title": "Did the AI bubble just pop?",
+      "title": "OpenAI’s nameless model just changed the odds of P = NP...",
       "channel": "Fireship",
-      "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
-      "published": "2026-10-28T13:31:29+00:00"
+      "url": "https://www.youtube.com/watch?v=iw9SZgyahqg",
+      "published": "2026-11-06T16:42:38+00:00"
     },
     {
-      "title": "Data Center Supply Chain",
+      "title": "Bringing Supersonic Flight To The People",
       "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=9EJM4LNMK0I",
-      "published": "2026-10-28T05:25:32+00:00"
+      "url": "https://www.youtube.com/watch?v=NYGf--dBeHA",
+      "published": "2026-11-06T16:00:09+00:00"
     },
     {
-      "title": "The $15-an-Hour Expert",
-      "channel": "Y Combinator",
-      "url": "https://www.youtube.com/watch?v=vaKVoWc3TtY",
-      "published": "2026-10-27T23:18:56+00:00"
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=XgC1QTs6A2U",
+      "published": "2026-11-06T07:27:02+00:00"
     },
     {
-      "title": "Deepseek 4.1 Flash on 2 DGX Sparks changed my life",
+      "title": "How I use Claude Code for motion graphics",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=_nkVj3tSHG0",
+      "published": "2026-11-05T21:00:52+00:00"
+    },
+    {
+      "title": "What will people REALLY use these for?",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=hniPlxcQ7X4",
+      "published": "2026-11-05T19:07:54+00:00"
+    },
+    {
+      "title": "This Open-Source AI Sales Agent Finds Clients for You",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=W0zm1OU3p3g",
+      "published": "2026-11-05T19:02:56+00:00"
+    },
+    {
+      "title": "Claude Just Dropped 7 Updates (Here's Which 4 to Use)",
+      "channel": "Duncan Rogoff",
+      "url": "https://www.youtube.com/watch?v=znWSzW0Zh_Y",
+      "published": "2026-11-05T18:00:38+00:00"
+    },
+    {
+      "title": "Claude Opus 5.5 is INCREDIBLE at building video games",
       "channel": "Alex Finn",
-      "url": "https://www.youtube.com/watch?v=o1e0QjQRdWQ",
-      "published": "2026-10-27T17:57:55+00:00"
+      "url": "https://www.youtube.com/watch?v=q3QhN1Hr8UU",
+      "published": "2026-11-04T21:19:40+00:00"
+    },
+    {
+      "title": "How I Get Claude To Edit My Videos (Step-By-Step)",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=ep4psgAFOqc",
+      "published": "2026-11-04T16:40:16+00:00"
+    },
+    {
+      "title": "10 Habits PhDs Must Unlearn To Build a Startup | Startup School",
+      "channel": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=u-8KpXcPYCw",
+      "published": "2026-11-04T15:00:23+00:00"
     }
   ],
   "x_posts": [
@@ -136,6 +136,12 @@
   "peter_x": [
     {
       "topic": "Tech Intel",
+      "content": "Medical record extraction: CMS-1500 and discharge summaries",
+      "url": "https://www.nutrient.io/blog/medical-record-extraction/",
+      "published": "Fri, 06 Nov 2026 09:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
       "content": "PDF remediation: How to make inaccessible PDFs accessible",
       "url": "https://www.nutrient.io/blog/pdf-remediation/",
       "published": "Thu, 05 Nov 2026 09:00:00 GMT"
@@ -187,64 +193,58 @@
       "content": "Mortgage document extraction: Closing Disclosure, 1003, RMA",
       "url": "https://www.nutrient.io/blog/mortgage-document-processing/",
       "published": "Mon, 26 Oct 2026 12:30:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best Adobe PDF Embed API alternatives (2026)",
-      "url": "https://www.nutrient.io/blog/adobe-pdf-embed-api-alternatives/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "11/06/2026, 09:19 AM",
+  "lastUpdate": "11/06/2026, 09:37 AM",
   "news": [
     {
-      "title": "Trump's arch gets a late-night green light. Will a judge stop construction?",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction",
-      "summary": "Trump's arch gets a late-night green light. Will a judge stop construction?",
-      "source": "NPR News",
-      "published": "Fri, 06 Nov 2026 00:05:43 -0500"
-    },
-    {
-      "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
-      "url": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran?traffic_source=rss",
-      "summary": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
-      "source": "Al Jazeera",
-      "published": "Fri, 06 Nov 2026 05:00:47 +0000"
-    },
-    {
-      "title": "Trump issues proclamation declaring Oval Office national monument",
-      "url": "https://www.aljazeera.com/news/2026/11/6/trump-issues-proclamation-declaring-oval-office-national-monument?traffic_source=rss",
-      "summary": "Trump issues proclamation declaring Oval Office national monument",
-      "source": "Al Jazeera",
-      "published": "Fri, 06 Nov 2026 04:48:00 +0000"
-    },
-    {
-      "title": "Trump signs order preventing future presidents from changing Oval Office",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-      "summary": "Trump signs order preventing future presidents from changing Oval Office",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "summary": "AI stocks climb after trillions wiped from market values",
       "source": "BBC World",
-      "published": "Fri, 06 Nov 2026 04:29:25 GMT"
+      "published": "Fri, 06 Nov 2026 17:03:02 GMT"
     },
     {
-      "title": "Rise of far-right groups should not curb Canada’s bid for stronger ties with EU, ambassador says",
-      "url": "https://www.theglobeandmail.com/politics/article-rise-of-far-right-groups-should-not-curb-canadas-bid-for-stronger-ties/",
-      "summary": "Rise of far-right groups should not curb Canada’s bid for stronger ties with EU, ambassador says",
-      "source": "Globe Politics",
-      "published": "Fri, 06 Nov 2026 01:44:14 +0000"
+      "title": "US prosecutor who led Trump-backed election probe exits Justice Department",
+      "url": "https://www.aljazeera.com/news/2026/11/6/us-prosecutor-who-led-trump-backed-election-probe-exits-justice-department?traffic_source=rss",
+      "summary": "US prosecutor who led Trump-backed election probe exits Justice Department",
+      "source": "Al Jazeera",
+      "published": "Fri, 06 Nov 2026 17:02:19 +0000"
+    },
+    {
+      "title": "Why is Denmark separating ‘Western’ and ‘non-Western’ citizens?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-denmark-separating-western-and-non-western-citizens?traffic_source=rss",
+      "summary": "Why is Denmark separating ‘Western’ and ‘non-Western’ citizens?",
+      "source": "Al Jazeera",
+      "published": "Fri, 06 Nov 2026 15:42:43 +0000"
+    },
+    {
+      "title": "Veto or deals: Can Trump find a way to work with Democrats?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/veto-or-deals-can-trump-find-a-way-to-work-with-democrats?traffic_source=rss",
+      "summary": "Veto or deals: Can Trump find a way to work with Democrats?",
+      "source": "Al Jazeera",
+      "published": "Fri, 06 Nov 2026 13:58:03 +0000"
+    },
+    {
+      "title": "What a Trump-Xi-Putin summit could mean – and what it wouldn’t",
+      "url": "https://www.aljazeera.com/news/2026/11/6/what-a-trump-xi-putin-summit-would-mean-and-what-it-wouldnt?traffic_source=rss",
+      "summary": "What a Trump-Xi-Putin summit could mean – and what it wouldn’t",
+      "source": "Al Jazeera",
+      "published": "Fri, 06 Nov 2026 13:49:07 +0000"
     }
   ],
-  "vibes": "⚠ Trump's arch gets a late-night green light. Will a judge stop construction?",
+  "vibes": "⚠ AI stocks climb after trillions wiped from market values",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "9",
-    "condition": "Overcast",
+    "temp": "8",
+    "condition": "Drizzle",
     "feels_like": "7",
     "hi": "12",
-    "lo": "7",
-    "updated": "Nov 5, 09:37 PM"
+    "lo": "8",
+    "updated": "Nov 6, 09:37 AM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793985547.773273,
+          "started_at": 1793986649.959902,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793985547.773273
+              "at": 1793986649.959902
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793985547.773273,
+          "ended_at": 1793985572.38376,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793985547.773273
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793985567.916708
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793985569.346132
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793985569.351132
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793985570.517906
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793985572.38376
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793985572.38376
+            }
+          ],
+          "duration_s": 25,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793943438.654554,
@@ -429,76 +473,23 @@
           ],
           "duration_s": 22,
           "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1793388958.761202,
-          "ended_at": null,
-          "outcome": "running",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793388958.761202
-            }
-          ],
-          "duration_s": null,
-          "summary": "run in progress"
-        },
-        {
-          "started_at": 1793252301.263039,
-          "ended_at": 1793252305.693346,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1793252301.263039
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1793252302.765738
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1793252302.770358
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1793252303.867591
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1793252305.693346
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1793252305.693346
-            }
-          ],
-          "duration_s": 4,
-          "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793985547.773273,
+        "started_at": 1793986649.959902,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793985547.773273
+            "at": 1793986649.959902
           }
         ],
         "duration_s": null,
         "summary": "run in progress"
       },
-      "total_runs": 6
+      "total_runs": 5
     },
     "gateway": {
       "pid": 1211,
@@ -537,15 +528,71 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Nov 6, 09:19 AM"
+    "lastUpdate": "Nov 6, 09:37 AM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Deus Ex",
+      "url": "https://www.filfre.net/2026/11/deus-ex/",
+      "published": "Fri, 06 Nov 2026 15:44:36 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "RIP Cybertruck",
+      "url": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
+      "published": "Fri, 06 Nov 2026 15:01:38 +0000"
+    },
+    {
+      "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "published": "Thu, 05 Nov 2026 23:09:57 +0000"
+      "content": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "published": "Fri, 06 Nov 2026 13:35:27 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+      "published": "Fri, 06 Nov 2026 09:27:12 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Kugelblitz – Mac-Native Google Earth Alternative",
+      "url": "https://apps.metaebene.me/en/kugelblitz",
+      "published": "Fri, 06 Nov 2026 07:47:38 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "url": "https://github.com/ppmpreetham/BUI",
+      "published": "Fri, 06 Nov 2026 07:40:35 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+      "published": "Fri, 06 Nov 2026 04:17:49 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Pwn.college",
+      "url": "https://pwn.college/",
+      "published": "Fri, 06 Nov 2026 03:27:14 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Inkling 2 Small",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "published": "Fri, 06 Nov 2026 00:00:24 +0000"
     },
     {
       "user": "Hacker News",
@@ -553,70 +600,14 @@
       "content": "Claude Code sends your email address to websites",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
       "published": "Thu, 05 Nov 2026 22:17:15 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "MS Paint Remote Code Execution Vulnerability",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-      "published": "Thu, 05 Nov 2026 20:43:42 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Marketing",
-      "content": "Search for everyone",
-      "url": "https://kagi.com/changelog#11820",
-      "published": "Thu, 05 Nov 2026 20:03:34 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Goodbye from Salon",
-      "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
-      "published": "Thu, 05 Nov 2026 20:03:29 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Agents",
-      "content": "Hungary: Communist-era files released, up to 60k former agents revealed",
-      "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
-      "published": "Thu, 05 Nov 2026 19:16:34 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Security",
-      "content": "The Hackintosh Reborn",
-      "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-      "published": "Thu, 05 Nov 2026 19:08:22 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Window Sweaters",
-      "url": "https://github.com/saragordic/window-sweaters",
-      "published": "Thu, 05 Nov 2026 16:50:14 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "My psychophysics as a bilateral cochlear implant user",
-      "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
-      "published": "Thu, 05 Nov 2026 16:21:12 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Motorola Signature 27 with GrapheneOS support",
-      "url": "https://motorolanews.com/motorola-signature-27-2/",
-      "published": "Thu, 05 Nov 2026 16:01:34 +0000"
     }
   ],
   "verse": {
-    "text": "Make every effort to present yourself approved to God, an unashamed workman who accurately handles the word of truth.",
-    "reference": "2 Timothy 2:15",
+    "text": "Finally, brothers, whatever is true, whatever is honorable, whatever is right, whatever is pure, whatever is lovely, whatever is admirable — if anything is excellent or praiseworthy — think on these things.",
+    "reference": "Philippians 4:8",
     "translation": "BSB",
     "version": "Berean Standard Bible",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "attribution": "Public Domain",
     "source": "youversion"
   },
@@ -714,64 +705,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "stale",
-      "fetched_at": "2026-10-28T20:09:00.094Z",
+      "status": "live",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 10,
-      "error": "fetch returned no items",
+      "error": null,
       "source": "youtube.com/feeds",
-      "age_min": 12790
+      "age_min": 0
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-11-06T17:19:27.819Z",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "stale",
-      "fetched_at": "2026-11-06T05:37:35.792Z",
+      "status": "live",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 10,
-      "error": "hnrss.org unreachable",
+      "error": null,
       "source": "hnrss.org",
-      "age_min": 702
+      "age_min": 0
     },
     "steipete": {
-      "status": "stale",
-      "fetched_at": "2026-11-06T05:37:35.792Z",
+      "status": "live",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 10,
-      "error": "steipete feeds unreachable",
+      "error": null,
       "source": "steipete.me",
-      "age_min": 702
+      "age_min": 0
     },
     "news": {
-      "status": "stale",
-      "fetched_at": "2026-11-06T05:37:35.792Z",
+      "status": "live",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 5,
-      "error": "news feeds unreachable",
+      "error": null,
       "source": "RSS + CBC",
-      "age_min": 702
+      "age_min": 0
     },
     "weather": {
-      "status": "stale",
-      "fetched_at": "2026-11-06T05:37:35.792Z",
+      "status": "live",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 1,
-      "error": "open-meteo unreachable",
+      "error": null,
       "source": "open-meteo",
-      "age_min": 702
+      "age_min": 0
     },
     "verse": {
-      "status": "stale",
-      "fetched_at": "2026-11-06T05:37:35.792Z",
+      "status": "live",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 1,
-      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
+      "error": null,
       "source": "youversion",
-      "age_min": 702
+      "age_min": 0
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-11-06T17:19:27.819Z",
+      "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -779,7 +770,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-11-06T17:19:27.904Z",
+      "fetched_at": "2026-11-06T17:37:47.445Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
