@@ -65,75 +65,111 @@ window.__DASHBOARD_DATA_CALLBACK__({
     {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "True",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2115664319278973255#m",
-      "published": "Thu, 29 Oct 2026 04:37:35 GMT"
+      "content": "RT by @elonmusk: (The rules of English need to change to put spaces between the em dashes, as they presently too much resemble a hyphenated word, rather than a parenthetical phrase. Also, “—“ is an unpleasantly long a line. The en dash, “–“, is a better length.)",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2118560985678234094#m",
+      "published": "Fri, 06 Nov 2026 04:27:54 GMT"
     },
     {
-      "user": "elonmusk",
+      "user": "MatthewBerman",
       "topic": "Tech Intel",
-      "content": "RT by @elonmusk: Elon on why Starlink matters most when disaster hits Fires, floods and storms knock out fiber and cell towers. Starlink keeps people connected. @elonmusk",
-      "url": "http://nitter.meowing.monster/teslaownersSV/status/2115641073150333229#m",
-      "published": "Thu, 29 Oct 2026 03:05:13 GMT"
+      "content": "“We will simulate a nation-state level attack” 🤯",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2118560972319408551#m",
+      "published": "Fri, 06 Nov 2026 04:27:51 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "Tech Intel",
+      "content": "Maybe this would be good for vibe editing?",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2118560570152751566#m",
+      "published": "Fri, 06 Nov 2026 04:26:15 GMT"
     },
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
-      "content": "Google just dropped Gemini 4 Carbon. #1 on the new Artificial Analysis Intelligence Index (59 vs Claude Opus 5.5 at 58). → runs long jobs for days → up to 1M tokens → finds + fixes security bugs → about half the unsupported claims Not public yet. Here's how to get ready today 👇",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2115640297824931898#m",
-      "published": "Thu, 29 Oct 2026 03:02:08 GMT"
+      "content": "I'M ONLY SAYING THIS ONE TIME. > paste these 6 free prompts into Grok Bot > watch it build your business its own operating system > see every one of your AI agents on one screen don't bookmark it. you'll thank me.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118546415546691652#m",
+      "published": "Fri, 06 Nov 2026 03:30:00 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
+      "user": "MatthewBerman",
       "topic": "AI / ML",
-      "content": "Give me 2 minutes, and I'll make your AI agents smarter than 90% of people's. Make them all share one brain: 1. Install Obsidian (free). This is the memory. 2. Point Hermes at the vault. 3. Point Claude Code at the same vault. 4. Same for Codex and OpenClaw. 5. Turn on daily logs. Every agent writes what it did. 6. Now what one agent learns, the others know. One prompt connects all of it. Guide below👇",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2115640012658143693#m",
-      "published": "Thu, 29 Oct 2026 03:01:00 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "Tech Intel",
-      "content": "Four OpenClaw developers made @linuxfoundation’s Top 100 contributors list: #1 @steipete #7 @vincent_koc #33 @obviyus #57 @dallinfinite 569,649 contributions in a year. 13.8% of the Top 100 total. Thank you, open-source community. https://insights.linuxfoundation.org/leaderboards/contributors",
-      "url": "http://nitter.meowing.monster/openclaw/status/2115636811594915985#m",
-      "published": "Thu, 29 Oct 2026 02:48:17 GMT"
+      "content": "Pinned: Folio Update v1.16.0! Fun problem - I can't keep up with the PRs and issues being submitted 😂 Features: > Adjustable pen widths > OpenRouter support > Multilingual scan recognition > Back and Forward inside PDFs > Print previews and advanced layouts > Organized Settings and storage controls Bugs: > Fast pen strokes could snap backward when you lifted the pen > Folio could miss Claude Code on macOS when launched from the Dock > Switching OCR languages or closing a scan during recognition could cause a renderer error > Back/Forward shortcuts could take readers out of the browser edition My goal for Folio is to be a great, simple, and fast PDF reader and editor. Thanks for all who submitted PRs and issues! https://github.com/Forward-Future/folio",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2118525742548185563#m",
+      "published": "Fri, 06 Nov 2026 02:07:51 GMT"
     },
     {
       "user": "AlexFinn",
       "topic": "Tech Intel",
-      "content": "R to @AlexFinn: If you give this post to your bot it’ll watch the video and build all the dashboards itself automatically btw",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2115633933232837086#m",
-      "published": "Thu, 29 Oct 2026 02:36:50 GMT"
+      "content": "R to @AlexFinn: you can send this to your grok bot and have it implement everything btw",
+      "url": "http://nitter.meowing.monster/AlexFinn/status/2118491708828828132#m",
+      "published": "Thu, 05 Nov 2026 23:52:37 GMT"
     },
     {
-      "user": "JulianGoldieSEO",
+      "user": "JuliaEMcCoy",
+      "topic": "Tech Intel",
+      "content": "to all my fellow brothers and sisters that have completely unplugged from the system that wanted you sick, tired, and nearly dead, I salute you. There’s no better life than living the one you built from your dreams, and knowing that the great Creator behind every living thing built it all for the good of those that love Him. ￼",
+      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2118472740080632130#m",
+      "published": "Thu, 05 Nov 2026 22:37:15 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "Agents",
+      "content": "So many agents So many features This thread is going to be 100 posts long soon",
+      "url": "http://nitter.meowing.monster/openclaw/status/2118434640977637850#m",
+      "published": "Thu, 05 Nov 2026 20:05:51 GMT"
+    },
+    {
+      "user": "sama",
       "topic": "AI / ML",
-      "content": "No biggie. Google just casually shipped a model that beats Claude Opus 5.5. Two weeks after the last one. Agents that work on a task for days without getting stuck. That's the part people are missing.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2115629442370621849#m",
-      "published": "Thu, 29 Oct 2026 02:19:00 GMT"
+      "content": "RT by @sama: Today’s GPT-6 Cyber release is a meaningful step for defenders: stronger vulnerability research and better alignment. We’ve already been using GPT-6 Cyber alongside GPT-6 Astra with Daybreak to harden our own systems, finding weaknesses, validating their impact, and developing fixes. Even after years @OpenAI, model capabilities continue to surprise me. One small example came from testing a prerelease version of GPT-6 Astra earlier this summer. We were examining tools used across our research infrastructure and one of our research infra leads, Michael Dalton, was looking into some low risk areas like a math task grader that used SymPy, a mathematics library, to check answers. In an offline test, the submitted answer used characters that looked like ordinary letters to get past the grader’s checks. It caused the grader to run a shell command that printed “4242”, while still returning the expected result, 1/2. The grader marked the answer correct. A valid math answer had become a way to run code inside the grader - diagram below. This is the kind of vulnerability that can be very hard for a human to find, even with a fuzzer. It takes connecting how input validation and evaluation interact, constructing an input that passes the checks but triggers unintended behavior, and recognizing the failure even when the final answer is correct. Models can reason across those pieces and help uncover classes of vulnerabilities that are difficult to spot when reviewing components in isolation. That’s why it’s important for more defenders to use models with Daybreak to find and fix vulnerabilities in their own systems. Whether it’s a potentially internet-melting bug like PHP2Shell or a subtle but important issue like this grader bug, finding it before an attacker does gives defenders time to act. Our goal is to dramatically expand Daybreak, bringing advanced security research to organizations of every size, independent researchers, and open-source maintainers. We’re also expanding Daybreak Blue alpha access for GPT‑6 Astra to more organizations and individual security researchers - let us know if you���re interested: https://docs.google.com/forms/d/e/1FAIpQLSdQu8mNYXDpUW_0kRS6JBWBPMWfUjjxi6xLi8AkFPObLupkpg/viewform",
+      "url": "http://nitter.meowing.monster/fouadmatin/status/2118429823244935257#m",
+      "published": "Thu, 05 Nov 2026 19:46:43 GMT"
     },
     {
       "user": "openclaw",
       "topic": "AI / ML",
-      "content": "One Agent, Many Sessions @hrudolph is joined by @jjjhenriksen and @TheAngryPit to discuss sharing an OpenClaw agent, when separate agents make sense, and using them for work and everyday life. Episode 15 of The ClawCast https://openclaw.ai/podcast/episode-15",
-      "url": "http://nitter.meowing.monster/openclaw/status/2115606508587360269#m",
-      "published": "Thu, 29 Oct 2026 00:47:52 GMT"
-    },
-    {
-      "user": "AlexFinn",
-      "topic": "Tech Intel",
-      "content": "Grok Bot just had its biggest update yet It introduces pages and dashboards, 2 things that solve Grok's BIGGEST problem In this video I cover how I made 5 dashboards that make Grok Bot SO much nicer to use, including one that has saved me a TON of usage:",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2115596225793921048#m",
-      "published": "Thu, 29 Oct 2026 00:07:00 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "Tech Intel",
-      "content": "RT by @openclaw: @roboclawbot Looks like we need a new OpenClaw provider for this, get to work!",
-      "url": "http://nitter.meowing.monster/jlehman_/status/2115595592772804688#m",
-      "published": "Thu, 29 Oct 2026 00:04:29 GMT"
+      "content": "OpenClaw v2026.11.1 patch is out 🦞 💬 Fixes false Telegram and Discord message refusals 🩺 Doctor stops reporting failed checks as successful 🔧 Fixes stuck Gateway settings changes 83 pull requests, 67 contributors. Full notes + more fixes https://docs.openclaw.ai/releases/2026.11.1",
+      "url": "http://nitter.meowing.monster/openclaw/status/2118416574004744245#m",
+      "published": "Thu, 05 Nov 2026 18:54:04 GMT"
     }
   ],
   "peter_x": [
+    {
+      "topic": "Tech Intel",
+      "content": "PDF remediation: How to make inaccessible PDFs accessible",
+      "url": "https://www.nutrient.io/blog/pdf-remediation/",
+      "published": "Thu, 05 Nov 2026 09:00:00 GMT"
+    },
+    {
+      "topic": "Apple / iOS",
+      "content": "Bank statement to Excel with Python and Nutrient",
+      "url": "https://www.nutrient.io/blog/bank-statement-to-excel/",
+      "published": "Wed, 04 Nov 2026 09:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Insurance document extraction: ACORD 25, FNOL, loss runs",
+      "url": "https://www.nutrient.io/blog/insurance-document-extraction/",
+      "published": "Tue, 03 Nov 2026 09:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "Introducing spreadsheet editing in Document Authoring SDK",
+      "url": "https://www.nutrient.io/blog/document-authoring-spreadsheet-editor/",
+      "published": "Mon, 02 Nov 2026 08:00:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "How to manage KYC onboarding documents in Salesforce",
+      "url": "https://www.nutrient.io/blog/kyc-onboarding-salesforce/",
+      "published": "Fri, 30 Oct 2026 13:11:00 GMT"
+    },
+    {
+      "topic": "Tech Intel",
+      "content": "React escaping vs. DOMPurify: When to sanitize HTML",
+      "url": "https://www.nutrient.io/blog/react-text-sanitization-strategy/",
+      "published": "Thu, 29 Oct 2026 10:00:00 GMT"
+    },
     {
       "topic": "AI / ML",
       "content": "Private document AI: Local processing with Nutrient",
@@ -157,94 +193,58 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "Best Adobe PDF Embed API alternatives (2026)",
       "url": "https://www.nutrient.io/blog/adobe-pdf-embed-api-alternatives/",
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best Adobe PDF Services API alternatives (2026)",
-      "url": "https://www.nutrient.io/blog/adobe-pdf-services-api-alternatives/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best invoice data extraction APIs (2026)",
-      "url": "https://www.nutrient.io/blog/best-invoice-data-extraction-apis/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best PDF accessibility APIs for PDF/UA auto-tagging and remediation (2026)",
-      "url": "https://www.nutrient.io/blog/best-pdf-accessibility-apis/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best PDF processing APIs (2026): convert, merge, OCR, watermark, and redact in the cloud",
-      "url": "https://www.nutrient.io/blog/best-pdf-processing-apis/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best PDF viewer APIs (2026): hosted document viewing without running your own servers",
-      "url": "https://www.nutrient.io/blog/best-pdf-viewer-apis/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
-    },
-    {
-      "topic": "Tech Intel",
-      "content": "Best Vue PDF viewer libraries (2026): options compared",
-      "url": "https://www.nutrient.io/blog/best-vue-pdf-viewers/",
-      "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "10/28/2026, 10:38 PM",
+  "lastUpdate": "11/05/2026, 09:00 PM",
   "news": [
     {
-      "title": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
-      "url": "https://www.aljazeera.com/news/2026/10/29/judge-rejects-trump-effort-to-block-california-noncitizen-ballots?traffic_source=rss",
-      "summary": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
-      "source": "Al Jazeera",
-      "published": "Thu, 29 Oct 2026 05:06:23 +0000"
+      "title": "Trump signs order preventing future presidents from changing Oval Office",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+      "summary": "Trump signs order preventing future presidents from changing Oval Office",
+      "source": "BBC World",
+      "published": "Fri, 06 Nov 2026 04:29:25 GMT"
     },
     {
-      "title": "Obama mocks Trump team’s Cheesecake Factory response",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/obama-mocks-trump-teams-cheesecake-factory-response?traffic_source=rss",
-      "summary": "Obama mocks Trump team’s Cheesecake Factory response",
-      "source": "Al Jazeera",
-      "published": "Thu, 29 Oct 2026 04:30:04 +0000"
-    },
-    {
-      "title": "30-year sentence in Minnesota fraud that drew Trump backlash",
-      "url": "https://www.aljazeera.com/news/2026/10/29/30-year-sentence-in-minnesota-fraud-that-drew-trump-backlash?traffic_source=rss",
-      "summary": "30-year sentence in Minnesota fraud that drew Trump backlash",
-      "source": "Al Jazeera",
-      "published": "Thu, 29 Oct 2026 03:00:57 +0000"
-    },
-    {
-      "title": "Jewish community in Canada facing unprecedented threats, security officials warn",
-      "url": "https://www.theglobeandmail.com/politics/article-jewish-community-in-canada-facing-unprecedented-threats-security/",
-      "summary": "Jewish community in Canada facing unprecedented threats, security officials warn",
+      "title": "Rise of far-right groups should not curb Canada’s bid for stronger ties with EU, ambassador says",
+      "url": "https://www.theglobeandmail.com/politics/article-rise-of-far-right-groups-should-not-curb-canadas-bid-for-stronger-ties/",
+      "summary": "Rise of far-right groups should not curb Canada’s bid for stronger ties with EU, ambassador says",
       "source": "Globe Politics",
-      "published": "Thu, 29 Oct 2026 02:51:25 +0000"
+      "published": "Fri, 06 Nov 2026 01:44:14 +0000"
     },
     {
-      "title": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
-      "url": "https://www.aljazeera.com/news/2026/10/29/strikes-on-darfur-market-in-sudan-kill-more-than-100-rights-group-says?traffic_source=rss",
-      "summary": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
+      "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
+      "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians?traffic_source=rss",
+      "summary": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
       "source": "Al Jazeera",
-      "published": "Thu, 29 Oct 2026 02:48:38 +0000"
+      "published": "Fri, 06 Nov 2026 00:06:31 +0000"
+    },
+    {
+      "title": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?traffic_source=rss",
+      "summary": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
+      "source": "Al Jazeera",
+      "published": "Fri, 06 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Melania Trump touts rare agreement she brokered between Russia and Ukraine",
+      "url": "https://www.npr.org/2026/11/05/nx-s1-6030662/melania-trump-touts-rare-agreement-she-brokered-between-russia-and-ukraine",
+      "summary": "Melania Trump touts rare agreement she brokered between Russia and Ukraine",
+      "source": "NPR News",
+      "published": "Thu, 05 Nov 2026 18:52:48 -0500"
     }
   ],
-  "vibes": "⚠ Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+  "vibes": "⚠ Trump signs order preventing future presidents from changing Oval Office",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
-    "temp": "5",
+    "temp": "9",
     "condition": "Clear",
-    "feels_like": "2",
-    "hi": "9",
-    "lo": "4",
-    "updated": "Oct 28, 10:37 PM"
+    "feels_like": "7",
+    "hi": "12",
+    "lo": "7",
+    "updated": "Nov 5, 08:59 PM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,76 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793252276.049606,
+          "started_at": 1793941182.390478,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793252276.049606
+              "at": 1793941182.390478
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793388958.761202,
+          "ended_at": null,
+          "outcome": "running",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793388958.761202
+            }
+          ],
+          "duration_s": null,
+          "summary": "run in progress"
+        },
+        {
+          "started_at": 1793252276.049606,
+          "ended_at": 1793252305.693346,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793252276.049606
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793252301.263039
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793252302.765738
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793252302.770358
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793252303.867591
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793252305.693346
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793252305.693346
+            }
+          ],
+          "duration_s": 30,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793251256.04945,
@@ -387,15 +445,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1793217304.564012,
+          "started_at": 1793217340.107753,
           "ended_at": 1793217344.59292,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793217304.564012
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -427,102 +480,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1793217344.59292
             }
           ],
-          "duration_s": 40,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1793156895.327799,
-          "ended_at": 1793156916.810399,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793156895.327799
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1793156912.440818
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1793156913.904658
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1793156913.906986
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1793156914.926597
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1793156916.810399
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1793156916.810399
-            }
-          ],
-          "duration_s": 21,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1793155108.537665,
-          "ended_at": 1793155122.918386,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1793155108.537665
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1793155119.909481
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1793155119.918708
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1793155121.008588
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1793155122.918386
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1793155122.918386
-            }
-          ],
-          "duration_s": 14,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793252276.049606,
+        "started_at": 1793941182.390478,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793252276.049606
+            "at": 1793941182.390478
           }
         ],
         "duration_s": null,
@@ -531,10 +501,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "total_runs": 6
     },
     "gateway": {
-      "pid": 1212,
+      "pid": 1211,
       "version": "0.22.4",
       "state": "running",
-      "uptime_seconds": 1427,
+      "uptime_seconds": 1842,
       "profiles": [
         "default",
         "atlas",
@@ -556,7 +526,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     "roadmap": [
       {
         "name": "Hermes Gateway",
-        "status": "running · v0.22.4 · pid 1212"
+        "status": "running · v0.22.4 · pid 1211"
       },
       {
         "name": "Agent Profiles",
@@ -567,86 +537,86 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Oct 28, 10:38 PM"
+    "lastUpdate": "Nov 5, 09:00 PM"
   },
   "hn_posts": [
     {
       "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "url": "https://divagr.com/blog/qwenputer",
-      "published": "Thu, 29 Oct 2026 00:25:45 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "StackOverflow now gets fewer than 1000 questions a month",
-      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-      "published": "Wed, 28 Oct 2026 23:35:02 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Formlabs Studio 1 $699 Resin Printer",
-      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
-      "published": "Wed, 28 Oct 2026 21:19:30 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "A Health Update",
-      "url": "https://furbo.org/2026/10/28/a-health-update/",
-      "published": "Wed, 28 Oct 2026 21:13:21 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "Why is this fingerprinting script creating bioweapons?",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "published": "Wed, 28 Oct 2026 17:13:29 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "Tech Intel",
-      "content": "MacBook Pro with PROLED XDR Display and Touch",
-      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
-      "published": "Wed, 28 Oct 2026 17:10:37 +0000"
+      "topic": "AI / ML",
+      "content": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "published": "Thu, 05 Nov 2026 23:09:57 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Gemini 4 Carbon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "published": "Wed, 28 Oct 2026 17:01:23 +0000"
+      "content": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "published": "Thu, 05 Nov 2026 22:17:15 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "AI / ML",
-      "content": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "url": "https://surgehq.ai/blog/dayjob-tax",
-      "published": "Wed, 28 Oct 2026 15:46:30 +0000"
+      "content": "MS Paint Remote Code Execution Vulnerability",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "published": "Thu, 05 Nov 2026 20:43:42 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Marketing",
+      "content": "Search for everyone",
+      "url": "https://kagi.com/changelog#11820",
+      "published": "Thu, 05 Nov 2026 20:03:34 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "CNC Stone Carving",
-      "url": "https://carmelitegothic.com/cnc-stone-carving/",
-      "published": "Wed, 28 Oct 2026 14:38:22 +0000"
+      "content": "Goodbye from Salon",
+      "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
+      "published": "Thu, 05 Nov 2026 20:03:29 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Agents",
+      "content": "Hungary: Communist-era files released, up to 60k former agents revealed",
+      "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+      "published": "Thu, 05 Nov 2026 19:16:34 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Security",
+      "content": "The Hackintosh Reborn",
+      "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+      "published": "Thu, 05 Nov 2026 19:08:22 +0000"
     },
     {
       "user": "Hacker News",
       "topic": "Tech Intel",
-      "content": "AlpineBSD",
-      "url": "https://wiki.alpinebsd.org",
-      "published": "Wed, 28 Oct 2026 14:30:26 +0000"
+      "content": "Window Sweaters",
+      "url": "https://github.com/saragordic/window-sweaters",
+      "published": "Thu, 05 Nov 2026 16:50:14 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "My psychophysics as a bilateral cochlear implant user",
+      "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+      "published": "Thu, 05 Nov 2026 16:21:12 +0000"
+    },
+    {
+      "user": "Hacker News",
+      "topic": "Tech Intel",
+      "content": "Motorola Signature 27 with GrapheneOS support",
+      "url": "https://motorolanews.com/motorola-signature-27-2/",
+      "published": "Thu, 05 Nov 2026 16:01:34 +0000"
     }
   ],
   "verse": {
-    "text": "Pray in the Spirit at all times, with every kind of prayer and petition. To this end, stay alert with all perseverance in your prayers for all the saints.",
-    "reference": "Ephesians 6:18",
+    "text": "Make every effort to present yourself approved to God, an unashamed workman who accurately handles the word of truth.",
+    "reference": "2 Timothy 2:15",
     "translation": "BSB",
     "version": "Berean Standard Bible",
-    "date": "2026-10-28",
+    "date": "2026-11-05",
     "attribution": "Public Domain",
     "source": "youversion"
   },
@@ -749,11 +719,11 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "count": 10,
       "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 569
+      "age_min": 12051
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.168Z",
+      "fetched_at": "2026-11-06T05:00:00.106Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -761,7 +731,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.168Z",
+      "fetched_at": "2026-11-06T05:00:00.106Z",
       "count": 10,
       "error": null,
       "source": "hnrss.org",
@@ -769,7 +739,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.168Z",
+      "fetched_at": "2026-11-06T05:00:00.106Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -777,7 +747,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.168Z",
+      "fetched_at": "2026-11-06T05:00:00.106Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -785,7 +755,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.168Z",
+      "fetched_at": "2026-11-06T05:00:00.106Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -793,7 +763,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.168Z",
+      "fetched_at": "2026-11-06T05:00:00.106Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -801,7 +771,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.168Z",
+      "fetched_at": "2026-11-06T05:00:00.106Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -809,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-10-29T05:38:21.249Z",
+      "fetched_at": "2026-11-06T05:00:00.183Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
