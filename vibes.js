@@ -63,11 +63,67 @@ window.__DASHBOARD_DATA_CALLBACK__({
   ],
   "x_posts": [
     {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "R to @JulianGoldieSEO: Give Hermes its own computer and let it work tonight. Free: https://www.skool.com/ai-seo-with-julian-goldie-1553/about → NEW Hermes AI Computer Update → Hermes Agent + Cua Spaces for AI Automation → Run AI Agent 24/7 on Hermes AgentOS 94,500+ members",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118751997931495898#m",
+      "published": "Fri, 06 Nov 2026 17:06:55 GMT"
+    },
+    {
+      "user": "MatthewBerman",
+      "topic": "AI / ML",
+      "content": "easiest 7% gain ever",
+      "url": "http://nitter.meowing.monster/MatthewBerman/status/2118751134890483714#m",
+      "published": "Fri, 06 Nov 2026 17:03:29 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "Tech Intel",
+      "content": "you're going to bookmark this. I'm begging you...don't. give Hermes its own computer tonight and let it work while you run your business. this is the one update I'd set up first.",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118750263217389775#m",
+      "published": "Fri, 06 Nov 2026 17:00:01 GMT"
+    },
+    {
+      "user": "DuncanRogoff",
+      "topic": "AI / ML",
+      "content": "R to @DuncanRogoff: https://www.youtube.com/watch?v=znWSzW0Zh_Y I rank all 7 new Claude updates and show the 4 worth your time.",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2118739522817032690#m",
+      "published": "Fri, 06 Nov 2026 16:17:21 GMT"
+    },
+    {
+      "user": "DuncanRogoff",
+      "topic": "AI / ML",
+      "content": "Claude used to be one chat. Now it's a small team of chats you manage. 7 new desktop updates. Only 4 are worth using. 🔗 in replies",
+      "url": "http://nitter.meowing.monster/DuncanRogoff/status/2118739521248399417#m",
+      "published": "Fri, 06 Nov 2026 16:17:20 GMT"
+    },
+    {
       "user": "elonmusk",
       "topic": "Tech Intel",
-      "content": "RT by @elonmusk: (The rules of English need to change to put spaces between the em dashes, as they presently too much resemble a hyphenated word, rather than a parenthetical phrase. Also, “—“ is an unpleasantly long a line. The en dash, “–“, is a better length.)",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2118560985678234094#m",
-      "published": "Fri, 06 Nov 2026 04:27:54 GMT"
+      "content": "Tesla self-driving gives mobility to seniors",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2118739371939803498#m",
+      "published": "Fri, 06 Nov 2026 16:16:45 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "AI / ML",
+      "content": "RT by @elonmusk: Tesla remains South Korea's #1 best-selling imported car brand for the NINTH consecutive month 🇰🇷 October 2026 registrations: • Tesla: 9,165 • Mercedes-Benz: 6,744 • BMW: 5,633 Tesla outsold Mercedes-Benz by 2,421 vehicles and BMW by 3,532 And the Model Y Premium dominated the imported-model rankings with 5,501 registrations on its own Tesla's October sales more than DOUBLED year-over-year, surging 110.7% Once, German luxury brands dominated South Korea's imported car market Now Tesla is leading it",
+      "url": "http://nitter.meowing.monster/XFreeze/status/2118738155654513112#m",
+      "published": "Fri, 06 Nov 2026 16:11:55 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
+      "content": "A masterclass on how we hit #1 on Google in 24 hours, with this 5-step AI SEO loop:",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118727608884220317#m",
+      "published": "Fri, 06 Nov 2026 15:30:00 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "RT by @elonmusk: The Godfathers of Superintelligence It all began right here, and now they're taking Superintelligence into orbit, to an entirely new level",
+      "url": "http://nitter.meowing.monster/XFreeze/status/2118688066651214236#m",
+      "published": "Fri, 06 Nov 2026 12:52:53 GMT"
     },
     {
       "user": "MatthewBerman",
@@ -75,62 +131,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "“We will simulate a nation-state level attack” 🤯",
       "url": "http://nitter.meowing.monster/MatthewBerman/status/2118560972319408551#m",
       "published": "Fri, 06 Nov 2026 04:27:51 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Tech Intel",
-      "content": "Maybe this would be good for vibe editing?",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2118560570152751566#m",
-      "published": "Fri, 06 Nov 2026 04:26:15 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "I'M ONLY SAYING THIS ONE TIME. > paste these 6 free prompts into Grok Bot > watch it build your business its own operating system > see every one of your AI agents on one screen don't bookmark it. you'll thank me.",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118546415546691652#m",
-      "published": "Fri, 06 Nov 2026 03:30:00 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "AI / ML",
-      "content": "Pinned: Folio Update v1.16.0! Fun problem - I can't keep up with the PRs and issues being submitted 😂 Features: > Adjustable pen widths > OpenRouter support > Multilingual scan recognition > Back and Forward inside PDFs > Print previews and advanced layouts > Organized Settings and storage controls Bugs: > Fast pen strokes could snap backward when you lifted the pen > Folio could miss Claude Code on macOS when launched from the Dock > Switching OCR languages or closing a scan during recognition could cause a renderer error > Back/Forward shortcuts could take readers out of the browser edition My goal for Folio is to be a great, simple, and fast PDF reader and editor. Thanks for all who submitted PRs and issues! https://github.com/Forward-Future/folio",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2118525742548185563#m",
-      "published": "Fri, 06 Nov 2026 02:07:51 GMT"
-    },
-    {
-      "user": "AlexFinn",
-      "topic": "Tech Intel",
-      "content": "R to @AlexFinn: you can send this to your grok bot and have it implement everything btw",
-      "url": "http://nitter.meowing.monster/AlexFinn/status/2118491708828828132#m",
-      "published": "Thu, 05 Nov 2026 23:52:37 GMT"
-    },
-    {
-      "user": "elonmusk",
-      "topic": "AI / ML",
-      "content": "RT by @elonmusk: This is a bigger deal than people might think! 100% process waste water recycling means ZERO liquid discharge. Our waste water treatment facility is not just advanced but unique in automotive industry! This is a key sustainability commitment to the region we are operating in!",
-      "url": "http://nitter.meowing.monster/AndrThie/status/2118476679593312316#m",
-      "published": "Thu, 05 Nov 2026 22:52:54 GMT"
-    },
-    {
-      "user": "JuliaEMcCoy",
-      "topic": "Tech Intel",
-      "content": "to all my fellow brothers and sisters that have completely unplugged from the system that wanted you sick, tired, and nearly dead, I salute you. There’s no better life than living the one you built from your dreams, and knowing that the great Creator behind every living thing built it all for the good of those that love Him. ￼",
-      "url": "http://nitter.meowing.monster/JuliaEMcCoy/status/2118472740080632130#m",
-      "published": "Thu, 05 Nov 2026 22:37:15 GMT"
-    },
-    {
-      "user": "openclaw",
-      "topic": "Agents",
-      "content": "So many agents So many features This thread is going to be 100 posts long soon",
-      "url": "http://nitter.meowing.monster/openclaw/status/2118434640977637850#m",
-      "published": "Thu, 05 Nov 2026 20:05:51 GMT"
-    },
-    {
-      "user": "sama",
-      "topic": "AI / ML",
-      "content": "RT by @sama: Today’s GPT-6 Cyber release is a meaningful step for defenders: stronger vulnerability research and better alignment. We’ve already been using GPT-6 Cyber alongside GPT-6 Astra with Daybreak to harden our own systems, finding weaknesses, validating their impact, and developing fixes. Even after years @OpenAI, model capabilities continue to surprise me. One small example came from testing a prerelease version of GPT-6 Astra earlier this summer. We were examining tools used across our research infrastructure and one of our research infra leads, Michael Dalton, was looking into some low risk areas like a math task grader that used SymPy, a mathematics library, to check answers. In an offline test, the submitted answer used characters that looked like ordinary letters to get past the grader’s checks. It caused the grader to run a shell command that printed “4242”, while still returning the expected result, 1/2. The grader marked the answer correct. A valid math answer had become a way to run code inside the grader - diagram below. This is the kind of vulnerability that can be very hard for a human to find, even with a fuzzer. It takes connecting how input validation and evaluation interact, constructing an input that passes the checks but triggers unintended behavior, and recognizing the failure even when the final answer is correct. Models can reason across those pieces and help uncover classes of vulnerabilities that are difficult to spot when reviewing components in isolation. That’s why it’s important for more defenders to use models with Daybreak to find and fix vulnerabilities in their own systems. Whether it’s a potentially internet-melting bug like PHP2Shell or a subtle but important issue like this grader bug, finding it before an attacker does gives defenders time to act. Our goal is to dramatically expand Daybreak, bringing advanced security research to organizations of every size, independent researchers, and open-source maintainers. We’re also expanding Daybreak Blue alpha access for GPT‑6 Astra to more organizations and individual security researchers - let us know if you���re interested: https://docs.google.com/forms/d/e/1FAIpQLSdQu8mNYXDpUW_0kRS6JBWBPMWfUjjxi6xLi8AkFPObLupkpg/viewform",
-      "url": "http://nitter.meowing.monster/fouadmatin/status/2118429823244935257#m",
-      "published": "Thu, 05 Nov 2026 19:46:43 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 26 Oct 2026 08:00:00 GMT"
     }
   ],
-  "lastUpdate": "11/05/2026, 09:37 PM",
+  "lastUpdate": "11/06/2026, 09:19 AM",
   "news": [
     {
       "title": "Trump's arch gets a late-night green light. Will a judge stop construction?",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793943438.654554,
+          "started_at": 1793985547.773273,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793943438.654554
+              "at": 1793985547.773273
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793943438.654554,
+          "ended_at": 1793943460.071515,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793943438.654554
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793943455.87791
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793943457.160272
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793943457.164619
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793943458.279473
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793943460.071515
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793943460.071515
+            }
+          ],
+          "duration_s": 21,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793941633.841442,
@@ -401,15 +445,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "run in progress"
         },
         {
-          "started_at": 1793252276.049606,
+          "started_at": 1793252301.263039,
           "ended_at": 1793252305.693346,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793252276.049606
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -441,63 +480,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1793252305.693346
             }
           ],
-          "duration_s": 30,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1793251256.04945,
-          "ended_at": 1793251280.543144,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793251256.04945
-            },
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1793251275.687817
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1793251277.394154
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1793251277.411833
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1793251278.580716
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1793251280.543144
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1793251280.543144
-            }
-          ],
-          "duration_s": 24,
+          "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793943438.654554,
+        "started_at": 1793985547.773273,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793943438.654554
+            "at": 1793985547.773273
           }
         ],
         "duration_s": null,
@@ -542,7 +537,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Nov 5, 09:37 PM"
+    "lastUpdate": "Nov 6, 09:19 AM"
   },
   "hn_posts": [
     {
@@ -724,59 +719,59 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "count": 10,
       "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 12089
+      "age_min": 12790
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:37:35.792Z",
+      "fetched_at": "2026-11-06T17:19:27.819Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T05:37:35.792Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 702
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T05:37:35.792Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 702
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T05:37:35.792Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 702
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T05:37:35.792Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 702
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T05:37:35.792Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 702
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:37:35.792Z",
+      "fetched_at": "2026-11-06T17:19:27.819Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -784,7 +779,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-11-06T05:37:35.863Z",
+      "fetched_at": "2026-11-06T17:19:27.904Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
