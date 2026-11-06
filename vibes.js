@@ -195,56 +195,56 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "published": "Mon, 26 Oct 2026 12:30:00 GMT"
     }
   ],
-  "lastUpdate": "11/06/2026, 11:08 AM",
+  "lastUpdate": "11/06/2026, 11:38 AM",
   "news": [
-    {
-      "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
-      "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
-      "summary": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
-      "source": "Al Jazeera",
-      "published": "Fri, 06 Nov 2026 18:09:49 +0000"
-    },
     {
       "title": "AI stocks climb after trillions wiped from market values",
       "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
       "summary": "AI stocks climb after trillions wiped from market values",
       "source": "BBC World",
-      "published": "Fri, 06 Nov 2026 17:03:02 GMT"
+      "published": "Fri, 06 Nov 2026 19:37:10 GMT"
     },
     {
-      "title": "US prosecutor who led Trump-backed election probe exits Justice Department",
-      "url": "https://www.aljazeera.com/news/2026/11/6/us-prosecutor-who-led-trump-backed-election-probe-exits-justice-department?traffic_source=rss",
-      "summary": "US prosecutor who led Trump-backed election probe exits Justice Department",
+      "title": "Carney outlines plan to end homelessness in a decade, starting in Winnipeg",
+      "url": "https://www.theglobeandmail.com/politics/article-carney-budget-plan-end-homelessness-winnipeg/",
+      "summary": "Carney outlines plan to end homelessness in a decade, starting in Winnipeg",
+      "source": "Globe Politics",
+      "published": "Fri, 06 Nov 2026 19:24:07 +0000"
+    },
+    {
+      "title": "Could Trump’s veto stop the Democratic majority?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/us-congress-flipped-061126?traffic_source=rss",
+      "summary": "Could Trump’s veto stop the Democratic majority?",
       "source": "Al Jazeera",
-      "published": "Fri, 06 Nov 2026 17:02:19 +0000"
+      "published": "Fri, 06 Nov 2026 19:18:33 +0000"
     },
     {
-      "title": "Why is Denmark separating ‘Western’ and ‘non-Western’ citizens?",
-      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-denmark-separating-western-and-non-western-citizens?traffic_source=rss",
-      "summary": "Why is Denmark separating ‘Western’ and ‘non-Western’ citizens?",
+      "title": "Stephen Miller will replace Susie Wiles as Trump's chief of staff",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff",
+      "summary": "Stephen Miller will replace Susie Wiles as Trump's chief of staff",
+      "source": "NPR News",
+      "published": "Fri, 06 Nov 2026 14:13:52 -0500"
+    },
+    {
+      "title": "Trump says making adviser Stephen Miller White House chief of staff",
+      "url": "https://www.aljazeera.com/news/2026/11/6/trump-says-making-adviser-stephen-miller-white-house-chief-of-staff?traffic_source=rss",
+      "summary": "Trump says making adviser Stephen Miller White House chief of staff",
       "source": "Al Jazeera",
-      "published": "Fri, 06 Nov 2026 15:42:43 +0000"
-    },
-    {
-      "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-      "url": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko?at_medium=RSS&at_campaign=rss",
-      "summary": "Judge blocks construction of Trump's massive arch after federal agency approval",
-      "source": "BBC World",
-      "published": "Fri, 06 Nov 2026 15:30:42 GMT"
+      "published": "Fri, 06 Nov 2026 19:08:31 +0000"
     }
   ],
-  "vibes": "⚠ Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
+  "vibes": "⚠ AI stocks climb after trillions wiped from market values",
   "weather": {
     "label": "Abbotsford Weather",
     "latitude": 49.0503,
     "longitude": -122.3476,
     "timezone": "America/Vancouver",
     "temp": "9",
-    "condition": "Rain",
+    "condition": "Overcast",
     "feels_like": "8",
     "hi": "12",
     "lo": "8",
-    "updated": "Nov 6, 11:08 AM"
+    "updated": "Nov 6, 11:38 AM"
   },
   "pi_status": {
     "status": "ONLINE",
@@ -285,18 +285,62 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793992096.740897,
+          "started_at": 1793993909.961487,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793992096.740897
+              "at": 1793993909.961487
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793992096.740897,
+          "ended_at": 1793992124.915089,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793992096.740897
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793992120.698389
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793992122.000454
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793992122.004536
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793992123.105345
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793992124.915089
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793992124.915089
+            }
+          ],
+          "duration_s": 28,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793991261.930792,
@@ -431,15 +475,10 @@ window.__DASHBOARD_DATA_CALLBACK__({
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1793943438.654554,
+          "started_at": 1793943455.87791,
           "ended_at": 1793943460.071515,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793943438.654554
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,58 +510,19 @@ window.__DASHBOARD_DATA_CALLBACK__({
               "at": 1793943460.071515
             }
           ],
-          "duration_s": 21,
-          "summary": "published to Gist and committed to repo"
-        },
-        {
-          "started_at": 1793941650.967585,
-          "ended_at": 1793941655.212291,
-          "outcome": "ok",
-          "events": [
-            {
-              "kind": "publish-start",
-              "text": "pushing to Gist",
-              "at": 1793941650.967585
-            },
-            {
-              "kind": "published",
-              "text": "Gist published",
-              "at": 1793941652.289412
-            },
-            {
-              "kind": "commit-start",
-              "text": "committing data",
-              "at": 1793941652.293757
-            },
-            {
-              "kind": "changed",
-              "text": "content changed",
-              "at": 1793941653.46109
-            },
-            {
-              "kind": "committed",
-              "text": "repo committed",
-              "at": 1793941655.212291
-            },
-            {
-              "kind": "done",
-              "text": "run complete",
-              "at": 1793941655.212291
-            }
-          ],
           "duration_s": 4,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793992096.740897,
+        "started_at": 1793993909.961487,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793992096.740897
+            "at": 1793993909.961487
           }
         ],
         "duration_s": null,
@@ -567,7 +567,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Nov 6, 11:08 AM"
+    "lastUpdate": "Nov 6, 11:38 AM"
   },
   "hn_posts": [
     {
@@ -618,13 +618,6 @@ window.__DASHBOARD_DATA_CALLBACK__({
       "content": "From Linux to Wikipedia: How Volunteers Build the Internet",
       "url": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
       "published": "Fri, 06 Nov 2026 04:17:49 +0000"
-    },
-    {
-      "user": "Hacker News",
-      "topic": "AI / ML",
-      "content": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "published": "Thu, 05 Nov 2026 22:17:15 +0000"
     }
   ],
   "verse": {
@@ -731,7 +724,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
   "feed_health": {
     "youtube": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
+      "fetched_at": "2026-11-06T19:38:52.662Z",
       "count": 10,
       "error": null,
       "source": "youtube.com/feeds",
@@ -739,7 +732,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
+      "fetched_at": "2026-11-06T19:38:52.662Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
@@ -747,15 +740,15 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "hackernews": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
-      "count": 8,
+      "fetched_at": "2026-11-06T19:38:52.662Z",
+      "count": 7,
       "error": null,
       "source": "hnrss.org",
       "age_min": 0
     },
     "steipete": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
+      "fetched_at": "2026-11-06T19:38:52.662Z",
       "count": 10,
       "error": null,
       "source": "steipete.me",
@@ -763,7 +756,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "news": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
+      "fetched_at": "2026-11-06T19:38:52.662Z",
       "count": 5,
       "error": null,
       "source": "RSS + CBC",
@@ -771,7 +764,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "weather": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
+      "fetched_at": "2026-11-06T19:38:52.662Z",
       "count": 1,
       "error": null,
       "source": "open-meteo",
@@ -779,7 +772,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "verse": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
+      "fetched_at": "2026-11-06T19:38:52.662Z",
       "count": 1,
       "error": null,
       "source": "youversion",
@@ -787,7 +780,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.597Z",
+      "fetched_at": "2026-11-06T19:38:52.662Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -795,7 +788,7 @@ window.__DASHBOARD_DATA_CALLBACK__({
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-11-06T19:08:40.685Z",
+      "fetched_at": "2026-11-06T19:38:52.744Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
