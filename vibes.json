@@ -65,6 +65,27 @@
     {
       "user": "JulianGoldieSEO",
       "topic": "AI / ML",
+      "content": "Our AI community site passed 77,000 Google clicks over 16 months. A year ago it got 328 a month. The biggest shift early on: we hooked Agent OS up to Search Console through its API and had it score every keyword sitting just off page one. Google was already ranking us close for them, so we knew exactly which posts to write next. The full loop is in the article below. Hope it saves a few of you some time! https://x.com/JulianGoldieSEO/status/2118582289412309126",
+      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118772907119976619#m",
+      "published": "Fri, 06 Nov 2026 18:30:00 GMT"
+    },
+    {
+      "user": "openclaw",
+      "topic": "AI / ML",
+      "content": "A new model shouldn't mean waiting for a new OpenClaw release @obviyus goes inside his work on model catalogs, account-based discovery, and Codex versioning From our engineering series: https://openclaw.ai/blog/use-new-models-in-openclaw-without-an-update",
+      "url": "http://nitter.meowing.monster/openclaw/status/2118767484144857342#m",
+      "published": "Fri, 06 Nov 2026 18:08:27 GMT"
+    },
+    {
+      "user": "elonmusk",
+      "topic": "Tech Intel",
+      "content": "SpaceX revenue this quarter alone will be substantially higher than NASA’s entire annual budget!",
+      "url": "http://nitter.meowing.monster/elonmusk/status/2118761981037723848#m",
+      "published": "Fri, 06 Nov 2026 17:46:35 GMT"
+    },
+    {
+      "user": "JulianGoldieSEO",
+      "topic": "AI / ML",
       "content": "R to @JulianGoldieSEO: Give Hermes its own computer and let it work tonight. Free: https://www.skool.com/ai-seo-with-julian-goldie-1553/about → NEW Hermes AI Computer Update → Hermes Agent + Cua Spaces for AI Automation → Run AI Agent 24/7 on Hermes AgentOS 94,500+ members",
       "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118751997931495898#m",
       "published": "Fri, 06 Nov 2026 17:06:55 GMT"
@@ -99,24 +120,10 @@
     },
     {
       "user": "elonmusk",
-      "topic": "Tech Intel",
-      "content": "Tesla self-driving gives mobility to seniors",
-      "url": "http://nitter.meowing.monster/elonmusk/status/2118739371939803498#m",
-      "published": "Fri, 06 Nov 2026 16:16:45 GMT"
-    },
-    {
-      "user": "elonmusk",
       "topic": "AI / ML",
       "content": "RT by @elonmusk: Tesla remains South Korea's #1 best-selling imported car brand for the NINTH consecutive month 🇰🇷 October 2026 registrations: • Tesla: 9,165 • Mercedes-Benz: 6,744 • BMW: 5,633 Tesla outsold Mercedes-Benz by 2,421 vehicles and BMW by 3,532 And the Model Y Premium dominated the imported-model rankings with 5,501 registrations on its own Tesla's October sales more than DOUBLED year-over-year, surging 110.7% Once, German luxury brands dominated South Korea's imported car market Now Tesla is leading it",
       "url": "http://nitter.meowing.monster/XFreeze/status/2118738155654513112#m",
       "published": "Fri, 06 Nov 2026 16:11:55 GMT"
-    },
-    {
-      "user": "JulianGoldieSEO",
-      "topic": "AI / ML",
-      "content": "A masterclass on how we hit #1 on Google in 24 hours, with this 5-step AI SEO loop:",
-      "url": "http://nitter.meowing.monster/JulianGoldieSEO/status/2118727608884220317#m",
-      "published": "Fri, 06 Nov 2026 15:30:00 GMT"
     },
     {
       "user": "elonmusk",
@@ -124,13 +131,6 @@
       "content": "RT by @elonmusk: The Godfathers of Superintelligence It all began right here, and now they're taking Superintelligence into orbit, to an entirely new level",
       "url": "http://nitter.meowing.monster/XFreeze/status/2118688066651214236#m",
       "published": "Fri, 06 Nov 2026 12:52:53 GMT"
-    },
-    {
-      "user": "MatthewBerman",
-      "topic": "Tech Intel",
-      "content": "“We will simulate a nation-state level attack” 🤯",
-      "url": "http://nitter.meowing.monster/MatthewBerman/status/2118560972319408551#m",
-      "published": "Fri, 06 Nov 2026 04:27:51 GMT"
     }
   ],
   "peter_x": [
@@ -195,7 +195,7 @@
       "published": "Mon, 26 Oct 2026 12:30:00 GMT"
     }
   ],
-  "lastUpdate": "11/06/2026, 09:37 AM",
+  "lastUpdate": "11/06/2026, 10:54 AM",
   "news": [
     {
       "title": "AI stocks climb after trillions wiped from market values",
@@ -285,18 +285,62 @@
       "unit": "lifeos-refresh.service",
       "runs": [
         {
-          "started_at": 1793986649.959902,
+          "started_at": 1793991261.930792,
           "ended_at": null,
           "outcome": "running",
           "events": [
             {
               "kind": "fetch-start",
               "text": "fetching feeds",
-              "at": 1793986649.959902
+              "at": 1793991261.930792
             }
           ],
           "duration_s": null,
           "summary": "run in progress"
+        },
+        {
+          "started_at": 1793986649.959902,
+          "ended_at": 1793986672.089011,
+          "outcome": "ok",
+          "events": [
+            {
+              "kind": "fetch-start",
+              "text": "fetching feeds",
+              "at": 1793986649.959902
+            },
+            {
+              "kind": "publish-start",
+              "text": "pushing to Gist",
+              "at": 1793986667.461344
+            },
+            {
+              "kind": "published",
+              "text": "Gist published",
+              "at": 1793986668.937691
+            },
+            {
+              "kind": "commit-start",
+              "text": "committing data",
+              "at": 1793986668.942091
+            },
+            {
+              "kind": "changed",
+              "text": "content changed",
+              "at": 1793986670.167169
+            },
+            {
+              "kind": "committed",
+              "text": "repo committed",
+              "at": 1793986672.089011
+            },
+            {
+              "kind": "done",
+              "text": "run complete",
+              "at": 1793986672.089011
+            }
+          ],
+          "duration_s": 22,
+          "summary": "published to Gist and committed to repo"
         },
         {
           "started_at": 1793985547.773273,
@@ -431,15 +475,10 @@
           "summary": "published to Gist and committed to repo"
         },
         {
-          "started_at": 1793941182.390478,
+          "started_at": 1793941200.197047,
           "ended_at": 1793941204.847688,
           "outcome": "ok",
           "events": [
-            {
-              "kind": "fetch-start",
-              "text": "fetching feeds",
-              "at": 1793941182.390478
-            },
             {
               "kind": "publish-start",
               "text": "pushing to Gist",
@@ -471,25 +510,25 @@
               "at": 1793941204.847688
             }
           ],
-          "duration_s": 22,
+          "duration_s": 5,
           "summary": "published to Gist and committed to repo"
         }
       ],
       "last_run": {
-        "started_at": 1793986649.959902,
+        "started_at": 1793991261.930792,
         "ended_at": null,
         "outcome": "running",
         "events": [
           {
             "kind": "fetch-start",
             "text": "fetching feeds",
-            "at": 1793986649.959902
+            "at": 1793991261.930792
           }
         ],
         "duration_s": null,
         "summary": "run in progress"
       },
-      "total_runs": 5
+      "total_runs": 6
     },
     "gateway": {
       "pid": 1211,
@@ -528,7 +567,7 @@
         "status": "125 sessions · 52245k tokens · 2203 tool calls"
       }
     ],
-    "lastUpdate": "Nov 6, 09:37 AM"
+    "lastUpdate": "Nov 6, 10:54 AM"
   },
   "hn_posts": [
     {
@@ -705,64 +744,64 @@
   },
   "feed_health": {
     "youtube": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 10,
-      "error": null,
+      "error": "fetch returned no items",
       "source": "youtube.com/feeds",
-      "age_min": 0
+      "age_min": 77
     },
     "x": {
       "status": "live",
-      "fetched_at": "2026-11-06T17:37:47.373Z",
+      "fetched_at": "2026-11-06T18:54:47.969Z",
       "count": 10,
       "error": null,
       "source": "nitter mirrors",
       "age_min": 0
     },
     "hackernews": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 10,
-      "error": null,
+      "error": "hnrss.org unreachable",
       "source": "hnrss.org",
-      "age_min": 0
+      "age_min": 77
     },
     "steipete": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 10,
-      "error": null,
+      "error": "steipete feeds unreachable",
       "source": "steipete.me",
-      "age_min": 0
+      "age_min": 77
     },
     "news": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 5,
-      "error": null,
+      "error": "news feeds unreachable",
       "source": "RSS + CBC",
-      "age_min": 0
+      "age_min": 77
     },
     "weather": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 1,
-      "error": null,
+      "error": "open-meteo unreachable",
       "source": "open-meteo",
-      "age_min": 0
+      "age_min": 77
     },
     "verse": {
-      "status": "live",
+      "status": "stale",
       "fetched_at": "2026-11-06T17:37:47.373Z",
       "count": 1,
-      "error": null,
+      "error": "getaddrinfo EAI_AGAIN api.youversion.com — verse source unreachable",
       "source": "youversion",
-      "age_min": 0
+      "age_min": 77
     },
     "pi": {
       "status": "live",
-      "fetched_at": "2026-11-06T17:37:47.373Z",
+      "fetched_at": "2026-11-06T18:54:47.969Z",
       "count": 1,
       "error": null,
       "source": "hermes local",
@@ -770,7 +809,7 @@
     },
     "firebuilt": {
       "status": "live",
-      "fetched_at": "2026-11-06T17:37:47.445Z",
+      "fetched_at": "2026-11-06T18:54:48.057Z",
       "count": 7,
       "error": null,
       "source": "hermes profiles",
